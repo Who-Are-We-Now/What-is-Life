@@ -260,7 +260,16 @@ nav ul.toc li a.thb {
 .figarea {
 	scroll-margin-top: 49vh; //anchor offset
 	position: relative;
-	
+	.text-img  {
+		margin-left: 50%;
+		width: var(--width-text);
+		line-height: var(--lineheight);
+		text-indent: var(--indent);
+		p {
+			margin-left: 0;
+			width: auto;
+		}
+	}
 	@include at-media(tablet) {
 		scroll-margin-top: 0;
 	}

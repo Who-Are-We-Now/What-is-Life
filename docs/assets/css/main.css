@@ -5954,6 +5954,16 @@ nav ul.toc li a.thb {
   scroll-margin-top: 49vh;
   position: relative;
 }
+.figarea .text-img {
+  margin-left: 50%;
+  width: var(--width-text);
+  line-height: var(--lineheight);
+  text-indent: var(--indent);
+}
+.figarea .text-img p {
+  margin-left: 0;
+  width: auto;
+}
 @media (max-width: 850px) {
   .figarea {
     scroll-margin-top: 0;
