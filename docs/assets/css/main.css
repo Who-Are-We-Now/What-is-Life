@@ -5959,6 +5959,7 @@ nav ul.toc li a.thb {
   width: var(--width-text);
   line-height: var(--lineheight);
   text-indent: var(--indent);
+  padding-left: var(--pad-body);
 }
 .figarea .text-img p {
   margin-left: 0;
@@ -9319,6 +9320,7 @@ article p {
   text-indent: var(--indent);
   margin-left: 50%;
   width: var(--width-text);
+  padding-left: var(--pad-body);
 }
 article sub {
   vertical-align: baseline;
@@ -9363,6 +9365,7 @@ article ol {
   margin-left: 50%;
   margin-bottom: var(--lineheight);
   width: var(--width-text);
+  padding-left: var(--pad-body);
 }
 article ul p,
 article ol p {

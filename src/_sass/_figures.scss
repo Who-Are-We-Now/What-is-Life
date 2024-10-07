@@ -265,6 +265,7 @@ nav ul.toc li a.thb {
 		width: var(--width-text);
 		line-height: var(--lineheight);
 		text-indent: var(--indent);
+		padding-left: var(--pad-body);
 		p {
 			margin-left: 0;
 			width: auto;
