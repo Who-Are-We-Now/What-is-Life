@@ -9793,47 +9793,6 @@ body#home main .home-cover {
   position: relative;
   background-color: black;
 }
-body#home main img {
-  position: absolute;
-  mix-blend-mode: multiply;
-  z-index: 10;
-}
-body#home main img:first-child {
-  top: 44%;
-  left: -10%;
-  width: 64%;
-  top: 42%;
-  left: -12%;
-  width: 67%;
-}
-body#home main img:nth-child(2) {
-  top: 50%;
-  width: 23%;
-  right: 25%;
-}
-body#home main img:nth-child(3) {
-  top: -6%;
-  left: 49%;
-  width: 29%;
-}
-body#home main img:nth-child(4) {
-  bottom: -2%;
-  left: 73%;
-  width: 37%;
-  width: 44%;
-}
-body#home main img:nth-child(5) {
-  top: 30%;
-  left: -13%;
-  width: 45%;
-  z-index: 20;
-}
-body#home main img:nth-child(6) {
-  top: 28%;
-  right: -10%;
-  width: 36%;
-  max-width: 480px;
-}
 
 /* Appendix  --------------------------------------------------*/
 mjx-container[jax=CHTML][display=true] {

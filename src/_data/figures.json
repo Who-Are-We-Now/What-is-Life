@@ -1,1011 +1,1359 @@
 {
     "candelabra": {
-      "Type": "Image",
-      "Caption": "The “Candelabra” black smoker in the Logatchev hydrothermal field on the Mid-Atlantic Ridge, at a depth of 10,800 feet",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": "https://en.wikipedia.org/wiki/Hydrothermal_vent#/media/File:MARUM_Schwarzer_Raucher.jpg"
-    },
-    "krebscycles": {
-      "Type": "Image",
-      "Caption": "<i>Above</i>: Krebs cycle. <i>Below</i>: reverse Krebs cycle.",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": ""
-    },
-    "pesavento": {
-      "Type": "Image",
-      "Caption": "Implementation of von Neumann’s self-reproducing cellular automaton, Pesavento 1995. The second generation has nearly finished constructing the third (lines running off to the right are instruction tapes, much longer than shown).",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": "https://en.wikipedia.org/wiki/Von_Neumann_universal_constructor#/media/File:Nobili_Pesavento_2reps.png"
-    },
-    "lizard": {
-      "Type": "Image",
-      "Caption": "A neural cellular automaton that generates (or re-generates) a lizard emoji, from Mordvintsev et al. 2020",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": "https://distill.pub/2020/growing-ca/"
-    },
-    "bffstill": {
-      "Type": "Image",
-      "Caption": "Snapshots of a bff soup upon random initialization (left page) and shortly after the transition to full-tape replication (right page); only bytes coding for instructions are shown.",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": ""
-    },
-    "phasetransition": {
-      "Type": "Image",
-      "Caption": "<i>Above</i>: The first 30 million interactions in a bff run shown as dots with height equal to the number of operations executed. <i>Below</i>: Histogram showing how many of a tape’s 64 bytes code for instructions; note the ongoing rise even after full-tape replication at 15 million interactions.",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": ""
-    },
-    "catscradle": {
-      "Type": "Image",
-      "Caption": "<i>Top left to bottom right</i>: Provenance of individual bytes on tapes in a bff soup after 10,000, 500,000, 1.5 million, 2.5 million, 3.5 million, 6 million, 7 million, and 10 million interactions. The increasing role of self-modification in generating novelty is evident, culminating in the emergence (just before 6 million interactions) of a full-tape replicator whose parts are modified copies of a shorter imperfect replicator.",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": ""
-    },
-    "genome": {
-      "Type": "Image",
-      "Caption": "Relative proportions of the major families of human genomic elements, from Lander et al. 2001",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": "https://www.researchgate.net/figure/Genomic-components-of-the-human-genome-Relative-proportions-of-major-families-of_fig3_233987905"
-    },
-    "ecoli": {
-      "Type": "Image",
-      "Caption": "Chemotactic <i>E. coli</i> bacteria swimming toward a sugar crystal",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": ""
-    },
-    "battingaverage": {
-      "Type": "Image",
-      "Caption": "Hank Aaron’s complete batting history (top row), and batting averages (bottom row), broken down into 6-month windows covering a complete yearly baseball season (left column), 3-month windows (middle column), and 2-month windows (right column).",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": ""
-    },
-    "glidergun": {
-      "Type": "Image",
-      "Caption": "A glider gun in Conway’s Game of Life. The 2×2 squares near the top remain fixed in place, while the more complex shapes between them oscillate back and forth, producing the stream of gliders moving away diagonally down and to the right.",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": ""
-    },
-    "twonails": {
-      "Type": "Image",
-      "Caption": "<i>Left</i>: X-ray of a four-inch nail embedded in the skull of 23-year-old construction worker Patrick Lawler, removed at Littleton Adventist Hospital in Denver on January 14th, 2005, six days after Lawler unknowingly shot himself with a nail gun. <i>Right</i>: boot of a 29-year-old construction worker pierced by a seven-inch nail, found at the hospital to have passed harmlessly between his toes, as reported in the <i>British Medical Journal</i> in 1995.",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": ""
-    },
-    "leibnizmedallion": {
-      "Type": "Image",
-      "Caption": "Design for a medallion by Leibniz in 1697 to commemorate binary notation, depicting an <i>imago creationis</i> (“image of creation”), a table of binary numbers from 0 to 16, and the mottoes <i>unum autem necessarium</i> (“the one is necessary”) and <i>unus ex nihilo omnia</i> (“the one from nothing makes all things”).",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": ""
-    },
-    "pinfactory": {
-      "Type": "Image",
-      "Caption": "Engraving of a pin factory from Diderot’s <i>Encyclopédie</i>, 1762, a classic illustration of the division of labor",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": ""
-    },
-    "differenceengine": {
-      "Type": "Image",
-      "Caption": "Portion of Babbage’s Difference Engine No. 1, built in 1832 and representing about one seventh of the complete design, now at the Science Museum in London",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": ""
-    },
-    "jacquard": {
-      "Type": "Image",
-      "Caption": "Jacquard loom showing punchcards strung together on threads, now at the National Museum of Scotland in Edinburgh",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": ""
-    },
-    "logicgates": {
-      "Type": "Image",
-      "Caption": "<i>Left</i>: three-neuron logical circuit from McCulloch and Pitts, 1943 (with their somewhat awkward notation for the logical operation being carried out below). <i>Right</i>: equivalent circuit using modern logic gate symbols. Note the neuron shapes and the small circle representig the NOT operation, which McCulloch and Pitts believed to be implemented by an inhibitory synapse.",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": ""
-    },
-    "ediacarancambrian": {
-      "Type": "Image",
-      "Caption": "<i>Left</i>: Ediacaran fossil, <i>Dickinsonia</i>. <i>Right</i>: Cambrian fossil, <i>Marrella</i>.",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": ""
-    },
-    "maniac": {
-      "Type": "Image",
-      "Caption": "Programmers in front of the MANIAC computer, Los Alamos National Lab, 1952",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": "https://en.wikipedia.org/wiki/MANIAC_I#/media/File:The_MANIAC%E2%80%99s_arithmetic_unit_nearing_completion_in_1952.jpg"
-    },
-    "wienerprediction": {
-      "Type": "Image",
-      "Caption": "Classification of behaviors from Wiener, Rosenblueth, and Bigelow, “Behavior, Purpose, and Teleology,” 1943",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": ""
-    },
-    "wienerpalomilla": {
-      "Type": "Image",
-      "Caption": "<i>Left</i>: Norbert Wiener at MIT with <i>Palomilla</i>, 1949. <i>Right</i>: Time lapse exposure of <i>Palomilla</i> following a flashlight down a hall.",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": ""
-    },
-    "williamjamesnet": {
-      "Type": "Image",
-      "Caption": "Early representation of an associative neural network from William James, <i>The Principles of Psychology</i>, 1890",
-      "alt": "",
-      "file_web": "",
-      "size": "",
-      "URL": ""
-    },
-    "perceptrondiagram": {
+        "chapter": "",
+        
         "Type": "Image",
-        "Caption": "Diagram comparing the putative organization of the brain's visual system (top) and the perceptron (bottom), from Rosenblatt 1958",
+        "caption": "The “Candelabra” black smoker in the Logatchev hydrothermal field on the Mid-Atlantic Ridge, at a depth of 10,800 feet",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "https://en.wikipedia.org/wiki/Hydrothermal_vent#/media/File:MARUM_Schwarzer_Raucher.jpg",
+        "": ""
       },
-      "perceptron": {
+      "krebscycles": {
+        "chapter": "",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "Frank Rosenblatt (left) and engineer Charles Wightman (right) work on a motorized potentiometer for the perceptron in December 1958",
+        "caption": "<i>Above</i>: Krebs cycle. <i>Below</i>: reverse Krebs cycle.",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "dave2": {
+     "pesavento": {
+        "chapter": "reproductive-functions",
+        "file_web": [ "Nobili_Pesavento_2reps EDIT.webp"],
         "Type": "Image",
-        "Caption": "Architecture of the DAVE-2 convolutional neural net for autonomous driving, adapted from Bojarski et al., 2016",
+        "caption": "Implementation of von Neumann’s self-reproducing cellular automaton, Pesavento 1995. The second generation has nearly finished constructing the third (lines running off to the right are instruction tapes, much longer than shown).",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "https://en.wikipedia.org/wiki/Von_Neumann_universal_constructor#/media/File:Nobili_Pesavento_2reps.png",
+        "": ""
       },
-      "hyperplane": {
+    "lizard":  {
+        "chapter": "reproductive-functions",
+        "file_web": [ "Growing Neural Cellular Automata_0000_Layer 141.jpg"],
         "Type": "Image",
-        "Caption": "Conceptual sketch of a hyperplane separating points representing banana images from non-banana images",
+        "caption": "A neural cellular automaton that generates (or re-generates) a lizard emoji, from Mordvintsev et al. 2020",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "https://distill.pub/2020/growing-ca/",
+        "": ""
       },
-      "hydraacoel": {
+     "bffstill": {
+        "chapter": "reproductive-functions",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "<i>Left</i>: <i>Hydra</i> polyp (10–30mm long) undergoing reproduction by budding. <i>Right</i>: <i>Acoel</i> worm <i>Neochildia</i> (2–5mm long).",
+        "caption": "Snapshots of a bff soup upon random initialization (left page) and shortly after the transition to full-tape replication (right page); only bytes coding for instructions are shown.",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "portia": {
-        "Type": "Image",
-        "Caption": "A <i>Portia</i> spider (note the large front-facing eyes)",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "brainexplosion": {
-        "Type": "Image",
-        "Caption": "Explosion in hominin brain size over the past seven million years (however, note the recent drop, possibly associated with the takeoff of social evolution and the division of labor)",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "braintroopsize": {
-        "Type": "Image",
-        "Caption": "Correlation between neocortex size and social group size among monkeys and apes",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "fountaineer": {
-        "Type": "Image",
-        "Caption": "Illustration of the pineal gland, seat of the soul, hydraulically “puppeteering” the body using psychic <i>pneuma</i>, Descartes 1677",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "choiceblindness": {
-        "Type": "Image",
-        "Caption": "Choice blindness in a face preference task, adapted from Johansson et al. 2007",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "rubberhand": {
-        "Type": "Image",
-        "Caption": "The rubber hand illusion",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "rnn": {
-        "Type": "Image",
-        "Caption": "Architecture of a recurrent neural network, shown to the right “unfolded” over time steps <i>t</i>–1, <i>t</i>, <i>t</i>+1, ...",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "kingqueen": {
-        "Type": "Image",
-        "Caption": "Relationships between word pairs in the Word2Vec embedding space: <i>Left</i>: male-female; <i>Middle</i>: verb tense; <i>Right</i>: country-capital.",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "attention": {
-        "Type": "Image",
-        "Caption": "The attention mechanism used in Transformers",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "modelsizes": {
-        "Type": "Image",
-        "Caption": "Exponentially increasing computational cost of training state-of-the-art neural network models from 2010 to 2024 (doubling time 6 months)",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "Still photo possibility: https://www.istockphoto.com/photo/blurry-and-moving-of-billiard-balls-gm589969898-101346169"
-      },
-      "woodshole": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "gboard": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "voightkampff": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "wil1944": {
-        "Type": "Image",
-        "Caption": "Erwin Schrödinger, <i>What Is Life?</i>, 1944",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "duret": {
-        "Type": "Image",
-        "Caption": "Spontaneous generation of birds and fish by a tree, depending on where its seeds land; Claude Duret, <i>Histoire admirable des plantes et herbes esmerueillables et miraculeuses en nature</i>, 1605",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "https://en.wikipedia.org/wiki/Spontaneous_generation#/media/File:Trees_that_generate_both_fishes_and_birds._Wellcome_M0005642.jpg"
-      },
-      "blacksmokervideo": {
-        "Type": "Video",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "volcanovideo": {
-        "Type": "Video",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "lava": {
-        "Type": "Image",
-        "Caption": "Lava lake, Kīlauea, Hawaiʻi",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "https://en.wikipedia.org/wiki/Lava_lake#/media/File:Halema'uma'u_Crater_in_Kilauea_volcano,_Hawaii..jpg"
-      },
-      "zircon": {
-        "Type": "Image",
-        "Caption": "Backscatter electron micrograph of 4.4-billion-year-old detrital zircons from the Hadean metasediments of the Jack Hills, Narryer Gneiss Terrane, Western Australia",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "https://en.wikipedia.org/wiki/Hadean#/media/File:Jack_Hills_detrital_zircons_BSE_micrographs.jpg"
-      },
-      "krebs": {
-        "Type": "Image",
-        "Caption": "Krebs cycle",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "https://en.wikipedia.org/wiki/Citric_acid_cycle#/media/File:Citric_acid_cycle_with_aconitate_2.svg"
-      },
-      "reversekrebs": {
-        "Type": "Image",
-        "Caption": "Reverse Krebs cycle",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "https://en.wikipedia.org/wiki/Reverse_Krebs_cycle#/media/File:Reductive_TCA_cycle.png"
-      },
-      "matryoshka": {
-        "Type": "Image",
-        "Caption": "X-ray of Russian matryoshka dolls",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "mitochondriavideo": {
-        "Type": "Video",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "mitochondria": {
-        "Type": "Image",
-        "Caption": "Transmission electron micrograph of a chondrocyte, stained for calcium, showing its nucleus (N) and mitochondria (M)",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "https://en.wikipedia.org/wiki/Mitochondrion#/media/File:Chondrocyte-_calcium_stain.jpg"
-      },
-      "finchesvideo": {
-        "Type": "Video",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "finches": {
-        "Type": "Image",
-        "Caption": "Galapagos finches, from Darwin, <i>Voyage of the Beagle</i>, 1845",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "https://en.wikipedia.org/wiki/Darwin%27s_finches#/media/File:Darwin%27s_finches_by_Gould.jpg"
-      },
-      "haftedspear": {
-        "Type": "Image",
-        "Caption": "Hafted spear point from the mid-Holocene Arctic Small Tool site of Qeqertasussuk, West Greenland. Drawn by Eva Koch, reproduced with permission of Bjarne Grønnow.",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "https://www.semanticscholar.org/paper/3.-A-Projectile-Point-Sequence-for-Haida-Gwaii-Fedje-Mackie/07ae3fa759c82bcccd359d6da1b4eb2660a9af8a/figure/7"
-      },
-      "turing": {
-        "Type": "Image",
-        "Caption": "Alan Turing at Princeton University",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "https://en.wikipedia.org/wiki/Alan_Turing#/media/File:Alan_Turing_(1912-1954)_in_1936_at_Princeton_University.jpg"
-      },
-      "tapehead": {
-        "Type": "Image",
-        "Caption": "Von Neumann illustrates a Turing machine at the start of his third 1945 lecture on high-speed computing machines",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "https://cacm.acm.org/opinion/von-neumann-thought-turings-universal-machine-was-simple-and-neat/"
-      },
-      "vonneumann": {
-        "Type": "Image",
-        "Caption": "John von Neumann's Los Alamos ID badge photo, 1940s",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "https://upload.wikimedia.org/wikipedia/commons/5/56/Vonneumann-john_r.jpg"
-      },
-      "reactiondiffusion": {
-        "Type": "SwissGL",
-        "Caption": "[DONE]",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "morphogenesis": {
-        "Type": "Image",
-        "Caption": "Reaction–diffusion pattern from Turing, <i>The Chemical Basis of Morphogenesis</i>, 1952",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "ashby": {
-        "Type": "Image",
-        "Caption": "Note on self-reproducing machinery from the notebook of cybernetics pioneer W. Ross Ashby, Dec 22, 1954",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "http://li.mit.edu/Stuff/CNSE/Paper/Mandelbrot67Science.pdf"
-      },
-      "ribosome3d": {
-        "Type": "SwissGL",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "ribosome": {
-        "Type": "Image",
-        "Caption": "Structure of the 70S ribosome",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "https://reports.news.ucsc.edu/breakthrough/revealing-the-ribosome/"
-      },
-      "ferranti": {
-        "Type": "Image",
-        "Caption": "Turing (right) at the console of the Ferranti Mark II computer",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "https://blogs.bl.uk/sound-and-vision/2016/09/restoring-the-first-recording-of-computer-music.html"
-      },
-      "unorganized": {
-        "Type": "Image",
-        "Caption": "Turing's illustration of an \"unorganized machine\" (or neural network) from <i>Intelligent Machinery</i>, 1948",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "https://www.npl.co.uk/getattachment/about-us/History/Famous-faces/Alan-Turing/80916595-Intelligent-Machinery.pdf"
-      },
-      "replicator": {
-        "Type": "SwissGL",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "constructor": {
-        "Type": "Image",
-        "Caption": "Von Neumann's universal constructor arm from <i>Theory of self-reproducing automata</i>, 1967",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "nca": {
-        "Type": "SwissGL",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "bffvideo": {
-        "Type": "Video",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "",
+        "": ""
       },
       "phasetransition": {
+        "chapter": "reproductive-functions",
+        "file_web": [ "0432_compute_A40000000_E10000_H1500_L64_M0.00015_R432_S0.0001_T8192_X1.0_nameBFFcomputationRun.webp"],
         "Type": "Image",
-        "Caption": "Scatter plot showing the first ~30 million interactions in a bff run as dots with height equal to the number of operations. Note the sharp transition to computing-intensive full-tape replication at ~15 million interactions.",
+        "caption": "<i>Above</i>: The first 30 million interactions in a bff run shown as dots with height equal to the number of operations executed. <i>Below</i>: Histogram showing how many of a tape’s 64 bytes code for instructions; note the ongoing rise even after full-tape replication at 15 million interactions.",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "continuedrise": {
+      "catscradle": {
+        "chapter": "",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "Histogram showing number of bytes coding for instructions per tape in the same bff run; note the ongoing rise in the amount of code even after the transition to full-tape replication at 15 million interactions.",
+        "caption": "<i>Top left to bottom right</i>: Provenance of individual bytes on tapes in a bff soup after 10,000, 500,000, 1.5 million, 2.5 million, 3.5 million, 6 million, 7 million, and 10 million interactions. The increasing role of self-modification in generating novelty is evident, culminating in the emergence (just before 6 million interactions) of a full-tape replicator whose parts are modified copies of a shorter imperfect replicator.",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "z80": {
-        "Type": "SwissGL",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "z80still": {
+     "genome":  {
+        "chapter": "virality",
+        "file_web": [ "Genomic-components-of-the-human-genome-Relative-proportions-of-major-families-of.webp"],
         "Type": "Image",
-        "Caption": "Four competing replicators (green, purple, red, and white) on a 200×200 grid of simulated Zilog Z80 processors",
+        "caption": "Relative proportions of the major families of human genomic elements, from Lander et al. 2001",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "https://www.researchgate.net/figure/Genomic-components-of-the-human-genome-Relative-proportions-of-major-families-of_fig3_233987905",
+        "": ""
       },
-      "billiardsvideo": {
-        "Type": "Video",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "poolbreak": {
+     "ecoli": {
+        "chapter": "",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "Billiard balls in motion: forward or backward in time?",
+        "caption": "Chemotactic <i>E. coli</i> bacteria swimming toward a sugar crystal",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "Source: https://youtu.be/iegHMWCoEr8?si=1uWQYwTSAtiHrfZz"
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "newcomen": {
+     "battingaverage":  {
+        "chapter": "",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "Newcomen's steam engine, from Black and Davis, <i>Practical Physics</i>, 1913",
+        "caption": "Hank Aaron’s complete batting history (top row), and batting averages (bottom row), broken down into 6-month windows covering a complete yearly baseball season (left column), 3-month windows (middle column), and 2-month windows (right column).",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "watt": {
+     "glidergun":  {
+        "chapter": "",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "Watt's steam engine, ibid.",
+        "caption": "A glider gun in Conway’s Game of Life. The 2×2 squares near the top remain fixed in place, while the more complex shapes between them oscillate back and forth, producing the stream of gliders moving away diagonally down and to the right.",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "piston": {
+     "twonails":  {
+        "chapter": "",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "A piston with a face of area <i>A</i> and interior volume <i>V</i> containing an ideal gas at pressure <i>P</i>, ibid.",
+        "caption": "<i>Left</i>: X-ray of a four-inch nail embedded in the skull of 23-year-old construction worker Patrick Lawler, removed at Littleton Adventist Hospital in Denver on January 14th, 2005, six days after Lawler unknowingly shot himself with a nail gun. <i>Right</i>: boot of a 29-year-old construction worker pierced by a seven-inch nail, found at the hospital to have passed harmlessly between his toes, as reported in the <i>British Medical Journal</i> in 1995.",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "catscradlevideo": {
-        "Type": "Video",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "mcclintock": {
+      "leibnizmedallion": {
+        "chapter": "",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "Barbara McClintock, Department of Genetics, Carnegie Institution at Cold Spring Harbor, New York, 1947",
+        "caption": "Design for a medallion by Leibniz in 1697 to commemorate binary notation, depicting an <i>imago creationis</i> (“image of creation”), a table of binary numbers from 0 to 16, and the mottoes <i>unum autem necessarium</i> (“the one is necessary”) and <i>unus ex nihilo omnia</i> (“the one from nothing makes all things”).",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "https://en.wikipedia.org/wiki/Barbara_McClintock#/media/File:Barbara_McClintock_(1902-1992)_shown_in_her_laboratory_in_1947.jpg"
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "bovb": {
+     "pinfactory": {
+        "chapter": "",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "Map of the spread of the BovB and L1 retrotransposons across 759 species of eukaryotes, from Ivancevic et al. 2018",
+        "caption": "Engraving of a pin factory from Diderot’s <i>Encyclopédie</i>, 1762, a classic illustration of the division of labor",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1456-7"
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "monster": {
+     "differenceengine":  {
+        "chapter": "",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "Sea monster from Ulisse Aldrovandi, <i>Monstrorum Historia</i>, 1642",
+        "caption": "Portion of Babbage’s Difference Engine No. 1, built in 1832 and representing about one seventh of the complete design, now at the Science Museum in London",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "britain": {
-        "Type": "Dynamic",
-        "Caption": "[DONE]",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "coastline": {
+     "jacquard": {
+        "chapter": "",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "The coast of Britain measured with rulers of different lengths",
+        "caption": "Jacquard loom showing punchcards strung together on threads, now at the National Museum of Scotland in Edinburgh",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "mandelcurve": {
-        "Type": "SwissGL",
-        "Caption": "[DONE AS DYNAMIC]",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "mandelbrot67": {
+     "logicgates": {
+        "chapter": "",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "Four levels of fractal ruggedness for an idealized coastline, such that a fourfold magnification yields fivefold, sixfold, sevenfold, and eightfold increases in apparent length, from Mandelbrot 1967",
+        "caption": "<i>Left</i>: three-neuron logical circuit from McCulloch and Pitts, 1943 (with their somewhat awkward notation for the logical operation being carried out below). <i>Right</i>: equivalent circuit using modern logic gate symbols. Note the neuron shapes and the small circle representig the NOT operation, which McCulloch and Pitts believed to be implemented by an inhibitory synapse.",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "http://li.mit.edu/Stuff/CNSE/Paper/Mandelbrot67Science.pdf"
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "mandelcurves2": {
+      "ediacarancambrian":  {
+        "chapter": "",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "Two further levels of fractal elaboration on Mandelbrot’s <i>N</i>=5, <i>N</i>=6, <i>N</i>=7 and <i>N</i>=8 coastline patterns",
+        "caption": "<i>Left</i>: Ediacaran fossil, <i>Dickinsonia</i>. <i>Right</i>: Cambrian fossil, <i>Marrella</i>.",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "allometric": {
+      "maniac": {
+        "chapter": "reproductive-functions",
+        "file_web": [ "Operators_in_front_of_the_MANIAC-Enhanced-SR EDIT Extend.webp"],
         "Type": "Image",
-        "Caption": "Fractal branching in mammalian circulatory systems and plants, from West et al. 1997",
+        "caption": "Programmers in front of the MANIAC computer, Los Alamos National Lab, 1952",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "https://www.astro.princeton.edu/~burrows/classes/542/papers/Lachlan.West_Brown_Enquist_1997.pdf"
+        "size": "",
+        "URL": "https://en.wikipedia.org/wiki/MANIAC_I#/media/File:The_MANIAC%E2%80%99s_arithmetic_unit_nearing_completion_in_1952.jpg",
+        "": ""
       },
-      "snake": {
+      "wienerprediction": {
+        "chapter": "",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "Snake skeleton from Lydekker, <i>The Royal Natural History</i>, 1893",
+        "caption": "Classification of behaviors from Wiener, Rosenblueth, and Bigelow, “Behavior, Purpose, and Teleology,” 1943",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "antp": {
+      "wienerpalomilla": {
+        "chapter": "",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "A mutation in the <i>Antennapedia</i> (or <i>\"Antp\"</i>) Hox gene of the fruit fly causes an extra pair of legs to grow out of the head in place of antennae, illustrating compositionality in body construction. <i>Top</i>: wildtype; <i>Bottom</i>: mutant.",
+        "caption": "<i>Left</i>: Norbert Wiener at MIT with <i>Palomilla</i>, 1949. <i>Right</i>: Time lapse exposure of <i>Palomilla</i> following a flashlight down a hall.",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "nautilus": {
+     "williamjamesnet": {
+        "chapter": "",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "1896 skiagraph (X-ray photograph) of a <i>Nautilus pompilius</i>",
+        "caption": "Early representation of an associative neural network from William James, <i>The Principles of Psychology</i>, 1890",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": "https://en.wikipedia.org/wiki/Chambered_nautilus#/media/File:James_Green_&_James_H._Gardiner_-_Skiagraph_of_a_Nautilus_pompilius_-_Proceedings_of_the_Malacological_Society_of_London_-_Vol._II,_Pl._XV,_p._178_(alt).jpg"
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "uluru": {
+      "perceptrondiagram": {
+        "chapter": "",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "Aṉaŋu rock art, Uluṟu-Kata Tjuṯa National Park, Australia",
+        "caption": "Diagram comparing the putative organization of the brain's visual system (top) and the perceptron (bottom), from Rosenblatt 1958",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "yaltinapangati": {
+      "perceptron": {
+        "chapter": "",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "Painting associated with the rockhole and soakage water site of Marrapinti by Yalti Napangati, one of the “Pintupi Nine” from Australia’s Western Desert; collection of Margaret Levi and Bob Kaplan.",
+        "caption": "Frank Rosenblatt (left) and engineer Charles Wightman (right) work on a motorized potentiometer for the perceptron in December 1958",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "thedress": {
+     "dave2": {
+        "chapter": "",
+        
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "",
+        "caption": "Architecture of the DAVE-2 convolutional neural net for autonomous driving, adapted from Bojarski et al., 2016",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "nailhead": {
+      "hyperplane": {
+        "chapter": "",
+       "file_web": [ ],
         "Type": "Image",
-        "Caption": "",
+        "caption": "Conceptual sketch of a hyperplane separating points representing banana images from non-banana images",
         "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
+        "size": "",
+        "URL": "",
+        "": ""
       },
-      "nailboot": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
+   "hydraacoel": {
+      "chapter": "",
+      
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "<i>Left</i>: <i>Hydra</i> polyp (10–30mm long) undergoing reproduction by budding. <i>Right</i>: <i>Acoel</i> worm <i>Neochildia</i> (2–5mm long).",
+      "alt": "",
       "size": "",
-        "URL": ""
-      },
-      "steppedreckoner": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
+      "URL": "",
+      "": ""
+    },
+    "portia": {
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "A <i>Portia</i> spider (note the large front-facing eyes)",
+      "alt": "",
       "size": "",
-        "URL": ""
-      },
-      "teddington": {
-        "Type": "Image",
-        "Caption": "Electric brain to be made at Teddington",
-        "alt": "",
-        "file_web": "",
+      "URL": "",
+      "": ""
+    },
+    "brainexplosion": {
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "Explosion in hominin brain size over the past seven million years (however, note the recent drop, possibly associated with the takeoff of social evolution and the division of labor)",
+      "alt": "",
       "size": "",
-        "URL": ""
-      },
-      "ediacaran": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
+      "URL": "",
+      "": ""
+    },
+    "braintroopsize": {
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "",
+      "caption": "Correlation between neocortex size and social group size among monkeys and apes",
+      "alt": "",
       "size": "",
-        "URL": ""
-      },
-      "marrella": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
+      "URL": "",
+      "": ""
+    },
+    "fountaineer": {
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "Illustration of the pineal gland, seat of the soul, hydraulically “puppeteering” the body using psychic <i>pneuma</i>, Descartes 1677",
+      "alt": "",
       "size": "",
-        "URL": ""
-      },
-      "ballturret": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
+      "URL": "",
+      "": ""
+    },
+   "choiceblindness": {
+      "chapter": "",
+      
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "Choice blindness in a face preference task, adapted from Johansson et al. 2007",
+      "alt": "",
       "size": "",
-        "URL": ""
-      },
-      "palomilla": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
+      "URL": "",
+      "": ""
+    },
+    "rubberhand": {
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "The rubber hand illusion",
+      "alt": "",
       "size": "",
-        "URL": ""
-      },
-      "hubelwieselcat": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
+      "URL": "",
+      "": ""
+    },
+    "rnn": {
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "Architecture of a recurrent neural network, shown to the right “unfolded” over time steps <i>t</i>–1, <i>t</i>, <i>t</i>+1, ...",
+      "alt": "",
       "size": "",
-        "URL": ""
-      },
-      "refikanadol": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
+      "URL": "",
+      "": ""
+    },
+    "kingqueen":  {
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "Relationships between word pairs in the Word2Vec embedding space: <i>Left</i>: male-female; <i>Middle</i>: verb tense; <i>Right</i>: country-capital.",
+      "alt": "",
       "size": "",
-        "URL": ""
-      },
-      "hydra": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
+      "URL": "",
+      "": ""
+    },
+    "attention": {
+      "chapter": "",
+   
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "The attention mechanism used in Transformers",
+      "alt": "",
       "size": "",
-        "URL": ""
-      },
-      "acoel": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "sphex": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "octopus": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "crew": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "doubleslit": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "splitbrain": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "henseltwins": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "helen": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "blindsight": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "gridcells": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "artificialspider": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "vwfa": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "llmcolors": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "rossum": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "enoch": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "rust": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "nautilusnca": {
-        "Type": "SwissGL",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "bff": {
-        "Type": "SwissGL",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "lstm": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "galvani": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "adrian": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      },
-      "connectionmachine": {
-        "Type": "Image",
-        "Caption": "",
-        "alt": "",
-        "file_web": "",
-      "size": "",
-        "URL": ""
-      }
-    }
+      "URL": "",
+      "": ""
+    },
+    "modelsizes":  {
+      "chapter": "",
     
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "Exponentially increasing computational cost of training state-of-the-art neural network models from 2010 to 2024 (doubling time 6 months)",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": "Still photo possibility: https://www.istockphoto.com/photo/blurry-and-moving-of-billiard-balls-gm589969898-101346169"
+    },
+    "woodshole": {
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "gboard":  {
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+   "voightkampff": {
+      "chapter": "",
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "wil1944":    {
+      "chapter": "foreword",
+      "file_web": [ "schrödinger-What-is Life-EDIT.webp"],
+      "Type": "Image",
+      "caption": "Erwin Schrödinger, <i>What Is Life?</i>, 1944",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+   "duret": {
+      "chapter": "abiogenesis",
+      
+      "file_web": [ "Trees_that_generate_both_fishes_and_birds._Wellcome_M0005642 EDIT.webp"],
+      "Type": "Image",
+      "caption": "Spontaneous generation of birds and fish by a tree, depending on where its seeds land; Claude Duret, <i>Histoire admirable des plantes et herbes esmerueillables et miraculeuses en nature</i>, 1605",
+      "alt": "",
+      "size": "",
+      "URL": "https://en.wikipedia.org/wiki/Spontaneous_generation#/media/File:Trees_that_generate_both_fishes_and_birds._Wellcome_M0005642.jpg",
+      "": ""
+    },
+    "blacksmokervideo":{
+      "chapter": "abiogenesis",
+     
+      "file_web": [ "MARUM_Schwarzer_Raucher-Enhanced-SR.webp"],
+      "Type": "Video",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "volcanovideo": {
+      "chapter": "abiogenesis",
+     
+      "file_web": [ "Halema_uma_u_Crater_in_Kilauea_volcano,_Hawaii.-Enhanced-SR.webp"],
+      "Type": "Video",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "lava": {
+      "chapter": "",
+   
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "Lava lake, Kīlauea, Hawaiʻi",
+      "alt": "",
+      "size": "",
+      "URL": "https://en.wikipedia.org/wiki/Lava_lake#/media/File:Halema'uma'u_Crater_in_Kilauea_volcano,_Hawaii..jpg",
+      "": ""
+    },
+    "zircon": {
+      "chapter": "abiogenesis",
+     
+      "file_web": [ "Jack_Hills_detrital_zircons_BSE_micrographs-Enhanced-SR NOISE.webp"],
+      "Type": "Image",
+      "caption": "Backscatter electron micrograph of 4.4-billion-year-old detrital zircons from the Hadean metasediments of the Jack Hills, Narryer Gneiss Terrane, Western Australia",
+      "alt": "",
+      "size": "",
+      "URL": "https://en.wikipedia.org/wiki/Hadean#/media/File:Jack_Hills_detrital_zircons_BSE_micrographs.jpg",
+      "": ""
+    },
+   "krebs": {
+      "chapter": "abiogenesis",
+      
+      "file_web": [ "krebs.webp"],
+      "Type": "Image",
+      "caption": "Krebs cycle",
+      "alt": "",
+      "size": "",
+      "URL": "https://en.wikipedia.org/wiki/Citric_acid_cycle#/media/File:Citric_acid_cycle_with_aconitate_2.svg",
+      "": ""
+    },
+    "reversekrebs":{
+      "chapter": "abiogenesis",
+     
+      "file_web": [ "reversekrebs.webp"],
+      "Type": "Image",
+      "caption": "Reverse Krebs cycle",
+      "alt": "",
+      "size": "",
+      "URL": "https://en.wikipedia.org/wiki/Reverse_Krebs_cycle#/media/File:Reductive_TCA_cycle.png",
+      "": ""
+    },
+    "matryoshka": {
+      "chapter": "abiogenesis",
+   
+      "file_web": [ "russian-matryoshka-doll-under-x-ray-photostock-israel-Enhanced-SR"],
+      "Type": "Image",
+      "caption": "X-ray of Russian matryoshka dolls",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "mitochondriavideo": {
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "Video",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "mitochondria": {
+      "chapter": "symbiogenesis",
+     
+      "file_web": [ "Chondrocyte-_calcium_stain-Enhanced-SR.webp"],
+      "Type": "Image",
+      "caption": "Transmission electron micrograph of a chondrocyte, stained for calcium, showing its nucleus (N) and mitochondria (M)",
+      "alt": "",
+      "size": "",
+      "URL": "https://en.wikipedia.org/wiki/Mitochondrion#/media/File:Chondrocyte-_calcium_stain.jpg",
+      "": ""
+    },
+    "finchesvideo":  {
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "Video",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "finches": {
+      "chapter": "symbiogenesis",
+     
+      "file_web": [ "Darwin's_finches_by_Gould-Enhanced-SR"],
+      "Type": "Image",
+      "caption": "Galapagos finches, from Darwin, <i>Voyage of the Beagle</i>, 1845",
+      "alt": "",
+      "size": "",
+      "URL": "https://en.wikipedia.org/wiki/Darwin%27s_finches#/media/File:Darwin%27s_finches_by_Gould.jpg",
+      "": ""
+    },
+    "haftedspear": {
+      "chapter": "symbiogenesis",
+     
+      "file_web": [ "Hafted-spear-point-from-mid-Holocene-Arctic-Small-Tool-AST-site-of-Qeqertasussuk-West-Enhanced-SR.webp"],
+      "Type": "Image",
+      "caption": "Hafted spear point from the mid-Holocene Arctic Small Tool site of Qeqertasussuk, West Greenland. Drawn by Eva Koch, reproduced with permission of Bjarne Grønnow.",
+      "alt": "",
+      "size": "",
+      "URL": "https://www.semanticscholar.org/paper/3.-A-Projectile-Point-Sequence-for-Haida-Gwaii-Fedje-Mackie/07ae3fa759c82bcccd359d6da1b4eb2660a9af8a/figure/7",
+      "": ""
+    },
+    "turing": {
+      "chapter": "reproductive-functions",
+     
+      "file_web": [ "Turing_Card_1 Princeton University Archives-Enhanced-SR.webp"],
+      "Type": "Image",
+      "caption": "Alan Turing at Princeton University",
+      "alt": "",
+      "size": "",
+      "URL": "https://en.wikipedia.org/wiki/Alan_Turing#/media/File:Alan_Turing_(1912-1954)_in_1936_at_Princeton_University.jpg",
+      "": ""
+    },
+    "tapehead": {
+      "chapter": "reproductive-functions",
+     
+      "file_web": ["John Von Neumann - Folder 5 , Page 12 EDIT Grey.webp" ],
+      "Type": "Image",
+      "caption": "Von Neumann illustrates a Turing machine at the start of his third 1945 lecture on high-speed computing machines",
+      "alt": "",
+      "size": "",
+      "URL": "https://cacm.acm.org/opinion/von-neumann-thought-turings-universal-machine-was-simple-and-neat/",
+      "": ""
+    },
+    "vonneumann": {
+      "chapter": "reproductive-functions",
+    
+      "file_web": [ "vonneumann-john_r EDIT.webp"],
+      "Type": "Image",
+      "caption": "John von Neumann's Los Alamos ID badge photo, 1940s",
+      "alt": "",
+      "size": "",
+      "URL": "https://upload.wikimedia.org/wikipedia/commons/5/56/Vonneumann-john_r.jpg",
+      "": ""
+    },
+    "reactiondiffusion":  {
+      "chapter": "reproductive-functions",
+      "file_web": [ ],
+      "Type": "SwissGL",
+      "caption": "[DONE]",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "morphogenesis":  {
+      "chapter": "reproductive-functions",
+   
+      "file_web": [ "Turing on morphogenesis 1952.webp"],
+      "Type": "Image",
+      "caption": "Reaction–diffusion pattern from Turing, <i>The Chemical Basis of Morphogenesis</i>, 1952",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "ashby":  {
+      "chapter": "reproductive-functions",
+   
+      "file_web": ["wrac2630-cropped.webp" ],
+      "Type": "Image",
+      "caption": "Note on self-reproducing machinery from the notebook of cybernetics pioneer W. Ross Ashby, Dec 22, 1954",
+      "alt": "",
+      "size": "",
+      "URL": "http://li.mit.edu/Stuff/CNSE/Paper/Mandelbrot67Science.pdf",
+      "": ""
+    },
+    "ribosome3d": {
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "SwissGL",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+   "ribosome": {
+      "chapter": "reproductive-functions",
+      
+      "file_web": [ "70s_50s_cymk_nolabels-Enhanced-SR.webp"],
+      "Type": "Image",
+      "caption": "Structure of the 70S ribosome",
+      "alt": "",
+      "size": "",
+      "URL": "https://reports.news.ucsc.edu/breakthrough/revealing-the-ribosome/",
+      "": ""
+    },
+   "ferranti": {
+      "chapter": "reproductive-functions",
+      
+      "file_web": [ "HIC-server EDIT + NOISE.webp"],
+      "Type": "Image",
+      "caption": "Turing (right) at the console of the Ferranti Mark II computer",
+      "alt": "",
+      "size": "",
+      "URL": "https://blogs.bl.uk/sound-and-vision/2016/09/restoring-the-first-recording-of-computer-music.html",
+      "": ""
+    },
+    "unorganized": {
+      "chapter": "reproductive-functions",
+     
+      "file_web": [ "80916595-Intelligent-Machinery-13.webp"],
+      "Type": "Image",
+      "caption": "Turing's illustration of an \"unorganized machine\" (or neural network) from <i>Intelligent Machinery</i>, 1948",
+      "alt": "",
+      "size": "",
+      "URL": "https://www.npl.co.uk/getattachment/about-us/History/Famous-faces/Alan-Turing/80916595-Intelligent-Machinery.pdf",
+      "": ""
+    },
+    "replicator": {
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "SwissGL",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "constructor": {
+      "chapter": "reproductive-functions",
+     
+      "file_web": [ "vonNeumann_fig56.webp"],
+      "Type": "Image",
+      "caption": "Von Neumann's universal constructor arm from <i>Theory of self-reproducing automata</i>, 1967",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "nca":{
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "SwissGL",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "bffvideo":{
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "Video",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "phasetransition": {
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "Scatter plot showing the first ~30 million interactions in a bff run as dots with height equal to the number of operations. Note the sharp transition to computing-intensive full-tape replication at ~15 million interactions.",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "continuedrise": {
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "Histogram showing number of bytes coding for instructions per tape in the same bff run; note the ongoing rise in the amount of code even after the transition to full-tape replication at 15 million interactions.",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+   "z80": {
+      "chapter": "",
+      
+      "file_web": [ ],
+      "Type": "SwissGL",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "z80still":{
+      "chapter": "reproductive-functions",
+   
+      "file_web": [ "Alex Z80 Life.webp"],
+      "Type": "Image",
+      "caption": "Four competing replicators (green, purple, red, and white) on a 200×200 grid of simulated Zilog Z80 processors",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "billiardsvideo": {
+      "chapter": "",
+   
+      "file_web": [ ],
+      "Type": "Video",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "poolbreak": {
+      "chapter": "reproductive-functions",
+     
+      "file_web": [ "iStock-589969974.webp"],
+      "Type": "Image",
+      "caption": "Billiard balls in motion: forward or backward in time?",
+      "alt": "",
+      "size": "",
+      "URL": "Source: https://youtu.be/iegHMWCoEr8?si=1uWQYwTSAtiHrfZz",
+      "": ""
+    },
+    "newcomen": {
+      "chapter": "reproductive-functions",
+   
+      "file_web": [ "practicalphysics00blacrich-2-245-Enhanced-SR Fig 180.webp"],
+      "Type": "Image",
+      "caption": "Newcomen's steam engine, from Black and Davis, <i>Practical Physics</i>, 1913",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "watt": {
+      "chapter": "reproductive-functions",
+   
+      "file_web": [ "practicalphysics00blacrich-2-245-Enhanced-SR Fig 181.webp"],
+      "Type": "Image",
+      "caption": "Watt's steam engine, ibid.",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "piston": {
+      "chapter": "reproductive-functions",
+     
+      "file_web": [ "practicalphysics00blacrich-2-100-Enhanced-SR-2 Crop.webp"],
+      "Type": "Image",
+      "caption": "A piston with a face of area <i>A</i> and interior volume <i>V</i> containing an ideal gas at pressure <i>P</i>, ibid.",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "catscradlevideo": {
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "Video",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "mcclintock":  {
+      "chapter": "virality",
+     
+      "file_web": [ "Barbara_McClintock_(1902-1992)_shown_in_her_laboratory_in_1947.webp"],
+      "Type": "Image",
+      "caption": "Barbara McClintock, Department of Genetics, Carnegie Institution at Cold Spring Harbor, New York, 1947",
+      "alt": "",
+      "size": "",
+      "URL": "https://en.wikipedia.org/wiki/Barbara_McClintock#/media/File:Barbara_McClintock_(1902-1992)_shown_in_her_laboratory_in_1947.jpg",
+      "": ""
+    },
+    "bovb":   {
+      "chapter": "virality",
+    
+      "file_web": [ "BovB 13059_2018_1456_Fig1_HTML.webp"],
+      "Type": "Image",
+      "caption": "Map of the spread of the BovB and L1 retrotransposons across 759 species of eukaryotes, from Ivancevic et al. 2018",
+      "alt": "",
+      "size": "",
+      "URL": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1456-7",
+      "": ""
+    },
+    "monster": {
+      "chapter": "virality",
+    
+      "file_web": [ "74a873cf4d2459504bf454dfb9ae0f24c3f8892a.webp"],
+      "Type": "Image",
+      "caption": "Sea monster from Ulisse Aldrovandi, <i>Monstrorum Historia</i>, 1642",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "britain": {
+      "chapter": "",
+   
+      "file_web": [ ],
+      "Type": "Dynamic",
+      "caption": "[DONE]",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "coastline": {
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "The coast of Britain measured with rulers of different lengths",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "mandelcurve": {
+      "chapter": "compression",
+ 
+      "file_web": [ ],
+      "Type": "SwissGL",
+      "caption": "[DONE AS DYNAMIC]",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "mandelbrot67":    {
+      "chapter": "compression",
+      "file_web": [ "mandelbrot67.webp"],
+      "Type": "Image",
+      "caption": "Four levels of fractal ruggedness for an idealized coastline, such that a fourfold magnification yields fivefold, sixfold, sevenfold, and eightfold increases in apparent length, from Mandelbrot 1967",
+      "alt": "",
+      "size": "",
+      "URL": "http://li.mit.edu/Stuff/CNSE/Paper/Mandelbrot67Science.pdf",
+      "": ""
+    },
+    "mandelcurves2":{
+      "chapter": "compression",
+      
+      "file_web": [ "mandelcurves2.webp"],
+      "Type": "Image",
+      "caption": "Two further levels of fractal elaboration on Mandelbrot’s <i>N</i>=5, <i>N</i>=6, <i>N</i>=7 and <i>N</i>=8 coastline patterns",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "allometric":{
+      "chapter": "compression",
+    
+      "file_web": [ "Enquist.webp"],
+      "Type": "Image",
+      "caption": "Fractal branching in mammalian circulatory systems and plants, from West et al. 1997",
+      "alt": "",
+      "size": "",
+      "URL": "https://www.astro.princeton.edu/~burrows/classes/542/papers/Lachlan.West_Brown_Enquist_1997.pdf",
+      "": ""
+    },
+    "snake": {
+      "chapter": "embodiment",
+     
+      "file_web": [ "Skeleton of Snake The Royal Natural History Internet Archive royalnaturalhist05unse_0204-Enhanced-SR Grey EDIT.webp"],
+      "Type": "Image",
+      "caption": "Snake skeleton from Lydekker, <i>The Royal Natural History</i>, 1893",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "antp":{
+      "chapter": "embodiment",
+   
+      "file_web": [ "61484_flyheadverto-Enhanced-SR EDIT.webp"],
+      "Type": "Image",
+      "caption": "A mutation in the <i>Antennapedia</i> (or <i>\"Antp\"</i>) Hox gene of the fruit fly causes an extra pair of legs to grow out of the head in place of antennae, illustrating compositionality in body construction. <i>Top</i>: wildtype; <i>Bottom</i>: mutant.",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "nautilus": {
+      "chapter": "embodiment",
+    
+      "file_web": [ "proceedingsofmal1241896297mala_orig_0230-Enhanced-SR EDIT 02.webp"],
+      "Type": "Image",
+      "caption": "1896 skiagraph (X-ray photograph) of a <i>Nautilus pompilius</i>",
+      "alt": "",
+      "size": "",
+      "URL": "https://en.wikipedia.org/wiki/Chambered_nautilus#/media/File:James_Green_&_James_H._Gardiner_-_Skiagraph_of_a_Nautilus_pompilius_-_Proceedings_of_the_Malacological_Society_of_London_-_Vol._II,_Pl._XV,_p._178_(alt).jpg",
+      "": ""
+    },
+    "uluru": {
+      "chapter": "elan-vital",
+    
+      "file_web": [ "Uluru-Kata_Tjuta_National_Park-_aboriginal_drawings.webp"],
+      "Type": "Image",
+      "caption": "Aṉaŋu rock art, Uluṟu-Kata Tjuṯa National Park, Australia",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+   "yaltinapangati": {
+      "chapter": "",
+      
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "Painting associated with the rockhole and soakage water site of Marrapinti by Yalti Napangati, one of the “Pintupi Nine” from Australia’s Western Desert; collection of Margaret Levi and Bob Kaplan.",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "thedress":  {
+      "chapter": "",
+   
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "nailhead": {
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "nailboot": {
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "steppedreckoner": {
+      "chapter": "",
+   
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+   "teddington": {
+      "chapter": "",
+      
+      "file_web": [ ],
+      "Type": "",
+      "caption": "Electrc brain to be made at Teddington",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "ediacaran":  {
+      "chapter": "",
+  
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "marrella": {
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "ballturret": {
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "palomilla":  {
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "hubelwieselcat":{
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "refikanadol": {
+      "chapter": "",
+   
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "hydra": {
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+   "acoel": {
+      "chapter": "",
+      
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "sphex": {
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "octopus":{
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "crew": {
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "doubleslit":
+    {
+      "chapter": "",
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "splitbrain":  {
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+   "henseltwins": {
+      "chapter": "",
+      
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "helen":  {
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "blindsight": {
+      "chapter": "",
+  
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+   "gridcells": {
+      "chapter": "",
+      
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "artificialspider": {
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "vwfa": {
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "llmcolors": {
+      "chapter": "",
+     
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "rossum":  {
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "enoch": {
+      "chapter": "",
+   
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "rust": {
+      "chapter": "",
+   
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "nautilusnca":
+    {
+      "chapter": "",
+      "file_web": [ ],
+      "Type": "SwissGL",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "bff": {
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "SwissGL",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "lstm":  {
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "Image",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "galvani": {
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "adrian":  {
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    },
+    "connectionmachine":  {
+      "chapter": "",
+    
+      "file_web": [ ],
+      "Type": "",
+      "caption": "",
+      "alt": "",
+      "size": "",
+      "URL": "",
+      "": ""
+    }
+}
