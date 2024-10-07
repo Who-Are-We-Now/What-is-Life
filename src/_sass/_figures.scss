@@ -4,7 +4,8 @@
 	position: fixed;
 	top: 0;
 	width: 50%;
-	left: 50vw;
+	// left: 50vw;
+	left: 0vw;
 	height: var(--height-figure);
 	display: flex;
 	align-items: center;
@@ -259,7 +260,7 @@ nav ul.toc li a.thb {
 .figarea {
 	scroll-margin-top: 49vh; //anchor offset
 	position: relative;
-
+	
 	@include at-media(tablet) {
 		scroll-margin-top: 0;
 	}
@@ -712,10 +713,6 @@ body.interlude {
 }
 
 
-// .indicator{
-// 	border: 3px solid orange;
-// }
-
 /*----------------
 FIGURES-specific OVERRIDES
 -----------------*/
@@ -743,224 +740,4 @@ FIGURES-specific OVERRIDES
 }
 
 
-//already visible figure openers
-#bildlilli-indicator,
-#dickjane-indicator,
-#atomfriend-indicator {
-	margin-top: calc(-1 * (var(--height-header) + 1px));
-}
 
-.bildlilli-text>blockquote:first-child {
-	margin-top: 0;
-}
-
-#anonymous-identity {
-	section.content {
-		padding-bottom: 10vh;
-	}
-}
-
-//introduction, anonymous identity
-#overviewfx-indicator {
-	border-color: transparent;
-}
-
-#overviewfx-fig {
-	margin-bottom: 0;
-}
-
-
-#ears-indicator {
-	//make seamless transition with previous
-	margin-top: calc(-1 * var(--lineheight));
-}
-
-#beebo-fig.image img {
-	//long image ratio with a long caption
-	max-height: 72vh;
-}
-
-#dragons,
-#notke {
-	margin-top: calc(-1*var(--pad-section));
-	display: flex;
-	flex-direction: column-reverse;
-
-	.figure.media-full {
-		height: auto;
-		margin-top: 0;
-	}
-
-}
-
-#dragons {
-	.figure {
-		padding-top: 0;
-	}
-}
-
-.dragons-text p {
-	text-indent: 0;
-}
-
-#savage_lovecast_526 .text-img p:first-child {
-	text-indent: 0;
-}
-
-#packard-fig figure {
-	padding: var(--pad-section);
-}
-
-#binning {
-	.crossfade figure {
-		background-color: none;
-	}
-
-	figure {
-		background-image: url('/assets/images/appendix/binning-frame.png');
-		background-size: calc(100% - 2*var(--pad-section));
-		background-repeat: no-repeat;
-		background-position: 50% 42%;
-
-		@include at-media(tablet_lg) {
-			background-size: calc(100% - 2*var(--margin));
-		}
-	}
-
-	figure[data-xfadeindex="1"] img {
-		// padding: 90px 0 0 0;
-		mix-blend-mode: multiply;
-	}
-
-	figcaption {
-		top: 10px;
-		position: relative;
-	}
-
-}
-
-
-@include at-media(tablet) {
-
-	#quigley-fig {
-		position: sticky;
-		top: 0;
-
-		figure {
-			height: var(--height-figure);
-		}
-
-		&+.text-img {
-			min-height: calc(var(--height-figure)*6);
-		}
-	}
-
-	#quigley-indicator {
-		height: calc(var(--height-figure)*7);
-	}
-}
-
-.quigley-labels {
-	@extend .sans-serif;
-	margin: auto;
-	font-weight: 700;
-	display: flex;
-	padding-bottom: var(--pad);
-}
-
-.quigley-axislabel {
-	font-weight: 400;
-	margin: 0 10px;
-	opacity: 0.6;
-}
-
-.quigley-framelabel {
-	margin: 0 5px;
-	opacity: 0.2;
-	transition: opacity 400ms linear;
-}
-
-.visibleframe {
-	opacity: 1;
-}
-
-
-#reimerselfportrait {
-	width: 20%;
-
-	@include at-media(mobile_lg) {
-		width: 50%;
-	}
-
-
-	&+blockquote {
-		padding-top: 0;
-	}
-}
-
-#moneycover {
-	padding-top: 0;
-}
-
-#a-view-from-above {
-
-	/* ending after full-bleed image*/
-	article {
-		padding-bottom: 0;
-	}
-
-	section.content {
-		padding-bottom: 10vh;
-	}
-}
-
-#chimeras {
-	@include at-media(tablet) {
-		.xfade-images {
-			width: 60%;
-			margin: 0 auto;
-		}
-	}
-
-	@include at-media(mobile) {
-		.xfade-images {
-			width: 100%;
-		}
-	}
-}
-
-#patriarchypyramid {
-	@include at-media(tablet) {
-		width: 50%;
-	}
-
-	@include at-media(mobile_lg) {
-		width: 60%;
-	}
-}
-
-#sextable {
-	width: 50%;
-
-	@include at-media(mobile_lg) {
-		width: 100%;
-	}
-}
-
-#lightsout {
-
-	.img-container {
-		height: 50vw; //full-bleed image bg, the image ratio is 2:1
-		background-size: 100%;
-
-		@include at-media(mobile_lg) {
-			height: 65vw;
-			background-size: 130%;
-			background-position: -15vw 0;
-			background-repeat: no-repeat;
-		}
-	}
-
-
-
-}
