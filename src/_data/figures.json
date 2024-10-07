@@ -20,7 +20,7 @@
         "": ""
       },
      "pesavento": {
-        "chapter": "reproductive-functions",
+        "chapter": "chapter-03",
         "file_web": [ "Nobili_Pesavento_2reps EDIT.webp"],
         "Type": "Image",
         "caption": "Implementation of von Neumann’s self-reproducing cellular automaton, Pesavento 1995. The second generation has nearly finished constructing the third (lines running off to the right are instruction tapes, much longer than shown).",
@@ -30,7 +30,7 @@
         "": ""
       },
     "lizard":  {
-        "chapter": "reproductive-functions",
+        "chapter": "chapter-03",
         "file_web": [ "Growing Neural Cellular Automata_0000_Layer 141.jpg"],
         "Type": "Image",
         "caption": "A neural cellular automaton that generates (or re-generates) a lizard emoji, from Mordvintsev et al. 2020",
@@ -40,7 +40,7 @@
         "": ""
       },
      "bffstill": {
-        "chapter": "reproductive-functions",
+        "chapter": "chapter-03",
        "file_web": [ ],
         "Type": "Image",
         "caption": "Snapshots of a bff soup upon random initialization (left page) and shortly after the transition to full-tape replication (right page); only bytes coding for instructions are shown.",
@@ -50,7 +50,7 @@
         "": ""
       },
       "phasetransition": {
-        "chapter": "reproductive-functions",
+        "chapter": "chapter-03",
         "file_web": [ "0432_compute_A40000000_E10000_H1500_L64_M0.00015_R432_S0.0001_T8192_X1.0_nameBFFcomputationRun.webp"],
         "Type": "Image",
         "caption": "<i>Above</i>: The first 30 million interactions in a bff run shown as dots with height equal to the number of operations executed. <i>Below</i>: Histogram showing how many of a tape’s 64 bytes code for instructions; note the ongoing rise even after full-tape replication at 15 million interactions.",
@@ -70,7 +70,7 @@
         "": ""
       },
      "genome":  {
-        "chapter": "virality",
+        "chapter": "chapter-09",
         "file_web": [ "Genomic-components-of-the-human-genome-Relative-proportions-of-major-families-of.webp"],
         "Type": "Image",
         "caption": "Relative proportions of the major families of human genomic elements, from Lander et al. 2001",
@@ -180,7 +180,7 @@
         "": ""
       },
       "maniac": {
-        "chapter": "reproductive-functions",
+        "chapter": "chapter-03",
         "file_web": [ "Operators_in_front_of_the_MANIAC-Enhanced-SR EDIT Extend.webp"],
         "Type": "Image",
         "caption": "Programmers in front of the MANIAC computer, Los Alamos National Lab, 1952",
@@ -424,7 +424,7 @@
       "": ""
     },
    "duret": {
-      "chapter": "abiogenesis",
+      "chapter": "chapter-01",
       
       "file_web": [ "Trees_that_generate_both_fishes_and_birds._Wellcome_M0005642 EDIT.webp"],
       "Type": "Image",
@@ -435,7 +435,7 @@
       "": ""
     },
     "blacksmokervideo":{
-      "chapter": "abiogenesis",
+      "chapter": "chapter-01",
      
       "file_web": [ "MARUM_Schwarzer_Raucher-Enhanced-SR.webp"],
       "Type": "Video",
@@ -446,7 +446,7 @@
       "": ""
     },
     "volcanovideo": {
-      "chapter": "abiogenesis",
+      "chapter": "chapter-01",
      
       "file_web": [ "Halema_uma_u_Crater_in_Kilauea_volcano,_Hawaii.-Enhanced-SR.webp"],
       "Type": "Video",
@@ -468,7 +468,7 @@
       "": ""
     },
     "zircon": {
-      "chapter": "abiogenesis",
+      "chapter": "chapter-01",
      
       "file_web": [ "Jack_Hills_detrital_zircons_BSE_micrographs-Enhanced-SR NOISE.webp"],
       "Type": "Image",
@@ -479,7 +479,7 @@
       "": ""
     },
    "krebs": {
-      "chapter": "abiogenesis",
+      "chapter": "chapter-01",
       
       "file_web": [ "krebs.webp"],
       "Type": "Image",
@@ -490,7 +490,7 @@
       "": ""
     },
     "reversekrebs":{
-      "chapter": "abiogenesis",
+      "chapter": "chapter-01",
      
       "file_web": [ "reversekrebs.webp"],
       "Type": "Image",
@@ -501,7 +501,7 @@
       "": ""
     },
     "matryoshka": {
-      "chapter": "abiogenesis",
+      "chapter": "chapter-01",
    
       "file_web": [ "russian-matryoshka-doll-under-x-ray-photostock-israel-Enhanced-SR"],
       "Type": "Image",
@@ -523,7 +523,7 @@
       "": ""
     },
     "mitochondria": {
-      "chapter": "symbiogenesis",
+      "chapter": "chapter-02",
      
       "file_web": [ "Chondrocyte-_calcium_stain-Enhanced-SR.webp"],
       "Type": "Image",
@@ -545,7 +545,7 @@
       "": ""
     },
     "finches": {
-      "chapter": "symbiogenesis",
+      "chapter": "chapter-02",
      
       "file_web": [ "Darwin's_finches_by_Gould-Enhanced-SR"],
       "Type": "Image",
@@ -556,7 +556,7 @@
       "": ""
     },
     "haftedspear": {
-      "chapter": "symbiogenesis",
+      "chapter": "chapter-02",
      
       "file_web": [ "Hafted-spear-point-from-mid-Holocene-Arctic-Small-Tool-AST-site-of-Qeqertasussuk-West-Enhanced-SR.webp"],
       "Type": "Image",
@@ -567,7 +567,7 @@
       "": ""
     },
     "turing": {
-      "chapter": "reproductive-functions",
+      "chapter": "chapter-03",
      
       "file_web": [ "Turing_Card_1 Princeton University Archives-Enhanced-SR.webp"],
       "Type": "Image",
@@ -578,7 +578,7 @@
       "": ""
     },
     "tapehead": {
-      "chapter": "reproductive-functions",
+      "chapter": "chapter-03",
      
       "file_web": ["John Von Neumann - Folder 5 , Page 12 EDIT Grey.webp" ],
       "Type": "Image",
@@ -589,7 +589,7 @@
       "": ""
     },
     "vonneumann": {
-      "chapter": "reproductive-functions",
+      "chapter": "chapter-03",
     
       "file_web": [ "vonneumann-john_r EDIT.webp"],
       "Type": "Image",
@@ -600,7 +600,7 @@
       "": ""
     },
     "reactiondiffusion":  {
-      "chapter": "reproductive-functions",
+      "chapter": "chapter-03",
       "file_web": [ ],
       "Type": "SwissGL",
       "caption": "[DONE]",
@@ -610,7 +610,7 @@
       "": ""
     },
     "morphogenesis":  {
-      "chapter": "reproductive-functions",
+      "chapter": "chapter-03",
    
       "file_web": [ "Turing on morphogenesis 1952.webp"],
       "Type": "Image",
@@ -621,7 +621,7 @@
       "": ""
     },
     "ashby":  {
-      "chapter": "reproductive-functions",
+      "chapter": "chapter-03",
    
       "file_web": ["wrac2630-cropped.webp" ],
       "Type": "Image",
@@ -643,7 +643,7 @@
       "": ""
     },
    "ribosome": {
-      "chapter": "reproductive-functions",
+      "chapter": "chapter-03",
       
       "file_web": [ "70s_50s_cymk_nolabels-Enhanced-SR.webp"],
       "Type": "Image",
@@ -654,7 +654,7 @@
       "": ""
     },
    "ferranti": {
-      "chapter": "reproductive-functions",
+      "chapter": "chapter-03",
       
       "file_web": [ "HIC-server EDIT + NOISE.webp"],
       "Type": "Image",
@@ -665,7 +665,7 @@
       "": ""
     },
     "unorganized": {
-      "chapter": "reproductive-functions",
+      "chapter": "chapter-03",
      
       "file_web": [ "80916595-Intelligent-Machinery-13.webp"],
       "Type": "Image",
@@ -687,7 +687,7 @@
       "": ""
     },
     "constructor": {
-      "chapter": "reproductive-functions",
+      "chapter": "chapter-03",
      
       "file_web": [ "vonNeumann_fig56.webp"],
       "Type": "Image",
@@ -753,7 +753,7 @@
       "": ""
     },
     "z80still":{
-      "chapter": "reproductive-functions",
+      "chapter": "chapter-03",
    
       "file_web": [ "Alex Z80 Life.webp"],
       "Type": "Image",
@@ -775,7 +775,7 @@
       "": ""
     },
     "poolbreak": {
-      "chapter": "reproductive-functions",
+      "chapter": "chapter-03",
      
       "file_web": [ "iStock-589969974.webp"],
       "Type": "Image",
@@ -786,7 +786,7 @@
       "": ""
     },
     "newcomen": {
-      "chapter": "reproductive-functions",
+      "chapter": "chapter-03",
    
       "file_web": [ "practicalphysics00blacrich-2-245-Enhanced-SR Fig 180.webp"],
       "Type": "Image",
@@ -797,7 +797,7 @@
       "": ""
     },
     "watt": {
-      "chapter": "reproductive-functions",
+      "chapter": "chapter-03",
    
       "file_web": [ "practicalphysics00blacrich-2-245-Enhanced-SR Fig 181.webp"],
       "Type": "Image",
@@ -808,7 +808,7 @@
       "": ""
     },
     "piston": {
-      "chapter": "reproductive-functions",
+      "chapter": "chapter-03",
      
       "file_web": [ "practicalphysics00blacrich-2-100-Enhanced-SR-2 Crop.webp"],
       "Type": "Image",
@@ -830,7 +830,7 @@
       "": ""
     },
     "mcclintock":  {
-      "chapter": "virality",
+      "chapter": "chapter-09",
      
       "file_web": [ "Barbara_McClintock_(1902-1992)_shown_in_her_laboratory_in_1947.webp"],
       "Type": "Image",
@@ -841,7 +841,7 @@
       "": ""
     },
     "bovb":   {
-      "chapter": "virality",
+      "chapter": "chapter-09",
     
       "file_web": [ "BovB 13059_2018_1456_Fig1_HTML.webp"],
       "Type": "Image",
@@ -852,7 +852,7 @@
       "": ""
     },
     "monster": {
-      "chapter": "virality",
+      "chapter": "chapter-09",
     
       "file_web": [ "74a873cf4d2459504bf454dfb9ae0f24c3f8892a.webp"],
       "Type": "Image",
@@ -885,7 +885,7 @@
       "": ""
     },
     "mandelcurve": {
-      "chapter": "compression",
+      "chapter": "chapter-10",
  
       "file_web": [ ],
       "Type": "SwissGL",
@@ -896,7 +896,7 @@
       "": ""
     },
     "mandelbrot67":    {
-      "chapter": "compression",
+      "chapter": "chapter-10",
       "file_web": [ "mandelbrot67.webp"],
       "Type": "Image",
       "caption": "Four levels of fractal ruggedness for an idealized coastline, such that a fourfold magnification yields fivefold, sixfold, sevenfold, and eightfold increases in apparent length, from Mandelbrot 1967",
@@ -906,7 +906,7 @@
       "": ""
     },
     "mandelcurves2":{
-      "chapter": "compression",
+      "chapter": "chapter-10",
       
       "file_web": [ "mandelcurves2.webp"],
       "Type": "Image",
@@ -917,7 +917,7 @@
       "": ""
     },
     "allometric":{
-      "chapter": "compression",
+      "chapter": "chapter-10",
     
       "file_web": [ "Enquist.webp"],
       "Type": "Image",
@@ -928,7 +928,7 @@
       "": ""
     },
     "snake": {
-      "chapter": "embodiment",
+      "chapter": "chapter-11",
      
       "file_web": [ "Skeleton of Snake The Royal Natural History Internet Archive royalnaturalhist05unse_0204-Enhanced-SR Grey EDIT.webp"],
       "Type": "Image",
@@ -939,7 +939,7 @@
       "": ""
     },
     "antp":{
-      "chapter": "embodiment",
+      "chapter": "chapter-11",
    
       "file_web": [ "61484_flyheadverto-Enhanced-SR EDIT.webp"],
       "Type": "Image",
@@ -950,7 +950,7 @@
       "": ""
     },
     "nautilus": {
-      "chapter": "embodiment",
+      "chapter": "chapter-11",
     
       "file_web": [ "proceedingsofmal1241896297mala_orig_0230-Enhanced-SR EDIT 02.webp"],
       "Type": "Image",
@@ -961,7 +961,7 @@
       "": ""
     },
     "uluru": {
-      "chapter": "elan-vital",
+      "chapter": "chapter-12",
     
       "file_web": [ "Uluru-Kata_Tjuta_National_Park-_aboriginal_drawings.webp"],
       "Type": "Image",
