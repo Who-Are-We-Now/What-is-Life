@@ -1,0 +1,19 @@
+{
+    "ax": "Square meters per person",
+    "ay": "%",
+    "i": [
+        4,
+        5
+    ],
+    "name": "DifferingDefinitions2",
+    "title": "\u201cDo you live in the suburbs?\u201d",
+    "type": "DensityCat",
+    "x": [
+        1.38244,
+        5.457735
+    ],
+    "y": [
+        0,
+        100
+    ]
+}

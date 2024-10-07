@@ -1,0 +1,24 @@
+{
+    "savage_lovecast_526": {
+        "file": [
+            "podcasts_s22e526_premium_20161121T1908Z_25713e7255a1af37b13aa89d09099744_trim.mp3"
+        ],
+        "chapter": "introduction",
+        "begins": "00:51:12",
+        "ends": "01:12:26",
+        "caption": "From episode #526 of the Savage Lovecast.",
+        "alt": "",
+        "credit": ""
+    },
+    "savage_lovecast_579": {
+        "file": [
+            "magnum_savage_lovecast_e579_trim.mp3"
+        ],
+        "chapter": "introduction",
+        "begins": "00:51:49",
+        "ends": "01:22:23",
+        "caption": "From episode #579 of the Savage Lovecast.",
+        "alt": "",
+        "credit": ""
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "ax": "Square meters per person",
+    "ay": "%",
+    "i": [
+        0,
+        1
+    ],
+    "name": "YearIllegal",
+    "title": "\u201cShould the US be more aggressive in deporting illegal immigrants?\u201d",
+    "type": "DensityCat",
+    "x": [
+        1.2370299999999999,
+        5.38987
+    ],
+    "y": [
+        0,
+        100
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "ax": "Age",
+    "ay": "Number of children",
+    "i": [
+        {
+            "0": [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "name": "Children1",
+    "type": "AgeAvg",
+    "x": [
+        19.5,
+        81.5
+    ],
+    "y": [
+        0,
+        6
+    ]
+}

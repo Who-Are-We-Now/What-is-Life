@@ -1,0 +1,121 @@
+/*define fonts*/
+
+@font-face {
+	font-family: 'cmunrm';
+	src: url('../fonts/cmunrm.ttf') format('truetype');
+	font-style: normal;
+	font-stretch: normal;
+}
+
+// @font-face {
+// 	font-family: 'Courier New', monospace;
+// }
+
+@font-face {
+	font-family: 'Exposure';
+	src: url('../fonts/Exposure - [-10] Italic-205TF.otf') format("opentype");
+	font-style: italic;
+	font-stretch: normal;
+	font-weight: 200;
+	// font-variation-settings: "EXPO" -10;
+}
+
+@font-face {
+	font-family: 'Exposure';
+	src: url('../fonts/Exposure - [-10]-205TF.otf') format("opentype");
+	font-style: normal;
+	font-stretch: normal;
+	font-weight: 200;
+	// font-variation-settings: "EXPO" -10;
+
+}
+
+@font-face {
+	font-family: 'Exposure';
+	src: url('../fonts/Exposure - [-20] Italic-205TF.otf') format("opentype");
+	font-style: italic;
+	font-stretch: normal;
+	font-weight: 300;
+
+	// font-variation-settings: "EXPO" -20;
+
+}
+
+@font-face {
+	font-family: 'Exposure';
+	src: url('../fonts/Exposure - [-20]-205TF.otf') format("opentype");
+	font-style: normal;
+	font-stretch: normal;
+	font-weight: 300;
+
+	// font-variation-settings: "EXPO" -20;
+
+}
+
+
+
+@font-face {
+	font-family: 'Exposure';
+	src: url('../fonts/Exposure - [-30]-205TF.otf') format("opentype");
+	font-style: normal;
+	font-stretch: normal;
+	font-weight: 400;
+
+	// font-variation-settings: "EXPO" -30;
+
+}
+
+@font-face {
+	font-family: 'Exposure';
+	src: url('../fonts/Exposure - [-50] Italic-205TF.otf') format("opentype");
+	font-style: italic;
+	font-stretch: normal;
+	font-weight: 600;
+
+	// font-variation-settings: "EXPO" -50;
+
+}
+
+@font-face {
+	font-family: 'Exposure';
+	src: url('../fonts/Exposure - [-50]-205TF.otf') format("opentype");
+	font-style: normal;
+	font-stretch: normal;
+	font-weight: 600;
+
+	// font-variation-settings: "EXPO" -50;
+
+}
+
+@font-face {
+	font-family: 'Exposure';
+	src: url('../fonts/Exposure - [-60]-205TF.otf') format("opentype");
+	font-style: normal;
+	font-stretch: normal;
+	font-weight: 700;
+
+	// font-variation-settings: "EXPO" -60;
+
+}
+
+@font-face {
+	font-family: 'Exposure';
+	src: url('../fonts/Exposure - [-80]-205TF.otf') format("opentype");
+	font-style: normal;
+	font-stretch: normal;
+	font-weight: 900;
+
+	// font-variation-settings: "EXPO" -80;
+
+}
+
+
+.sans-serif {
+	font-family: 'cmunrm';}
+
+.serif {
+	font-family: 'Exposure';
+}
+
+
+

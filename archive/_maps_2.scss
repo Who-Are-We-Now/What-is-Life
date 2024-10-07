@@ -1,0 +1,294 @@
+/*--------------------------------------------------------------*/
+/* MAP STYLES -----------------------------------------------*/
+/*--------------------------------------------------------------*/
+
+
+#maps {
+
+	/*map index page for review process, for temp */
+	h2 {
+		font-weight: var(--wght-bs);
+		border-top: solid 1px;
+		padding-top: var(--pad-sm);
+	}
+
+	border: solid 1px;
+
+	h2:first-child {
+		border-top: none;
+	}
+
+	h4 {
+		@extend .sans-serif;
+		font-weight: var(--wght);
+		font-size: var(--caption-size);
+		max-width: 100%;
+		width: 100%;
+		padding-bottom: var(--pad-sm);
+		max-width: 100%;
+		width: 100%;
+		text-align: right;
+	}
+}
+
+
+
+
+article .map p {
+	width: inherit;
+}
+
+.map {
+	// margin: var(--pad-section) 0;
+	position: fixed;
+	top: 0;
+	width: 45vw;
+	left: 52vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	figure {
+		// opacity: 1;
+		padding: 0;
+	}
+
+
+	p {
+		@extend .sans-serif;
+		font-weight: var(--wght);
+		line-height: 30px;
+		height: auto;
+		font-size: calc(var(--caption-size)*0.8);
+		opacity: 1;
+		letter-spacing: 0em;
+
+		text-align: left;
+		color: rgb(0, 0, 0);
+		text-transform: none;
+		padding-bottom: 0;
+		padding-top: 0;
+		mix-blend-mode: normal;
+		font-style: normal;
+		position: static;
+		// height: 16px; /*for full column scale*/
+		height: 13px;
+		/*for 2 columns scale*/
+		white-space: nowrap;
+	}
+
+	p.g-pstyle2,
+	p.g-pstyle0 {
+		font-weight: var(--wght-bs);
+		letter-spacing: .02em;
+	}
+
+	p.g-pstyle3 {
+		font-weight: 500;
+		line-height: 45px;
+		font-size: var(--medium-size);
+		height: 35px;
+		opacity: 0.4;
+		letter-spacing: 0.2em;
+
+		text-align: center;
+	}
+
+	// svg {
+	// 	text {
+	// 		@extend .sans-serif;
+	// 		font-size: var(--small-size);
+	// 		&.bold {
+	// 			font-weight: var(--wght-bs);
+	// 		}
+	// 	}
+	// 	path {
+	// 		stroke-width: .5;
+	// 	}
+
+	// }
+
+}
+
+.media-full {
+	position: relative;
+	height: 300vh;
+	top: 0;
+	width: calc(100vw - var(--pad-body) * 2);
+	left: 0;
+	z-index: -1; // to make paragarphs below visible
+
+	p {
+		font-size: var(--caption-size);
+	}
+
+	figcaption {
+		// margin-top: -40px;
+		z-index: 1000;
+		position: absolute;
+		margin-top: -67.7059%;
+	}
+
+	figure {
+		opacity: 1;
+		position: sticky;
+		height: 100vh;
+		width: 100%;
+		top: 0;
+		padding: 0;
+		// border: solid 1px blue;
+		// margin-top: -44.7059%;
+		margin-top: -110.7059%;
+
+		margin-bottom: 8.7059%;
+	}
+
+	.map-scroll-1,
+	.map-scroll-2 {
+		// position: absolute;
+	}
+
+}
+
+// .map-scroll {
+// 	opacity: 0;
+// 	&.in-viewport {
+// 		opacity: 1;
+// 	}
+// }
+
+.map-scroll {
+	opacity: 0;
+}
+
+// .active-map{
+// 	z-index: 100;
+// 	&.map-scroll{
+//   	opacity: 1;
+//   }
+// }
+
+// .map-scroll-2 {
+// 	transition: opacity ease-in 1s;
+// 	height: 0;
+// }
+
+.media-full {
+
+	.percentage {
+		width: 100%;
+		max-width: var(--max-width);
+		height: 100vh;
+		bordeR: solid 1px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 1000;
+		color: red;
+	}
+}
+
+#Ignition {
+	// transition: all ease-in 1s;
+}
+
+#Ignition-dark,
+.dark {
+	// transition: all ease-in 1s;
+	// --default: rgb(5, 5, 15);
+	// background-color: rgb(5, 5, 15);
+	color: white;
+
+	article p {
+		color: white;
+	}
+
+	nav .navlink,
+	nav .icon {
+		opacity: 0;
+		// transition: background-color ease-in 1s;
+		// background-color: rgb(5, 5, 15);
+		// border-color: var(--white);
+	}
+
+	nav .icon .icon_book svg path {
+		// transition: all ease-in 1s;
+
+		fill: var(--white);
+	}
+
+	nav .navlink {
+		transition: all ease-in 0.2s;
+	}
+
+}
+
+
+.mapindicator {
+	// border: solid 10px red;
+}
+
+@include at-media(tablet_lg) {
+	.map {
+		p {
+			font-size: calc(var(--caption-size)*0.8);
+		}
+	}
+}
+
+@include at-media(mobile_lg) {
+
+	.map {
+
+		p {
+			font-size: calc(var(--caption-size)*0.7);
+			letter-spacing: .02em;
+		}
+
+		p.g-pstyle3 {
+			font-size: calc(var(--caption-size)*1.2);
+			height: 22px;
+		}
+
+		figure {
+			margin: 0 -5vw;
+			width: 100vw;
+		}
+
+		figcaption {
+			padding-left: 5vw;
+		}
+
+		svg {
+			path {
+				stroke-width: 1;
+			}
+
+			text {
+				font-size: 21px;
+			}
+		}
+	}
+}
+
+#g-polygamy-Artboard_1 {
+	position: relative;
+	overflow: hidden;
+}
+
+#maps {
+	figure {
+		position: relative;
+		opacity: 1;
+	}
+
+	section.content {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.seq-indicators {
+		display: none;
+	}
+}

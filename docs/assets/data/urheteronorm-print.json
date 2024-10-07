@@ -1,0 +1,19 @@
+{
+    "ax": "Age",
+    "ay": "%",
+    "i": [
+        1,
+        2
+    ],
+    "name": "URHeteronorm",
+    "title": "Heteronormatively attracted",
+    "type": "AgeCat",
+    "x": [
+        21.5,
+        70.0
+    ],
+    "y": [
+        50,
+        100
+    ]
+}

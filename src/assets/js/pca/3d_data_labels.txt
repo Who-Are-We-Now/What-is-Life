@@ -1,0 +1,1 @@
+[['Female', 'Male', 'Both', 'Neither'], ['She', 'He', 'Both', 'Neither'], ['Strictly heterosexual female', 'Strictly lesbian female'], ['Strictly heterosexual male', 'Strictly gay male']]

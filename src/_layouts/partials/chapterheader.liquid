@@ -1,0 +1,10 @@
+<section class="chapter-header">
+  <h1>
+    {% if layout == 'chapter' and chapter > 0 %}
+      <span class="chapter-number">{{ chapter }}</span>
+    {% elsif layout == 'introduction' %}
+      <span class="chapter-number">Introduction</span>
+    {% endif %}
+    <span class="chapter-title">{{ title }}</span>
+  </h1>
+</section>

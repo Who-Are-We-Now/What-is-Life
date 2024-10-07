@@ -1,0 +1,18 @@
+{
+    "ax": "Age",
+    "ay": "%",
+    "i": [
+        3,
+        4
+    ],
+    "name": "IntersexTransOverlap",
+    "type": "AgeCat",
+    "x": [
+        21.0,
+        64.5
+    ],
+    "y": [
+        0,
+        50
+    ]
+}

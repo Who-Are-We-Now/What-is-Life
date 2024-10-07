@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 768 768" style="enable-background:new 0 0 768 768;" xml:space="preserve">
+	<style> path { fill: #000000; } @media (prefers-color-scheme: dark) {path { fill: #ffffff; } } </style> <path d="M258,493.5v-47.7c0-67.4,25.9-102.7,98.5-119.3l79.9-19.7c37.3-9.3,46.7-20.7,46.7-39.4c0-28-31.1-48.7-83-48.7
+			c-57,0-95.4,31.1-111,66.4H47.4c21.8-139,162.8-253,364-253c187.7,0,308,100.6,308,232.3c0,80.9-47.7,135.9-151.4,162.8
+			l-65.3,17.6c-22.8,6.2-31.1,17.6-31.1,38.4v10.4H258z M253.8,732V533.9h223V732H253.8z"/>
+</svg>

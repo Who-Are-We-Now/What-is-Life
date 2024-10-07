@@ -1,0 +1,27 @@
+{
+    "ax": "Age",
+    "ay": "Number of children",
+    "i": [
+        {
+            "2": [
+                0
+            ]
+        },
+        {
+            "1": [
+                0
+            ]
+        }
+    ],
+    "name": "URChildren",
+    "title": "Children born to those assigned female at birth",
+    "type": "AgeAvg",
+    "x": [
+        19.0,
+        81.0
+    ],
+    "y": [
+        0,
+        3.5
+    ]
+}

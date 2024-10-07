@@ -1,0 +1,18 @@
+{
+    "ax": "Gender presentation principal component 1",
+    "ay": "",
+    "c": "cyan",
+    "i": [
+        0
+    ],
+    "name": "GenderComponent1",
+    "type": "XY",
+    "x": [
+        -0.025,
+        0.025
+    ],
+    "y": [
+        0.0,
+        900
+    ]
+}

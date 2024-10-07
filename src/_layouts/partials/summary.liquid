@@ -1,0 +1,13 @@
+<div id="summary-popup">
+    {%- for item in collections.all | getNextCollectionItem: page -%}
+    {%- assign part = item.data.part -%}
+    {%- if item.data.layout == "partials/summary" -%}
+    <h1>
+        {{ item.data.title }}<br>
+        <strong>Who Are We Now</strong>
+    </h1>
+    <h3>Blaise Agüera y Arcas</h3>
+    {{ item.templateContent }}
+    {%- endif -%}
+    {%- endfor -%}
+</div>

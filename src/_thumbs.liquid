@@ -1,0 +1,23 @@
+---
+# permalink: "/assets/css/thumbnails.scss" (NOTE: pre-generate and imported into SASS compilation)
+permalink: false
+---
+
+{%- for item in collections.toc -%}
+  {% assign thumbnails = item.fileSlug | getChapterImages %}
+  {%- for thumb in thumbnails -%}
+    {% assign i = forloop.index0 %}
+    #th-{{ thumb.id }}{
+      width: {{ thumb.thwidth }}px;
+      background: url('/assets/images/toc/{{ item.fileSlug }}/thumbnail.webp') 0 calc(80px * -{{i}});
+      background-size: auto calc(80px * {{ thumbnails.length }});;
+    }
+    @media only screen and (max-width: 600px) {
+      #th-{{ thumb.id }}{
+        width: calc({{ thumb.thwidth }} * 0.75px);
+        background: url('/assets/images/toc/{{ item.fileSlug }}/thumbnail.webp') 0 calc(60px * -{{i}});
+        background-size: auto calc(60px * {{ thumbnails.length }});
+      }
+  }
+  {% endfor %}
+{% endfor %}

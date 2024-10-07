@@ -1,0 +1,44 @@
+{
+    "ax": "Principal component 1",
+    "ay": "Principal component 2",
+    "name": "GenderPCA3",
+    "ps": [
+        [
+            "Female",
+            "Female",
+            "orange",
+            4,
+            0.5
+        ],
+        [
+            "Male",
+            "Male",
+            "teal",
+            4,
+            0.5
+        ],
+        [
+            "Female*Male",
+            "Both",
+            "brown",
+            9,
+            0.8
+        ],
+        [
+            "(1-Female)*(1-Male)",
+            "Neither",
+            "violet",
+            9,
+            0.7
+        ]
+    ],
+    "type": "PCA",
+    "x": [
+        -0.025,
+        0.025
+    ],
+    "y": [
+        -0.028,
+        0.048
+    ]
+}

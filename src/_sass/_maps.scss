@@ -1,0 +1,1429 @@
+/*----------------
+MAPS STYLES
+-----------------*/
+
+.figure.map {
+	figure {
+		width: 100%;
+	}
+
+	.plot-labels {
+		margin-top: var(--pad-sm);
+	}
+}
+
+.map-plot {
+	.plot-footer {
+
+		//plot footer overwrite
+		@include at-media(tablet) {
+			display: block;
+			padding: var(--pad) 0;
+		}
+	}
+}
+
+.map-full-wrapper {
+	.crossfade {
+		opacity: 1;
+	}
+
+	.indicator {
+		position: relative; //override plots/full bleed scroll behavior
+		border-color: transparent;
+	}
+
+	.xfade-images {
+		position: sticky;
+		top: var(--height-header);
+		height: calc(100vh - var(--height-header));
+
+		@include at-media(tablet) {
+			width: 100%;
+		}
+	}
+
+	figure.map-image {
+		opacity: 0;
+		top: 0;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+
+		img {
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+			object-position: center center;
+		}
+
+		&:first-child {
+			opacity: 1;
+		}
+	}
+
+	.spanindicator {
+		flex: none;
+		height: 100vh;
+		width: 15px;
+		scroll-snap-type: y mandatory;
+
+		&:first-child {
+			height: 50vh;
+		}
+
+		&:last-child {
+			height: 150vh;
+		}
+	}
+
+	figcaption {
+		position: absolute;
+		bottom: 0;
+	}
+
+	.plot-labels {
+		max-width: 300px;
+		position: absolute;
+		left: var(--margin);
+		top: 10px;
+		margin-left: 0;
+	}
+
+	.key-title {
+		margin-bottom: .5em;
+	}
+
+	.key-item {
+		display: flex;
+	}
+
+	.key-color {
+		height: 90px;
+		margin: 0;
+	}
+
+	.key-label {
+		margin: -1em 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+}
+
+#votingdensity {
+	.plot-labels {
+		margin-top: 0;
+	}
+	@include at-media(tablet) {
+
+		figure[data-xfadeindex="0"],
+		figure[data-xfadeindex="1"],
+		figure[data-xfadeindex="2"],
+		figure[data-xfadeindex="3"] {
+			img {
+				object-fit: contain;
+			}
+		}
+	}
+}
+
+.map-labels p {
+	margin-left: 0;
+	padding: 0;
+}
+
+/*colors*/
+
+.key-item.white .key-color {
+	border: var(--gridline) solid 1px;
+}
+
+.key-item.space-top {
+	padding-top: 14px;
+}
+
+#antigaymap {
+	.plot-footer {
+		position: static;
+
+		.plot-labels {
+			flex-direction: row;
+		}
+
+		.col {
+			width: 50%;
+			@include at-media(mobile_lg) {
+				width: 100%;
+				&:nth-child(2){
+					margin-top: var(--pad);
+				}
+			}
+		}
+
+		.key-item {
+			width: 100%;
+			padding-bottom: 0;
+		}
+
+	}
+}
+
+/* non-full-bleed map */
+
+/* [lesbianbarmap] */
+
+#lesbianbarmap {
+
+	/* Adjust the top and left properties for each city label */
+	.label[data-name="Washington"] {
+		top: 10%;
+		left: 7%;
+	}
+
+	.label[data-name="Wisconsin"] {
+		top: 25%;
+		left: 56%;
+	}
+
+	.label[data-name="New York"] {
+		top: 23%;
+		left: 84%;
+	}
+
+	.label[data-name="Ohio"] {
+		top: 35%;
+		left: 72%;
+	}
+
+	.label[data-name="Illinois"] {
+		top: 44%;
+		left: 58%;
+	}
+
+	.label[data-name="Indiana"] {
+		top: 39%;
+		left: 64%;
+	}
+
+	.label[data-name="Tennessee"] {
+		top: 59%;
+		left: 62%;
+	}
+
+	.label[data-name="Colorado"] {
+		top: 47%;
+		left: 27.5%;
+	}
+
+	.label[data-name="California"] {
+		top: 46%;
+		left: 0%;
+	}
+
+	.label[data-name="Virginia"] {
+		top: 50%;
+		left: 80%;
+	}
+
+	.label[data-name="Arizona"] {
+		top: 57%;
+		left: 16%;
+	}
+
+	.label[data-name="Oklahoma"] {
+		top: 64%;
+		left: 45%;
+	}
+
+	.label[data-name="Georgia"] {
+		top: 67%;
+		left: 74%;
+	}
+
+	.label[data-name="Alabama"] {
+		top: 70%;
+		left: 65%;
+	}
+
+	.label[data-name="Texas"] {
+		top: 75%;
+		left: 41%;
+	}
+
+
+	@include at-media(mobile) {
+		.label[data-name="Illinois"] {
+			left: 56%;
+		}
+	}
+}
+
+/* [sexratiomap], [tfrmap] */
+
+#sexratiomap,
+#tfrmap {
+	/* avoid cropping the vertical range */
+
+	.plot-footer.vertical .plot-labels.range {
+		margin-bottom: 0.5em;
+	}
+}
+
+#tfrmap {
+
+	/*position map slightly right on mobile */
+
+	@include at-media(mobile_lg) {
+		figure {
+			padding-right: 0;
+		}
+
+		.plot-content {
+			padding-left: var(--pad-body);
+		}
+	}
+
+}
+
+/* [intersexrightsmap] */
+
+#intersexrightsmap {
+	.label[data-name="Austria"] {
+		top: 14%;
+		left: 51%;
+	}
+
+	.label[data-name="Portugal"] {
+		top: 22%;
+		right: 53%;
+	}
+
+	.label[data-name="Spain"] {
+		top: 17%;
+		right: 50%;
+	}
+
+	.label[data-name="Greece"] {
+		top: 22%;
+		left: 58%;
+	}
+
+	.label[data-name="Uruguay"] {
+		top: 68%;
+		left: 37%;
+	}
+
+	.label[data-name="Malta"] {
+		top: 28%;
+		left: 50%;
+	}
+
+	@include at-media(mobile) {
+
+		.label[data-name=Spain] {
+			top: 14%;
+			right: 50%;
+		}
+
+		.label[data-name=Austria] {
+			top: 10%;
+			left: 51%;
+		}
+
+		.label[data-name=Uruguay] {
+			top: 64%;
+			left: 37%;
+		}
+	}
+
+
+}
+
+
+/*full-bleed map*/
+
+/* [votingdensity] labels: matrix label layout */
+
+#votingdensity {
+
+	.plot-labels {
+		left: auto;
+		right: var(--margin);
+		/* border: solid 1px; */
+		height: auto;
+
+
+
+		.key-title {
+			margin-bottom: 0.5em;
+			height: 23px;
+		}
+
+		.blue {
+			color: rgb(0 173 236);
+		}
+
+		.red {
+			color: rgb(238 58 121);
+		}
+	}
+
+	.map-labels {
+		.label {
+			position: absolute;
+		}
+
+		p {
+			@extend .sans-serif;
+			color: #736f72;
+			mix-blend-mode: multiply;
+			width: 100%;
+			line-height: 1rem;
+		}
+	}
+
+	.matrix {
+		flex-direction: column;
+		width: 90px;
+		top: 40px;
+		right: var(--pad-body);
+
+		@include at-media(mobile) {
+			right: 1.5rem;
+		}
+
+		.key-item {
+			flex-direction: column;
+			position: absolute;
+			mix-blend-mode: multiply;
+		}
+
+		.key-label {
+			flex-direction: row;
+			font-size: 12px;
+			margin: 0 -2.5em 0 -1em;
+			padding: calc(var(--pad-xs)/2) 0 0 0;
+		}
+
+		.key-title {
+			text-align: center;
+			width: 90px;
+
+		}
+
+		.key-color {
+			width: 90px;
+		}
+	}
+
+	.mtrx-1 {
+		.key-color {
+			background-image: linear-gradient(rgb(0 173 236), rgba(0, 174, 239, 0));
+		}
+
+		.key-label {
+			position: absolute;
+			width: 132px;
+			transform: rotate(270deg);
+			margin: 0 -3.5em 0 -1em;
+			margin-top: 50px;
+			margin-left: -80px;
+			top: -22px;
+			color: rgb(0 173 236);
+		}
+
+		.key-title {
+			position: absolute;
+			width: 110px;
+			transform: rotate(270deg);
+			margin-top: 35px;
+			margin-left: -85px;
+
+		}
+	}
+
+	.mtrx-2 {
+		.key-color {
+			background-image: linear-gradient(90deg, rgba(238, 51, 119, 0), rgb(238 58 121));
+		}
+
+		.key-label {
+			color: rgb(238 58 121);
+		}
+	}
+
+	[data-xfadeindex="0"] .plot-labels {
+		text-align: right;
+		flex-direction: column;
+
+		.key-item {
+			flex-direction: row-reverse;
+			padding-right: 0;
+		}
+
+		.key-color {
+			background-image: linear-gradient(rgb(0 174 239), rgb(255 255 255), rgb(238 51 119));
+			margin: 0 0 0 6px;
+		}
+
+	}
+
+	&.map-full-wrapper {
+		figure.map-image {
+			&[data-xfadeindex="4"] {
+				.label[data-name="Kansas City"] {
+					top: 79%;
+					left: 6%;
+				}
+
+				.label[data-name="St.Louis"] {
+					top: 83%;
+					left: 21%;
+				}
+
+				.label[data-name="Indianapolis"] {
+					top: 73%;
+					left: 35%;
+				}
+
+				.label[data-name="Louisville"] {
+					top: 86%;
+					left: 36%;
+				}
+
+				.label[data-name="Minneapolis"] {
+					top: 25%;
+					left: 14%;
+				}
+
+				.label[data-name="Milwaukee"] {
+					top: 47%;
+					left: 28%;
+				}
+
+				.label[data-name="Chicago"] {
+					top: 56%;
+					left: 29%;
+				}
+
+				.label[data-name="Detroit"] {
+					top: 50%;
+					left: 44%;
+				}
+
+				.label[data-name="Cleveland"] {
+					top: 61%;
+					left: 49%;
+				}
+
+				.label[data-name="Albany"] {
+					top: 45%;
+					left: 69%;
+				}
+
+				.label[data-name="Boston"] {
+					top: 48%;
+					left: 83%;
+				}
+
+				.label[data-name="Springfield"] {
+					top: 47%;
+					left: 74%;
+				}
+
+				.label[data-name="Providence"] {
+					top: 55%;
+					left: 79%;
+				}
+
+				.label[data-name="Hartford"] {
+					top: 53%;
+					left: 72%;
+				}
+
+				.label[data-name="Ithaca"] {
+					top: 52%;
+					left: 66%;
+				}
+
+				.label[data-name="Philadelphia"] {
+					top: 65.5%;
+					left: 64%;
+				}
+
+				.label[data-name="New York"] {
+					top: 64.8%;
+					left: 74.2%;
+				}
+
+				.label[data-name="Baltimore"] {
+					top: 75%;
+					left: 65.5%;
+				}
+
+				.label[data-name="Washington"] {
+					top: 82%;
+					left: 64%;
+				}
+
+				@include at-media(tablet) {
+					img {
+						object-position: 90% center;
+					}
+
+					.label[data-name="Kansas City"],
+					.label[data-name="St.Louis"],
+					.label[data-name="Minneapolis"],
+					.label[data-name="Milwaukee"],
+					.label[data-name="Chicago"],
+					.label[data-name="Indianapolis"],
+					.label[data-name="Louisville"],
+					.label[data-name="Detroit"],
+					.label[data-name="Cleveland"] {
+						display: none;
+					}
+
+					.label[data-name=Albany] {
+						top: 46%;
+						left: 53%;
+					}
+
+					.label[data-name=Springfield] {
+						top: 48%;
+						left: 61%;
+					}
+
+					.label[data-name=Providence] {
+						top: 53%;
+						left: 75%;
+					}
+
+					.label[data-name=Hartford] {
+						top: 53%;
+						left: 59%;
+					}
+
+					.label[data-name=Ithaca] {
+						top: 52%;
+						left: 45%;
+					}
+
+					.label[data-name=Philadelphia] {
+						top: 61.5%;
+						left: 40%;
+					}
+
+					.label[data-name="New York"] {
+						top: 61.8%;
+						left: 62.2%;
+					}
+
+					.label[data-name=Baltimore] {
+						top: 70%;
+						left: 45.5%;
+					}
+
+					.label[data-name=Washington] {
+						top: 76%;
+						left: 42%;
+					}
+				}
+
+				@include at-media(mobile_lg) {
+
+
+					.label[data-name=Albany] {
+						top: 45%;
+						left: 31%;
+					}
+
+					.label[data-name=Springfield] {
+						top: 47%;
+						left: 42%;
+					}
+
+					.label[data-name=Providence] {
+						top: 52%;
+						left: 62%;
+					}
+
+					.label[data-name=Boston] {
+						top: 48%;
+						left: 71%;
+					}
+
+					.label[data-name=Baltimore] {
+						top: 69%;
+						left: 15.5%;
+					}
+
+					.label[data-name=Hartford] {
+						top: 52%;
+						left: 37%;
+					}
+
+					.label[data-name="New York"] {
+						top: 61.8%;
+						left: 45.2%;
+					}
+
+					.label[data-name=Philadelphia] {
+						top: 62.5%;
+						left: 14%;
+					}
+
+					.label[data-name=Washington] {
+						top: 76%;
+						left: 14%;
+					}
+
+
+				}
+			}
+
+			&[data-xfadeindex="5"] {
+				.label[data-name="Minneapolis"] {
+					top: 35%;
+					left: 26%;
+				}
+
+				.label[data-name="St. Paul"] {
+					top: 55%;
+					left: 38%;
+				}
+
+				@include at-media(tablet) {
+					img {
+						object-position: 35% center;
+					}
+
+					.label[data-name="St. Paul"] {
+						top: 49%;
+						left: 44%;
+					}
+
+					.label[data-name=Minneapolis] {
+						top: 39%;
+						left: 20%;
+					}
+				}
+
+				@include at-media(mobile_lg) {
+
+
+					.label[data-name=Minneapolis] {
+						top: 37%;
+						left: 13%;
+					}
+
+					.label[data-name="St. Paul"] {
+						left: 47%;
+					}
+				}
+
+			}
+
+			&[data-xfadeindex="6"] {
+				.label[data-name="Fort Worth"] {
+					top: 25%;
+					left: 32%;
+				}
+
+				.label[data-name="Dallas"] {
+					top: 20%;
+					left: 49%;
+				}
+
+				.label[data-name="Austin"] {
+					top: 62%;
+					left: 36%;
+				}
+
+				.label[data-name="Houston"] {
+					top: 72%;
+					left: 50%;
+				}
+
+				.label[data-name="San Antonio"] {
+					top: 81%;
+					left: 30%;
+				}
+
+				@include at-media(tablet) {
+					.label[data-name="Fort Worth"] {
+						top: 30%;
+						left: 24%;
+					}
+
+					.label[data-name=Dallas] {
+						top: 27%;
+						left: 54%;
+					}
+
+					.label[data-name=Austin] {
+						top: 59%;
+						left: 26%;
+					}
+
+					.label[data-name=Houston] {
+						top: 67%;
+						left: 54%;
+					}
+
+					.label[data-name="San Antonio"] {
+						top: 74%;
+						left: 13%;
+					}
+
+				}
+
+				@include at-media(mobile_lg) {
+					.label[data-name="Fort Worth"] {
+						top: 31%;
+						left: -4%;
+					}
+
+					.label[data-name="San Antonio"] {
+						top: 74%;
+						left: -2%;
+					}
+
+					.label[data-name=Austin] {
+						top: 58%;
+						left: 6%;
+					}
+
+					.label[data-name=Houston] {
+						top: 64%;
+						left: 50%;
+					}
+				}
+			}
+
+			&[data-xfadeindex="7"] {
+				.label[data-name="Sacramento"] {
+					top: 32.5%;
+					left: 14%;
+				}
+
+				.label[data-name="Santa Rosa"] {
+					top: 34%;
+					left: 6%;
+				}
+
+				.label[data-name="Fresno"] {
+					top: 86%;
+					left: 47%;
+				}
+
+				.label[data-name="Stockton"] {
+					top: 48%;
+					left: 25%;
+				}
+
+				.label[data-name="San Francisco"] {
+					top: 59%;
+					left: 8%;
+				}
+
+				.label[data-name="Oakland"] {
+					top: 55%;
+					left: 9%;
+				}
+
+				.label[data-name="Palo Alto"] {
+					top: 66%;
+					left: 5%;
+				}
+
+				.label[data-name="Fremont"] {
+					top: 66%;
+					left: 17%;
+				}
+
+				.label[data-name="San Jose"] {
+					top: 71%;
+					left: 18%;
+				}
+
+				@include at-media(tablet) {
+					img {
+						object-position: 2% center;
+					}
+
+					.label[data-name=Fresno] {
+						display: none;
+					}
+
+					.label[data-name=Sacramento] {
+						top: 36.5%;
+						left: 27%;
+					}
+
+					.label[data-name="Santa Rosa"] {
+						top: 38%;
+						left: 11%;
+					}
+
+					.label[data-name=Stockton] {
+						top: 49%;
+						left: 47%;
+					}
+
+					.label[data-name="San Francisco"] {
+						top: 58%;
+						left: 8%;
+					}
+
+					.label[data-name=Oakland] {
+						top: 54%;
+						left: 17%;
+					}
+
+					.label[data-name="Palo Alto"] {
+						top: 63%;
+						left: 12%;
+					}
+
+					.label[data-name=Fremont] {
+						top: 63%;
+						left: 36%;
+					}
+
+					.label[data-name="San Jose"] {
+						top: 66%;
+						left: 37%;
+					}
+				}
+
+				@include at-media(mobile_lg) {
+
+
+
+					.label[data-name=Fremont] {
+						top: 63%;
+						left: 53%;
+					}
+
+					.label[data-name="San Jose"] {
+						top: 67%;
+						left: 58%;
+					}
+
+					.label[data-name="San Francisco"] {
+						top: 57%;
+						left: 3%;
+					}
+
+					.label[data-name=Oakland] {
+						top: 53%;
+						left: 19%;
+					}
+
+					.label[data-name="Santa Rosa"] {
+						top: 37%;
+					}
+
+					.label[data-name=Sacramento] {
+						top: 36.5%;
+						left: 35%;
+					}
+
+					.label[data-name="Palo Alto"] {
+						top: 64%;
+						left: 15%;
+					}
+
+
+
+				}
+			}
+
+			&[data-xfadeindex="8"] {
+				.label[data-name="Hartford"] {
+					top: 81%;
+					left: 55%;
+				}
+
+				.label[data-name="Albany"] {
+					top: 61%;
+					left: 49%;
+				}
+
+				.label[data-name="Boston"] {
+					top: 71%;
+					left: 72%;
+				}
+
+				.label[data-name="Buffalo"] {
+					top: 61%;
+					left: 20%;
+				}
+
+				.label[data-name="Rochester"] {
+					top: 55%;
+					left: 23%;
+				}
+
+				.label[data-name="Syracuse"] {
+					top: 57%;
+					left: 33%;
+				}
+
+				.label[data-name="Springfield"] {
+					top: 74%;
+					left: 58%;
+				}
+
+				.label[data-name="New Haven"] {
+					top: 89%;
+					left: 57.5%;
+				}
+
+				.label[data-name="Providence"] {
+					top: 82%;
+					left: 64%;
+				}
+
+				@include at-media(tablet) {
+					img {
+						object-position: 68% center;
+					}
+
+					.label[data-name="Buffalo"],
+					.label[data-name="Rochester"],
+					.label[data-name="Binghamton"] {
+						display: none;
+					}
+
+					.label[data-name=Hartford] {
+						top: 51%;
+						left: 80%;
+					}
+
+					.label[data-name=Albany] {
+						top: 59%;
+						left: 33%;
+					}
+
+					.label[data-name=Boston] {
+						top: 68.5%;
+						left: 77%;
+					}
+
+					.label[data-name=Syracuse] {
+						top: 57%;
+						left: 5%;
+					}
+
+					.label[data-name=Springfield] {
+						top: 69%;
+						left: 51%;
+					}
+
+					.label[data-name="New Haven"] {
+						top: 81%;
+						left: 48.5%;
+					}
+
+					.label[data-name=Providence] {
+						top: 74%;
+						left: 66%;
+					}
+				}
+
+				@include at-media(mobile_lg) {
+
+
+
+					.label[data-name=Springfield] {
+						top: 68%;
+						left: 38%;
+					}
+
+					.label[data-name=Albany] {
+						left: 19%;
+					}
+
+					.label[data-name=Providence] {
+						top: 78%;
+						left: 64%;
+					}
+
+					.label[data-name="New Haven"] {
+						top: 81%;
+						left: 34.5%;
+					}
+
+					.label[data-name=Hartford] {
+						top: 54%;
+						left: 76%;
+					}
+
+
+				}
+			}
+
+			&[data-xfadeindex="9"] {
+
+
+				.label[data-name=Dayton] {
+					top: 45%;
+					left: 57%;
+				}
+
+				.label[data-name=Toledo] {
+					top: 8%;
+					left: 68%;
+				}
+
+				.label[data-name="Fort Wayne"] {
+					top: 19%;
+					left: 53%;
+				}
+
+				.label[data-name="Indianapolis"] {
+					top: 41%;
+					left: 43%;
+				}
+
+				.label[data-name="Cincinnati"] {
+					top: 63%;
+					left: 57%;
+				}
+
+				.label[data-name="Columbus"] {
+					top: 48%;
+					left: 70%;
+				}
+
+				.label[data-name="Louisville"] {
+					top: 75%;
+					left: 47%;
+				}
+
+				.label[data-name="Cleveland"] {
+					top: 11%;
+					left: 71%;
+				}
+
+				.label[data-name="Lexington"] {
+					top: 78%;
+					left: 57.5%;
+				}
+
+				.label[data-name="St.Louis"] {
+					top: 64%;
+					left: 5%;
+				}
+
+				.label[data-name="Chicago"] {
+					top: 12%;
+					left: 32%;
+				}
+
+
+
+				@include at-media(tablet) {
+
+
+					.label[data-name="St.Louis"],
+					.label[data-name="Cleveland"] {
+
+						display: none;
+					}
+
+					.label[data-name=Columbus] {
+						top: 48%;
+						left: 87%;
+					}
+
+					.label[data-name=Toledo] {
+						top: 18%;
+						left: 84%;
+					}
+
+					.label[data-name="Fort Wayne"] {
+						top: 24%;
+						left: 53%;
+					}
+
+					.label[data-name=Dayton] {
+						top: 46%;
+						left: 65%;
+					}
+
+					.label[data-name=Chicago] {
+						top: 18%;
+						left: 21%;
+					}
+
+					.label[data-name=Lexington] {
+						top: 73%;
+						left: 68.5%;
+					}
+
+					.label[data-name=Indianapolis] {
+						top: 44%;
+						left: 38%;
+					}
+
+					.label[data-name=Cincinnati] {
+						top: 61%;
+						left: 64%;
+					}
+
+					.label[data-name=Louisville] {
+						top: 70%;
+						left: 47%;
+					}
+
+
+				}
+
+				@include at-media(mobile_lg) {
+
+					.label[data-name="Columbus"],
+					.label[data-name=Toledo] {
+						display: none;
+					}
+
+					.label[data-name="Fort Wayne"] {
+						top: 24%;
+						left: 46%;
+					}
+
+					.label[data-name=Dayton] {
+						top: 46%;
+						left: 72%;
+					}
+
+					.label[data-name="Cincinnati"] {
+						top: 62%;
+						left: 72%;
+					}
+
+					.label[data-name="Indianapolis"] {
+						top: 44%;
+						left: 28%;
+					}
+
+					.label[data-name="Chicago"] {
+						top: 17%;
+						left: 2%;
+					}
+
+					.label[data-name=Louisville] {
+						top: 78%;
+						left: 47%;
+					}
+
+					.label[data-name=Lexington] {
+						top: 74%;
+						left: 71.5%;
+					}
+
+
+				}
+			}
+
+			&[data-xfadeindex="10"] {
+				.label[data-name=Oneida] {
+					top: 34%;
+					left: 56%;
+				}
+
+				.label[data-name=Poughkeepsie] {
+					top: 82%;
+					left: 85%;
+				}
+
+				.label[data-name=Kingston] {
+					top: 75%;
+					left: 85%;
+				}
+
+				.label[data-name=Ithaca] {
+					top: 58%;
+					left: 45%;
+				}
+
+				.label[data-name=Corning] {
+					top: 66%;
+					left: 33%;
+				}
+
+				.label[data-name=Elmira] {
+					top: 69%;
+					left: 40%;
+				}
+
+				.label[data-name="Utica"] {
+					top: 35%;
+					left: 62%;
+				}
+
+				.label[data-name="Albany"] {
+					top: 53%;
+					left: 82%;
+				}
+
+				.label[data-name="Buffalo"] {
+					top: 45%;
+					left: 4%;
+				}
+
+				.label[data-name="Rochester"] {
+					top: 28%;
+					left: 23%;
+				}
+
+				.label[data-name="Syracuse"] {
+					top: 36%;
+					left: 51%;
+				}
+
+				.label[data-name="Binghamton"] {
+					top: 66%;
+					left: 51%;
+				}
+
+				@include at-media(tablet_lg) {
+					.label[data-name=Utica] {
+
+						top: 36%;
+						left: 65%;
+					}
+				}
+
+
+				@include at-media(tablet) {
+
+					img {
+						object-position: 95% center;
+					}
+
+					.label[data-name=Oneida],
+					.label[data-name=Ithaca],
+					.label[data-name=Corning],
+					.label[data-name=Elmira],
+					.label[data-name="Buffalo"],
+					.label[data-name="Rochester"] {
+						display: none;
+					}
+
+					.label[data-name=Albany] {
+						top: 53%;
+						left: 74%;
+					}
+
+
+
+
+
+					.label[data-name=Utica] {
+						top: 36%;
+						left: 36%;
+					}
+
+					.label[data-name=Binghamton] {
+						top: 63%;
+						left: 11%;
+					}
+
+					.label[data-name=Syracuse] {
+						top: 39%;
+						left: 11%;
+					}
+
+				}
+
+				@include at-media(mobile_lg) {
+
+					.label[data-name="Binghamton"],
+					.label[data-name="Syracuse"] {
+						display: none;
+					}
+
+
+
+					.label[data-name=Albany] {
+						top: 50%;
+						left: 48%;
+					}
+
+					.label[data-name=Utica] {
+						top: 35%;
+						left: 26%;
+					}
+
+
+
+				}
+
+			}
+
+		}
+
+
+	}
+
+
+}
+
+
+
+
+/*[densitymap]*/
+
+
+#densitymap {
+	&.map-full-wrapper .plot-labels {
+		width: 100%;
+		max-width: none;
+		left: 0;
+		height: 30px;
+		padding-right: 0;
+	}
+
+	.label {
+		position: absolute;
+		color: rgb(238 51 119);
+		letter-spacing: .02em;
+		top: 3%;
+
+		&:first-child {
+			left: 29%;
+
+			@include at-media(tablet_lg) {
+				left: 25%;
+			}
+
+			@include at-media(tablet) {
+				left: 18%;
+			}
+
+			@include at-media(mobile_lg) {
+				left: 10%;
+			}
+		}
+
+		&:last-child {
+			left: 60%;
+		}
+	}
+
+	[data-xfadeindex="1"] figcaption {
+		color: white;
+	}
+}
+
+
+
+#jesusland-map .label {
+	font-weight: 500;
+	color: white;
+	letter-spacing: .02em;
+}

@@ -1,0 +1,19 @@
+{
+    "ax": "Age",
+    "ay": "%",
+    "i": [
+        1,
+        2
+    ],
+    "name": "URMarried",
+    "title": "\u201cAre you married?\u201d",
+    "type": "AgeCat",
+    "x": [
+        19.5,
+        75.5
+    ],
+    "y": [
+        0,
+        100
+    ]
+}

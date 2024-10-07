@@ -1,0 +1,117 @@
+<header>
+	<nav>
+		<div class="navlink">
+			<div class="icon">
+				<div class="icon_close">
+					<svg
+						width="17"
+						height="17"
+						viewBox="0 0 17 17"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<line
+							x1="1.42893"
+							y1="1.22183"
+							x2="16.2782"
+							y2="16.0711" />
+						<line
+							x1="15.9246"
+							y1="1.57539"
+							x2="1.07539"
+							y2="16.4246" />
+					</svg>
+				</div>
+			</div>
+			<div class="current-page">
+				<a class="nav-home" href="/"><span class="nav-sitetitle">What is Intelligence?</span></a>
+				<div class="nav-title">
+					{%- for item in collections.all -%}
+						{%- assign marker = item.data.chapter -%}
+						{%- if item.data.chapter == 0 -%}
+							{%- assign marker = "Introduction" -%}
+						{%- elsif item.data.layout == "interlude" -%}
+							{%- assign marker = "Interlude" -%}
+						{%- elsif item.data.layout == "section" -%}
+							{%- assign marker = item.data.name -%}
+						{%- elsif item.data.part == 0 or item.data.layout == "others" -%}
+							{%- assign marker = "" -%}
+						{%- endif -%}
+
+						{%- if item.url == page.url -%}
+							<span class="marker">{{ marker }}</span>
+							{%- if item.data.section.title != blank -%}
+								{{ item.data.section.title }}
+							{%- else -%}
+								{{ item.data.title }}
+							{%- endif -%}
+						{%- endif -%}
+
+					{%- endfor -%}
+						<svg width="11" height="10" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M5.5 7L0.73686 0.25L10.2631 0.250001L5.5 7Z"/>
+						</svg>
+				</div>
+			</div>
+			
+		</div>
+		<div class="info">
+			<span class="open">●●●</span>
+			<span class="close">✕</span>
+		</div>
+		
+		<ul id="toc">
+			{%- for item in collections.toc -%}
+				{%- assign marker = item.data.chapter -%}
+				{%- if item.data.chapter == 0 -%}
+					{%- assign marker = "Introduction" -%}
+				{%- elsif item.data.layout == "interlude" -%}
+					{%- assign marker = "Interlude" -%}
+				{%- elsif item.data.part == 0 -%}
+					{%- assign marker = "" -%}
+				{%- endif -%}
+
+				{%- assign chapter_images = item.fileSlug | getChapterImages -%}
+
+				{%- if item.data.layout == "section" -%}
+					{% unless  item.fileSlug contains 'page-not-found' %}
+						<li id="toc-{{item.data.title | slugify}}" class="toc-section part-{{ item.data.part }}{% if item.url == page.url %} is-active{% endif %}">
+							<a href="/{{ item.fileSlug }}" class="toc-link">
+								<div class="marker">Part {{ item.data.name }}</div>
+								{{ item.data.title }}
+							</a>
+						</li>
+					{% endunless %}
+				{%- elsif item.data.layout == "others" -%}
+						<li id="toc-{{ item.fileSlug }}" class="toc-chapter {{ item.data.layout }}  {{ item.data.title | downcase | replace: ' ', '-' }}{% if item.url == page.url %} is-active{% endif %}">
+							<a href="/{{ item.fileSlug }}" class="toc-link">
+								{{ item.data.title }}
+							</a>
+						</li>
+				{%- else -%} 
+					<li id="toc-{{ item.fileSlug }}" class="toc-chapter {{ item.data.title | downcase | replace: ' ', '-' }}{% if item.url == page.url %} is-active{% endif %}">
+						<div class="toc-link">
+							<div class="toc-content">
+								<div class="marker">{{ marker }}</div>
+								{{ item.data.title }}
+							</div>
+							<div class="toc-thumbnails">
+								{%- for image in chapter_images -%}
+									{%- assign i = forloop.index0 -%}  			
+									<a id="th-{{ image.id }}" alt="thumbnail for {{ image.id }}" class="th-{{ item.fileSlug }}-{{ i }} thumb th-{{ image.shortcode }}" name="{{ image.url }}" href="						              
+									{%- if item.url == page.url -%}
+										{%- if image.xfade_id.length != 0 -%}#{{ image.xfade_id }}{%- else -%}#{{ image.id }}{%- endif -%}
+									{%- else -%}
+										{%- if image.xfade_id.length != 0 -%}{{ url }}/{{item.fileSlug}}/#{{ image.xfade_id }} {%- else -%}{{ url }}/{{item.fileSlug}}/#{{ image.id }}{%- endif -%}
+									{%- endif -%}
+									" alt="{%- if image.xfade_id.length != 0 -%}{{ image.xfade_id }}{%- else -%}{{ image.id }}{%- endif -%}"></a>
+								{%- endfor -%}
+							</div>
+						</div>
+					</li>
+	 
+				{%- endif -%}
+			{%- endfor -%}
+			
+		</ul>
+	</nav>
+</header>

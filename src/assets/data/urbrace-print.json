@@ -1,0 +1,21 @@
+{
+    "ax": "Square meters per person",
+    "ay": "%",
+    "i": [
+        0,
+        1,
+        2,
+        3,
+        4
+    ],
+    "name": "UrbRace",
+    "type": "DensityCat",
+    "x": [
+        1.22,
+        5.41425
+    ],
+    "y": [
+        0,
+        100
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "ax": "Age",
+    "ay": "%",
+    "i": [
+        4,
+        5
+    ],
+    "name": "HandedSexMinority2",
+    "type": "AgeCat",
+    "x": [
+        21.0,
+        65.0
+    ],
+    "y": [
+        0,
+        10
+    ]
+}

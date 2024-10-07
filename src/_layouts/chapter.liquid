@@ -1,0 +1,21 @@
+---
+layout: default.liquid
+tags: article
+---
+
+{% include "partials/chapterheader" %}
+<article>
+  <section class="content">
+    {{ content }}
+    <div class="indicators">
+      <div class="fixed-indicator"></div>
+      <div class="figure-indicators"></div>
+    </div>
+  </section>
+  <div id="footnote-popup" class="footnote-text"></div>
+</article>
+{% include "partials/nextpage" %}
+<script>
+  let webPlots = {};
+  let activeBin = 0;
+</script>

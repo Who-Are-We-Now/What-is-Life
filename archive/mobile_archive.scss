@@ -1,0 +1,484 @@
+/*
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Responsive Layout
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+*/
+
+
+@include at-media(tablet_lg) {
+	:root {
+		--max-width: 90vw;
+		--pad-section: 40px;
+		--heading-size: 42px;
+		--large-size: 30px;
+		--max-width-text: auto;
+		--indent: 2rem;
+	}
+
+	nav .navlink {
+		padding: var(--pad-sm) calc((100vw - (var(--max-width)))/2);
+	}
+
+	nav {
+		.icon {
+			position: absolute;
+			// .text {
+			// 	display: none;
+			// }
+
+		}
+	}
+
+	.cols {
+		.col {
+			width: 100%;
+			flex: auto;
+
+			&:first-child {
+				order: 2;
+			}
+
+			&.image {
+				order: 1;
+				padding: calc(var(--pad-section)*2) 0;
+
+				figure {
+					margin: auto;
+				}
+
+				&.true {
+					figure {
+						float: none; //remove indent
+					}
+				}
+			}
+		}
+
+		&.md figure {
+			width: var(--width-text);
+		}
+
+		.col-2 {
+			figure {
+
+				&.sm,
+				&.md {
+					width: 30%;
+				}
+			}
+		}
+	}
+
+	// .plot-scroll {
+	// 	flex-direction: column;
+	// }
+	// .plot-scroll .plot-col {
+	// 	position: relative;
+	// }
+	// .plot-scroll .plot-col.text {
+	// 	min-height: auto;
+	// 	order: 3;
+	// }
+	// .plot-scroll .plot-col.chart{
+	// 	order: 2;
+	// 	height: 60vh;
+	// 	margin-top: var(--pad-section);
+	// }
+	// .plot-scroll .plot-col.steps{
+	// 	order: 1;
+	// 	position: absolute;
+	// 	height: 60vh;
+	// }
+
+
+
+	article p,
+	article hr,
+	article table,
+	.col blockquote p {
+		width: 100%;
+	}
+
+	.footnote-text {
+		// position: fixed;
+		width: calc(100vw - var(--pad-body)*2);
+		// top: 50%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	body.interlude {
+		main {
+
+			section:not(section.chapter-next),
+			p:not(.footnote-text p) {
+				width: 100%;
+			}
+		}
+
+		.cols {
+			figure {
+
+				&.md,
+				&.lg {
+					width: 100%;
+				}
+
+			}
+		}
+
+		figure {
+			padding: var(--pad-body) 0;
+		}
+
+		figure.no-container {
+			position: relative;
+			display: block;
+			width: 100%;
+			padding: calc(var(--pad)*2) 0;
+
+			&.lg {
+				width: 100%;
+				transform: translateX(0%);
+			}
+
+			&.sm {
+				width: 50%;
+				margin-left: 25%;
+			}
+
+			&.md {
+				width: 75%;
+			}
+
+			&.true {
+				float: none;
+			}
+		}
+	}
+
+	body#home {
+		nav #toc li.part .marker {
+			//remove indent for chapters
+			position: relative;
+			top: 3px;
+		}
+
+		nav .navlink {
+			padding: var(--pad-sm) var(--pad-section);
+		}
+
+		main {
+			a.title h1 {
+				font-size: 8.5rem;
+			}
+
+			.bg img {
+				&:first-child {
+					width: 45vw;
+				}
+
+				&:nth-child(2) {
+					left: 60vw;
+					width: 50vw;
+				}
+
+				&:nth-child(3) {
+					left: 45vw;
+					width: 30vw;
+				}
+
+				&:nth-child(4) {
+					top: 47vh;
+					left: 50vw;
+					width: 60vw;
+				}
+
+				&:nth-child(5) {
+					width: 60vw;
+				}
+			}
+		}
+	}
+
+	.summary {
+		width: 80vw;
+	}
+
+}
+
+
+@include at-media(tablet) {
+	:root {
+		--pad-section: 32px;
+	}
+
+	nav {
+		.navlink {
+			display: block;
+			width: 100vw;
+			height: auto;
+			min-height: 50px;
+			// border-bottom: 0;
+			// padding-bottom: 0;
+			// .current-page:not(body#home .current-page) {
+			// display: block;
+			// padding-right: 0;
+			// font-size: var(--heading-size);
+			// padding-top: var(--pad-section);
+			// // display: none;
+			// padding-top: 3rem;
+			// text-align: left;
+			// border-bottom: 1px solid;
+			// padding-bottom: var(--pad);
+			// padding-bottom: var(--pad-sm);
+			// padding-left: 50px;
+			// }
+			// .marker:not(body#home .marker){
+			// 	display: block; /*line-break*/
+			// }
+		}
+
+		// .navlink.nav-up,
+		// .navlink.nav-down {
+		// 	height: auto;
+		// 	.current-page:not(body#home .current-page) {
+		// 		display: block;
+		// 	}
+
+		// }
+		/* 1column index*/
+
+		#toc {
+			padding: 44px 0;
+		}
+
+		#toc li a {
+			flex-direction: column;
+
+		}
+
+		.toc-thumbnails {
+			padding-top: var(--pad);
+
+			img {
+				height: 55px;
+			}
+		}
+
+		.toc-content {
+			width: 95%;
+		}
+
+
+	}
+
+
+	body#home {
+
+		main {
+			.bg img {
+				&:first-child {
+					width: 70vw;
+					left: -10vw;
+				}
+
+				&:nth-child(2) {
+					width: 79vw;
+					left: 40vw;
+				}
+
+				&:nth-child(3) {
+					top: 25vh;
+					left: 55vw;
+					width: 40vw;
+				}
+
+				&:nth-child(4) {
+					top: 73vh;
+					left: 45vw;
+					width: 60vw;
+				}
+
+				&:nth-child(5) {
+					top: 62vh;
+					left: -20vw;
+					width: 75vw;
+				}
+			}
+
+			a.title {
+				h1 {
+					font-size: 7rem;
+				}
+
+				h3 {
+					font-size: 1.75rem;
+					margin-bottom: -10px;
+				}
+			}
+		}
+	}
+
+
+}
+
+@include at-media(mobile) {
+	:root {
+		--max-width: 90vw;
+		--pad-body: 20px;
+		--indent: 1.5rem;
+		--heading-size: 38px;
+		--large-size: 28px;
+		// --height-header: 130px;
+
+	}
+
+
+	nav #toc li .toc-link {
+		flex-direction: column;
+	}
+
+
+	.summary {
+		width: 90vw;
+	}
+
+	.icon,
+	.info {
+		// display:none;
+	}
+
+	.icon {
+		position: absolute;
+	}
+
+	.info {
+		display: none;
+	}
+
+
+	.cols.md figure {
+		width: 100%;
+	}
+
+
+	.home-cover {
+		padding: 0;
+	}
+
+	.info {
+		position: absolute;
+		right: var(--pad);
+
+	}
+
+	body#home {
+		main a.title {
+			position: relative;
+			padding-top: 28vh;
+
+			h1 {
+				width: 100%;
+				font-size: 6rem;
+			}
+		}
+
+		nav {
+
+			.current-page,
+			.info {
+				padding: 3px 8px;
+			}
+		}
+	}
+
+
+	/* article: 1 column structure --------------------------------------------------*/
+
+	section.content {
+		width: 100%;
+		padding-right: 0;
+	}
+
+	.image {
+		max-width: 100%;
+		width: 100%;
+		padding-top: var(--pad);
+	}
+
+	//hide img indicator 
+	// .seq-indicators {
+	// 	display: none;
+	// }
+
+	.img-wrapper {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	//plot 
+
+	[data-format=Bars] .plot-labels {
+		flex-direction: column;
+	}
+
+
+
+	//maps
+	.map-static {
+		position: relative;
+		width: 100%;
+		left: 0;
+		height: auto;
+		padding-top: var(--pad-body);
+	}
+
+
+	//interlude
+
+	.interlude figure.no-container.sm {
+		margin-left: 0;
+	}
+
+	body.interlude main section:not(section.chapter-next),
+	body.interlude main p:not(.footnote-text p) {
+		width: 100%;
+	}
+
+	body.interlude figure.no-container.lg {
+		width: 100%;
+	}
+
+	body.interlude .cols figure.sm {
+		width: 70%;
+	}
+
+	body.interlude .cols figure.lg {
+		width: 100%;
+	}
+
+	body.interlude figure.no-container.true {
+		float: none;
+	}
+
+	body.interlude figure.no-container.lg {
+		transform: translateX(0%)
+	}
+
+	body.interlude figure.no-container {
+		position: relative;
+	}
+
+	body.interlude figure.no-container {
+		width: 100%;
+	}
+
+	body.interlude figure {
+		padding: var(--pad-section) 0;
+	}
+
+	body.interlude figure.no-container.md {
+		transform: translateX(0%);
+	}
+}

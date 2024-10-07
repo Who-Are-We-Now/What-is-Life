@@ -1,0 +1,19 @@
+{
+    "ax": "Age",
+    "ay": "%",
+    "i": [
+        1,
+        2
+    ],
+    "name": "URHomoQueer",
+    "title": "\u201cHomosexual, gay or lesbian\u201d people who are queer",
+    "type": "AgeCat",
+    "x": [
+        21.5,
+        71.5
+    ],
+    "y": [
+        0,
+        100
+    ]
+}

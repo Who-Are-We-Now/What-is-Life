@@ -1,0 +1,71 @@
+{
+    "polygamylegal": {
+        "chapter": "chapter-04",
+        "plot_number": "4.1",
+        "caption": "",
+        "type": "plot"
+    },
+    "lesbianbarmap": {
+        "chapter": "chapter-09",
+        "plot_number": "9.4",
+        "caption": "",
+        "type": "plot"
+    },
+    "sexratiomap": {
+        "chapter": "chapter-12",
+        "plot_number": "12.1",
+        "caption": "",
+        "type": "plot"
+    },
+    "intersexrightsmap": {
+        "chapter": "chapter-12",
+        "plot_number": "12.2",
+        "caption": "",
+        "type": "plot"
+    },
+    "antigaymap": {
+        "chapter": "chapter-14",
+        "plot_number": "14.14",
+        "caption": "",
+        "type": "plot"
+    },
+    "densitymap": {
+        "chapter": "chapter-16",
+        "plot_number": "",
+        "caption": "62.7% of the US population by densest ZIP code areas ",
+        "type": "plot",
+        "note": "animation"
+    },
+    "blackmarble": {
+        "chapter": "chapter-16",
+        "plot_number": "",
+        "caption": "62.7% of the US population by densest ZIP code areas ",
+        "type": "plot",
+        "note": "animation"
+    },
+    "jesusland": {
+        "chapter": "chapter-17",
+        "plot_number": "",
+        "caption": "",
+        "type": "figure"
+    },
+    "votingdensity": {
+        "chapter": "chapter-17",
+        "plot_number": "17.12",
+        "caption": "",
+        "type": "plot",
+        "note": "animation"
+    },
+    "tfrmap": {
+        "chapter": "chapter-18",
+        "plot_number": "18.7",
+        "caption": "Total fertility rate map",
+        "type": "plot"
+    },
+    "landcovermap": {
+        "chapter": "TK",
+        "plot_number": "",
+        "caption": "",
+        "type": "plot"
+    }
+}

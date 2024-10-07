@@ -1,0 +1,19 @@
+{
+    "ax": "Square meters per person",
+    "ay": "%",
+    "i": [
+        0,
+        1
+    ],
+    "name": "YearBlackLives",
+    "title": "\u201cAre you a supporter of the Black Lives Matter movement?\u201d",
+    "type": "DensityCat",
+    "x": [
+        1.2313749999999999,
+        5.443665
+    ],
+    "y": [
+        0,
+        100
+    ]
+}

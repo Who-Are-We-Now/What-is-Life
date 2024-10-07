@@ -1,0 +1,18 @@
+{
+    "ax": "Square meters per person",
+    "ay": "%",
+    "i": [
+        0,
+        1
+    ],
+    "name": "UrbMuslimJewish",
+    "type": "DensityCat",
+    "x": [
+        1.23494,
+        5.32405
+    ],
+    "y": [
+        0,
+        20
+    ]
+}

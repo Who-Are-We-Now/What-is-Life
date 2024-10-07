@@ -1,0 +1,19 @@
+{
+    "ax": "Age",
+    "ay": "%",
+    "i": [
+        0,
+        1
+    ],
+    "name": "YearHetero",
+    "title": "Heteronormatively attracted",
+    "type": "AgeCat",
+    "x": [
+        22.0,
+        72.0
+    ],
+    "y": [
+        52,
+        90
+    ]
+}

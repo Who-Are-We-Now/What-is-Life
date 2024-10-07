@@ -1,0 +1,82 @@
+---
+title: Plot Index
+layout: default
+---
+
+<style type="text/css">
+	h2{
+		border-top: 2px solid black;
+	}
+	.plot-col:first-child{
+		flex:  none;
+	}
+	figure{
+		opacity: 1;
+	}
+	.figure.chart{
+		position: static;
+	}
+
+	.dl-each{
+	}
+</style>
+
+<button id="exportAll">Download All SVGs</button>
+
+
+
+
+<br style="height: 50vh">
+
+<h2>HANDEDLR</h2>
+{% plot 'handedlr' %}
+{% endplot %}
+
+
+
+
+<h2>MarriedID</h2>
+{% plot 'marriedid' %}
+{% endplot %}
+
+{% comment %}
+<section id="allplots">
+
+{% for plot in plots %}
+	{% assign key = plot[0] %}
+	{% if plotId == key %}
+		<h2>{{key}}</h2>
+		{% plot key %}
+		{% endplot %}
+	{% elsif plotId == 'all' %}
+		<h2>{{key}}</h2>
+		{% if key contains "-print" %}
+		<button id="export{{key}}" class="dl-each">Download SVG</button>
+		{% endif %}
+		{% plot key %}
+		{% endplot %}
+	{% endif %}
+{% endfor %}
+
+<h2>URCHILDREN</h2>
+{% plot 'urchildren' %}
+{% endplot %}
+
+
+<h2>yearmonog</h2>
+{% plot 'yearmonog' %}
+{% endplot %}
+
+<h2>yeartrans</h2>
+{% plot 'yeartrans' %}
+{% endplot %}
+</section>
+
+{% endcomment %}
+
+<div class="indicators">
+  <div class="fixed-indicator"></div>
+  <div class="active-indicators"></div>
+</div>
+<script>let webPlots = {};</script>
+<script src="/assets/js/bundle-plot.js"></script>

@@ -1,0 +1,38 @@
+{
+    "candelabra": {
+        "Figure Number": "1",
+        "Color/Black and White (B&W default)": "B&W",
+        "File Format (drop-down menu)": "JPG",
+        "Caption (must also be in manuscript)": "Placeholder",
+        "Credit line, if separate from caption (must also be in manuscript)": "Placeholder",
+        "Alt text (do not insert in manuscript)": "Placeholder",
+        "Permissions Status (drop-down menu)": "NA - fair use",
+        "Reprint Permissions Format (drop-down menu)": "Print and electronic",
+        "Reprint Permissions Territory (drop-down menu)": "World",
+        "Reprint Permissions Language (drop-down menu)": "All",
+        "Reprint Permissions Edition (drop-down menu)": "All",
+        "Fair Use Analysis Conducted; Fair Use Applied": "All",
+        "Approved for publicity use?": "No",
+        "Size Restrictions or Requirements": "1",
+        "Permissions Comments, if any (any limitations, restrictions)": "2",
+        "Design and Layout Comments, if any (how art should appear)": "3"
+    },
+    "krebscycles": {
+        "Figure Number": "2",
+        "Color/Black and White (B&W default)": "B&W",
+        "File Format (drop-down menu)": "JPG",
+        "Caption (must also be in manuscript)": "Placeholder",
+        "Credit line, if separate from caption (must also be in manuscript)": "Placeholder",
+        "Alt text (do not insert in manuscript)": "Placeholder",
+        "Permissions Status (drop-down menu)": "NA - fair use",
+        "Reprint Permissions Format (drop-down menu)": "Print and electronic",
+        "Reprint Permissions Territory (drop-down menu)": "World",
+        "Reprint Permissions Language (drop-down menu)": "All",
+        "Reprint Permissions Edition (drop-down menu)": "All",
+        "Fair Use Analysis Conducted; Fair Use Applied": "All",
+        "Approved for publicity use?": "No",
+        "Size Restrictions or Requirements": "4",
+        "Permissions Comments, if any (any limitations, restrictions)": "5",
+        "Design and Layout Comments, if any (how art should appear)": "6"
+    }
+}

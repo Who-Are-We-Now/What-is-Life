@@ -1,0 +1,19 @@
+{
+    "ax": "Age",
+    "ay": "%",
+    "i": [
+        1,
+        2
+    ],
+    "name": "URIntersex",
+    "title": "\u201cAre you intersex?\u201d",
+    "type": "AgeCat",
+    "x": [
+        21.0,
+        69.5
+    ],
+    "y": [
+        0,
+        5
+    ]
+}

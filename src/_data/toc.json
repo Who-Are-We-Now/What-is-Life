@@ -1,0 +1,4066 @@
+{
+  "mturkage": {
+    "shortcode": "plot",
+    "identifier": "mturkage",
+    "file_web": "mturkage.png",
+    "chapter": "appendix",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "mturkf": {
+    "shortcode": "plot",
+    "identifier": "mturkf",
+    "file_web": "mturkf.png",
+    "chapter": "appendix",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "binning": {
+    "shortcode": "img_x",
+    "identifier": "binning",
+    "file_web": "binning.gif",
+    "chapter": "appendix",
+    "width": 550,
+    "height": 364,
+    "thumbnail_width": 120.87912087912088,
+    "xfade_name": ""
+  },
+  "timetaken": {
+    "shortcode": "plot",
+    "identifier": "timetaken"
+  },
+  "notke": {
+    "shortcode": "media_f",
+    "identifier": "notke",
+    "file_web": "Bernt_Notke_Danse_Macabre-Enhanced EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-18",
+    "width": 1500,
+    "height": 345,
+    "thumbnail_width": 347.82608695652175
+  },
+  "youngcity": {
+    "shortcode": "plot",
+    "identifier": "youngcity",
+    "file_web": "youngcity.png",
+    "chapter": "chapter-18",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "nchildmenopause": {
+    "shortcode": "plot",
+    "identifier": "nchildmenopause",
+    "file_web": "nchildmenopause.png",
+    "chapter": "chapter-18",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "danse": {
+    "shortcode": "img",
+    "identifier": "danse",
+    "file_web": "Dance of Death Philadelphia Museum of Art 1974-179-511v1-dig2018 EDIT Contrast.webp",
+    "xfade_name": "",
+    "chapter": "chapter-18",
+    "width": 1500,
+    "height": 1288,
+    "thumbnail_width": 93.16770186335404
+  },
+  "malthus": {
+    "shortcode": "img",
+    "identifier": "malthus",
+    "file_web": "Thomas_Robert_Malthus_Wellcome_L0069037_-crop.webp",
+    "xfade_name": "",
+    "chapter": "chapter-18",
+    "width": 1500,
+    "height": 1833,
+    "thumbnail_width": 65.46644844517185
+  },
+  "hongliangji": {
+    "shortcode": "img",
+    "identifier": "hongliangji",
+    "file_web": "Hong-Liangji + Sharpen + Noise.webp",
+    "xfade_name": "",
+    "chapter": "chapter-18",
+    "width": 1500,
+    "height": 2213,
+    "thumbnail_width": 54.22503389064618
+  },
+  "povertyfrac": {
+    "shortcode": "plot",
+    "identifier": "povertyfrac",
+    "file_web": "povertyfrac.png",
+    "chapter": "chapter-18",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "povertyn": {
+    "shortcode": "plot",
+    "identifier": "povertyn",
+    "file_web": "povertyn.png",
+    "chapter": "chapter-18",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "danseploughman": {
+    "shortcode": "img",
+    "identifier": "danseploughman",
+    "file_web": "Holbein_Danse_Macabre_38-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-18",
+    "width": 1500,
+    "height": 1982,
+    "thumbnail_width": 60.544904137235115
+  },
+  "dansechild": {
+    "shortcode": "img",
+    "identifier": "dansechild",
+    "file_web": "Holbein_Danse_Macabre_39-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-18",
+    "width": 1500,
+    "height": 2023,
+    "thumbnail_width": 59.31784478497281
+  },
+  "populationlin": {
+    "shortcode": "plot",
+    "identifier": "populationlin",
+    "file_web": "populationlin.png",
+    "chapter": "chapter-18",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "dansefarmer": {
+    "shortcode": "img",
+    "identifier": "dansefarmer",
+    "file_web": "proof-04-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-18",
+    "width": 1500,
+    "height": 1983,
+    "thumbnail_width": 60.514372163388806
+  },
+  "huntergatherers": {
+    "shortcode": "img_x",
+    "identifier": "huntergatherers",
+    "file_web": "huntergatherers.webp",
+    "chapter": "chapter-18",
+    "width": 3000,
+    "height": 965,
+    "thumbnail_width": 248.70466321243524,
+    "xfade_name": ""
+  },
+  "populationlog": {
+    "shortcode": "plot",
+    "identifier": "populationlog",
+    "file_web": "populationlog.png",
+    "chapter": "chapter-18",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "plague": {
+    "shortcode": "img",
+    "identifier": "plague",
+    "file_web": "Chevalier_Roze_a_la_Tourette_-_1720-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-18",
+    "width": 1500,
+    "height": 978,
+    "thumbnail_width": 122.69938650306749
+  },
+  "triumphdeath": {
+    "shortcode": "img",
+    "identifier": "triumphdeath",
+    "file_web": "The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-18",
+    "width": 1500,
+    "height": 1070,
+    "thumbnail_width": 112.14953271028037
+  },
+  "farmingmachines2": {
+    "shortcode": "img",
+    "identifier": "farmingmachines2",
+    "file_web": "George_Heriot_Swanston03-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-18",
+    "width": 1500,
+    "height": 896,
+    "thumbnail_width": 133.92857142857142
+  },
+  "babyboom": {
+    "shortcode": "img",
+    "identifier": "babyboom",
+    "file_web": "Baby_boom_(9)-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-18",
+    "width": 1500,
+    "height": 2073,
+    "thumbnail_width": 57.88712011577424
+  },
+  "penicillin": {
+    "shortcode": "img_x",
+    "identifier": "penicillin",
+    "file_web": "penicillin.webp",
+    "chapter": "chapter-18",
+    "width": 3000,
+    "height": 1915,
+    "thumbnail_width": 125.32637075718016,
+    "xfade_name": ""
+  },
+  "tractorharvest": {
+    "shortcode": "img",
+    "identifier": "tractorharvest",
+    "file_web": "211999-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-18",
+    "width": 1500,
+    "height": 1018,
+    "thumbnail_width": 117.87819253438114
+  },
+  "arableland": {
+    "shortcode": "img",
+    "identifier": "arableland",
+    "file_web": "arableland.webp",
+    "xfade_name": "",
+    "chapter": "chapter-18",
+    "width": 1500,
+    "height": 1050,
+    "thumbnail_width": 114.28571428571429
+  },
+  "worldmodel": {
+    "shortcode": "media_f",
+    "identifier": "worldmodel",
+    "file_web": "sustainability-07-09864-g001.webp",
+    "xfade_name": "",
+    "chapter": "chapter-18",
+    "width": 2500,
+    "height": 1651,
+    "thumbnail_width": 121.13870381586916
+  },
+  "carryingcapacity": {
+    "shortcode": "img_x",
+    "identifier": "carryingcapacity",
+    "file_web": "carryingcapacity.webp",
+    "chapter": "chapter-18",
+    "width": 2632,
+    "height": 425,
+    "thumbnail_width": 495.43529411764706,
+    "xfade_name": ""
+  },
+  "co2": {
+    "shortcode": "img",
+    "identifier": "co2",
+    "file_web": "co2.webp",
+    "xfade_name": "",
+    "chapter": "chapter-18",
+    "width": 996,
+    "height": 1220,
+    "thumbnail_width": 65.31147540983606
+  },
+  "glaciation": {
+    "shortcode": "plot",
+    "identifier": "glaciation",
+    "file_web": "glaciation.png",
+    "chapter": "chapter-18",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "standardrun": {
+    "shortcode": "img",
+    "identifier": "standardrun",
+    "file_web": "standardrun.webp",
+    "xfade_name": "",
+    "chapter": "chapter-18",
+    "width": 1500,
+    "height": 1451,
+    "thumbnail_width": 82.70158511371469
+  },
+  "tfr": {
+    "shortcode": "plot",
+    "identifier": "tfr",
+    "file_web": "tfr.png",
+    "chapter": "chapter-18",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "ltgle": {
+    "shortcode": "plot",
+    "identifier": "ltgle",
+    "file_web": "ltgle.png",
+    "chapter": "chapter-18",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "meadows": {
+    "shortcode": "img",
+    "identifier": "meadows",
+    "file_web": "Dana-portrait.webp",
+    "xfade_name": "",
+    "chapter": "chapter-18",
+    "width": 1500,
+    "height": 1001,
+    "thumbnail_width": 119.88011988011988
+  },
+  "dragons": {
+    "shortcode": "media_f",
+    "identifier": "dragons",
+    "file_web": "Psalter_World_Map,_c.1265_dragons-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 262,
+    "thumbnail_width": 458.01526717557255
+  },
+  "postcards": {
+    "shortcode": "img_x",
+    "identifier": "postcards",
+    "file_web": "postcards.webp",
+    "chapter": "chapter-20",
+    "width": 6000,
+    "height": 976,
+    "thumbnail_width": 491.8032786885246,
+    "xfade_name": ""
+  },
+  "viewmaster": {
+    "shortcode": "img",
+    "identifier": "viewmaster",
+    "file_web": "109,7254.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 1915,
+    "thumbnail_width": 62.66318537859008
+  },
+  "ruinstown": {
+    "shortcode": "img",
+    "identifier": "ruinstown",
+    "file_web": "Vision-Quest-Buffalo-NY-1-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 586,
+    "thumbnail_width": 204.77815699658703
+  },
+  "spagnuolo": {
+    "shortcode": "img",
+    "identifier": "spagnuolo",
+    "file_web": "2A6RNEH.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 998,
+    "thumbnail_width": 120.24048096192385
+  },
+  "akiya": {
+    "shortcode": "img",
+    "identifier": "akiya",
+    "file_web": "aca752d71f88479bd8_shutterstock_1375033847-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 1000,
+    "thumbnail_width": 120.0
+  },
+  "robert": {
+    "shortcode": "img",
+    "identifier": "robert",
+    "file_web": "Hubert_Robert_French_-_A_Hermit_Praying_in_the_Ruins_of_a_Roman_Temple_-_Google_Art_Project.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 1188,
+    "thumbnail_width": 101.01010101010101
+  },
+  "ruinsfarm": {
+    "shortcode": "img",
+    "identifier": "ruinsfarm",
+    "file_web": "Abandoned_farmhouse,_overgrown EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 1125,
+    "thumbnail_width": 106.66666666666667
+  },
+  "agrilabor": {
+    "shortcode": "plot",
+    "identifier": "agrilabor",
+    "file_web": "agrilabor.png",
+    "chapter": "chapter-20",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "hogs": {
+    "shortcode": "plot",
+    "identifier": "hogs"
+  },
+  "charlottesweb": {
+    "shortcode": "img",
+    "identifier": "charlottesweb",
+    "file_web": "22sims-superJumbo.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1024,
+    "height": 1176,
+    "thumbnail_width": 69.65986394557824
+  },
+  "shadyglade": {
+    "shortcode": "img",
+    "identifier": "shadyglade",
+    "file_web": "shadyglade-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 904,
+    "thumbnail_width": 132.7433628318584
+  },
+  "agriarea": {
+    "shortcode": "plot",
+    "identifier": "agriarea",
+    "file_web": "agriarea.png",
+    "chapter": "chapter-20",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "crops": {
+    "shortcode": "plot",
+    "identifier": "crops"
+  },
+  "robotfactory": {
+    "shortcode": "img",
+    "identifier": "robotfactory",
+    "file_web": "tesla-fremont-factory-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 819,
+    "thumbnail_width": 146.5201465201465
+  },
+  "lightsout": {
+    "shortcode": "media_f",
+    "identifier": "lightsout",
+    "file_web": "DSCF6439-HDR-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 764,
+    "thumbnail_width": 157.06806282722513
+  },
+  "robotport": {
+    "shortcode": "img",
+    "identifier": "robotport",
+    "file_web": "TR-TraPac-13.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 1000,
+    "thumbnail_width": 120.0
+  },
+  "containership": {
+    "shortcode": "img",
+    "identifier": "containership",
+    "file_web": "MAERSK_MC_KINNEY_MOLLER_&_MARSEILLE_MAERSK.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 760,
+    "thumbnail_width": 157.89473684210526
+  },
+  "datacenter": {
+    "shortcode": "img",
+    "identifier": "datacenter",
+    "file_web": "douglas-county-servers.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 1000,
+    "thumbnail_width": 120.0
+  },
+  "amazonwarehouse": {
+    "shortcode": "img",
+    "identifier": "amazonwarehouse",
+    "file_web": "1654177885750-gettyimages-1235434266 copy-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 842,
+    "thumbnail_width": 142.51781472684087
+  },
+  "amazoncage": {
+    "shortcode": "img",
+    "identifier": "amazoncage",
+    "file_web": "09072018_amazonpatent_140637 copy.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 2041,
+    "thumbnail_width": 58.79470847623714
+  },
+  "agrobot": {
+    "shortcode": "img",
+    "identifier": "agrobot",
+    "file_web": "agrobot-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 844,
+    "thumbnail_width": 142.18009478672985
+  },
+  "droids": {
+    "shortcode": "img",
+    "identifier": "droids",
+    "file_web": "13a-kQPC--1600x1996@Corriere-Web-Sezioni.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1484,
+    "height": 1863,
+    "thumbnail_width": 63.72517444981213
+  },
+  "fanucarm": {
+    "shortcode": "img",
+    "identifier": "fanucarm",
+    "file_web": "fanuc-m-2000-1700l-car-lift.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 1208,
+    "thumbnail_width": 99.33774834437087
+  },
+  "waymo": {
+    "shortcode": "img",
+    "identifier": "waymo",
+    "file_web": "Waymo_self-driving_car_front_view.gk EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 1000,
+    "thumbnail_width": 120.0
+  },
+  "cowtraffic": {
+    "shortcode": "img",
+    "identifier": "cowtraffic",
+    "file_web": "GettyImages-200425109-001.jpg",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 5120,
+    "height": 3339,
+    "thumbnail_width": 122.67145852051513
+  },
+  "mumbaitraffic": {
+    "shortcode": "img",
+    "identifier": "mumbaitraffic",
+    "file_web": "iStock-1231636172.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 997,
+    "thumbnail_width": 120.36108324974924
+  },
+  "roadtrain": {
+    "shortcode": "img",
+    "identifier": "roadtrain",
+    "file_web": "Road_Train_Australia.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 989,
+    "thumbnail_width": 121.33468149646107
+  },
+  "bigfarmbots": {
+    "shortcode": "img",
+    "identifier": "bigfarmbots",
+    "file_web": "GettyImages-542626248 EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 996,
+    "thumbnail_width": 120.48192771084338
+  },
+  "farmdrone": {
+    "shortcode": "img",
+    "identifier": "farmdrone",
+    "file_web": "EG2YtgxW4AEscJn-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 1125,
+    "thumbnail_width": 106.66666666666667
+  },
+  "glowinggreenhouse": {
+    "shortcode": "img",
+    "identifier": "glowinggreenhouse",
+    "file_web": "95b4d48d1c1d256121_Tom_Hegen_The_Greenhouse_Series-1-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 1608,
+    "thumbnail_width": 74.6268656716418
+  },
+  "greenhouses": {
+    "shortcode": "img",
+    "identifier": "greenhouses",
+    "file_web": "greenhouses-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 1124,
+    "thumbnail_width": 106.76156583629893
+  },
+  "communitygarden": {
+    "shortcode": "img",
+    "identifier": "communitygarden",
+    "file_web": "jayaustin-web.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 980,
+    "thumbnail_width": 122.44897959183673
+  },
+  "rooftopgreenhouse": {
+    "shortcode": "img",
+    "identifier": "rooftopgreenhouse",
+    "file_web": "Lufa_Farms_Aerial_view_of_Montreal_rooftop_greenhouse3.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 994,
+    "thumbnail_width": 120.72434607645876
+  },
+  "autoverticalfarm": {
+    "shortcode": "img",
+    "identifier": "autoverticalfarm",
+    "file_web": "magenta-web.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 1000,
+    "thumbnail_width": 120.0
+  },
+  "wildlifecorridor": {
+    "shortcode": "img",
+    "identifier": "wildlifecorridor",
+    "file_web": "Wildlife-corridors-help-reduce-impacts-of-habitat-fragmentation EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 1002,
+    "thumbnail_width": 119.76047904191617
+  },
+  "greenbelt": {
+    "shortcode": "img",
+    "identifier": "greenbelt",
+    "file_web": "Green Belt Mackenrode southern Harz (c)_Klaus-Leidorf-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 844,
+    "thumbnail_width": 142.18009478672985
+  },
+  "kimmerer": {
+    "shortcode": "img",
+    "identifier": "kimmerer",
+    "file_web": "22insidethelist-web-superJumbo-Enhanced-SR.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 2117,
+    "thumbnail_width": 56.68398677373642
+  },
+  "climatemigration": {
+    "shortcode": "img",
+    "identifier": "climatemigration",
+    "file_web": "PP-06-001-1800_1202-3fffbe-web.webp",
+    "xfade_name": "",
+    "chapter": "chapter-20",
+    "width": 1500,
+    "height": 1002,
+    "thumbnail_width": 119.76047904191617
+  },
+  "tataouineatnight": {
+    "shortcode": "img",
+    "identifier": "tataouineatnight",
+    "file_web": "Tataouine_by_night.webp",
+    "xfade_name": "",
+    "chapter": "chapter-16",
+    "width": 1500,
+    "height": 999,
+    "thumbnail_width": 120.12012012012012
+  },
+  "moseisley": {
+    "shortcode": "img",
+    "identifier": "moseisley",
+    "file_web": "PMBPC3.webp",
+    "xfade_name": "",
+    "chapter": "chapter-16",
+    "width": 1500,
+    "height": 1431,
+    "thumbnail_width": 83.85744234800839
+  },
+  "oola": {
+    "shortcode": "img",
+    "identifier": "oola",
+    "file_web": "SWCA_-_Oola_(17015322840).webp",
+    "xfade_name": "",
+    "chapter": "chapter-16",
+    "width": 1404,
+    "height": 1000,
+    "thumbnail_width": 112.32
+  },
+  "beebo": {
+    "shortcode": "img",
+    "identifier": "beebo",
+    "file_web": "15531516547_45c87b50d0_k.webp",
+    "xfade_name": "",
+    "chapter": "chapter-16",
+    "width": 1500,
+    "height": 2477,
+    "thumbnail_width": 48.44570044408559
+  },
+  "bathhouse": {
+    "shortcode": "img",
+    "identifier": "bathhouse",
+    "file_web": "Bathers_at_San_Niccolo.webp",
+    "xfade_name": "",
+    "chapter": "chapter-16",
+    "width": 1500,
+    "height": 1173,
+    "thumbnail_width": 102.30179028132993
+  },
+  "monticello": {
+    "shortcode": "img",
+    "identifier": "monticello",
+    "file_web": "Monticello_veggie_garden.webp",
+    "xfade_name": "",
+    "chapter": "chapter-16",
+    "width": 1500,
+    "height": 1125,
+    "thumbnail_width": 106.66666666666667
+  },
+  "interstates": {
+    "shortcode": "img",
+    "identifier": "interstates",
+    "file_web": "Relief-Map-1024x494-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-16",
+    "width": 1500,
+    "height": 724,
+    "thumbnail_width": 165.74585635359117
+  },
+  "densitymap": {
+    "shortcode": "map_f",
+    "identifier": "densitymap",
+    "file_web": "densitymap.jpg",
+    "chapter": "chapter-16",
+    "width": 2500,
+    "height": 1767,
+    "thumbnail_width": 113.18619128466327,
+    "xfade_name": ""
+  },
+  "smallfarming": {
+    "shortcode": "img",
+    "identifier": "smallfarming",
+    "file_web": "Agriculture_in_Vietnam_with_farmers.webp",
+    "xfade_name": "",
+    "chapter": "chapter-16",
+    "width": 1500,
+    "height": 996,
+    "thumbnail_width": 120.48192771084338
+  },
+  "urbanization": {
+    "shortcode": "plot",
+    "identifier": "urbanization",
+    "file_web": "urbanization.png",
+    "chapter": "chapter-16",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "cumpoparea": {
+    "shortcode": "plot",
+    "identifier": "cumpoparea",
+    "file_web": "cumpoparea.png",
+    "chapter": "chapter-16",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "definitions": {
+    "shortcode": "plot",
+    "identifier": "definitions",
+    "file_web": "definitions.png",
+    "chapter": "chapter-16",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "suburb": {
+    "shortcode": "img",
+    "identifier": "suburb",
+    "file_web": "Dallas_skyline_and_suburbs.webp",
+    "xfade_name": "",
+    "chapter": "chapter-16",
+    "width": 1500,
+    "height": 960,
+    "thumbnail_width": 125.0
+  },
+  "differingdefinitions": {
+    "shortcode": "plot",
+    "identifier": "differingdefinitions",
+    "file_web": "differingdefinitions.png",
+    "chapter": "chapter-16",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "castro": {
+    "shortcode": "img",
+    "identifier": "castro",
+    "file_web": "Castrosanfranciscoflag.webp",
+    "xfade_name": "",
+    "chapter": "chapter-16",
+    "width": 1500,
+    "height": 956,
+    "thumbnail_width": 125.52301255230125
+  },
+  "urqueer": {
+    "shortcode": "plot",
+    "identifier": "urqueer",
+    "file_web": "urqueer.png",
+    "chapter": "chapter-16",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "urheteronorm": {
+    "shortcode": "plot",
+    "identifier": "urheteronorm",
+    "file_web": "urheteronorm.png",
+    "chapter": "chapter-16",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "urhomoqueer": {
+    "shortcode": "plot",
+    "identifier": "urhomoqueer",
+    "file_web": "urhomoqueer.png",
+    "chapter": "chapter-16",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "urpoly": {
+    "shortcode": "plot",
+    "identifier": "urpoly",
+    "file_web": "urpoly.png",
+    "chapter": "chapter-16",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "urnonmonog": {
+    "shortcode": "plot",
+    "identifier": "urnonmonog",
+    "file_web": "urnonmonog.png",
+    "chapter": "chapter-16",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "urgaybi": {
+    "shortcode": "plot",
+    "identifier": "urgaybi",
+    "file_web": "urgaybi.png",
+    "chapter": "chapter-16",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "urlesbianbi": {
+    "shortcode": "plot",
+    "identifier": "urlesbianbi",
+    "file_web": "urlesbianbi.png",
+    "chapter": "chapter-16",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "urhomo": {
+    "shortcode": "plot",
+    "identifier": "urhomo",
+    "file_web": "urhomo.png",
+    "chapter": "chapter-16",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "urtransfb": {
+    "shortcode": "plot",
+    "identifier": "urtransfb",
+    "file_web": "urtransfb.png",
+    "chapter": "chapter-16",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "urnb": {
+    "shortcode": "plot",
+    "identifier": "urnb",
+    "file_web": "urnb.png",
+    "chapter": "chapter-16",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "urintersex": {
+    "shortcode": "plot",
+    "identifier": "urintersex",
+    "file_web": "urintersex.png",
+    "chapter": "chapter-16",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "urintersexmb": {
+    "shortcode": "plot",
+    "identifier": "urintersexmb",
+    "file_web": "urintersexmb.png",
+    "chapter": "chapter-16",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "urintersexfb": {
+    "shortcode": "plot",
+    "identifier": "urintersexfb",
+    "file_web": "urintersexfb.png",
+    "chapter": "chapter-16",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "worldsfair": {
+    "shortcode": "img",
+    "identifier": "worldsfair",
+    "file_web": "1939_worlds_fair_4a.webp",
+    "xfade_name": "",
+    "chapter": "chapter-16",
+    "width": 1500,
+    "height": 1157,
+    "thumbnail_width": 103.71650821089024
+  },
+  "intersexbirthcert": {
+    "shortcode": "img",
+    "identifier": "intersexbirthcert",
+    "file_web": "1267-Enhanced-EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11",
+    "width": 1500,
+    "height": 1016,
+    "thumbnail_width": 118.11023622047244
+  },
+  "intersex": {
+    "shortcode": "plot",
+    "identifier": "intersex",
+    "file_web": "intersex.png",
+    "chapter": "chapter-11",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "binoculars": {
+    "shortcode": "img",
+    "identifier": "binoculars",
+    "file_web": "32359477-lf-(1).webp",
+    "xfade_name": "",
+    "chapter": "chapter-11",
+    "width": 1500,
+    "height": 2030,
+    "thumbnail_width": 59.11330049261084
+  },
+  "homology": {
+    "shortcode": "img",
+    "identifier": "homology",
+    "file_web": "Fetal-Differentiation-IMG_2078-Crop-Enhanced-BITMAP.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11",
+    "width": 1500,
+    "height": 1919,
+    "thumbnail_width": 62.53256904637832
+  },
+  "quigley": {
+    "shortcode": "media",
+    "identifier": "quigley",
+    "file_web": "quigley-placeholder-Enhanced-Bitmap-web.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11",
+    "width": 1419,
+    "height": 390,
+    "thumbnail_width": 291.0769230769231
+  },
+  "nettiestevens": {
+    "shortcode": "img",
+    "identifier": "nettiestevens",
+    "file_web": "PA_Stevens_Nettie_005_01.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11",
+    "width": 1500,
+    "height": 1813,
+    "thumbnail_width": 66.18863761720904
+  },
+  "chimericrose": {
+    "shortcode": "img",
+    "identifier": "chimericrose",
+    "file_web": "TwoColoredRoseChimera.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11",
+    "width": 1500,
+    "height": 1545,
+    "thumbnail_width": 77.66990291262135
+  },
+  "chimeras": {
+    "shortcode": "img_x",
+    "identifier": "chimeras",
+    "file_web": "chimeras.webp",
+    "chapter": "chapter-11",
+    "width": 253,
+    "height": 80,
+    "thumbnail_width": 253.0,
+    "xfade_name": ""
+  },
+  "ais": {
+    "shortcode": "img",
+    "identifier": "ais",
+    "file_web": "Orchids01-Enhanced-EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11",
+    "width": 1500,
+    "height": 838,
+    "thumbnail_width": 143.1980906921241
+  },
+  "hammondpreface": {
+    "shortcode": "img",
+    "identifier": "hammondpreface",
+    "file_web": "Hammond - Sexual impotence in the male - Preface - 1883-Enhanced EDIT + Noise 3-5.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11",
+    "width": 1500,
+    "height": 1022,
+    "thumbnail_width": 117.41682974559687
+  },
+  "hypospadiasbefore": {
+    "shortcode": "img",
+    "identifier": "hypospadiasbefore",
+    "file_web": "IMG_2014-EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11",
+    "width": 1500,
+    "height": 2335,
+    "thumbnail_width": 51.39186295503212
+  },
+  "hypospadiasafter": {
+    "shortcode": "img",
+    "identifier": "hypospadiasafter",
+    "file_web": "IMG_2017-EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11",
+    "width": 1500,
+    "height": 2335,
+    "thumbnail_width": 51.39186295503212
+  },
+  "enlargedclitoris": {
+    "shortcode": "img",
+    "identifier": "enlargedclitoris",
+    "file_web": "IMG_2018-EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11",
+    "width": 1500,
+    "height": 2335,
+    "thumbnail_width": 51.39186295503212
+  },
+  "anniesprinkle": {
+    "shortcode": "img",
+    "identifier": "anniesprinkle",
+    "file_web": "Annie_headshot_300-EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11",
+    "width": 1500,
+    "height": 2256,
+    "thumbnail_width": 53.191489361702125
+  },
+  "nxorthey": {
+    "shortcode": "plot",
+    "identifier": "nxorthey",
+    "file_web": "nxorthey.png",
+    "chapter": "chapter-10",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "pronounpins": {
+    "shortcode": "img",
+    "identifier": "pronounpins",
+    "file_web": "Pronoun-buttons-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-10",
+    "width": 1500,
+    "height": 1407,
+    "thumbnail_width": 85.28784648187633
+  },
+  "gqgfnb": {
+    "shortcode": "plot",
+    "identifier": "gqgfnb",
+    "file_web": "gqgfnb.png",
+    "chapter": "chapter-10",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "nb": {
+    "shortcode": "plot",
+    "identifier": "nb",
+    "file_web": "nb.png",
+    "chapter": "chapter-10",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "princehenry": {
+    "shortcode": "img",
+    "identifier": "princehenry",
+    "file_web": "Prinz_heinrich_von_preussen_00.webp",
+    "xfade_name": "",
+    "chapter": "chapter-17",
+    "width": 1500,
+    "height": 2000,
+    "thumbnail_width": 60.0
+  },
+  "urbliberal": {
+    "shortcode": "plot",
+    "identifier": "urbliberal",
+    "file_web": "urbliberal.png",
+    "chapter": "chapter-17",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "urbconservative": {
+    "shortcode": "plot",
+    "identifier": "urbconservative",
+    "file_web": "urbconservative.png",
+    "chapter": "chapter-17",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "urbmuslimjewish": {
+    "shortcode": "plot",
+    "identifier": "urbmuslimjewish",
+    "file_web": "urbmuslimjewish.png",
+    "chapter": "chapter-17",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "urbrace": {
+    "shortcode": "plot",
+    "identifier": "urbrace",
+    "file_web": "urbrace.png",
+    "chapter": "chapter-17",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "streetscene": {
+    "shortcode": "img",
+    "identifier": "streetscene",
+    "file_web": "dsc_ls_092 EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-17",
+    "width": 1500,
+    "height": 1085,
+    "thumbnail_width": 110.59907834101382
+  },
+  "keokuk": {
+    "shortcode": "media",
+    "identifier": "keokuk",
+    "file_web": "Abandoned_Packard_Automobile_Factory_Detroit_200.webp",
+    "xfade_name": "",
+    "chapter": "chapter-17",
+    "width": 1500,
+    "height": 1000,
+    "thumbnail_width": 120.0
+  },
+  "redlining": {
+    "shortcode": "img",
+    "identifier": "redlining",
+    "file_web": "holc-scan-small2_custom-8531e66ab54655b6e42a854bf157a7acee06928c-s1600-c85-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-17",
+    "width": 1500,
+    "height": 1139,
+    "thumbnail_width": 105.35557506584723
+  },
+  "blackfarmers": {
+    "shortcode": "img",
+    "identifier": "blackfarmers",
+    "file_web": "service-pnp-fsa-8b29000-8b29200-8b29265v-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-17",
+    "width": 1500,
+    "height": 1101,
+    "thumbnail_width": 108.99182561307902
+  },
+  "agedistrib": {
+    "shortcode": "plot",
+    "identifier": "agedistrib",
+    "file_web": "agedistrib.png",
+    "chapter": "chapter-17",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "yearblacklives": {
+    "shortcode": "plot",
+    "identifier": "yearblacklives",
+    "file_web": "yearblacklives.png",
+    "chapter": "chapter-17",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "yearwhite": {
+    "shortcode": "plot",
+    "identifier": "yearwhite",
+    "file_web": "yearwhite.png",
+    "chapter": "chapter-17",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "yearclimate": {
+    "shortcode": "plot",
+    "identifier": "yearclimate",
+    "file_web": "yearclimate.png",
+    "chapter": "chapter-17",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "yearillegal": {
+    "shortcode": "plot",
+    "identifier": "yearillegal",
+    "file_web": "yearillegal.png",
+    "chapter": "chapter-17",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "yearhomwrong": {
+    "shortcode": "plot",
+    "identifier": "yearhomwrong",
+    "file_web": "yearhomwrong.png",
+    "chapter": "chapter-17",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "yeargun": {
+    "shortcode": "plot",
+    "identifier": "yeargun",
+    "file_web": "yeargun.png",
+    "chapter": "chapter-17",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "jesusland": {
+    "shortcode": "map",
+    "identifier": "jesusland",
+    "file_web": "jesusland.png",
+    "chapter": "chapter-17",
+    "width": 1700,
+    "height": 1100,
+    "thumbnail_width": 123.63636363636364,
+    "xfade_name": ""
+  },
+  "president": {
+    "shortcode": "plot",
+    "identifier": "president",
+    "file_web": "president.png",
+    "chapter": "chapter-17",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "votingdensity": {
+    "shortcode": "map_f",
+    "identifier": "votingdensity",
+    "file_web": "votingdensity.webp",
+    "chapter": "chapter-17",
+    "width": 2061,
+    "height": 1363,
+    "thumbnail_width": 120.96845194424064,
+    "xfade_name": ""
+  },
+  "votersuppression": {
+    "shortcode": "img",
+    "identifier": "votersuppression",
+    "file_web": "Harper's_weekly_(1867)_(14596177519)_The_Georgetown_elections,_the_Negro_at_the_ballot-box_(cropped).webp",
+    "xfade_name": "",
+    "chapter": "chapter-17",
+    "width": 1500,
+    "height": 1038,
+    "thumbnail_width": 115.60693641618496
+  },
+  "stelarc": {
+    "shortcode": "img",
+    "identifier": "stelarc",
+    "file_web": "download-1-Enhanced Extend.webp",
+    "xfade_name": "",
+    "chapter": "chapter-21",
+    "width": 1521,
+    "height": 1140,
+    "thumbnail_width": 106.73684210526316
+  },
+  "strike": {
+    "shortcode": "img",
+    "identifier": "strike",
+    "file_web": "image6.webp",
+    "xfade_name": "",
+    "chapter": "chapter-21",
+    "width": 1500,
+    "height": 1056,
+    "thumbnail_width": 113.63636363636364
+  },
+  "jetsonbutton": {
+    "shortcode": "img",
+    "identifier": "jetsonbutton",
+    "file_web": "imago0075398370h.jpg",
+    "xfade_name": "",
+    "chapter": "chapter-21",
+    "width": 4961,
+    "height": 3190,
+    "thumbnail_width": 124.41379310344827
+  },
+  "developedpop": {
+    "shortcode": "plot",
+    "identifier": "developedpop",
+    "file_web": "developedpop.png",
+    "chapter": "chapter-19",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "condom": {
+    "shortcode": "img",
+    "identifier": "condom",
+    "file_web": "master-pnp-cph-3a40000-3a48000-3a48900-3a48915u-Enhanced EDIT Sharpen.webp",
+    "xfade_name": "",
+    "chapter": "chapter-19",
+    "width": 1500,
+    "height": 2407,
+    "thumbnail_width": 49.85459077690071
+  },
+  "thepill": {
+    "shortcode": "img",
+    "identifier": "thepill",
+    "file_web": "the-pill-gettyimages-514867588-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-19",
+    "width": 1500,
+    "height": 844,
+    "thumbnail_width": 142.18009478672985
+  },
+  "birthcontrolreview": {
+    "shortcode": "img",
+    "identifier": "birthcontrolreview",
+    "file_web": "Gillian Frank on Twitter Birth Control Review ERzwSesVAAAijzL-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-19",
+    "width": 1500,
+    "height": 1883,
+    "thumbnail_width": 63.72809346787042
+  },
+  "urmarried": {
+    "shortcode": "plot",
+    "identifier": "urmarried",
+    "file_web": "urmarried.png",
+    "chapter": "chapter-19",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "tfrmap": {
+    "shortcode": "map",
+    "identifier": "tfrmap",
+    "file_web": "tfrmap.png",
+    "chapter": "chapter-19",
+    "width": 1386,
+    "height": 858,
+    "thumbnail_width": 129.23076923076923,
+    "xfade_name": ""
+  },
+  "farmchild": {
+    "shortcode": "img",
+    "identifier": "farmchild",
+    "file_web": "3_lewis-hine_child-labor_7496183108_3b261656b3_o.webp",
+    "xfade_name": "",
+    "chapter": "chapter-19",
+    "width": 1500,
+    "height": 1854,
+    "thumbnail_width": 64.72491909385113
+  },
+  "factorychildren": {
+    "shortcode": "img",
+    "identifier": "factorychildren",
+    "file_web": "MTU5Mzk2ODg0NjUyNDM0NzA1.webp",
+    "xfade_name": "",
+    "chapter": "chapter-19",
+    "width": 1651,
+    "height": 1170,
+    "thumbnail_width": 112.88888888888889
+  },
+  "bigfamily": {
+    "shortcode": "img",
+    "identifier": "bigfamily",
+    "file_web": "06ross-superJumbo + sharpen noise.webp",
+    "xfade_name": "",
+    "chapter": "chapter-19",
+    "width": 1500,
+    "height": 907,
+    "thumbnail_width": 132.3042998897464
+  },
+  "oiltfr": {
+    "shortcode": "plot",
+    "identifier": "oiltfr",
+    "file_web": "oiltfr.png",
+    "chapter": "chapter-19",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "urchildren": {
+    "shortcode": "plot",
+    "identifier": "urchildren",
+    "file_web": "urchildren.png",
+    "chapter": "chapter-19",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "charlottesville": {
+    "shortcode": "img",
+    "identifier": "charlottesville",
+    "file_web": "Charlottesville_'Unite_the_Right'_Rally_(35780274914)_crop.webp",
+    "xfade_name": "",
+    "chapter": "chapter-19",
+    "width": 1500,
+    "height": 924,
+    "thumbnail_width": 129.87012987012986
+  },
+  "sanger": {
+    "shortcode": "img",
+    "identifier": "sanger",
+    "file_web": "gettyimages-515301412.webp",
+    "xfade_name": "",
+    "chapter": "chapter-19",
+    "width": 1500,
+    "height": 1500,
+    "thumbnail_width": 80.0
+  },
+  "donnaharaway": {
+    "shortcode": "imgs_i",
+    "identifier": "donnaharaway",
+    "file_web": "Donna_Haraway_2016-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1500,
+    "height": 1575,
+    "thumbnail_width": 76.19047619047619
+  },
+  "humboldtecology": {
+    "shortcode": "imgs_i",
+    "identifier": "humboldtecology",
+    "file_web": "1280px-Alexander_von_Humboldt_-_Diagram_of_a_cross-section_of_the_earth's_crust_-_rectified-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1500,
+    "height": 632,
+    "thumbnail_width": 189.873417721519
+  },
+  "humboldt": {
+    "shortcode": "img_i",
+    "identifier": "humboldt",
+    "file_web": "Alexander_von_Humboldt-selfportrait-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1500,
+    "height": 1955,
+    "thumbnail_width": 61.38107416879795
+  },
+  "scalanaturae": {
+    "shortcode": "img_i",
+    "identifier": "scalanaturae",
+    "file_web": "Great_Chain_of_Being_2-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1500,
+    "height": 2163,
+    "thumbnail_width": 55.478502080443825
+  },
+  "lordbaconstamp": {
+    "shortcode": "img_i",
+    "identifier": "lordbaconstamp",
+    "file_web": "Lord_Bacon_stamp.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1500,
+    "height": 1943,
+    "thumbnail_width": 61.760164693772516
+  },
+  "berninirape": {
+    "shortcode": "img_i",
+    "identifier": "berninirape",
+    "file_web": "rape-of-proserpina-iii-1621-22.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1782,
+    "height": 3260,
+    "thumbnail_width": 43.73006134969325
+  },
+  "himalaya": {
+    "shortcode": "img_i",
+    "identifier": "himalaya",
+    "file_web": "nflkhj7iep241-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1470,
+    "height": 1357,
+    "thumbnail_width": 86.6617538688283
+  },
+  "earthrise": {
+    "shortcode": "img_i",
+    "identifier": "earthrise",
+    "file_web": "NASA-Apollo8-Dec24-Earthrise-(1).webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1500,
+    "height": 1033,
+    "thumbnail_width": 116.16650532429816
+  },
+  "atalantafugiens": {
+    "shortcode": "img_i",
+    "identifier": "atalantafugiens",
+    "file_web": "atalanta_fugiens-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1500,
+    "height": 1500,
+    "thumbnail_width": 80.0
+  },
+  "zellgaia": {
+    "shortcode": "img_i",
+    "identifier": "zellgaia",
+    "file_web": "Gaia-front-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1500,
+    "height": 2097,
+    "thumbnail_width": 57.22460658082976
+  },
+  "greeneggone": {
+    "shortcode": "img_i",
+    "identifier": "greeneggone",
+    "file_web": "IMG_9573-EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1500,
+    "height": 1488,
+    "thumbnail_width": 80.64516129032258
+  },
+  "schizophyllum": {
+    "shortcode": "img_i",
+    "identifier": "schizophyllum",
+    "file_web": "Schizophyllum_commune_(Split_gill)_(33389628036).webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1500,
+    "height": 961,
+    "thumbnail_width": 124.86992715920915
+  },
+  "margulis": {
+    "shortcode": "img_i",
+    "identifier": "margulis",
+    "file_web": "margulis_youngmicroscope-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1500,
+    "height": 2378,
+    "thumbnail_width": 50.462573591253154
+  },
+  "oberon": {
+    "shortcode": "img_i",
+    "identifier": "oberon",
+    "file_web": "oberon-zell-ravenheart-7f120dd7-0169-41d2-bcd9-98be7378201-resize-750-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1500,
+    "height": 2242,
+    "thumbnail_width": 53.52363960749331
+  },
+  "zellcouple": {
+    "shortcode": "img_i",
+    "identifier": "zellcouple",
+    "file_web": "413CF42C00000578-4655886-image-a-86_1499721390761-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1428,
+    "height": 1619,
+    "thumbnail_width": 70.5620753551575
+  },
+  "collating": {
+    "shortcode": "img_i",
+    "identifier": "collating",
+    "file_web": "IMG_9575.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1500,
+    "height": 1526,
+    "thumbnail_width": 78.63695937090432
+  },
+  "stirpiculture": {
+    "shortcode": "imgs_i",
+    "identifier": "stirpiculture",
+    "file_web": "eugneics-children-c1887 EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1500,
+    "height": 1078,
+    "thumbnail_width": 111.31725417439704
+  },
+  "childrenshour": {
+    "shortcode": "imgs_i",
+    "identifier": "childrenshour",
+    "file_web": "master-pnp-cph-3a20000-3a24000-3a24400-3a24423u-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1500,
+    "height": 1078,
+    "thumbnail_width": 111.31725417439704
+  },
+  "patriarchypyramid": {
+    "shortcode": "img_i",
+    "identifier": "patriarchypyramid",
+    "file_web": "IMG_9577-Enhanced-Crop-Bitmap-Cutout-invert.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1500,
+    "height": 1406,
+    "thumbnail_width": 85.34850640113798
+  },
+  "churchofallworlds": {
+    "shortcode": "img_i",
+    "identifier": "churchofallworlds",
+    "file_web": "church_of_all_worlds-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1500,
+    "height": 943,
+    "thumbnail_width": 127.25344644750795
+  },
+  "greeneggtribute": {
+    "shortcode": "img_i",
+    "identifier": "greeneggtribute",
+    "file_web": "82063a7a7897444b9795741f83f58a1f.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04.5",
+    "width": 1500,
+    "height": 1980,
+    "thumbnail_width": 60.60606060606061
+  },
+  "dickjane": {
+    "shortcode": "img",
+    "identifier": "dickjane",
+    "file_web": "Dick-and-Jane-Fun-with-the-Family-Edit-Full.webp",
+    "xfade_name": "",
+    "chapter": "preface",
+    "width": 1500,
+    "height": 1892,
+    "thumbnail_width": 63.424947145877375
+  },
+  "memex": {
+    "shortcode": "img",
+    "identifier": "memex",
+    "file_web": "The_Memex_(3002477109) EDIT.webp",
+    "xfade_name": "",
+    "chapter": "preface",
+    "width": 1500,
+    "height": 1286,
+    "thumbnail_width": 93.31259720062208
+  },
+  "zdenek": {
+    "shortcode": "img",
+    "identifier": "zdenek",
+    "file_web": "Zdenek_Koubkova_1936.webp",
+    "xfade_name": "",
+    "chapter": "preface",
+    "width": 1500,
+    "height": 1840,
+    "thumbnail_width": 65.21739130434783
+  },
+  "foetus26weeks": {
+    "shortcode": "media",
+    "identifier": "foetus26weeks",
+    "file_web": "c0487951-50mb.webp",
+    "xfade_name": "",
+    "chapter": "preface",
+    "width": 1500,
+    "height": 1474,
+    "thumbnail_width": 81.41112618724559
+  },
+  "atomfriend": {
+    "shortcode": "img",
+    "identifier": "atomfriend",
+    "file_web": "34070841_3.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04",
+    "width": 1500,
+    "height": 990,
+    "thumbnail_width": 121.21212121212122
+  },
+  "jetsons": {
+    "shortcode": "img",
+    "identifier": "jetsons",
+    "file_web": "jetson_flintstones.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04",
+    "width": 2478,
+    "height": 1230,
+    "thumbnail_width": 161.17073170731706
+  },
+  "normanrockwell": {
+    "shortcode": "img",
+    "identifier": "normanrockwell",
+    "file_web": "S567 Freedom from Want.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04",
+    "width": 1485,
+    "height": 1921,
+    "thumbnail_width": 61.842790213430504
+  },
+  "marynichols": {
+    "shortcode": "img",
+    "identifier": "marynichols",
+    "file_web": "Mary_Gove_Nichols.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04",
+    "width": 1500,
+    "height": 1876,
+    "thumbnail_width": 63.96588486140725
+  },
+  "womensearnings": {
+    "shortcode": "plot",
+    "identifier": "womensearnings",
+    "file_web": "womensearnings.png",
+    "chapter": "chapter-04",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "bradybunch": {
+    "shortcode": "img",
+    "identifier": "bradybunch",
+    "file_web": "the-brady-bunch-gettyimages-459236770.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04",
+    "width": 1500,
+    "height": 1145,
+    "thumbnail_width": 104.80349344978166
+  },
+  "marypoppins": {
+    "shortcode": "img",
+    "identifier": "marypoppins",
+    "file_web": "GettyImages-545353559 EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04",
+    "width": 1500,
+    "height": 2037,
+    "thumbnail_width": 58.910162002945505
+  },
+  "tamarins": {
+    "shortcode": "img",
+    "identifier": "tamarins",
+    "file_web": "SWNS_CUTE_BABIES_02.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04",
+    "width": 1500,
+    "height": 822,
+    "thumbnail_width": 145.98540145985402
+  },
+  "poorlaw": {
+    "shortcode": "img",
+    "identifier": "poorlaw",
+    "file_web": "unknown-new-HO-44_27-pt-2-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04",
+    "width": 1500,
+    "height": 2011,
+    "thumbnail_width": 59.67180507210343
+  },
+  "victorianpoverty": {
+    "shortcode": "img",
+    "identifier": "victorianpoverty",
+    "file_web": "jerrold-william_blanchard-london-B20124-80-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04",
+    "width": 1500,
+    "height": 1222,
+    "thumbnail_width": 98.19967266775778
+  },
+  "felakuti": {
+    "shortcode": "img",
+    "identifier": "felakuti",
+    "file_web": "1_fela2_archivo_yaba_productions-sluna-Enhanced-SR Inverse FFT Pattern Suppressor 2 EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04",
+    "width": 1500,
+    "height": 2042,
+    "thumbnail_width": 58.765915768854065
+  },
+  "draupadi": {
+    "shortcode": "img",
+    "identifier": "draupadi",
+    "file_web": "Draupadi_and_Pandavas.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04",
+    "width": 1500,
+    "height": 2042,
+    "thumbnail_width": 58.765915768854065
+  },
+  "gulistanharem": {
+    "shortcode": "img",
+    "identifier": "gulistanharem",
+    "file_web": "B4OLkyeIMAIMneB-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04",
+    "width": 1471,
+    "height": 948,
+    "thumbnail_width": 124.13502109704642
+  },
+  "polygamylegal": {
+    "shortcode": "map",
+    "identifier": "polygamylegal",
+    "file_web": "polygamylegal.png",
+    "chapter": "chapter-04",
+    "width": 1386,
+    "height": 858,
+    "thumbnail_width": 129.23076923076923,
+    "xfade_name": ""
+  },
+  "spacecolony": {
+    "shortcode": "img",
+    "identifier": "spacecolony",
+    "file_web": "Spacecolony3edit.webp",
+    "xfade_name": "",
+    "chapter": "chapter-04",
+    "width": 1500,
+    "height": 1182,
+    "thumbnail_width": 101.5228426395939
+  },
+  "bildlilli": {
+    "shortcode": "img",
+    "identifier": "bildlilli",
+    "file_web": "11807176_fullsize-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 523,
+    "height": 1500,
+    "thumbnail_width": 27.893333333333334
+  },
+  "savage_lovecast_526": {
+    "shortcode": "audio",
+    "identifier": "savage_lovecast_526",
+    "file_web": "savage-lovecast.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 800,
+    "height": 800,
+    "thumbnail_width": 80.0
+  },
+  "uncannyvalley": {
+    "shortcode": "img",
+    "identifier": "uncannyvalley",
+    "file_web": "Mori_Uncanny_Valley.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 1463,
+    "height": 1070,
+    "thumbnail_width": 109.38317757009345
+  },
+  "usvoting": {
+    "shortcode": "img",
+    "identifier": "usvoting",
+    "file_web": "us-voting-621756122.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 1500,
+    "height": 1000,
+    "thumbnail_width": 120.0
+  },
+  "thestranger": {
+    "shortcode": "img",
+    "identifier": "thestranger",
+    "file_web": "cover0215.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 1500,
+    "height": 2049,
+    "thumbnail_width": 58.565153733528554
+  },
+  "chop": {
+    "shortcode": "img",
+    "identifier": "chop",
+    "file_web": "Seattle_People_Department.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 2000,
+    "height": 1333,
+    "thumbnail_width": 120.03000750187547
+  },
+  "goodall": {
+    "shortcode": "img",
+    "identifier": "goodall",
+    "file_web": "goodall-book-ad3513ad.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 1500,
+    "height": 944,
+    "thumbnail_width": 127.11864406779661
+  },
+  "kokogorilla": {
+    "shortcode": "img",
+    "identifier": "kokogorilla",
+    "file_web": "Larson-Koko-the-Gorilla.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 2559,
+    "height": 2559,
+    "thumbnail_width": 80.0
+  },
+  "alexparrot": {
+    "shortcode": "img",
+    "identifier": "alexparrot",
+    "file_web": "sfw_talking-parrot.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 1500,
+    "height": 1001,
+    "thumbnail_width": 119.88011988011988
+  },
+  "kokocat": {
+    "shortcode": "img",
+    "identifier": "kokocat",
+    "file_web": "6-21-koko-cat-web-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 2000,
+    "height": 1388,
+    "thumbnail_width": 115.27377521613833
+  },
+  "antmarch": {
+    "shortcode": "img",
+    "identifier": "antmarch",
+    "file_web": "IMG_0392-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 1500,
+    "height": 2842,
+    "thumbnail_width": 42.223786066150595
+  },
+  "nativebrunii": {
+    "shortcode": "img",
+    "identifier": "nativebrunii",
+    "file_web": "b2_8_nowreddy_native_brunii_isld-(1)-Enhanced-EDIT.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 1500,
+    "height": 1525,
+    "thumbnail_width": 78.68852459016394
+  },
+  "nsentinelisland": {
+    "shortcode": "img",
+    "identifier": "nsentinelisland",
+    "file_web": "North_Sentinel_Island.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 1500,
+    "height": 1500,
+    "thumbnail_width": 80.0
+  },
+  "bulbshop": {
+    "shortcode": "img",
+    "identifier": "bulbshop",
+    "file_web": "NL-HaNA_2.24.14.02_0_254-3015.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 1500,
+    "height": 1016,
+    "thumbnail_width": 118.11023622047244
+  },
+  "nacultureareas": {
+    "shortcode": "img",
+    "identifier": "nacultureareas",
+    "file_web": "PSM_V82_D441_Culture_areas_in_north_america.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 1500,
+    "height": 1840,
+    "thumbnail_width": 65.21739130434783
+  },
+  "xmastruce": {
+    "shortcode": "img",
+    "identifier": "xmastruce",
+    "file_web": "Illustrated_London_News_-_Christmas_Truce_1914-(1).webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 2000,
+    "height": 1200,
+    "thumbnail_width": 133.33333333333334
+  },
+  "idcard": {
+    "shortcode": "img",
+    "identifier": "idcard",
+    "file_web": "NPG_2016_2 Asawa R.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 1500,
+    "height": 930,
+    "thumbnail_width": 129.03225806451613
+  },
+  "bonobos": {
+    "shortcode": "img",
+    "identifier": "bonobos",
+    "file_web": "6_bonobos_WHCalvin_IMG_1341.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 1500,
+    "height": 1200,
+    "thumbnail_width": 100.0
+  },
+  "firestone": {
+    "shortcode": "img",
+    "identifier": "firestone",
+    "file_web": "FIRESTONE-obit-superJumbo.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 1000,
+    "height": 1444,
+    "thumbnail_width": 55.40166204986149
+  },
+  "overviewfx": {
+    "shortcode": "media_f",
+    "identifier": "overviewfx",
+    "file_web": "earth-at-night-1_wide-157394396924e2d1f7ff855e6bf53b13ed95a145.webp",
+    "xfade_name": "",
+    "chapter": "introduction",
+    "width": 2000,
+    "height": 1124,
+    "thumbnail_width": 142.34875444839858
+  },
+  "iamesnaylor": {
+    "shortcode": "img",
+    "identifier": "iamesnaylor",
+    "file_web": "James-Nayler-engraving-B-letter-blasphemy-punishment-EDIT-2.webp",
+    "xfade_name": "",
+    "chapter": "chapter-03",
+    "width": 1500,
+    "height": 2077,
+    "thumbnail_width": 57.77563793933558
+  },
+  "naylor2": {
+    "shortcode": "img",
+    "identifier": "naylor2",
+    "file_web": "00917087001_h_Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-03",
+    "width": 3022,
+    "height": 2151,
+    "thumbnail_width": 112.39423523942352
+  },
+  "jewishwomen": {
+    "shortcode": "img",
+    "identifier": "jewishwomen",
+    "file_web": "19Nov_kristallnacht_WIRES-(1).webp",
+    "xfade_name": "",
+    "chapter": "chapter-03",
+    "width": 1500,
+    "height": 1000,
+    "thumbnail_width": 120.0
+  },
+  "jonathanwalker": {
+    "shortcode": "img",
+    "identifier": "jonathanwalker",
+    "file_web": "Jonathan-Walker-hand-role-slaves-SS-freedom-Enhanced-+-Noise-6.webp",
+    "xfade_name": "",
+    "chapter": "chapter-03",
+    "width": 1500,
+    "height": 993,
+    "thumbnail_width": 120.84592145015105
+  },
+  "slavestealer": {
+    "shortcode": "img",
+    "identifier": "slavestealer",
+    "file_web": "Jonathan_Walker_branded_hand,_1845-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-03",
+    "width": 1500,
+    "height": 1205,
+    "thumbnail_width": 99.5850622406639
+  },
+  "sheepfromgoats": {
+    "shortcode": "img",
+    "identifier": "sheepfromgoats",
+    "file_web": "ravenna_santapollinaire-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-03",
+    "width": 1500,
+    "height": 1115,
+    "thumbnail_width": 107.62331838565022
+  },
+  "lombroso": {
+    "shortcode": "img",
+    "identifier": "lombroso",
+    "file_web": "Cesare_Lombroso._Photogravure._Wellcome_V0026740_(cropped)-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-03",
+    "width": 1500,
+    "height": 2154,
+    "thumbnail_width": 55.710306406685234
+  },
+  "lombrosohead": {
+    "shortcode": "img",
+    "identifier": "lombrosohead",
+    "file_web": "1_nhh283c26V1tYWjqH3UjXg-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-03",
+    "width": 1500,
+    "height": 1082,
+    "thumbnail_width": 110.90573012939002
+  },
+  "baconidiot": {
+    "shortcode": "img",
+    "identifier": "baconidiot",
+    "file_web": "IMG_8889-(3)-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-03",
+    "width": 3912,
+    "height": 2524,
+    "thumbnail_width": 123.99366085578447
+  },
+  "fossetteoccipital": {
+    "shortcode": "img",
+    "identifier": "fossetteoccipital",
+    "file_web": "Fossa-(1)-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-03",
+    "width": 1500,
+    "height": 1944,
+    "thumbnail_width": 61.72839506172839
+  },
+  "monkeyear": {
+    "shortcode": "img",
+    "identifier": "monkeyear",
+    "file_web": "darwin-s-tubercle-02-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-03",
+    "width": 1500,
+    "height": 1548,
+    "thumbnail_width": 77.51937984496124
+  },
+  "ears": {
+    "shortcode": "img",
+    "identifier": "ears",
+    "file_web": "ears.webp",
+    "xfade_name": "",
+    "chapter": "chapter-03",
+    "width": 1500,
+    "height": 1246,
+    "thumbnail_width": 96.30818619582665
+  },
+  "ladro1": {
+    "shortcode": "img",
+    "identifier": "ladro1",
+    "file_web": "luomodelinquente00lomb_0042 GREY-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-03",
+    "width": 2366,
+    "height": 3044,
+    "thumbnail_width": 62.18134034165572
+  },
+  "ladro2": {
+    "shortcode": "img",
+    "identifier": "ladro2",
+    "file_web": "luomodelinquente00lomb_0045 (1).webp",
+    "xfade_name": "",
+    "chapter": "chapter-03",
+    "width": 2524,
+    "height": 3974,
+    "thumbnail_width": 50.8102667337695
+  },
+  "fliess": {
+    "shortcode": "img",
+    "identifier": "fliess",
+    "file_web": "FreudFliess1890.webp",
+    "xfade_name": "",
+    "chapter": "chapter-03",
+    "width": 1500,
+    "height": 1526,
+    "thumbnail_width": 78.63695937090432
+  },
+  "handedsexminority": {
+    "shortcode": "plot",
+    "identifier": "handedsexminority",
+    "file_web": "handedsexminority.png",
+    "chapter": "chapter-03",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "scissors": {
+    "shortcode": "img",
+    "identifier": "scissors",
+    "file_web": "RH-LH_sidebents-Enhanced-Grey.webp",
+    "xfade_name": "",
+    "chapter": "chapter-02",
+    "width": 1500,
+    "height": 2000,
+    "thumbnail_width": 60.0
+  },
+  "handedpredictorsrl": {
+    "shortcode": "plot",
+    "identifier": "handedpredictorsrl",
+    "file_web": "handedpredictorsrl.png",
+    "chapter": "chapter-02",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "handedscorel": {
+    "shortcode": "plot",
+    "identifier": "handedscorel",
+    "file_web": "handedscorel.png",
+    "chapter": "chapter-02",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "handedscorer": {
+    "shortcode": "plot",
+    "identifier": "handedscorer",
+    "file_web": "handedscorer.png",
+    "chapter": "chapter-02",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "handedscorebn": {
+    "shortcode": "plot",
+    "identifier": "handedscorebn",
+    "file_web": "handedscorebn.png",
+    "chapter": "chapter-02",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "handedpredictorsbn": {
+    "shortcode": "plot",
+    "identifier": "handedpredictorsbn",
+    "file_web": "handedpredictorsbn.png",
+    "chapter": "chapter-02",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "handswitched": {
+    "shortcode": "plot",
+    "identifier": "handswitched"
+  },
+  "residentialschool": {
+    "shortcode": "img",
+    "identifier": "residentialschool",
+    "file_web": "0104-missing-children-1-Enhanced-+-Noise-6.webp",
+    "xfade_name": "",
+    "chapter": "chapter-02",
+    "width": 1500,
+    "height": 1125,
+    "thumbnail_width": 106.66666666666667
+  },
+  "purplehands": {
+    "shortcode": "img",
+    "identifier": "purplehands",
+    "file_web": "E38yxU8WEAU_XnQ-sharpen-addnoise.webp",
+    "xfade_name": "",
+    "chapter": "chapter-02",
+    "width": 1072,
+    "height": 1374,
+    "thumbnail_width": 62.41630276564774
+  },
+  "manos": {
+    "shortcode": "img",
+    "identifier": "manos",
+    "file_web": "SantaCruz-CuevaManos-P2210651b.webp",
+    "xfade_name": "",
+    "chapter": "chapter-02",
+    "width": 1500,
+    "height": 1125,
+    "thumbnail_width": 106.66666666666667
+  },
+  "children": {
+    "shortcode": "plot",
+    "identifier": "children",
+    "file_web": "children.png",
+    "chapter": "chapter-05",
+    "width": 240,
+    "height": 180,
+    "thumbnail_width": 106.66666666666667,
+    "xfade_name": ""
+  },
+  "married": {
+    "shortcode": "plot",
+    "identifier": "married",
+    "file_web": "married.png",
+    "chapter": "chapter-05",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "kurdistangrandma": {
+    "shortcode": "img",
+    "identifier": "kurdistangrandma",
+    "file_web": "Nowruz_2017_in_Bisaran,_Kurdistan_province.webp",
+    "xfade_name": "",
+    "chapter": "chapter-05",
+    "width": 1500,
+    "height": 1045,
+    "thumbnail_width": 114.83253588516746
+  },
+  "marriedid": {
+    "shortcode": "plot",
+    "identifier": "marriedid",
+    "file_web": "marriedid.png",
+    "chapter": "chapter-05",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "polynotnonmonog": {
+    "shortcode": "plot",
+    "identifier": "polynotnonmonog",
+    "file_web": "polynotnonmonog.png",
+    "chapter": "chapter-05",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "vintagegay": {
+    "shortcode": "img",
+    "identifier": "vintagegay",
+    "file_web": "vintage-gay-3.25.21-oldmasc-ig.webp",
+    "xfade_name": "",
+    "chapter": "chapter-05",
+    "width": 1500,
+    "height": 1976,
+    "thumbnail_width": 60.72874493927125
+  },
+  "thisisthelife": {
+    "shortcode": "img",
+    "identifier": "thisisthelife",
+    "file_web": "CardThisIsTheLife-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-05",
+    "width": 1500,
+    "height": 938,
+    "thumbnail_width": 127.9317697228145
+  },
+  "estheranddan": {
+    "shortcode": "img",
+    "identifier": "estheranddan",
+    "file_web": "estheranddan.webp",
+    "xfade_name": "",
+    "chapter": "chapter-05",
+    "width": 1433,
+    "height": 923,
+    "thumbnail_width": 124.20368364030335
+  },
+  "fpolynonmonog": {
+    "shortcode": "plot",
+    "identifier": "fpolynonmonog",
+    "file_web": "fpolynonmonog.png",
+    "chapter": "chapter-05",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "polynonmonogfm": {
+    "shortcode": "plot",
+    "identifier": "polynonmonogfm",
+    "file_web": "polynonmonogfm.png",
+    "chapter": "chapter-05",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "bloomsbury": {
+    "shortcode": "img",
+    "identifier": "bloomsbury",
+    "file_web": "Relationships of the Bloomsbury Group_Rory Midhani.webp",
+    "xfade_name": "",
+    "chapter": "chapter-05",
+    "width": 1500,
+    "height": 1730,
+    "thumbnail_width": 69.36416184971098
+  },
+  "monogabcd": {
+    "shortcode": "plot",
+    "identifier": "monogabcd",
+    "file_web": "monogabcd.png",
+    "chapter": "chapter-05",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "bidentitycard": {
+    "shortcode": "img",
+    "identifier": "bidentitycard",
+    "file_web": "BrI_GdLCMAEipIm-Enhanced-Bitmap.webp",
+    "xfade_name": "",
+    "chapter": "chapter-05",
+    "width": 1500,
+    "height": 945,
+    "thumbnail_width": 126.98412698412699
+  },
+  "linguistic": {
+    "shortcode": "imgs_i",
+    "identifier": "linguistic",
+    "file_web": "IMG_2071-EnhancedCrop-BITMAP-invert.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 793,
+    "thumbnail_width": 151.32408575031525
+  },
+  "reimerselfportrait": {
+    "shortcode": "imgs_i",
+    "identifier": "reimerselfportrait",
+    "file_web": "is-drawing-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 3537,
+    "thumbnail_width": 33.92705682782019
+  },
+  "youngjanetframe": {
+    "shortcode": "img_i",
+    "identifier": "youngjanetframe",
+    "file_web": "JanetFrame-by-JohnMoney-Enhanced-EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 2335,
+    "thumbnail_width": 51.39186295503212
+  },
+  "johnmoney1946": {
+    "shortcode": "img_i",
+    "identifier": "johnmoney1946",
+    "file_web": "IMG_2005-EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 2289,
+    "thumbnail_width": 52.424639580602886
+  },
+  "seacliffplan": {
+    "shortcode": "img_i",
+    "identifier": "seacliffplan",
+    "file_web": "Seacliff,_NZ_plan-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 985,
+    "thumbnail_width": 121.8274111675127
+  },
+  "seacliffnurses": {
+    "shortcode": "img_i",
+    "identifier": "seacliffnurses",
+    "file_web": "Picture_of_Nurses-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 1028,
+    "thumbnail_width": 116.73151750972762
+  },
+  "paraphilias": {
+    "shortcode": "imgs_i",
+    "identifier": "paraphilias",
+    "file_web": "IMG_2098-Enhanced-EDIT-BITMAP-invert.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 1519,
+    "thumbnail_width": 78.99934167215274
+  },
+  "gidschematic": {
+    "shortcode": "imgs_i",
+    "identifier": "gidschematic",
+    "file_web": "IMG_2085-Enhanced-BITMAP-invert.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 2091,
+    "thumbnail_width": 57.38880918220947
+  },
+  "sextable": {
+    "shortcode": "img_i",
+    "identifier": "sextable",
+    "file_web": "Overzier-Intersexuality-Table-Stitching.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 4479,
+    "thumbnail_width": 26.79169457468185
+  },
+  "healthiness": {
+    "shortcode": "img_i",
+    "identifier": "healthiness",
+    "file_web": "Healthiness-t3-IMG_2081-Enhanced-BITMAP-02-invert.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1274,
+    "height": 810,
+    "thumbnail_width": 125.82716049382717
+  },
+  "lobotomy": {
+    "shortcode": "img_i",
+    "identifier": "lobotomy",
+    "file_web": "Turning_the_Mind_Inside_Out_Saturday_Evening_Post_24_May_1941_page_18-Enhanced-2.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 1999,
+    "thumbnail_width": 60.03001500750375
+  },
+  "moneyframe1987": {
+    "shortcode": "img_i",
+    "identifier": "moneyframe1987",
+    "file_web": "IMG_2035-EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 1022,
+    "thumbnail_width": 117.41682974559687
+  },
+  "lavenderreport": {
+    "shortcode": "img_i",
+    "identifier": "lavenderreport",
+    "file_web": "lavender-rept-cover-l-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 2411,
+    "thumbnail_width": 49.77187888842804
+  },
+  "chromosomesgonads": {
+    "shortcode": "img_i",
+    "identifier": "chromosomesgonads",
+    "file_web": "IMG_2077-EDIT-BITMAP-invert.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 2620,
+    "thumbnail_width": 45.80152671755725
+  },
+  "stanley": {
+    "shortcode": "img_i",
+    "identifier": "stanley",
+    "file_web": "IMG_2055-EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 1007,
+    "thumbnail_width": 119.16583912611718
+  },
+  "andreaboy": {
+    "shortcode": "img_i",
+    "identifier": "andreaboy",
+    "file_web": "IMG_2059-Enhanced-BITMAP-invert.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 575,
+    "thumbnail_width": 208.69565217391303
+  },
+  "andrea": {
+    "shortcode": "img_i",
+    "identifier": "andrea",
+    "file_web": "IMG_2061-EDIT-BITMAP-invert.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 1038,
+    "thumbnail_width": 115.60693641618496
+  },
+  "twins": {
+    "shortcode": "img_i",
+    "identifier": "twins",
+    "file_web": "0_GD167870-Enhanced-+-Noise.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 2073,
+    "thumbnail_width": 57.88712011577424
+  },
+  "youngreimer": {
+    "shortcode": "img_i",
+    "identifier": "youngreimer",
+    "file_web": "0_O-LPFbmjAzf12vVf-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 1004,
+    "thumbnail_width": 119.5219123505976
+  },
+  "genderfeedback": {
+    "shortcode": "img_i",
+    "identifier": "genderfeedback",
+    "file_web": "IMG_2036-Enhanced-BITMAP-invert.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 908,
+    "thumbnail_width": 132.15859030837004
+  },
+  "tomboyism": {
+    "shortcode": "img_i",
+    "identifier": "tomboyism",
+    "file_web": "IMG_2058-Enhanced-BITMAP-invert.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 1499,
+    "thumbnail_width": 80.0533689126084
+  },
+  "davidreimer": {
+    "shortcode": "img_i",
+    "identifier": "davidreimer",
+    "file_web": "16266242_1513755648665344_5835894894228323895_n copy-Enhanced-SR.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 1947,
+    "thumbnail_width": 61.633281972265024
+  },
+  "reimermarriage": {
+    "shortcode": "img_i",
+    "identifier": "reimermarriage",
+    "file_web": "0_GD167806-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 985,
+    "thumbnail_width": 121.8274111675127
+  },
+  "moneyapartment": {
+    "shortcode": "img_i",
+    "identifier": "moneyapartment",
+    "file_web": "f9cebd_7c4e3d5c4c2f483e82340b2d35e60e26_mv2-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 998,
+    "thumbnail_width": 120.24048096192385
+  },
+  "moneycollection": {
+    "shortcode": "img_i",
+    "identifier": "moneycollection",
+    "file_web": "f9cebd_8f0416c40c2e41359cc82af3972ce505_mv2-Enhanced EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-11.5",
+    "width": 1500,
+    "height": 954,
+    "thumbnail_width": 125.78616352201257
+  },
+  "boviepatent": {
+    "shortcode": "img_x",
+    "identifier": "boviepatent",
+    "file_web": "boviepatent.webp",
+    "chapter": "chapter-12",
+    "width": 4500,
+    "height": 2201,
+    "thumbnail_width": 163.56201726487961,
+    "xfade_name": ""
+  },
+  "antiquebovie": {
+    "shortcode": "img",
+    "identifier": "antiquebovie",
+    "file_web": "485-2-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-12",
+    "width": 1500,
+    "height": 1154,
+    "thumbnail_width": 103.98613518197574
+  },
+  "intersexaab": {
+    "shortcode": "plot",
+    "identifier": "intersexaab",
+    "file_web": "intersexaab.png",
+    "chapter": "chapter-12",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "artificialvagina": {
+    "shortcode": "img",
+    "identifier": "artificialvagina",
+    "file_web": "IMG_2111-GREY.webp",
+    "xfade_name": "",
+    "chapter": "chapter-12",
+    "width": 1500,
+    "height": 2067,
+    "thumbnail_width": 58.055152394775035
+  },
+  "sexratiomap": {
+    "shortcode": "map",
+    "identifier": "sexratiomap",
+    "file_web": "sexratiomap.png",
+    "chapter": "chapter-12",
+    "width": 1386,
+    "height": 858,
+    "thumbnail_width": 129.23076923076923,
+    "xfade_name": ""
+  },
+  "sekundar": {
+    "shortcode": "img_x",
+    "identifier": "sekundar",
+    "file_web": "sekundar.webp",
+    "chapter": "chapter-12",
+    "width": 3000,
+    "height": 1528,
+    "thumbnail_width": 157.06806282722513,
+    "xfade_name": ""
+  },
+  "intersexrightsmap": {
+    "shortcode": "map",
+    "identifier": "intersexrightsmap",
+    "file_web": "intersexrightsmap.png",
+    "chapter": "chapter-12",
+    "width": 1386,
+    "height": 858,
+    "thumbnail_width": 129.23076923076923,
+    "xfade_name": ""
+  },
+  "intersexprotest": {
+    "shortcode": "img",
+    "identifier": "intersexprotest",
+    "file_web": "IMG-8417-Enhanced-EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-12",
+    "width": 1500,
+    "height": 1089,
+    "thumbnail_width": 110.19283746556474
+  },
+  "hermafrodite": {
+    "shortcode": "img",
+    "identifier": "hermafrodite",
+    "file_web": "pare_hermaprodite-1-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-12",
+    "width": 1500,
+    "height": 2908,
+    "thumbnail_width": 41.26547455295736
+  },
+  "thirdgender": {
+    "shortcode": "img_x",
+    "identifier": "thirdgender",
+    "file_web": "thirdgender.webp",
+    "chapter": "chapter-12",
+    "width": 2759,
+    "height": 1001,
+    "thumbnail_width": 220.4995004995005,
+    "xfade_name": ""
+  },
+  "target": {
+    "shortcode": "img",
+    "identifier": "target",
+    "file_web": "CGct96FUgAA4hBA.webp",
+    "xfade_name": "",
+    "chapter": "chapter-15",
+    "width": 1500,
+    "height": 1859,
+    "thumbnail_width": 64.55083378160302
+  },
+  "tocalife": {
+    "shortcode": "img",
+    "identifier": "tocalife",
+    "file_web": "tocalifestories-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-15",
+    "width": 1500,
+    "height": 1125,
+    "thumbnail_width": 106.66666666666667
+  },
+  "phrenologicalbust": {
+    "shortcode": "img",
+    "identifier": "phrenologicalbust",
+    "file_web": "Phrenology,_1835_Wellcome_L0002999-enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-15",
+    "width": 1500,
+    "height": 1161,
+    "thumbnail_width": 103.35917312661499
+  },
+  "babbagelovelace": {
+    "shortcode": "img_x",
+    "identifier": "babbagelovelace",
+    "file_web": "babbagelovelace.webp",
+    "chapter": "chapter-15",
+    "width": 3000,
+    "height": 1759,
+    "thumbnail_width": 136.44115974985786,
+    "xfade_name": ""
+  },
+  "criminallesbians": {
+    "shortcode": "img",
+    "identifier": "criminallesbians",
+    "file_web": "donna_266-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-15",
+    "width": 1500,
+    "height": 2459,
+    "thumbnail_width": 48.80032533550224
+  },
+  "hilaryhahn": {
+    "shortcode": "img",
+    "identifier": "hilaryhahn",
+    "file_web": "8d1c61-20220407-hilary-hahn-2000.webp",
+    "xfade_name": "",
+    "chapter": "chapter-15",
+    "width": 1500,
+    "height": 1500,
+    "thumbnail_width": 80.0
+  },
+  "agriculture": {
+    "shortcode": "img",
+    "identifier": "agriculture",
+    "file_web": "master-pnp-ppmsca-02900-02937u.webp",
+    "xfade_name": "",
+    "chapter": "chapter-15",
+    "width": 1500,
+    "height": 1023,
+    "thumbnail_width": 117.30205278592375
+  },
+  "hunt": {
+    "shortcode": "img",
+    "identifier": "hunt",
+    "file_web": "Man-the-Hunter-public-domain-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-15",
+    "width": 1500,
+    "height": 701,
+    "thumbnail_width": 171.18402282453638
+  },
+  "powerloom": {
+    "shortcode": "img",
+    "identifier": "powerloom",
+    "file_web": "Power_loom_weaving._Wellcome_L0011293-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-15",
+    "width": 1493,
+    "height": 984,
+    "thumbnail_width": 121.3821138211382
+  },
+  "housework": {
+    "shortcode": "img",
+    "identifier": "housework",
+    "file_web": "PC321457.webp",
+    "xfade_name": "",
+    "chapter": "chapter-15",
+    "width": 1500,
+    "height": 1011,
+    "thumbnail_width": 118.69436201780415
+  },
+  "najell": {
+    "shortcode": "img",
+    "identifier": "najell",
+    "file_web": "najell-hero-original-grey-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-15",
+    "width": 1500,
+    "height": 834,
+    "thumbnail_width": 143.88489208633092
+  },
+  "artificialwomb": {
+    "shortcode": "img",
+    "identifier": "artificialwomb",
+    "file_web": "Artificial_Womb.webp",
+    "xfade_name": "",
+    "chapter": "chapter-15",
+    "width": 1500,
+    "height": 2458,
+    "thumbnail_width": 48.82017900732303
+  },
+  "flipped": {
+    "shortcode": "plot",
+    "identifier": "flipped",
+    "file_web": "flipped.png",
+    "chapter": "chapter-15",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "boeree": {
+    "shortcode": "img_x",
+    "identifier": "boeree",
+    "file_web": "boeree.webp",
+    "chapter": "chapter-15",
+    "width": 3000,
+    "height": 2181,
+    "thumbnail_width": 110.04126547455296,
+    "xfade_name": ""
+  },
+  "contradictions": {
+    "shortcode": "plot",
+    "identifier": "contradictions",
+    "file_web": "contradictions.png",
+    "chapter": "chapter-15",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "faceapp": {
+    "shortcode": "img_x",
+    "identifier": "faceapp",
+    "file_web": "faceapp.webp",
+    "chapter": "chapter-15",
+    "width": 9000,
+    "height": 2000,
+    "thumbnail_width": 360.0,
+    "xfade_name": ""
+  },
+  "doginternet": {
+    "shortcode": "img",
+    "identifier": "doginternet",
+    "file_web": "CartoonStock_572720_CC22230.webp",
+    "xfade_name": "",
+    "chapter": "chapter-15",
+    "width": 1709,
+    "height": 1931,
+    "thumbnail_width": 70.80269290523044
+  },
+  "turing": {
+    "shortcode": "img",
+    "identifier": "turing",
+    "file_web": "Alan_Turing_Aged_16-Enhanced + Noise.webp",
+    "xfade_name": "",
+    "chapter": "chapter-14",
+    "width": 1434,
+    "height": 1952,
+    "thumbnail_width": 58.77049180327869
+  },
+  "genderpredictorsf": {
+    "shortcode": "plot",
+    "identifier": "genderpredictorsf",
+    "file_web": "genderpredictorsf.png",
+    "chapter": "chapter-14",
+    "width": 480,
+    "height": 320,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "genderpredictorsbn": {
+    "shortcode": "plot",
+    "identifier": "genderpredictorsbn",
+    "file_web": "genderpredictorsbn.png",
+    "chapter": "chapter-14",
+    "width": 480,
+    "height": 320,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "genderscorefpca1": {
+    "shortcode": "plot",
+    "identifier": "genderscorefpca1",
+    "file_web": "genderscorefpca1.png",
+    "chapter": "chapter-14",
+    "width": 480,
+    "height": 320,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "gendercomponent1": {
+    "shortcode": "plot",
+    "identifier": "gendercomponent1",
+    "file_web": "gendercomponent1.png",
+    "chapter": "chapter-14",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "camel": {
+    "shortcode": "img",
+    "identifier": "camel",
+    "file_web": "2011_Trampeltier_1528 EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-14",
+    "width": 1500,
+    "height": 1083,
+    "thumbnail_width": 110.80332409972299
+  },
+  "genderheight": {
+    "shortcode": "plot",
+    "identifier": "genderheight",
+    "file_web": "genderheight.png",
+    "chapter": "chapter-14",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "dromedary": {
+    "shortcode": "img",
+    "identifier": "dromedary",
+    "file_web": "Camelus_dromedarius_in_Nuweiba EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-14",
+    "width": 1500,
+    "height": 1004,
+    "thumbnail_width": 119.5219123505976
+  },
+  "pca3d": {
+    "shortcode": "media_f",
+    "identifier": "pca3d",
+    "file_web": "pca3d.png",
+    "chapter": "chapter-14",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "genderscoref": {
+    "shortcode": "plot",
+    "identifier": "genderscoref",
+    "file_web": "genderscoref.png",
+    "chapter": "chapter-14",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "genderscorebn": {
+    "shortcode": "plot",
+    "identifier": "genderscorebn",
+    "file_web": "genderscorebn.png",
+    "chapter": "chapter-14",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "genderpca2": {
+    "shortcode": "plot",
+    "identifier": "genderpca2",
+    "file_web": "genderpca2.png",
+    "chapter": "chapter-14",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "pentlandface": {
+    "shortcode": "img",
+    "identifier": "pentlandface",
+    "file_web": "Pentland 1991 average face from eigenfaces paper-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-14",
+    "width": 1500,
+    "height": 1195,
+    "thumbnail_width": 100.418410041841
+  },
+  "mikemikeface": {
+    "shortcode": "img",
+    "identifier": "mikemikeface",
+    "file_web": "MikeMikeFace-Enhanced + Sharpen + Noise.webp",
+    "xfade_name": "",
+    "chapter": "chapter-14",
+    "width": 1500,
+    "height": 1002,
+    "thumbnail_width": 119.76047904191617
+  },
+  "galton": {
+    "shortcode": "img",
+    "identifier": "galton",
+    "file_web": "Galton_1_2_5_4_2_0001 SILO SHARPEN.webp",
+    "xfade_name": "",
+    "chapter": "chapter-14",
+    "width": 1702,
+    "height": 1731,
+    "thumbnail_width": 78.65973425765453
+  },
+  "galtoncomposite": {
+    "shortcode": "img",
+    "identifier": "galtoncomposite",
+    "file_web": "IMG_2123-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-14",
+    "width": 1500,
+    "height": 466,
+    "thumbnail_width": 257.51072961373393
+  },
+  "galtoncriminality": {
+    "shortcode": "img",
+    "identifier": "galtoncriminality",
+    "file_web": "IMG_2119-Enhanced EDIT 2.webp",
+    "xfade_name": "",
+    "chapter": "chapter-14",
+    "width": 1500,
+    "height": 2364,
+    "thumbnail_width": 50.76142131979695
+  },
+  "eigenfaces": {
+    "shortcode": "img_x",
+    "identifier": "eigenfaces",
+    "file_web": "eigenfaces.webp",
+    "chapter": "chapter-14",
+    "width": 4000,
+    "height": 1205,
+    "thumbnail_width": 265.56016597510376,
+    "xfade_name": ""
+  },
+  "wuzhang": {
+    "shortcode": "img_x",
+    "identifier": "wuzhang",
+    "file_web": "wuzhang.webp",
+    "chapter": "chapter-14",
+    "width": 2765,
+    "height": 463,
+    "thumbnail_width": 477.75377969762417,
+    "xfade_name": ""
+  },
+  "todorov": {
+    "shortcode": "img_x",
+    "identifier": "todorov",
+    "file_web": "todorov.webp",
+    "chapter": "chapter-14",
+    "width": 482,
+    "height": 258,
+    "thumbnail_width": 149.45736434108528,
+    "xfade_name": ""
+  },
+  "prendergast": {
+    "shortcode": "img",
+    "identifier": "prendergast",
+    "file_web": "940713-chitribune-prendergast-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-14",
+    "width": 1500,
+    "height": 1799,
+    "thumbnail_width": 66.70372429127293
+  },
+  "lips": {
+    "shortcode": "img",
+    "identifier": "lips",
+    "file_web": "physiognomical_lips-Enhanced GREY.webp",
+    "xfade_name": "",
+    "chapter": "chapter-14",
+    "width": 1500,
+    "height": 2496,
+    "thumbnail_width": 48.07692307692308
+  },
+  "savage_lovecast_579": {
+    "shortcode": "audio",
+    "identifier": "savage_lovecast_579",
+    "file_web": "savage-lovecast.webp",
+    "xfade_name": "",
+    "chapter": "chapter-14",
+    "width": 800,
+    "height": 800,
+    "thumbnail_width": 80.0
+  },
+  "wangkosinski": {
+    "shortcode": "img_x",
+    "identifier": "wangkosinski",
+    "file_web": "wangkosinski.webp",
+    "chapter": "chapter-14",
+    "width": 3890,
+    "height": 979,
+    "thumbnail_width": 317.8753830439224,
+    "xfade_name": ""
+  },
+  "makeup": {
+    "shortcode": "plot",
+    "identifier": "makeup",
+    "file_web": "makeup.png",
+    "chapter": "chapter-14",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "eyeshadow": {
+    "shortcode": "plot",
+    "identifier": "eyeshadow",
+    "file_web": "eyeshadow.png",
+    "chapter": "chapter-14",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "womenlikeglasses": {
+    "shortcode": "plot",
+    "identifier": "womenlikeglasses",
+    "file_web": "womenlikeglasses.png",
+    "chapter": "chapter-14",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "menlikeglasses": {
+    "shortcode": "plot",
+    "identifier": "menlikeglasses"
+  },
+  "stubble": {
+    "shortcode": "plot",
+    "identifier": "stubble",
+    "file_web": "stubble.png",
+    "chapter": "chapter-14",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "antigaymap": {
+    "shortcode": "map",
+    "identifier": "antigaymap",
+    "file_web": "antigaymap.png",
+    "chapter": "chapter-14",
+    "width": 1386,
+    "height": 858,
+    "thumbnail_width": 129.23076923076923,
+    "xfade_name": ""
+  },
+  "selfie": {
+    "shortcode": "img_x",
+    "identifier": "selfie",
+    "file_web": "selfie.webp",
+    "chapter": "chapter-14",
+    "width": 2000,
+    "height": 1332,
+    "thumbnail_width": 120.12012012012012,
+    "xfade_name": ""
+  },
+  "rocine": {
+    "shortcode": "img",
+    "identifier": "rocine",
+    "file_web": "degeneracy EDIT Inverse FFT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-14",
+    "width": 1500,
+    "height": 1893,
+    "thumbnail_width": 63.391442155309036
+  },
+  "mugshots": {
+    "shortcode": "media_f",
+    "identifier": "mugshots",
+    "file_web": "mugshots.webp",
+    "xfade_name": "",
+    "chapter": "chapter-14",
+    "width": 1500,
+    "height": 649,
+    "thumbnail_width": 184.89984591679507
+  },
+  "yeartrans": {
+    "shortcode": "plot",
+    "identifier": "yeartrans",
+    "file_web": "yeartrans.png",
+    "chapter": "chapter-13",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "intersextrans": {
+    "shortcode": "plot",
+    "identifier": "intersextrans",
+    "file_web": "intersextrans.png",
+    "chapter": "chapter-13",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "intersextransoverlap": {
+    "shortcode": "plot",
+    "identifier": "intersextransoverlap",
+    "file_web": "intersextransoverlap.png",
+    "chapter": "chapter-13",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "nbtrans": {
+    "shortcode": "plot",
+    "identifier": "nbtrans",
+    "file_web": "nbtrans.png",
+    "chapter": "chapter-13",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "theytrans": {
+    "shortcode": "plot",
+    "identifier": "theytrans",
+    "file_web": "theytrans.png",
+    "chapter": "chapter-13",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "theynb": {
+    "shortcode": "plot",
+    "identifier": "theynb",
+    "file_web": "theynb.png",
+    "chapter": "chapter-13",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "transaab": {
+    "shortcode": "plot",
+    "identifier": "transaab",
+    "file_web": "transaab.png",
+    "chapter": "chapter-13",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "intersextransaab": {
+    "shortcode": "plot",
+    "identifier": "intersextransaab",
+    "file_web": "intersextransaab.png",
+    "chapter": "chapter-13",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "priscilla": {
+    "shortcode": "img",
+    "identifier": "priscilla",
+    "file_web": "the-adventures-of-priscilla-queen-of-the-desert-156-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-13",
+    "width": 1500,
+    "height": 627,
+    "thumbnail_width": 191.38755980861245
+  },
+  "invertido": {
+    "shortcode": "img",
+    "identifier": "invertido",
+    "file_web": "IMG_9196-Enhanced Inverse FFT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-13",
+    "width": 1500,
+    "height": 1976,
+    "thumbnail_width": 60.72874493927125
+  },
+  "gidsreferrals": {
+    "shortcode": "plot",
+    "identifier": "gidsreferrals",
+    "file_web": "gidsreferrals.png",
+    "chapter": "chapter-13",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "gidsaab": {
+    "shortcode": "plot",
+    "identifier": "gidsaab",
+    "file_web": "gidsaab.png",
+    "chapter": "chapter-13",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "buckangel": {
+    "shortcode": "img",
+    "identifier": "buckangel",
+    "file_web": "Buck_Angel_Headshot-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-13",
+    "width": 1500,
+    "height": 1893,
+    "thumbnail_width": 63.391442155309036
+  },
+  "hetero": {
+    "shortcode": "plot",
+    "identifier": "hetero",
+    "file_web": "hetero.png",
+    "chapter": "chapter-07",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "nsexattr": {
+    "shortcode": "plot",
+    "identifier": "nsexattr",
+    "file_web": "nsexattr.png",
+    "chapter": "chapter-07",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "ace": {
+    "shortcode": "plot",
+    "identifier": "ace",
+    "file_web": "ace.png",
+    "chapter": "chapter-07",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "kinseyscale": {
+    "shortcode": "img",
+    "identifier": "kinseyscale",
+    "file_web": "IMG_1333.webp",
+    "xfade_name": "",
+    "chapter": "chapter-07",
+    "width": 1500,
+    "height": 1637,
+    "thumbnail_width": 73.30482590103848
+  },
+  "acebi": {
+    "shortcode": "img_x",
+    "identifier": "acebi",
+    "file_web": "acebi.webp",
+    "chapter": "chapter-07",
+    "width": 1500,
+    "height": 1103,
+    "thumbnail_width": 108.79419764279238,
+    "xfade_name": ""
+  },
+  "vintagelesbian": {
+    "shortcode": "img",
+    "identifier": "vintagelesbian",
+    "file_web": "1606461u.webp",
+    "xfade_name": "",
+    "chapter": "chapter-07",
+    "width": 1500,
+    "height": 1139,
+    "thumbnail_width": 105.35557506584723
+  },
+  "arom": {
+    "shortcode": "plot",
+    "identifier": "arom",
+    "file_web": "arom.png",
+    "chapter": "chapter-07",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "vintagelesbians2": {
+    "shortcode": "img",
+    "identifier": "vintagelesbians2",
+    "file_web": "Vintage-Lesbian-Couples-1-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-07",
+    "width": 1500,
+    "height": 2280,
+    "thumbnail_width": 52.63157894736842
+  },
+  "yearhetero": {
+    "shortcode": "plot",
+    "identifier": "yearhetero"
+  },
+  "yearmonog": {
+    "shortcode": "plot",
+    "identifier": "yearmonog",
+    "file_web": "yearmonog.png",
+    "chapter": "chapter-07",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "avioniii": {
+    "shortcode": "img",
+    "identifier": "avioniii",
+    "file_web": "Avion_III_20050711-Enhanced-EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-07",
+    "width": 1500,
+    "height": 1934,
+    "thumbnail_width": 62.047569803516026
+  },
+  "supersonic": {
+    "shortcode": "img",
+    "identifier": "supersonic",
+    "file_web": "GettyImages-90747950.webp",
+    "xfade_name": "",
+    "chapter": "chapter-07",
+    "width": 1431,
+    "height": 1984,
+    "thumbnail_width": 57.70161290322581
+  },
+  "mandarinduck": {
+    "shortcode": "img",
+    "identifier": "mandarinduck",
+    "file_web": "562849-istock-486565418-EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-07",
+    "width": 1500,
+    "height": 1096,
+    "thumbnail_width": 109.48905109489051
+  },
+  "yearqueer": {
+    "shortcode": "plot",
+    "identifier": "yearqueer",
+    "file_web": "yearqueer.png",
+    "chapter": "chapter-09",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "queer": {
+    "shortcode": "plot",
+    "identifier": "queer",
+    "file_web": "queer.png",
+    "chapter": "chapter-09",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "wildedouglas": {
+    "shortcode": "img",
+    "identifier": "wildedouglas",
+    "file_web": "Wilde_Douglas_British_Library_B20147-85.webp",
+    "xfade_name": "",
+    "chapter": "chapter-09",
+    "width": 1500,
+    "height": 2089,
+    "thumbnail_width": 57.443752991862134
+  },
+  "queerlg": {
+    "shortcode": "plot",
+    "identifier": "queerlg",
+    "file_web": "queerlg.png",
+    "chapter": "chapter-09",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "queerbi": {
+    "shortcode": "plot",
+    "identifier": "queerbi",
+    "file_web": "queerbi.png",
+    "chapter": "chapter-09",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "warpeddesire": {
+    "shortcode": "img",
+    "identifier": "warpeddesire",
+    "file_web": "Beacon-B289-1960.webp",
+    "xfade_name": "",
+    "chapter": "chapter-09",
+    "width": 1462,
+    "height": 2426,
+    "thumbnail_width": 48.21104699093157
+  },
+  "lesbianbarmap": {
+    "shortcode": "map",
+    "identifier": "lesbianbarmap",
+    "file_web": "lesbianbarmap.png",
+    "chapter": "chapter-09",
+    "width": 1700,
+    "height": 1100,
+    "thumbnail_width": 123.63636363636364,
+    "xfade_name": ""
+  },
+  "lesbianbarproject": {
+    "shortcode": "img",
+    "identifier": "lesbianbarproject",
+    "file_web": "Lesbian Bar Project Doc 2021 Still 14.webp",
+    "xfade_name": "",
+    "chapter": "chapter-09",
+    "width": 1500,
+    "height": 988,
+    "thumbnail_width": 121.4574898785425
+  },
+  "erotisme": {
+    "shortcode": "img_x",
+    "identifier": "erotisme",
+    "file_web": "erotisme.webp",
+    "chapter": "chapter-09",
+    "width": 7500,
+    "height": 2318,
+    "thumbnail_width": 258.84383088869714,
+    "xfade_name": ""
+  },
+  "londonbrothel": {
+    "shortcode": "img",
+    "identifier": "londonbrothel",
+    "file_web": "SWNS_BROTHEL_BOOK_14-Enhanced-BITMAP.webp",
+    "xfade_name": "",
+    "chapter": "chapter-09",
+    "width": 1500,
+    "height": 880,
+    "thumbnail_width": 136.36363636363637
+  },
+  "sexworker": {
+    "shortcode": "img",
+    "identifier": "sexworker",
+    "file_web": "bellocq_ernest_j_36_2004_440039_fullscreen EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-09",
+    "width": 1500,
+    "height": 1869,
+    "thumbnail_width": 64.20545746388443
+  },
+  "syphilis": {
+    "shortcode": "img",
+    "identifier": "syphilis",
+    "file_web": "141104_HIST_MedImages_Syphilis.webp",
+    "xfade_name": "",
+    "chapter": "chapter-09",
+    "width": 1500,
+    "height": 2146,
+    "thumbnail_width": 55.91798695246971
+  },
+  "syphilisdeathbed": {
+    "shortcode": "img",
+    "identifier": "syphilisdeathbed",
+    "file_web": "c0068406-50mb.webp",
+    "xfade_name": "",
+    "chapter": "chapter-09",
+    "width": 1500,
+    "height": 1048,
+    "thumbnail_width": 114.50381679389314
+  },
+  "antimasturbationpatent": {
+    "shortcode": "img",
+    "identifier": "antimasturbationpatent",
+    "file_web": "Patent-745264-anti-masturbation-device-1-(1)-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-09",
+    "width": 1500,
+    "height": 2131,
+    "thumbnail_width": 56.31159080244017
+  },
+  "lgbtqrainbow": {
+    "shortcode": "plot",
+    "identifier": "lgbtqrainbow",
+    "file_web": "lgbtqrainbow.png",
+    "chapter": "chapter-08",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "lgbtqbi": {
+    "shortcode": "plot",
+    "identifier": "lgbtqbi",
+    "file_web": "lgbtqbi.png",
+    "chapter": "chapter-08",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "bi": {
+    "shortcode": "plot",
+    "identifier": "bi",
+    "file_web": "bi.png",
+    "chapter": "chapter-08",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "yearbi": {
+    "shortcode": "plot",
+    "identifier": "yearbi",
+    "file_web": "yearbi.png",
+    "chapter": "chapter-08",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "kinseyspring": {
+    "shortcode": "img_x",
+    "identifier": "kinseyspring",
+    "file_web": "kinseyspring.webp",
+    "chapter": "chapter-08",
+    "width": 1500,
+    "height": 1098,
+    "thumbnail_width": 109.2896174863388,
+    "xfade_name": ""
+  },
+  "mccarthycosmo": {
+    "shortcode": "img",
+    "identifier": "mccarthycosmo",
+    "file_web": "20395179-mccarthy_cosmo_aug711-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-08",
+    "width": 1500,
+    "height": 2057,
+    "thumbnail_width": 58.3373845405931
+  },
+  "demi": {
+    "shortcode": "plot",
+    "identifier": "demi",
+    "file_web": "demi.png",
+    "chapter": "chapter-08",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "lg": {
+    "shortcode": "plot",
+    "identifier": "lg",
+    "file_web": "lg.png",
+    "chapter": "chapter-08",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "lgexclssa": {
+    "shortcode": "plot",
+    "identifier": "lgexclssa",
+    "file_web": "lgexclssa.png",
+    "chapter": "chapter-08",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "exclssa": {
+    "shortcode": "plot",
+    "identifier": "exclssa",
+    "file_web": "exclssa.png",
+    "chapter": "chapter-08",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "italiaandgermania": {
+    "shortcode": "img",
+    "identifier": "italiaandgermania",
+    "file_web": "2403px-Italia_and_Germania_Friedrich_Overbeck_1828-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-08",
+    "width": 1500,
+    "height": 1341,
+    "thumbnail_width": 89.48545861297539
+  },
+  "blackwell": {
+    "shortcode": "img",
+    "identifier": "blackwell",
+    "file_web": "Elizabeth-Blackwell-LoC-master-pnp-cph-3b00000-3b05000-3b05600-3b05666u-EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-06",
+    "width": 1500,
+    "height": 2120,
+    "thumbnail_width": 56.60377358490566
+  },
+  "laviniadock": {
+    "shortcode": "img",
+    "identifier": "laviniadock",
+    "file_web": "Lavinia_Lloyd_Dock.webp",
+    "xfade_name": "",
+    "chapter": "chapter-06",
+    "width": 1500,
+    "height": 1919,
+    "thumbnail_width": 62.53256904637832
+  },
+  "bigfamilies": {
+    "shortcode": "img_x",
+    "identifier": "bigfamilies",
+    "file_web": "bigfamilies.webp",
+    "chapter": "chapter-06",
+    "width": 392,
+    "height": 80,
+    "thumbnail_width": 392.0,
+    "xfade_name": ""
+  },
+  "kalogynomia": {
+    "shortcode": "img",
+    "identifier": "kalogynomia",
+    "file_web": "kalogynomia-Enhanced-Bitmap.webp",
+    "xfade_name": "",
+    "chapter": "chapter-06",
+    "width": 1500,
+    "height": 2159,
+    "thumbnail_width": 55.5812876331635
+  },
+  "krafftebing": {
+    "shortcode": "img",
+    "identifier": "krafftebing",
+    "file_web": "Richard_v._Krafft-Ebing.webp",
+    "xfade_name": "",
+    "chapter": "chapter-06",
+    "width": 1500,
+    "height": 2097,
+    "thumbnail_width": 57.22460658082976
+  },
+  "sandor": {
+    "shortcode": "img",
+    "identifier": "sandor",
+    "file_web": "Drawing_of__Comtesse_Sarolta_Vay__from__Wiener_Tagblatt__Wellcome_L0063703.webp",
+    "xfade_name": "",
+    "chapter": "chapter-06",
+    "width": 1500,
+    "height": 1688,
+    "thumbnail_width": 71.09004739336493
+  },
+  "craniometry": {
+    "shortcode": "img",
+    "identifier": "craniometry",
+    "file_web": "TmmsT6s.webp",
+    "xfade_name": "",
+    "chapter": "chapter-06",
+    "width": 1500,
+    "height": 999,
+    "thumbnail_width": 120.12012012012012
+  },
+  "hamlet": {
+    "shortcode": "img",
+    "identifier": "hamlet",
+    "file_web": "Bernhardt_Hamlet2.webp",
+    "xfade_name": "",
+    "chapter": "chapter-06",
+    "width": 1500,
+    "height": 1875,
+    "thumbnail_width": 64.0
+  },
+  "gayprotest": {
+    "shortcode": "img",
+    "identifier": "gayprotest",
+    "file_web": "AP19166739451479 (1).webp",
+    "xfade_name": "",
+    "chapter": "chapter-06",
+    "width": 1500,
+    "height": 1003,
+    "thumbnail_width": 119.64107676969093
+  },
+  "gittingskamenyfryer": {
+    "shortcode": "img",
+    "identifier": "gittingskamenyfryer",
+    "file_web": "Gittings_Kameny_Fryer-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-06",
+    "width": 1500,
+    "height": 934,
+    "thumbnail_width": 128.4796573875803
+  },
+  "gaycured": {
+    "shortcode": "img",
+    "identifier": "gaycured",
+    "file_web": "270591-Enhanced.webp",
+    "xfade_name": "",
+    "chapter": "chapter-06",
+    "width": 1500,
+    "height": 2223,
+    "thumbnail_width": 53.98110661268556
+  },
+  "bergonicchair": {
+    "shortcode": "img",
+    "identifier": "bergonicchair",
+    "file_web": "Bergonic_chair.webp",
+    "xfade_name": "",
+    "chapter": "chapter-06",
+    "width": 1500,
+    "height": 1046,
+    "thumbnail_width": 114.72275334608031
+  },
+  "heathlab": {
+    "shortcode": "img",
+    "identifier": "heathlab",
+    "file_web": "heathlab_diagram.webp",
+    "xfade_name": "",
+    "chapter": "chapter-06",
+    "width": 1500,
+    "height": 799,
+    "thumbnail_width": 150.18773466833542
+  },
+  "headpiece": {
+    "shortcode": "img",
+    "identifier": "headpiece",
+    "file_web": "heathlab_electrode_headpiece EDIT.webp",
+    "xfade_name": "",
+    "chapter": "chapter-06",
+    "width": 1500,
+    "height": 740,
+    "thumbnail_width": 162.16216216216216
+  },
+  "palmcomparison": {
+    "shortcode": "img",
+    "identifier": "palmcomparison",
+    "file_web": "4174086442_6e9228333e_k-Enhanced-Grey.webp",
+    "xfade_name": "",
+    "chapter": "chapter-01",
+    "width": 2000,
+    "height": 1298,
+    "thumbnail_width": 123.26656394453005
+  },
+  "dither": {
+    "shortcode": "img",
+    "identifier": "dither",
+    "file_web": "Michelangelo's_David_-_Floyd-Steinberg-Scaled.webp",
+    "xfade_name": "",
+    "chapter": "chapter-01",
+    "width": 1500,
+    "height": 1791,
+    "thumbnail_width": 67.00167504187604
+  },
+  "handedlr": {
+    "shortcode": "plot",
+    "identifier": "handedlr",
+    "file_web": "handedlr.png",
+    "chapter": "chapter-01",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "genderhandedl": {
+    "shortcode": "plot",
+    "identifier": "genderhandedl",
+    "file_web": "genderhandedl.png",
+    "chapter": "chapter-01",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "genderhandedr": {
+    "shortcode": "plot",
+    "identifier": "genderhandedr",
+    "file_web": "genderhandedr.png",
+    "chapter": "chapter-01",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  },
+  "ambihanded": {
+    "shortcode": "plot",
+    "identifier": "ambihanded",
+    "file_web": "ambihanded.png",
+    "chapter": "chapter-01",
+    "width": 240,
+    "height": 160,
+    "thumbnail_width": 120.0,
+    "xfade_name": ""
+  }
+}

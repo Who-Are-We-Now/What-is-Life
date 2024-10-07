@@ -1,0 +1,1180 @@
+/*--------------------------------------*/
+/* DEBUG STYLES --------------*/
+/*--------------------------------------*/
+// .indicator{
+// 	border: 2px solid blue !important;
+// }
+// .seq-mobileindicator, .xfade-mobileindicator{
+// 	border: 3px solid red;
+// }
+
+/*--------------------------------------*/
+/* STRUCTURAL PLOT STYLES --------------*/
+/*--------------------------------------*/
+
+.chart {
+	display: block;
+	padding-top: 20vh;
+
+	@include at-media(tablet) {
+		padding-top: 0;
+	}
+}
+
+.plot-wrapper,
+#pca3d {
+	@include at-media(tablet) {
+		padding-top: 0;
+		height: auto; //expand to length with mobile indicators
+
+		.figure {
+			position: sticky;
+			top: calc(var(--height-figure)*.2);
+		}
+
+		.figure+.text-plot,
+		.figure+.text-media {
+
+			>p,
+			>ol,
+			>blockquote {
+				display: none;
+			}
+		}
+
+	}
+}
+
+
+
+.plot,
+.plot-labels {
+	@extend .sans-serif;
+	font-size: var(--caption-size);
+}
+
+.plot-info,
+.plot-footer,
+.plot-tips {
+	margin-left: 2.5%;
+}
+
+.plot-footer {
+	padding-top: var(--pad-sm);
+}
+
+.xaxis-label {
+	// text-align: right;
+	color: var(--grey);
+	margin-bottom: var(--pad-sm);
+
+	&:after {
+		content: " →";
+	}
+}
+
+[data-format="DensityAvg"],
+[data-format="DensityCat"] {
+	.xaxis-label:before {
+		content: "Decreasing ";
+	}
+}
+
+
+figure.plot {
+	padding-left: calc(var(--pad-section) - 2.5%);
+
+	//adjust for SVG marginfor plot axis labels
+	figcaption {
+		margin-left: 0;
+	}
+
+	.plot-controls {
+		display: flex;
+
+		@include at-media(tablet) {
+			display: none; //hide download and bin updating function
+		}
+	}
+
+	@include at-media(tablet) {
+		padding-top: 0;
+		padding-left: calc(var(--pad-body) - 2.5%);
+		padding-right: calc(var(--pad-body) - 2.5%);
+	}
+
+	@include at-media(mobile_lg) {
+		padding-right: var(--pad-body);
+		top: calc(var(--height-figure) * .2);
+	}
+}
+
+.plot-content {
+	position: relative;
+	max-width: 750px;
+	overflow: hidden;
+
+	@include at-media(tablet) {
+		max-width: none;
+	}
+}
+
+.plot-info {
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+button.plot-data-dl {
+	padding: 0 6px 5px 6px;
+	font-size: 17px;
+
+	a {
+		text-decoration: none;
+		padding: 0 3px 2px 3px;
+		border-bottom: 2px solid;
+		border-bottom-color: transparent;
+	}
+
+	a:hover {
+		border-bottom-color: var(--accent);
+	}
+}
+
+
+
+.plot-header {
+	flex: 1;
+
+	div {
+		display: inline;
+	}
+
+	.plot-no,
+	.plot-title {
+		padding-right: var(--pad-xs);
+	}
+
+	&.multi-header {
+		.plot-title {
+			display: none;
+		}
+	}
+}
+
+.plot-title,
+.label-headers {
+	font-weight: var(--wght-medium);
+	padding-right: var(--pad-xs);
+
+	em {
+		@extend .sans-serif;
+	}
+
+	.label {
+		/*sublabel next to the title, currently used for the maps*/
+		font-weight: var(--wght);
+		padding-left: 7px;
+	}
+}
+
+.multilabel-axis {
+	font-weight: 400;
+}
+
+.plot-no {
+	font-feature-settings: "tnum" on;
+}
+
+.plot-no,
+.plot-axis-label {
+	font-weight: var(--wght);
+}
+
+.plot-axis-label {
+	@include at-media(tablet) {
+		&::before {
+			content: "\a";
+			white-space: pre;
+		}
+	}
+}
+
+svg {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+
+
+/*--------
+SVG TEXT
+---------*/
+text {
+	@extend .sans-serif;
+	font-feature-settings: "tnum" on;
+}
+
+.tick,
+.svg-label {
+	font-size: calc(var(--caption-size)*1.2);
+
+	@include at-media(desktop) {
+		font-size: var(--base-size);
+	}
+
+	@include at-media(tablet_lg) {
+		font-size: var(--medium-size);
+	}
+
+	@include at-media(tablet) {
+		font-size: var(--base-size);
+	}
+
+	// @include at-media(mobile_lg){
+	// 	font-size: var(--medium-size);
+	// }
+}
+
+.svg-label {
+	mix-blend-mode: multiply;
+}
+
+
+/*----------------------
+PLOT KEYS AND HEADERS (HTML, not SVG)
+-----------------------*/
+
+//sequence headers
+div.label-header {
+	display: none;
+	opacity: 0;
+	transition: opacity 600ms, display 600ms;
+}
+
+@for $i from 0 through 9 {
+	[data-active-stop="#{$i}"] [data-sequence-number="#{$i}"] {
+		display: inline;
+		opacity: 1;
+	}
+}
+
+
+.key-item {
+	// display: flex;
+	display: none;
+	opacity: 0;
+	pointer-events: none;
+	padding-bottom: var(--pad-xsmall);
+	transition: opacity 600ms, display 600ms;
+}
+
+.visiblekey {
+	opacity: 1;
+	display: flex;
+	pointer-events: auto;
+	cursor: pointer;
+}
+
+.key-color {
+	margin: 3px 6px 0 0;
+	width: 20px;
+	flex: none;
+	height: 1rem;
+	opacity: 0.5;
+	transition: opacity 200ms;
+}
+
+.key-label {
+	transition: font-weight 200ms;
+	line-height: 1.6;
+}
+
+.series-group {
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 400ms ease-in-out;
+}
+
+.series-group[data-series-state="active"] {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+[data-highlight="true"] {
+
+	.series-group[data-series-state="active"],
+	[data-series-number] {
+		opacity: 0.3;
+	}
+
+	.series-group[data-series-state="active"].highlight,
+	[data-series-number].highlight {
+		opacity: 1.0;
+	}
+}
+
+.highlight {
+	.key-color {
+		opacity: 1;
+	}
+
+	// .key-label,
+	// .label {
+	// 	font-weight: 500;
+	// }
+}
+
+//no hover over for map keys
+//show all series
+.map {
+	figcaption {
+		line-height: 1.2;
+	}
+
+	.key-item {
+		display: flex;
+		opacity: 1;
+	}
+
+	.key-color {
+		opacity: 1;
+	}
+
+	.plot-title {
+		padding-right: calc(var(--pad-xs)/2);
+	}
+
+	.plot-content {
+		&.withlabels {
+
+			&,
+			&.withlabels .g-artboard {
+				margin: 0 auto;
+			}
+
+			img {
+				//map
+				position: absolute;
+				top: 0;
+				display: block;
+				width: 100% !important;
+			}
+
+			.g-artboard {
+				//empty div for height
+				position: relative;
+				overflow: hidden;
+			}
+		}
+
+		p {
+			@extend .sans-serif;
+			font-size: 14px;
+			margin: 0;
+		}
+
+		.label {
+			position: absolute;
+			display: inline-block;
+			mix-blend-mode: normal;
+
+			p {
+				white-space: nowrap;
+				text-indent: 0;
+				line-height: 1.1;
+			}
+		}
+	}
+
+}
+
+
+//TOOLTIP and BIN INFO DATA COORDINATES
+
+.plot-tips {
+	pointer-events: none;
+	opacity: 0;
+	color: var(--grey);
+	font-size: var(--small-size);
+	@extend .sans-serif;
+	position: fixed;
+	padding: 5px;
+	border-radius: 2px;
+	background: rgba(255, 255, 255, 0.9);
+
+	transition: opacity 400ms ease-in-out;
+
+	&.visible {
+		opacity: 1;
+	}
+
+	.bin-tip,
+	.plot-tip {
+		float: left;
+	}
+
+	.series-tip {
+		clear: left;
+	}
+}
+
+.plot-tip {
+	margin-left: 0.5em;
+	display: none;
+
+	&.tip-visible {
+		display: block;
+	}
+}
+
+//add unit to AgeCat indicators
+[data-format="AgeCat"],
+[data-format="DensityCat"] {
+	.plot-tip:after {
+		content: "%";
+	}
+}
+
+.xydivider {
+	opacity: 0.5;
+}
+
+.bar-tip {
+	opacity: 0;
+	pointer-events: none;
+	font-size: var(--small-size);
+	padding: 5px;
+	border-radius: 2px;
+	background: rgba(255, 255, 255, 0.8);
+	height: auto;
+	position: absolute;
+	top: 0;
+	margin-top: -5px;
+
+	.tip-question {
+		display: none;
+	}
+
+	@include at-media(tablet) {
+		background: white;
+		font-size: var(--caption-size);
+
+		.tip-question {
+			display: block;
+		}
+	}
+}
+
+/*--------
+BAR GRAPHS
+---------*/
+[data-format=Bars] {
+	figcaption {
+		padding: 0;
+		margin: auto;
+	}
+
+	.plot-content {
+		// height: calc(var(--height-figure)* .75);
+		height: calc(var(--height-figure) - var(--height-header) - 100px);
+		max-width: 95%;
+		margin: auto;
+		margin-bottom: 10px;
+
+		@include at-media(tablet) {
+
+			// height: calc(var(--height-figure)*.85);
+		}
+	}
+
+	.plot-footer {
+		width: 95%;
+		position: relative;
+	}
+
+	.key-item {
+		display: flex;
+		opacity: 1;
+		pointer-events: auto;
+		cursor: pointer;
+	}
+
+	.plot-labels {
+		position: absolute;
+		left: var(--margin);
+
+		>div:first-child {
+			.key-label {
+				color: rgb(var(--green));
+			}
+
+			.key-color {
+				background: rgb(var(--green));
+			}
+		}
+
+		>div:nth-child(2) {
+			.key-label {
+				color: rgb(var(--orange));
+			}
+
+			.key-color {
+				background: rgb(var(--orange));
+			}
+		}
+
+		@include at-media(tablet) {
+			.key-item {
+				padding-right: var(--pad-xs);
+			}
+		}
+	}
+
+	.highlight {
+		.bar {
+			opacity: 1;
+		}
+
+		.question-label {
+			font-weight: 700;
+		}
+	}
+}
+
+.bargroup {
+	position: absolute;
+	top: 0;
+	transition: transform 800ms ease-in-out;
+	width: 100%;
+	overflow: visible;
+
+	&:hover {
+		z-index: 100;
+
+		.bar {
+			opacity: 1;
+		}
+
+		.question-label {
+			font-weight: 700;
+		}
+
+		.bar-tip {
+			opacity: 1;
+		}
+	}
+}
+
+
+.bar {
+	height: 100%;
+	max-height: 14px;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	opacity: 0.4;
+	left: 50%;
+	transform-origin: top left;
+	transition: all 300ms ease-in-out;
+}
+
+.question-label {
+	transition: color 800ms linear;
+	padding: 0 7px;
+	font-size: 14px;
+	font-family: 'Graphik';
+	font-weight: 400;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 50%;
+	transition: all 300ms ease-in-out;
+
+	@include at-media(tablet_lg) {
+		letter-spacing: 0.02em;
+		font-size: 12px;
+		font-family: 'GraphikCompact';
+	}
+
+	@include at-media(mobile) {
+		letter-spacing: 0.02em;
+		font-size: 10px;
+	}
+}
+
+[data-bar="positive"] {
+	color: rgb(var(--green));
+
+	.bar {
+		background: rgb(var(--green));
+	}
+
+	.question-label {
+		width: 50%;
+		text-align: right;
+		transform: translateX(0);
+	}
+
+	.bar-tip {
+		left: calc(50% + 20px);
+	}
+}
+
+[data-bar="negative"] {
+	color: rgb(var(--orange));
+
+	.bar {
+		left: 50%;
+		transform: translateX(-100%);
+		background: rgb(var(--orange));
+	}
+
+	.question-label {
+		transform: translateX(100%);
+	}
+
+	.bar-tip {
+		left: calc(50% - 60px);
+	}
+}
+
+
+/*--------
+BINS AND BINLINES
+---------*/
+.bin {
+	stroke: none;
+	fill: var(--bin1);
+
+	&.activebin {
+		fill: rgb(222 222 170);
+	}
+}
+
+.bin:nth-child(2n) {
+	fill: var(--bin2);
+
+	&.activebin {
+		fill: var(--bin3);
+	}
+}
+
+.binlinegroup {
+	opacity: 0;
+	pointer-events: none;
+
+	&[data-binindex="0"] {
+		display: none;
+	}
+
+	&:hover .binline {
+		fill: var(--bintip);
+	}
+}
+
+.bintip {
+	fill: var(--bintip);
+}
+
+.binline {
+	fill: var(--binline);
+	cursor: ew-resize;
+	mix-blend-mode: multiply;
+}
+
+button.plot-binupdate {
+	cursor: pointer;
+	padding: 0 5px 2px 5px;
+	width: 30px;
+	border-style: solid;
+	border-width: 0px 2px 0px 2px;
+	border-color: transparent;
+	height: 15px;
+	margin-top: 6px;
+	line-height: .7;
+
+	&:hover {
+		color: rgb(200 200 150);
+		border-color: rgb(200 200 150);
+	}
+}
+
+[data-format="XY"] .plot-binupdate {
+	display: none;
+}
+
+.binlineghost {
+	opacity: 0;
+	//hover indicator for adding new bins
+	pointer-events: none;
+
+	.binline {
+		fill: rgb(240 240 240);
+	}
+
+	.bintip {
+		fill: rgb(200 200 200);
+	}
+}
+
+[data-binupdate] {
+	.binlinegroup {
+		opacity: 1;
+		pointer-events: auto;
+	}
+
+	.plot-binupdate {
+		color: rgb(200 200 150);
+		border-color: rgb(200 200 150);
+	}
+
+	.binlineghost {
+		opacity: 1;
+	}
+
+	[data-dragging="true"] .binlineghost {
+		opacity: 0;
+	}
+}
+
+/*--------
+SVG SERIES
+---------*/
+
+.line {
+	fill: none;
+	stroke-width: 3px;
+	transition: stroke-width 400ms ease;
+
+	&.thick {
+		stroke-width: 6px;
+	}
+
+	&.dotted,
+	&.dotted-1,
+	&.dotted-2 {
+		stroke-dasharray: 5;
+	}
+
+	&.hotspot {
+		stroke-width: 20px;
+		opacity: 0;
+		stroke: transparent;
+	}
+}
+
+.highlight {
+	.area {
+		--alpha: 60%;
+		mix-blend-mode: normal;
+	}
+
+	.line {
+		stroke-width: 5px;
+
+		&.thick {
+			stroke-width: 8px;
+		}
+
+		&.hotspot {
+			stroke-width: 20px; //keep hover area the same
+		}
+	}
+
+}
+
+.dot {
+	pointer-events: none;
+	r: 3px;
+}
+
+
+
+//provides a larger hover area for line plots
+.wideline {
+	fill: none;
+	pointer-events: all;
+	stroke: transparent;
+	stroke-width: 30px;
+}
+
+//axes and gridlines
+.tick line {
+	fill: none;
+	stroke-width: 1px;
+	stroke: var(--gridline);
+}
+
+.domain {
+	fill: none;
+	stroke: none;
+}
+
+.x.gridline .tick:hover {
+	cursor: ew-resize;
+}
+
+.area {
+	mix-blend-mode: multiply;
+	transition: fill .4s ease, opacity .4s ease; //for highlight transitions
+}
+
+/*----------------
+PLOT INTERACTIVITY
+-----------------*/
+
+.plot-labels {
+	flex: 1;
+	display: flex;
+	flex-wrap: wrap;
+
+	.key-item {
+		padding-right: var(--pad);
+		padding-bottom: var(--pad-xs);
+	}
+}
+
+.plot-footer.vertical {
+	/*map legends*/
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin-left: 0;
+
+	.key-title {
+		padding-left: 26px;
+		padding-top: var(--pad-sm);
+		padding-bottom: var(--pad-xs);
+
+		.key-label {
+			font-weight: var(--wght-medium);
+		}
+	}
+
+	.plot-labels {
+		flex-direction: column;
+	}
+
+	.plot-labels.range {
+
+		/*gradation bar*/
+		.key-color {
+			height: 10px;
+			margin-bottom: 0;
+		}
+
+		.key-label {
+			display: flex;
+			flex-direction: column;
+			align-self: stretch;
+			justify-content: space-between;
+		}
+
+		.key-item {
+			padding-bottom: 0;
+		}
+
+		.key-item:first-child .key-label {
+			margin-top: -.5em;
+		}
+
+		.key-item:last-child .key-label {
+			margin-bottom: -.5em;
+		}
+	}
+
+	.key-item {
+		width: 45%;
+		align-items: center;
+		padding-bottom: var(--pad-xs);
+	}
+
+	.key-label {
+		line-height: 1;
+		margin-top: -2px;
+	}
+
+	.key-color {
+		margin-top: 0;
+	}
+
+}
+
+//remove indent for paragraphs after 
+//section break
+hr+.plot-scroll p:first-child {
+	text-indent: 0;
+}
+
+/*----------------
+PLOT-specific OVERRIDES
+-----------------*/
+
+#handedpredictorsbn-plot #HSwitched {
+	.question-label {
+		font-weight: bold;
+	}
+
+	.bar {
+		opacity: 1;
+	}
+}
+
+#genderpca3xy [data-series="2"] .dot {
+	--alpha: 0.7;
+	r: 5px;
+}
+
+#genderpca3xy [data-series="3"] .dot {
+	--alpha: 0.7;
+	r: 5px;
+}
+
+#youngcity [data-series="0"],
+#nchildmenopause [data-series="1"],
+#children [data-series="0"],
+#urchildren [data-series="0"] {
+	--alpha: 0.2;
+}
+
+#crops {
+	.plot-axis-label {
+		display: none;
+	}
+}
+
+#cumpoparea,
+#definitions,
+#populationlog {
+	.plot-tips .tip-serieslabel {
+		display: none;
+	}
+}
+
+#definitions .xaxis-label:before {
+	content: "Decreasing density, more ";
+}
+
+#populationlog [data-series="6"] {
+	pointer-events: none;
+}
+
+#tfr-plot[data-active-stop="3"] {
+
+	[data-series],
+	[data-series-number] {
+		opacity: 0.3;
+	}
+
+	[data-series="8"],
+	[data-series-number="8"] {
+		opacity: 1.0;
+	}
+}
+
+#tfr-plot[data-active-stop="4"] {
+
+	[data-series],
+	[data-series-number] {
+		opacity: 0.3;
+	}
+
+	[data-series="9"],
+	[data-series-number="9"],
+	[data-series="10"],
+	[data-series-number="10"],
+	[data-series="8"],
+	[data-series-number="8"] {
+		opacity: 1.0;
+	}
+}
+
+#mturkage-plot[data-active-stop="0"],
+#mturkf-plot[data-active-stop="0"] {
+	[data-series="0"] .area {
+		opacity: 0;
+	}
+}
+
+
+/*----------------
+PCA
+-----------------*/
+.hovertext {
+	stroke: none;
+}
+
+.hovertext text {
+	font-family: 'ChromaST' !important;
+}
+
+#pca3d-fig {
+
+	// set fixed height
+	.plot-content {
+		width: 100%;
+		height: calc(var(--height-figure) * .75);
+		max-width: none;
+	}
+
+	.plot-labels {
+		margin: 0 var(--margin);
+	}
+
+	canvas {
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+}
+
+/*--------
+//Stop indicators for Plot sequence
+---------*/
+.seqindicator {
+	width: 100%;
+	--alpha: 0.2;
+	cursor: pointer;
+	border: 0px solid var(--mediumgrey);
+	opacity: var(--alpha);
+	border-left-width: var(--width-ind);
+	transition: opacity 200ms linear;
+	margin-bottom: 1px;
+	flex: 1;
+
+	&:hover {
+		--alpha: 0.5;
+	}
+
+	@include at-media(tablet) {
+		opacity: 0;
+		height: 25px;
+		flex: none;
+		position: fixed;
+		border-color: transparent;
+		background: var(--lightgrey);
+		margin: 0 5px;
+		top: var(--height-spans);
+		z-index: 0;
+
+		&.active-tag {
+			background: var(--mediumgrey);
+		}
+	}
+}
+
+
+.active-figindicator {
+	.seqindicator {
+		--alpha: 0.5;
+
+		&:hover {
+			--alpha: 1;
+		}
+
+		// @include at-media(tablet){
+		// 	opacity: 1;
+		// 	z-index: 600;
+		// }
+		&.active-tag {
+			--alpha: 1;
+		}
+	}
+}
+
+
+[data-stops="1"]+.indicator,
+[data-stops="1"]+.mobile-indicator {
+	visibility: hidden; //don’t show indicators for single-stop plots
+}
+
+.seqindicator {
+	@include at-media(tablet) {
+		display: none;
+	}
+}
+
+
+//for fullbleed Bar plots
+//don’t hide sequence indicators
+//since the same is used for mobile
+.fullbleed,
+#pca3d {
+	figure {
+		// opacity: 1;
+		position: sticky;
+		top: var(--height-header);
+	}
+
+	.plot-info,
+	.plot-footer {
+		margin-left: 0;
+	}
+
+	@include at-media(tablet) {
+
+		.chart,
+		#pca3d-fig {
+			top: var(--height-header);
+
+			.plot-info {
+				height: auto;
+			}
+
+			.plot-header {
+				padding: var(--pad-sm) 0;
+			}
+		}
+	}
+
+	.indicator {
+		width: var(--width-ind); //these are not contained in center track
+		height: auto;
+		position: relative;
+
+		// width: 0px;
+		.seqindicator {
+			flex: none;
+			height: var(--height-figure);
+			background: transparent;
+		}
+
+		.seqindicator:last-child {
+			height: 150vh;
+		}
+
+		@include at-media(tablet) {
+			height: 100%;
+			position: absolute;
+			top: 0;
+			width: var(--width-ind);
+			// visibility: hidden;
+
+			.seqindicator {
+				display: none;
+			}
+		}
+	}
+
+
+}
+
+#pca3d {
+	@include at-media(tablet) {
+		margin: var(--lineheight) 0;
+	}
+}
+
+#cumpoparea,
+#definitions {
+
+	//increased the bottom padding for longer titles
+	figcaption {
+		@include at-media(mobile_lg) {
+			padding-bottom: calc(var(--pad-sm)*3);
+		}
+	}
+}

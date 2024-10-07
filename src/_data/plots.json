@@ -1,0 +1,1843 @@
+{
+  "handedlr-print": {
+    "plot_number": "1.0",
+    "format": "AgeCat",
+    "title": "Handedness",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "handedlr": {
+    "plot_number": "1.0",
+    "format": "AgeCat",
+    "title": "Handedness",
+    "series_positions": "2t,2t",
+    "axes_label": "% by age"
+  },
+  "genderhandedl-print": {
+    "plot_number": "1.1",
+    "format": "AgeCat",
+    "title": "Strict left-handedness in women and men",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "genderhandedl": {
+    "plot_number": "1.1",
+    "format": "AgeCat",
+    "title": "Strict left-handedness in women and men",
+    "series_positions": "2t,2t,2t,2t",
+    "axes_label": "% by age"
+  },
+  "genderhandedr-print": {
+    "plot_number": "1.2",
+    "format": "AgeCat",
+    "title": "Strict right-handedness in women and men",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "genderhandedr": {
+    "plot_number": "1.2",
+    "format": "AgeCat",
+    "title": "Strict right-handedness in women and men",
+    "series_positions": "2t,2t,3t,3t,1b",
+    "axes_label": "% by age"
+  },
+  "ambihanded-print": {
+    "plot_number": "1.3",
+    "format": "AgeCat",
+    "title": "Ambidexterity",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "ambihanded": {
+    "plot_number": "1.3",
+    "format": "AgeCat",
+    "title": "Ambidexterity",
+    "series_positions": "2t,2t,1b,4b",
+    "axes_label": "% by age"
+  },
+  "handedpredictorsrl-print": {
+    "plot_number": "2.0",
+    "format": "Bars",
+    "title": "Predictors of strict left-handedness",
+    "series_positions": "",
+    "axes_label": "Questions sorted by weight, from most positive to most negative"
+  },
+  "handedpredictorsrl": {
+    "plot_number": "2.0",
+    "format": "Bars",
+    "title": "Predictors of strict right- and left- handedness",
+    "series_positions": "",
+    "axes_label": "Questions sorted by weight, from most positive to most negative"
+  },
+  "handedscorel-print": {
+    "plot_number": "2.1",
+    "format": "XY",
+    "title": "Likelihood of being left-, right-, or ambiguous-handed as a function of strict left-handedness score",
+    "series_positions": "",
+    "axes_label": "% by score"
+  },
+  "handedscorel": {
+    "plot_number": "2.1",
+    "format": "XY",
+    "title": "Likelihood of being left-, right-, or ambiguous-handed as a function of strict left-handedness score",
+    "series_positions": "5b,5t,5t",
+    "axes_label": "% by score"
+  },
+  "handedscorer-print": {
+    "plot_number": "2.2",
+    "format": "XY",
+    "title": "Likelihood of being right-, left-, or ambiguous-handed as a function of strict right-handedness score",
+    "series_positions": "",
+    "axes_label": "% by score"
+  },
+  "handedscorer": {
+    "plot_number": "2.2",
+    "format": "XY",
+    "title": "Likelihood of being right-, left-, or ambiguous-handed as a function of strict right-handedness score",
+    "series_positions": "3t,2t,3t",
+    "axes_label": "% by score"
+  },
+  "handedscorebn-print": {
+    "plot_number": "2.3",
+    "format": "XY",
+    "title": "Likelihood of being ambiguous-, right-, or left-handed as a function of ambiguous-handedness score",
+    "series_positions": "",
+    "axes_label": "% by score"
+  },
+  "handedscorebn": {
+    "plot_number": "2.3",
+    "format": "XY",
+    "title": "Likelihood of being ambiguous-, right-, or left-handed as a function of ambiguous-handedness score",
+    "series_positions": "3t,2t,2t",
+    "axes_label": "% by score"
+  },
+  "handedpredictorsbn-print": {
+    "plot_number": "2.4",
+    "format": "Bars",
+    "title": "Predictors of ambiguous-handedness",
+    "series_positions": "",
+    "axes_label": "Questions sorted by weight, from most positive to most negative"
+  },
+  "handedpredictorsbn": {
+    "plot_number": "2.4",
+    "format": "Bars",
+    "title": "Predictors of ambiguous-handedness",
+    "series_positions": "",
+    "axes_label": "Questions sorted by weight, from most positive to most negative"
+  },
+  "handswitched-print": {
+    "plot_number": "2.5",
+    "format": "AgeCat",
+    "title": "Handedness in people forced to switch",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "handswitched": {
+    "plot_number": "2.5",
+    "format": "AgeCat",
+    "title": "Handedness in people forced to switch",
+    "series_positions": "3t,3b",
+    "axes_label": "% by age"
+  },
+  "handedsexminority1-print": {
+    "plot_number": "3.0",
+    "format": "AgeCat",
+    "title": "Handedness in women who are strictly same-sex attracted",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "handedsexminority": {
+    "plot_number": "3.0",
+    "format": "AgeCat",
+    "title": "Left-handedness and sexual minority",
+    "series_positions": "1t,0t,1t,1t,1t,0t,1t,1t,0t,1t,1t,0t",
+    "axes_label": "% by age"
+  },
+  "handedsexminority2-print": {
+    "plot_number": "3.1",
+    "format": "AgeCat",
+    "title": "Handedness in men who are strictly same-sex attracted",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "handedsexminority3-print": {
+    "plot_number": "3.2",
+    "format": "AgeCat",
+    "title": "Handedness in men who were assigned female at birth",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "handedsexminority4-print": {
+    "plot_number": "3.3",
+    "format": "AgeCat",
+    "title": "Handedness in women who were assigned male at birth",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "womensearnings-print": {
+    "plot_number": "4.0",
+    "format": "XY",
+    "title": "Women’s income as a fraction of men’s income",
+    "series_positions": "",
+    "axes_label": "% by year"
+  },
+  "womensearnings": {
+    "plot_number": "4.0",
+    "format": "XY",
+    "title": "Women’s income as a fraction of men’s income",
+    "series_positions": "1t,5b,6t,6b,1t",
+    "axes_label": "% by year"
+  },
+  "children1-print": {
+    "plot_number": "5.0.0",
+    "format": "AgeAvg",
+    "title": "Number of children claimed by all respondents",
+    "series_positions": "",
+    "axes_label": "Average (and median) by age"
+  },
+  "children2-print": {
+    "plot_number": "5.0.1",
+    "format": "AgeAvg",
+    "title": "Number of children born to those assigned female at birth and claimed by those assigned male at birth",
+    "series_positions": "",
+    "axes_label": "Average (and median) by age"
+  },
+  "children": {
+    "plot_number": "5.0",
+    "format": "AgeAvg",
+    "title": "Number of children claimed by respondents",
+    "series_positions": "4b,5t,5b",
+    "axes_label": "Average (and median) by age"
+  },
+  "married1-print": {
+    "plot_number": "5.1.0",
+    "format": "AgeCat",
+    "title": "Married women and men",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "married2-print": {
+    "plot_number": "5.1.1",
+    "format": "AgeCat",
+    "title": "Widowed women and men",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "married": {
+    "plot_number": "5.1",
+    "format": "AgeCat",
+    "title": "Married and widowed women and men",
+    "series_positions": "5t,4b,4t,4t,6t,7b",
+    "axes_label": "% by age"
+  },
+  "marriedid-print": {
+    "plot_number": "5.2",
+    "format": "AgeCat",
+    "title": "Rate of marriage among respondents overall and with minority identities",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "marriedid": {
+    "plot_number": "5.2",
+    "format": "AgeCat",
+    "title": "Rate of marriage among respondents overall and with minority identities",
+    "series_positions": "2b,3t,2b,3b",
+    "axes_label": "% by age"
+  },
+  "polynotnonmonog-print": {
+    "plot_number": "5.3",
+    "format": "AgeCat",
+    "title": "Polyamorous, non-monogamous, and “not monogamous”",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "polynotnonmonog": {
+    "plot_number": "5.3",
+    "format": "AgeCat",
+    "title": "Polyamorous, non-monogamous, and “not monogamous”",
+    "series_positions": "1t,2b,2t",
+    "axes_label": "% by age"
+  },
+  "fpolynonmonog-print": {
+    "plot_number": "5.4",
+    "format": "AgeCat",
+    "title": "Overlap of non-monogamy and polyamory",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "fpolynonmonog": {
+    "plot_number": "5.4",
+    "format": "AgeCat",
+    "title": "Overlap of non-monogamy and polyamory",
+    "series_positions": "2b,2t,2t,1t,1t",
+    "axes_label": "% by age"
+  },
+  "polynonmonogfm1-print": {
+    "plot_number": "5.5.0",
+    "format": "AgeCat",
+    "title": "Polyamorous men and women",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "polynonmonogfm2-print": {
+    "plot_number": "5.5.1",
+    "format": "AgeCat",
+    "title": "Non-monogamous men and women",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "polynonmonogfm": {
+    "plot_number": "5.5",
+    "format": "AgeCat",
+    "title": "Polyamorous and non-monogamous women and men",
+    "series_positions": "3t,3t,3t,3b",
+    "axes_label": "% by age"
+  },
+  "monogabcd-print": {
+    "plot_number": "5.6",
+    "format": "AgeCat",
+    "title": "Responses to “monogamous” and “non-monogamous”",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "monogabcd": {
+    "plot_number": "5.6",
+    "format": "AgeCat",
+    "title": "Responses to “monogamous” and “non-monogamous”",
+    "series_positions": "2b,1t,1b,2b",
+    "axes_label": "% by age"
+  },
+  "hetero-print": {
+    "plot_number": "7.0",
+    "format": "AgeCat",
+    "title": "Heterosexuality and heteronormative attraction",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "hetero": {
+    "plot_number": "7.0",
+    "format": "AgeCat",
+    "title": "Heterosexuality and heteronormative attraction",
+    "series_positions": "1b,2b,3t,3b",
+    "axes_label": "% by age"
+  },
+  "nsexattr-print": {
+    "plot_number": "7.1",
+    "format": "AgeCat",
+    "title": "Not sexually attracted to anyone",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "nsexattr": {
+    "plot_number": "7.1",
+    "format": "AgeCat",
+    "title": "Not sexually attracted to anyone",
+    "series_positions": "1b,2t,2b",
+    "axes_label": "% by age"
+  },
+  "ace-print": {
+    "plot_number": "7.2",
+    "format": "AgeCat",
+    "title": "Asexuality",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "ace": {
+    "plot_number": "7.2",
+    "format": "AgeCat",
+    "title": "Asexuality",
+    "series_positions": "2t,2t,2t",
+    "axes_label": "% by age"
+  },
+  "arom-print": {
+    "plot_number": "7.3",
+    "format": "AgeCat",
+    "title": "Not romantically attracted to anyone",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "arom": {
+    "plot_number": "7.3",
+    "format": "AgeCat",
+    "title": "Not romantically attracted to anyone",
+    "series_positions": "2t,2t,3b",
+    "axes_label": "% by age"
+  },
+  "yearhetero-print": {
+    "plot_number": "7.4",
+    "format": "AgeCat",
+    "title": "Heteronormative attraction in 2018–19 and 2020–21",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "yearhetero": {
+    "plot_number": "7.4",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "1b,1b",
+    "axes_label": "% by age"
+  },
+  "yearmonog-print": {
+    "plot_number": "7.5",
+    "format": "AgeCat",
+    "title": "Monogamy in 2018–19 and 2020–21",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "yearmonog": {
+    "plot_number": "7.5",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "1b,1b",
+    "axes_label": "% by age"
+  },
+  "lgbtqrainbow-print": {
+    "plot_number": "8.0",
+    "format": "AgeCat",
+    "title": "LGBTQ identification, broken down by some of its subpopulations",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "lgbtqrainbow": {
+    "plot_number": "8.0",
+    "format": "AgeCat",
+    "title": "LGBTQ identification, broken down by some of its subpopulations",
+    "series_positions": "1t,1t,4t,1t,2t,4t",
+    "axes_label": "% by age"
+  },
+  "lgbtqbi-print": {
+    "plot_number": "8.1",
+    "format": "AgeCat",
+    "title": "Bisexuality accounts for over half of the LGBTQ population",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "lgbtqbi": {
+    "plot_number": "8.1",
+    "format": "AgeCat",
+    "title": "Bisexuality accounts for over half of the LGBTQ population",
+    "series_positions": "1b,1t,1t",
+    "axes_label": "% by age"
+  },
+  "bi-print": {
+    "plot_number": "8.2",
+    "format": "AgeCat",
+    "title": "Bisexuality in women and men",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "bi": {
+    "plot_number": "8.2",
+    "format": "AgeCat",
+    "title": "Bisexuality in women and men",
+    "series_positions": "1t,1t,1t,1t",
+    "axes_label": "% by age"
+  },
+  "yearbi1-print": {
+    "plot_number": "8.3.0",
+    "format": "AgeCat",
+    "title": "Bisexuality in 2018–19 and 2020–21",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "yearbi2-print": {
+    "plot_number": "8.3.1",
+    "format": "AgeCat",
+    "title": "Bisexuality among women in 2018–19 and 2020–21",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "yearbi3-print": {
+    "plot_number": "8.3.2",
+    "format": "AgeCat",
+    "title": "Bisexuality among men in 2018–19 and 2020–21",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "yearbi": {
+    "plot_number": "8.3",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "1t,1t,2t,2t,2t,2t",
+    "axes_label": "% by age"
+  },
+  "demi-print": {
+    "plot_number": "8.4",
+    "format": "AgeCat",
+    "title": "Demisexuality in women and men",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "demi": {
+    "plot_number": "8.4",
+    "format": "AgeCat",
+    "title": "Demisexuality in women and men",
+    "series_positions": "2t,2t,2t",
+    "axes_label": "% by age"
+  },
+  "lg-print": {
+    "plot_number": "8.5",
+    "format": "AgeCat",
+    "title": "Percentages of women who are lesbian and of men who are gay",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "lg": {
+    "plot_number": "8.5",
+    "format": "AgeCat",
+    "title": "Percentages of women who are lesbian and of men who are gay",
+    "series_positions": "2t,2t",
+    "axes_label": "% by age"
+  },
+  "lgexclssa1-print": {
+    "plot_number": "8.6.0",
+    "format": "AgeCat",
+    "title": "Lesbian and gay people who are exclusively same-sex attracted",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "lgexclssa2-print": {
+    "plot_number": "8.6.1",
+    "format": "AgeCat",
+    "title": "Lesbian and exclusively same-sex attracted women",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "lgexclssa3-print": {
+    "plot_number": "8.6.2",
+    "format": "AgeCat",
+    "title": "Gay and exclusively same-sex attracted men",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "lgexclssa": {
+    "plot_number": "8.6",
+    "format": "AgeCat",
+    "title": "Lesbian and gay people who are exclusively same-sex attracted",
+    "series_positions": "2t,4b,2b,1t,1t,1b",
+    "axes_label": "% by age"
+  },
+  "exclssa-print": {
+    "plot_number": "8.7",
+    "format": "AgeCat",
+    "title": "Exclusively same-sex attracted men and women",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "exclssa": {
+    "plot_number": "8.7",
+    "format": "AgeCat",
+    "title": "Exclusively same-sex attracted men and women",
+    "series_positions": "1t,3b",
+    "axes_label": "% by age"
+  },
+  "yearqueer-print": {
+    "plot_number": "9.0",
+    "format": "AgeCat",
+    "title": "Queerness in 2018–19 and 2020–21",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "yearqueer": {
+    "plot_number": "9.0",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "1t,1t",
+    "axes_label": "% by age"
+  },
+  "queer-print": {
+    "plot_number": "9.1",
+    "format": "AgeCat",
+    "title": "Gender identification of queer people",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "queer": {
+    "plot_number": "9.1",
+    "format": "AgeCat",
+    "title": "Gender identification of queer people",
+    "series_positions": "1t,1t,1t,1t,1t,2b,2t",
+    "axes_label": "% by age"
+  },
+  "queerlg-print": {
+    "plot_number": "9.2",
+    "format": "AgeCat",
+    "title": "Identifying as queer and “homosexual, gay or lesbian”",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "queerlg": {
+    "plot_number": "9.2",
+    "format": "AgeCat",
+    "title": "Identifying as queer and “homosexual, gay or lesbian”",
+    "series_positions": "1t,2t,2b,2t,2b",
+    "axes_label": "% by age"
+  },
+  "queerbi-print": {
+    "plot_number": "9.3",
+    "format": "AgeCat",
+    "title": "Identifying as queer and bisexual",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "queerbi": {
+    "plot_number": "9.3",
+    "format": "AgeCat",
+    "title": "Identifying as queer and bisexual",
+    "series_positions": "1t,1t,1t,1t,1t",
+    "axes_label": "% by age"
+  },
+  "nxorthey1-print": {
+    "plot_number": "10.0.0",
+    "format": "AgeCat",
+    "title": "Identifying as both or neither female/male and “they”pronoun use",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "nxorthey2-print": {
+    "plot_number": "10.0.1",
+    "format": "AgeCat",
+    "title": "Overlap of identifying as both or neither female/male and “they”pronoun use",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "nxorthey": {
+    "plot_number": "10.0",
+    "format": "AgeCat",
+    "title": "Identifying as both or neither female/male and “they” pronoun use",
+    "series_positions": "1t,3t,1t,2t,2t",
+    "axes_label": "% by age"
+  },
+  "gqgfnb-print": {
+    "plot_number": "10.1",
+    "format": "AgeCat",
+    "title": "Identifying as gender queer, gender fluid, or non-binary",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "gqgfnb": {
+    "plot_number": "10.1",
+    "format": "AgeCat",
+    "title": "Identifying as gender queer, gender fluid, or non-binary",
+    "series_positions": "3b,1t,2t,1t",
+    "axes_label": "% by age"
+  },
+  "nb-print": {
+    "plot_number": "10.2",
+    "format": "AgeCat",
+    "title": "Non-binary identification broken down by female, male, or both/neither",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "nb": {
+    "plot_number": "10.2",
+    "format": "AgeCat",
+    "title": "Non-binary identification broken down by female, male, or both/neither",
+    "series_positions": "1t,4t,1t,1t,3b,3b,3t",
+    "axes_label": "% by age"
+  },
+  "intersex-print": {
+    "plot_number": "11.0",
+    "format": "AgeCat",
+    "title": "“Are you intersex?”",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "intersex": {
+    "plot_number": "11.0",
+    "format": "AgeCat",
+    "title": "“Are you intersex?”",
+    "series_positions": "2b",
+    "axes_label": "% by age"
+  },
+  "intersexaab1-print": {
+    "plot_number": "12.0.0",
+    "format": "AgeCat",
+    "title": "Intersexuality by sex assigned at birth",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "intersexaab2-print": {
+    "plot_number": "12.0.1",
+    "format": "AgeCat",
+    "title": "Intersex birth assignment",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "intersexaab": {
+    "plot_number": "12.0",
+    "format": "AgeCat",
+    "title": "Intersexuality and sex assignment at birth",
+    "series_positions": "2b,3t,4t,2t,2b",
+    "axes_label": "% by age"
+  },
+  "yeartrans-print": {
+    "plot_number": "13.0",
+    "format": "AgeCat",
+    "title": "Trans identification from 2018 to 2021",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "yeartrans": {
+    "plot_number": "13.0",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "3t,2t,1t",
+    "axes_label": "% by age"
+  },
+  "intersextrans-print": {
+    "plot_number": "13.1.0",
+    "format": "AgeCat",
+    "title": "Intersexuality compared with trans identification",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "intersextransoverlap-print": {
+    "plot_number": "13.1.1",
+    "format": "AgeCat",
+    "title": "Overlap of intersex and trans",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "intersextrans": {
+    "plot_number": "13.1",
+    "format": "AgeCat",
+    "title": "Intersexuality compared with trans identification",
+    "series_positions": "1t,2b,1t,3b,1b",
+    "axes_label": "% by age"
+  },
+  "intersextransoverlap": {
+    "plot_number": "13.1",
+    "format": "AgeCat",
+    "title": "Overlap of intersex and trans",
+    "series_positions": "1t,2b,1t,3b,1b",
+    "axes_label": "% by age"
+  },
+  "nbtrans-print": {
+    "plot_number": "13.2",
+    "format": "AgeCat",
+    "title": "Overlap of non-binary and trans",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "nbtrans": {
+    "plot_number": "13.2",
+    "format": "AgeCat",
+    "title": "Overlap of non-binary and trans",
+    "series_positions": "1t,1t,1t,2t,2t",
+    "axes_label": "% by age"
+  },
+  "theytrans-print": {
+    "plot_number": "13.3",
+    "format": "AgeCat",
+    "title": "Overlap of “they” pronoun users and trans",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "theytrans": {
+    "plot_number": "13.3",
+    "format": "AgeCat",
+    "title": "Overlap of “they” pronoun users and trans",
+    "series_positions": "1t,1t,1t,1t",
+    "axes_label": "% by age"
+  },
+  "theynb1-print": {
+    "plot_number": "13.4.0",
+    "format": "AgeCat",
+    "title": "“They” pronoun users compared with non-binary identification",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "theynb2-print": {
+    "plot_number": "13.4.1",
+    "format": "AgeCat",
+    "title": "Overlap of “they” pronoun users and non-binary",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "theynb": {
+    "plot_number": "13.4",
+    "format": "AgeCat",
+    "title": "Overlap of “they” pronoun users and non-binary",
+    "series_positions": "2t,2t,2t,1t,2t",
+    "axes_label": "% by age"
+  },
+  "transaab-print": {
+    "plot_number": "13.5",
+    "format": "AgeCat",
+    "title": "Trans by sex assigned at birth",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "transaab": {
+    "plot_number": "13.5",
+    "format": "AgeCat",
+    "title": "Trans by sex assigned at birth",
+    "series_positions": "1t,1t,4t,1t,1b",
+    "axes_label": "% by age"
+  },
+  "intersextransaab-print": {
+    "plot_number": "13.6",
+    "format": "AgeCat",
+    "title": "Fraction of intersex and trans people assigned male at birth",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "intersextransaab": {
+    "plot_number": "13.6",
+    "format": "AgeCat",
+    "title": "Fraction of intersex and trans people by sex assigned at birth",
+    "series_positions": "2t,1t,3b,1b",
+    "axes_label": "% by age"
+  },
+  "gidsreferrals-print": {
+    "plot_number": "13.7",
+    "format": "XY",
+    "title": "Referrals to NHS Gender Identity Development Service",
+    "series_positions": "",
+    "axes_label": "Number by year"
+  },
+  "gidsreferrals": {
+    "plot_number": "13.7",
+    "format": "XY",
+    "title": "Referrals to NHS Gender Identity Development Service",
+    "series_positions": "1t,6b,4b,1t",
+    "axes_label": "Number by year"
+  },
+  "gidsaab-print": {
+    "plot_number": "13.8",
+    "format": "XY",
+    "title": "Referrals to NHS Gender Identity Development Service, share of total by sex assigned at birth",
+    "series_positions": "",
+    "axes_label": "% by year"
+  },
+  "gidsaab": {
+    "plot_number": "13.8",
+    "format": "XY",
+    "title": "Referrals to NHS Gender Identity Development Service, share of total by sex assigned at birth",
+    "series_positions": "5b,5t",
+    "axes_label": "% by year"
+  },
+  "genderpredictorsf-print": {
+    "plot_number": "14.0",
+    "format": "Bars",
+    "title": "Predictors of “Are you female?”",
+    "series_positions": "",
+    "axes_label": "Questions sorted by weight, from most positive to most negative"
+  },
+  "genderpredictorsf": {
+    "plot_number": "14.0",
+    "format": "Bars",
+    "title": "Predictors of “Are you female?”",
+    "series_positions": "",
+    "axes_label": "Questions sorted by weight, from most positive to most negative"
+  },
+  "genderpredictorsbn-print": {
+    "plot_number": "14.1",
+    "format": "Bars",
+    "title": "Predictors of both or neither male/female",
+    "series_positions": "",
+    "axes_label": "Questions sorted by weight, from most positive to most negative"
+  },
+  "genderpredictorsbn": {
+    "plot_number": "14.1",
+    "format": "Bars",
+    "title": "Predictors of both or neither male/female",
+    "series_positions": "",
+    "axes_label": "Questions sorted by weight, from most positive to most negative"
+  },
+  "genderscorefpca1-print": {
+    "plot_number": "14.2",
+    "format": "Bars",
+    "title": "Gender presentation principal component 1",
+    "series_positions": "",
+    "axes_label": "Questions sorted by weight, from most positive to most negative"
+  },
+  "genderscorefpca1": {
+    "plot_number": "14.2",
+    "format": "Bars",
+    "title": "Gender presentation principal component 1",
+    "series_positions": "",
+    "axes_label": "Questions sorted by weight, from most positive to most negative"
+  },
+  "gendercomponent1-print": {
+    "plot_number": "14.3",
+    "format": "XY",
+    "title": "Histogram of gender presentation principal component 1",
+    "series_positions": "",
+    "axes_label": "Count by principal component 1 value"
+  },
+  "gendercomponent1": {
+    "plot_number": "14.3",
+    "format": "XY",
+    "title": "Histogram of gender presentation principal component 1",
+    "series_positions": "",
+    "axes_label": "Count by principal component 1 value"
+  },
+  "genderheight-print": {
+    "plot_number": "14.4",
+    "format": "XY",
+    "title": "Histogram of respondent height by gender",
+    "series_positions": "",
+    "axes_label": "Count by height in inches"
+  },
+  "genderheight": {
+    "plot_number": "14.4",
+    "format": "XY",
+    "title": "Histogram of respondent height by gender",
+    "series_positions": "1t,6t,5b,9t,15t",
+    "axes_label": "Count by height in inches"
+  },
+  "genderpca3-print": {
+    "plot_number": "14.5",
+    "format": "PCA",
+    "title": "Gender presentation space",
+    "series_positions": "",
+    "axes_label": "Leading two principal components"
+  },
+  "genderpca3xy-print": {
+    "plot_number": "14.5",
+    "format": "XY",
+    "title": "Gender presentation space",
+    "series_positions": "",
+    "axes_label": "Leading two principal components"
+  },
+  "genderpca3": {
+    "plot_number": "14.5",
+    "format": "PCA",
+    "title": "Gender presentation space",
+    "series_positions": "",
+    "axes_label": "Leading three principal components"
+  },
+  "genderpca3xy": {
+    "plot_number": "14.5",
+    "format": "XY",
+    "title": "Gender presentation space",
+    "series_positions": "",
+    "axes_label": "Leading three principal components"
+  },
+  "genderscoref-print": {
+    "plot_number": "14.6",
+    "format": "XY",
+    "title": "Likelihood of gender identification as a function of “Are you female?” linear predictor",
+    "series_positions": "",
+    "axes_label": "% by score"
+  },
+  "genderscoref": {
+    "plot_number": "14.6",
+    "format": "XY",
+    "title": "Likelihood of gender identification as a function of “Are you female?” linear predictor",
+    "series_positions": "5b,3b,4t",
+    "axes_label": "% by score"
+  },
+  "genderscorebn-print": {
+    "plot_number": "14.7",
+    "format": "XY",
+    "title": "Likelihood of gender identification as a function of both or neither male/female linear predictor",
+    "series_positions": "",
+    "axes_label": "% by score"
+  },
+  "genderscorebn": {
+    "plot_number": "14.7",
+    "format": "XY",
+    "title": "Likelihood of gender identification as a function of both or neither male/female linear predictor",
+    "series_positions": "1t,1t,1t",
+    "axes_label": "% by score"
+  },
+  "genderpca2-print": {
+    "plot_number": "14.8",
+    "format": "Bars",
+    "title": "Gender presentation principal component 2",
+    "series_positions": "",
+    "axes_label": "Questions sorted by weight, from most positive to most negative"
+  },
+  "genderpca2": {
+    "plot_number": "14.8",
+    "format": "Bars",
+    "title": "Gender presentation principal component 2",
+    "series_positions": "1t,1t",
+    "axes_label": "Questions sorted by weight, from most positive to most negative"
+  },
+  "makeup-print": {
+    "plot_number": "14.9",
+    "format": "AgeCat",
+    "title": "Women’s responses to “Do you ever use makeup?”",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "makeup": {
+    "plot_number": "14.9",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "3t,4t,3t",
+    "axes_label": "% by age"
+  },
+  "eyeshadow-print": {
+    "plot_number": "14.10",
+    "format": "AgeCat",
+    "title": "Women’s responses to “Do you wear eyeshadow?”",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "eyeshadow": {
+    "plot_number": "14.10",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "3t,5t,3t",
+    "axes_label": "% by age"
+  },
+  "womenlikeglasses-print": {
+    "plot_number": "14.11",
+    "format": "AgeCat",
+    "title": "Women’s responses to “Do you like how you look in glasses?”",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "womenlikeglasses": {
+    "plot_number": "14.11",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "1t,1t,3t",
+    "axes_label": "% by age"
+  },
+  "menlikeglasses-print": {
+    "plot_number": "14.12",
+    "format": "AgeCat",
+    "title": "Men’s responses to “Do you like how you look in glasses?”",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "menlikeglasses": {
+    "plot_number": "14.12",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "4b,4t,1t",
+    "axes_label": "% by age"
+  },
+  "stubble-print": {
+    "plot_number": "14.13",
+    "format": "AgeCat",
+    "title": "Men’s responses to “Do you have stubble on your face?”",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "stubble": {
+    "plot_number": "14.13",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "7t,6b,3t",
+    "axes_label": "% by age"
+  },
+  "flipped-print": {
+    "plot_number": "15.0",
+    "format": "AgeCat",
+    "title": "Trans, non gender-typical genitals, and male/female flipped from birth assignment",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "flipped": {
+    "plot_number": "15.0",
+    "format": "AgeCat",
+    "title": "Trans, non gender-typical genitals, and male/female flipped from birth assignment",
+    "series_positions": "2t,2t,3t",
+    "axes_label": "% by age"
+  },
+  "contradictions-print": {
+    "plot_number": "15.1",
+    "format": "AgeCat",
+    "title": "Younger respondents are more likely to reject either/or characterizations of gender and sexuality",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "contradictions": {
+    "plot_number": "15.1",
+    "format": "AgeCat",
+    "title": "Younger respondents are more likely to reject either/or characterizations of gender and sexuality",
+    "series_positions": "1t,1t",
+    "axes_label": "% by age"
+  },
+  "urbanization-print": {
+    "plot_number": "16.1",
+    "format": "XY",
+    "title": "Urbanization since 1700 CE",
+    "series_positions": "",
+    "axes_label": "% by year"
+  },
+  "urbanization": {
+    "plot_number": "16.1",
+    "format": "XY",
+    "title": "Urbanization since 1700 CE",
+    "series_positions": "9b,9b,5b,4t,5b,5b",
+    "axes_label": "% by year"
+  },
+  "cumpoparea-print": {
+    "plot_number": "16.2",
+    "format": "XY",
+    "title": "Cumulative US population by cumulative area of ZIP codes sorted by decreasing population density",
+    "series_positions": "",
+    "axes_label": "Population (millions) by area (square miles)"
+  },
+  "cumpoparea": {
+    "plot_number": "16.2",
+    "format": "XY",
+    "title": "Cumulative US population by cumulative area of ZIP codes sorted by decreasing population density",
+    "series_positions": "",
+    "axes_label": "Population (millions) by area (square miles)"
+  },
+  "definitions1-print": {
+    "plot_number": "16.3.0",
+    "format": "DensityCat",
+    "title": "<not in use>",
+    "series_positions": "",
+    "axes_label": "% by square meters per person"
+  },
+  "definitions2-print": {
+    "plot_number": "16.3.1",
+    "format": "DensityCat",
+    "title": "Respondents living in the “city,” “suburbs,” or “countryside” as a function of population density",
+    "series_positions": "",
+    "axes_label": "% by square meters per person"
+  },
+  "definitions": {
+    "plot_number": "16.3",
+    "format": "DensityCat",
+    "title": "Respondents living in the “city,” “suburbs,” or “countryside” as a function of population density",
+    "series_positions": "2t,3b,2t,3t",
+    "axes_label": "% by square meters per person"
+  },
+  "differingdefinitions1-print": {
+    "plot_number": "16.4.0",
+    "format": "DensityCat",
+    "title": "“Do you live in the city?” responses in central vs. coastal USA",
+    "series_positions": "",
+    "axes_label": "% by square meters per person"
+  },
+  "differingdefinitions2-print": {
+    "plot_number": "16.4.1",
+    "format": "DensityCat",
+    "title": "“Do you live in the suburbs?” responses in central vs. coastal USA",
+    "series_positions": "",
+    "axes_label": "% by square meters per person"
+  },
+  "differingdefinitions3-print": {
+    "plot_number": "16.4.2",
+    "format": "DensityCat",
+    "title": "“Do you live in the countryside?” responses in central vs. coastal USA",
+    "series_positions": "",
+    "axes_label": "% by square meters per person"
+  },
+  "differingdefinitions": {
+    "plot_number": "16.4",
+    "format": "DensityCat",
+    "title": "",
+    "series_positions": "1t,3t,2t,4t,2b,4t,1t,3b",
+    "axes_label": "% by square meters per person"
+  },
+  "urqueer-print": {
+    "plot_number": "16.5",
+    "format": "AgeCat",
+    "title": "“Do you identify as queer?” in the city vs. countryside",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "urqueer": {
+    "plot_number": "16.5",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "1t,3t,3b",
+    "axes_label": "% by age"
+  },
+  "urheteronorm-print": {
+    "plot_number": "16.6",
+    "format": "AgeCat",
+    "title": "Heteronormative attraction in the city vs. countryside",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "urheteronorm": {
+    "plot_number": "16.6",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "1b,3b,3b",
+    "axes_label": "% by age"
+  },
+  "urhomoqueer-print": {
+    "plot_number": "16.7",
+    "format": "AgeCat",
+    "title": "“Homosexual, gay, or lesbian” people who are queer in the city vs. countryside",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "urhomoqueer": {
+    "plot_number": "16.7",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "1t,1t,2t",
+    "axes_label": "% by age"
+  },
+  "urpoly-print": {
+    "plot_number": "16.8",
+    "format": "AgeCat",
+    "title": "“Are you polyamorous?” in the city vs. countryside",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "urpoly": {
+    "plot_number": "16.8",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "1t,2t,2t",
+    "axes_label": "% by age"
+  },
+  "urnonmonog-print": {
+    "plot_number": "16.9",
+    "format": "AgeCat",
+    "title": "“Are you polyamorous?” in the city vs. countryside",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "urnonmonog": {
+    "plot_number": "16.9",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "1b,2b,2t",
+    "axes_label": "% by age"
+  },
+  "urgaybi-print": {
+    "plot_number": "16.10",
+    "format": "AgeCat",
+    "title": "Gay or bi men in the city vs. countryside",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "urgaybi": {
+    "plot_number": "16.10",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "1t,2b,2t",
+    "axes_label": "% by age"
+  },
+  "urlesbianbi-print": {
+    "plot_number": "16.11",
+    "format": "AgeCat",
+    "title": "Lesbian or bi women in the city vs. countryside",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "urlesbianbi": {
+    "plot_number": "16.11",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "1t,2t,1t",
+    "axes_label": "% by age"
+  },
+  "urhomo-print": {
+    "plot_number": "16.12",
+    "format": "AgeCat",
+    "title": "“Are you homosexual, gay or lesbian?” in the city vs. countryside",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "urhomo": {
+    "plot_number": "16.12",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "1t,2t,2t",
+    "axes_label": "% by age"
+  },
+  "urtransfb-print": {
+    "plot_number": "16.13",
+    "format": "AgeCat",
+    "title": "Trans if assigned female at birth in the city vs. countryside",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "urtransfb": {
+    "plot_number": "16.13",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "1t,1t,4t,1t,4t",
+    "axes_label": "% by age"
+  },
+  "urnb-print": {
+    "plot_number": "16.14",
+    "format": "AgeCat",
+    "title": "“Do you identify as non-binary?” in the city vs. countryside",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "urnb": {
+    "plot_number": "16.14",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "1t,3t,3t",
+    "axes_label": "% by age"
+  },
+  "urintersex-print": {
+    "plot_number": "16.15",
+    "format": "AgeCat",
+    "title": "“Are you intersex?” in the city vs. countryside",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "urintersex": {
+    "plot_number": "16.15",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "2t,2t,2t",
+    "axes_label": "% by age"
+  },
+  "urintersexmb-print": {
+    "plot_number": "16.16",
+    "format": "AgeCat",
+    "title": "Intersex if assigned male at birth in the city vs. countryside",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "urintersexmb": {
+    "plot_number": "16.16",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "1b,2t,1b",
+    "axes_label": "% by age"
+  },
+  "urintersexfb-print": {
+    "plot_number": "16.17",
+    "format": "AgeCat",
+    "title": "Intersex if assigned female at birth in the city vs. countryside",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "urintersexfb": {
+    "plot_number": "16.17",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "1t,1t,1b",
+    "axes_label": "% by age"
+  },
+  "urbliberal-print": {
+    "plot_number": "17.0",
+    "format": "DensityCat",
+    "title": "Social issues more popular in densely populated areas",
+    "series_positions": "",
+    "axes_label": "% by square meters per person"
+  },
+  "urbliberal": {
+    "plot_number": "17.0",
+    "format": "DensityCat",
+    "title": "Social issues more popular in densely populated areas",
+    "series_positions": "1t,1t,1b,3b,3t,5t",
+    "axes_label": "% by square meters per person"
+  },
+  "urbconservative-print": {
+    "plot_number": "17.1",
+    "format": "DensityCat",
+    "title": "Social issues more popular in sparsely populated areas",
+    "series_positions": "",
+    "axes_label": "% by square meters per person"
+  },
+  "urbconservative": {
+    "plot_number": "17.1",
+    "format": "DensityCat",
+    "title": "Social issues more popular in sparsely populated areas",
+    "series_positions": "1b,2t,1t,2t,3b,4b",
+    "axes_label": "% by square meters per person"
+  },
+  "urbmuslimjewish-print": {
+    "plot_number": "17.2",
+    "format": "DensityCat",
+    "title": "Muslim and Jewish populations by density",
+    "series_positions": "",
+    "axes_label": "% by square meters per person"
+  },
+  "urbmuslimjewish": {
+    "plot_number": "17.2",
+    "format": "DensityCat",
+    "title": "Muslim and Jewish populations by density",
+    "series_positions": "2t,2t",
+    "axes_label": "% by square meters per person"
+  },
+  "urbrace-print": {
+    "plot_number": "17.3",
+    "format": "DensityCat",
+    "title": "“Were you born in the US?” and race",
+    "series_positions": "",
+    "axes_label": "% by square meters per person"
+  },
+  "urbrace": {
+    "plot_number": "17.3",
+    "format": "DensityCat",
+    "title": "“Were you born in the US?” and race",
+    "series_positions": "2b,2b,1t,2t,3t",
+    "axes_label": "% by square meters per person"
+  },
+  "agedistrib-print": {
+    "plot_number": "17.4",
+    "format": "AgeCat",
+    "title": "Age distribution of urban and rural populations",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "agedistrib": {
+    "plot_number": "17.4",
+    "format": "AgeCat",
+    "title": "Age distribution of urban and rural populations",
+    "series_positions": "3b,3b,3t",
+    "axes_label": "% by age"
+  },
+  "yearblacklives-print": {
+    "plot_number": "17.5",
+    "format": "DensityCat",
+    "title": "“Are you a supporter of the Black Lives Matter movement?”",
+    "series_positions": "",
+    "axes_label": "% by square meters per person"
+  },
+  "yearblacklives": {
+    "plot_number": "17.5",
+    "format": "DensityCat",
+    "title": "",
+    "series_positions": "1t,1t",
+    "axes_label": "% by square meters per person"
+  },
+  "yearwhite-print": {
+    "plot_number": "17.6",
+    "format": "DensityCat",
+    "title": "“Are white Americans being systematically undermined or discriminated against?”",
+    "series_positions": "",
+    "axes_label": "% by square meters per person"
+  },
+  "yearwhite": {
+    "plot_number": "17.6",
+    "format": "DensityCat",
+    "title": "",
+    "series_positions": "1t,1t",
+    "axes_label": "% by square meters per person"
+  },
+  "yearclimate-print": {
+    "plot_number": "17.7",
+    "format": "DensityCat",
+    "title": "“Do you believe that global warming is an immiment threat?”",
+    "series_positions": "",
+    "axes_label": "% by square meters per person"
+  },
+  "yearclimate": {
+    "plot_number": "17.7",
+    "format": "DensityCat",
+    "title": "",
+    "series_positions": "1t,1t",
+    "axes_label": "% by square meters per person"
+  },
+  "yearillegal-print": {
+    "plot_number": "17.8",
+    "format": "DensityCat",
+    "title": "“Should the US be more aggressive in deporting illegal immigrants?”",
+    "series_positions": "",
+    "axes_label": "% by square meters per person"
+  },
+  "yearillegal": {
+    "plot_number": "17.8",
+    "format": "DensityCat",
+    "title": "",
+    "series_positions": "2b,2b,1t,1b",
+    "axes_label": "% by square meters per person"
+  },
+  "yearantimuslim-print": {
+    "plot_number": "17.9",
+    "format": "DensityCat",
+    "title": "“Should the US put a halt to the immigration of Muslims?”",
+    "series_positions": "",
+    "axes_label": "% by square meters per person"
+  },
+  "yearantimuslim": {
+    "plot_number": "17.9",
+    "format": "DensityCat",
+    "title": "",
+    "series_positions": "2b,2b,1t,1b",
+    "axes_label": "% by square meters per person"
+  },
+  "yearhomwrong-print": {
+    "plot_number": "17.10",
+    "format": "DensityCat",
+    "title": "“Do you consider homosexuality morally wrong?”",
+    "series_positions": "",
+    "axes_label": "% by square meters per person"
+  },
+  "yearhomwrong": {
+    "plot_number": "17.10",
+    "format": "DensityCat",
+    "title": "",
+    "series_positions": "1b,2t",
+    "axes_label": "% by square meters per person"
+  },
+  "yeargun-print": {
+    "plot_number": "17.11",
+    "format": "DensityCat",
+    "title": "“Do you believe that enacting gun control measures is a bad idea?”",
+    "series_positions": "",
+    "axes_label": "% by square meters per person"
+  },
+  "yeargun": {
+    "plot_number": "17.11",
+    "format": "DensityCat",
+    "title": "",
+    "series_positions": "3t,3b",
+    "axes_label": "% by square meters per person"
+  },
+  "president1-print": {
+    "plot_number": "17.12.0",
+    "format": "DensityCat",
+    "title": "The 2016 presidential election vote",
+    "series_positions": "",
+    "axes_label": "% by square meters per person"
+  },
+  "president2-print": {
+    "plot_number": "17.12.1",
+    "format": "DensityCat",
+    "title": "The 2020 presidential election vote",
+    "series_positions": "",
+    "axes_label": "% by square meters per person"
+  },
+  "president": {
+    "plot_number": "17.12",
+    "format": "DensityCat",
+    "title": "The 2016 and 2020 presidential election votes",
+    "series_positions": "1b,1t,1b,1t",
+    "axes_label": "% by square meters per person"
+  },
+  "youngcity-print": {
+    "plot_number": "18.0",
+    "format": "DensityAvg",
+    "title": "Age distribution of respondents",
+    "series_positions": "",
+    "axes_label": "Average (and median) age by square meters per person"
+  },
+  "youngcity": {
+    "plot_number": "18.0",
+    "format": "DensityAvg",
+    "title": "Age distribution of respondents",
+    "series_positions": "1b,1t,1t",
+    "axes_label": "Average (and median) age by square meters per person"
+  },
+  "nchildmenopause-print": {
+    "plot_number": "18.1",
+    "format": "DensityAvg",
+    "title": "Children born to 44–64-year-olds assigned female at birth",
+    "series_positions": "",
+    "axes_label": "Average (and median) by square meters per person"
+  },
+  "nchildmenopause": {
+    "plot_number": "18.1",
+    "format": "DensityAvg",
+    "title": "Children born to 44–64-year-olds assigned female at birth",
+    "series_positions": "1b,1b",
+    "axes_label": "Average (and median) by square meters per person"
+  },
+  "povertyfrac-print": {
+    "plot_number": "18.2",
+    "format": "XY",
+    "title": "World distribution of population by income from 1820 to 2018",
+    "series_positions": "",
+    "axes_label": "% by year"
+  },
+  "povertyfrac": {
+    "plot_number": "18.2",
+    "format": "XY",
+    "title": "World distribution of population by income from 1820 to 2018",
+    "series_positions": "",
+    "axes_label": "% by year"
+  },
+  "povertyn-print": {
+    "plot_number": "18.3",
+    "format": "XY",
+    "title": "Total world population by income from 1820 to 2018",
+    "series_positions": "",
+    "axes_label": "Population (billions) by year"
+  },
+  "povertyn": {
+    "plot_number": "18.3",
+    "format": "XY",
+    "title": "Total world population by income from 1820 to 2018",
+    "series_positions": "",
+    "axes_label": "Population (billions) by year"
+  },
+  "populationlin-print": {
+    "plot_number": "18.4",
+    "format": "XY",
+    "title": "World population from 10,000 BCE to 2100 CE (projected)",
+    "series_positions": "",
+    "axes_label": "Population by year"
+  },
+  "populationlin": {
+    "plot_number": "18.4",
+    "format": "XY",
+    "title": "World population from 10,000 BCE to 2100 CE (projected)",
+    "series_positions": "2t",
+    "axes_label": "Population (billions) by year"
+  },
+  "populationlog1-print": {
+    "plot_number": "18.5.0",
+    "format": "XY",
+    "title": "World population from 10,000 BCE to 2100 CE (projected)",
+    "series_positions": "",
+    "axes_label": "Population by year"
+  },
+  "populationlog2-print": {
+    "plot_number": "18.5.1",
+    "format": "XY",
+    "title": "World population from 600 to 2100 CE, highlighting three epochs of exponential growth",
+    "series_positions": "",
+    "axes_label": "Population by year"
+  },
+  "populationlog": {
+    "plot_number": "18.5",
+    "format": "XY",
+    "title": "World population, highlighting three epochs of exponential growth",
+    "series_positions": "2t",
+    "axes_label": "Population by year"
+  },
+  "glaciation-print": {
+    "plot_number": "18.6",
+    "format": "XY",
+    "title": "Glaciation cycles over the past 800,000 years",
+    "series_positions": "",
+    "axes_label": "Atmospheric carbon dioxide (ppmv) by thousands of years before present"
+  },
+  "glaciation": {
+    "plot_number": "18.6",
+    "format": "XY",
+    "title": "Glaciation cycles over the past 800,000 years",
+    "series_positions": "",
+    "axes_label": "Atmospheric carbon dioxide (ppmv) by thousands of years before present"
+  },
+  "tfr-print": {
+    "plot_number": "18.7",
+    "format": "XY",
+    "title": "Total fertility rate",
+    "series_positions": "",
+    "axes_label": "Live births per woman by year"
+  },
+  "tfr": {
+    "plot_number": "18.7",
+    "format": "XY",
+    "title": "Total fertility rate",
+    "series_positions": "160t,400b,1t,110t,110b,130t,140b,145b,200t,12t,6t",
+    "axes_label": "Live births per woman by year"
+  },
+  "ltgle-print": {
+    "plot_number": "18.8",
+    "format": "XY",
+    "title": "World life expectancy from 1900 to 2100, by LtG scenario",
+    "series_positions": "",
+    "axes_label": "Life exectancy by year"
+  },
+  "ltgle": {
+    "plot_number": "18.8",
+    "format": "XY",
+    "title": "World life expectancy from 1900 to 2100, by LtG scenario",
+    "series_positions": "4b,200b,220b,200b,100b",
+    "axes_label": "Life exectancy by year"
+  },
+  "developedpop-print": {
+    "plot_number": "19.0",
+    "format": "XY",
+    "title": "Total population of more economically developed regions with UN forecast variants from 2022 to 2100",
+    "series_positions": "",
+    "axes_label": "Population (millions) by year"
+  },
+  "developedpop": {
+    "plot_number": "19.0",
+    "format": "XY",
+    "title": "Total population of more economically developed regions with UN forecast variants from 2022 to 2100",
+    "series_positions": "1b,2t,3b,5t,39t,39t,43t,45t,50t,55t",
+    "axes_label": "Population (millions) by year"
+  },
+  "urmarried-print": {
+    "plot_number": "19.1",
+    "format": "AgeCat",
+    "title": "“Are you married?” in the city vs. countryside",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "urmarried": {
+    "plot_number": "19.1",
+    "format": "AgeCat",
+    "title": "",
+    "series_positions": "1b,3t,3t",
+    "axes_label": "% by age"
+  },
+  "oiltfr-print": {
+    "plot_number": "19.3",
+    "format": "XY",
+    "title": "Total fertility rate in oil-rich countries from 1960 to 2017",
+    "series_positions": "",
+    "axes_label": "Live births per woman by year"
+  },
+  "oiltfr": {
+    "plot_number": "19.3",
+    "format": "XY",
+    "title": "Total fertility rate in oil-rich countries from 1960 to 2017",
+    "series_positions": "190t,200t,190t,185t,185t,190t",
+    "axes_label": "Live births per woman by year"
+  },
+  "urchildren-print": {
+    "plot_number": "19.4",
+    "format": "AgeAvg",
+    "title": "Children born to people assigned female at birth in the city vs. countryside",
+    "series_positions": "",
+    "axes_label": "Average (and median) by age"
+  },
+  "urchildren": {
+    "plot_number": "19.4",
+    "format": "AgeAvg",
+    "title": "",
+    "series_positions": "2b,4b,4t",
+    "axes_label": "Average (and median) by age"
+  },
+  "agrilabor1-print": {
+    "plot_number": "20.0.0",
+    "format": "XY",
+    "title": "Share of labor force employed in agriculture from 1400 to 2019",
+    "series_positions": "",
+    "axes_label": "% by year"
+  },
+  "agrilabor2-print": {
+    "plot_number": "20.0.1",
+    "format": "XY",
+    "title": "Share of labor force employed in agriculture from 1950 to 2019",
+    "series_positions": "",
+    "axes_label": "% by year"
+  },
+  "agrilabor": {
+    "plot_number": "20.0",
+    "format": "XY",
+    "title": "Share of labor force employed in agriculture by country",
+    "series_positions": "17t,19t,1t,2t,20b,3t,4b,5t,2t,1b,20t,6b",
+    "axes_label": "% by year"
+  },
+  "hogs-print": {
+    "plot_number": "20.1",
+    "format": "XY",
+    "title": "Consolidation of hog farms from 1900 to 2017",
+    "series_positions": "",
+    "axes_label": "Number by year"
+  },
+  "hogs": {
+    "plot_number": "20.1",
+    "format": "XY",
+    "title": "Consolidation in hog farms from 1900 to 2017",
+    "series_positions": "4b,10t,1t",
+    "axes_label": "Number by year"
+  },
+  "agriarea-print": {
+    "plot_number": "20.2",
+    "format": "XY",
+    "title": "Total area for agricultural land use from 1600 to 2016",
+    "series_positions": "",
+    "axes_label": "Area (millions of hectares) by year"
+  },
+  "agriarea": {
+    "plot_number": "20.2",
+    "format": "XY",
+    "title": "Total area for agricultural land use from 1600 to 2016",
+    "series_positions": "",
+    "axes_label": "Area (millions of hectares) by year"
+  },
+  "crops-print": {
+    "plot_number": "20.3",
+    "format": "XY",
+    "title": "Crop productivity gains",
+    "series_positions": "",
+    "axes_label": "% of 1961 crop productivity by year"
+  },
+  "crops": {
+    "plot_number": "20.3",
+    "format": "XY",
+    "title": "",
+    "series_positions": "25t,37t,46t,34t,42t,40b,25b,48t,29t,38t,38b",
+    "axes_label": "% of 1961 crop productivity by year"
+  },
+  "mturkage1-print": {
+    "plot_number": "22.0.0",
+    "format": "XY",
+    "title": "Age distributions of USA and Mechanical Turk populations",
+    "series_positions": "",
+    "axes_label": "Probability density by age"
+  },
+  "mturkage2-print": {
+    "plot_number": "22.0.1",
+    "format": "XY",
+    "title": "Age distributions of survey respondents, 2018–2021",
+    "series_positions": "",
+    "axes_label": "Probability density by age"
+  },
+  "mturkage": {
+    "plot_number": "22.0",
+    "format": "XY",
+    "title": "Comparison of USA and Mechanical Turk age distributions",
+    "series_positions": "15t,15t,80b,120t,160t,200t",
+    "axes_label": "Probability density by age"
+  },
+  "mturkf-print": {
+    "plot_number": "22.1",
+    "format": "XY",
+    "title": "Comparison of female representation between USA and Mechanical Turk",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "mturkf": {
+    "plot_number": "22.1",
+    "format": "XY",
+    "title": "Comparison of female representation between USA and Mechanical Turk",
+    "series_positions": "15t,95t,85t,147t,189b,254b",
+    "axes_label": "% by age"
+  },
+  "nbbinned": {
+    "plot_number": "22.2",
+    "format": "AgeCat",
+    "title": "“Do you identify as non-binary?” binned randomly",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "nbbinned-print": {
+    "plot_number": "22.2",
+    "format": "AgeCat",
+    "title": "“Do you identify as non-binary?” binned randomly",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "timetaken1-print": {
+    "plot_number": "22.3.0",
+    "format": "XY",
+    "title": "Time taken to complete survey",
+    "series_positions": "",
+    "axes_label": "% of peak by minutes"
+  },
+  "timetaken2-print": {
+    "plot_number": "22.3.1",
+    "format": "XY",
+    "title": "Acceptance rate as a function of time taken to complete survey",
+    "series_positions": "",
+    "axes_label": "% by minutes"
+  },
+  "timetaken": {
+    "plot_number": "22.3",
+    "format": "XY",
+    "title": "Survey completion times and rejection rates",
+    "series_positions": "",
+    "axes_label": "% by minutes"
+  },
+  "nbappendix": {
+    "plot_number": "22.4",
+    "format": "AgeCat",
+    "title": "“Do you identify as non-binary?” binned randomly",
+    "series_positions": "",
+    "axes_label": "% by age"
+  },
+  "nbappendix-print": {
+    "plot_number": "22.4",
+    "format": "AgeCat",
+    "title": "“Do you identify as non-binary?” binned randomly",
+    "series_positions": "",
+    "axes_label": "% by age"
+  }
+}

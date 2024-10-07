@@ -1,0 +1,19 @@
+{
+    "ax": "Square meters per person",
+    "ay": "%",
+    "i": [
+        0,
+        1
+    ],
+    "name": "YearWhite",
+    "title": "\u201cAre white Americans being systematically undermined or discriminated against?\u201d",
+    "type": "DensityCat",
+    "x": [
+        1.2370299999999999,
+        5.38987
+    ],
+    "y": [
+        0,
+        100
+    ]
+}

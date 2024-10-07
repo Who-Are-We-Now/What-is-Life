@@ -1,0 +1,19 @@
+{
+    "ax": "Age",
+    "ay": "%",
+    "i": [
+        0,
+        1
+    ],
+    "name": "YearBi1",
+    "title": "\u201cAre you bisexual?\u201d",
+    "type": "AgeCat",
+    "x": [
+        22.0,
+        72.5
+    ],
+    "y": [
+        0,
+        19
+    ]
+}

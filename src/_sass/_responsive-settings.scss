@@ -1,0 +1,41 @@
+@mixin at-media($size) {
+	@if $size ==mobile {
+		@media (max-width: 400px) {
+			@content;
+		}
+	}
+
+	@else if $size ==mobile_lg {
+		@media (max-width: 600px) {
+			@content;
+		}
+	}
+
+	@else if $size ==tablet {
+		@media (max-width: 850px) {
+			@content;
+		}
+	}
+
+	//this is the primary layout breakpoint
+
+
+
+	@else if $size ==tablet_lg {
+		@media (max-width: 1024px) {
+			@content;
+		}
+	}
+
+	@else if $size ==desktop {
+		@media (max-width: 1400px) {
+			@content;
+		}
+	}
+
+	@else if $size ==desktop_lg {
+		@media (max-width: 1700px) {
+			@content;
+		}
+	}
+}

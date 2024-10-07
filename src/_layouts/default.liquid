@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="ie=edge" http-equiv="x-ua-compatible">  
+  
+	{%- if title == "Home" %}
+	{%- assign meta_title = "Who are we now?" -%}
+	{%- else -%}
+	{% capture meta_title %}{{ title }} — Who are we now?{% endcapture %}
+	{%- endif %}
+	<title>{{meta_title}}</title>    
+
+	<meta name="title" content="Who Are We Now?">
+	<meta name="description" content="From leading AI researcher Blaise Agüera y Arcas comes an exploration of how biology, ecology, sexuality, history, and culture have intertwined to create a dynamic “us” that can neither be called natural nor artificial.">
+ 
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" >
+	{% if env.environment == 'production' %}
+	<link href="{{'/assets/css/main.min.css' | url}}" rel="stylesheet">
+	{% else %}
+	<link href="{{'/assets/css/main.css' | url}}" rel="stylesheet">
+	<meta name="robots" content="noindex,nofollow">
+	{% endif %}
+
+	<meta name="theme-color" content="#ffffff">
+	<link rel="icon" href="/assets/favicon/wawn_favicon.svg">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+	<link rel="icon" href="/assets/favicon/wawn_favicon.svg" type="image/svg+xml">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	{% if title == "Appendix for data nerds" %}
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script
+			id="MathJax-script"
+			async
+			src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	{% endif %}
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+	<script src="{{'/assets/js/bundle-script.js' | url}}"></script>
+
+	{% if env.environment == 'production' %}
+		{%- assign meta_img = "/assets/images/social-share.jpg" %}
+		{%- assign meta_description = "And where are we going?" %}
+		<!--social share-->
+		<!-- twitter card -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="{{meta_title}}" />
+		<meta name="twitter:description" content="{{meta_description}}" />
+		<meta name="twitter:image" content="{{meta_img}}" />
+
+		<!-- facebook card -->
+		<meta property="og:url" content="https://whoarewenow.net{{page.url}}" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="{{meta_title}}" />
+		<meta property="og:description" content="{{meta_description}}" />
+		<meta name="og:image" content="{{meta_img}}" />
+
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q9FFC8SVQM"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-Q9FFC8SVQM');
+		</script>
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-PRBZQ7WG');</script>
+		<!-- End Google Tag Manager -->
+	{% endif %}
+	</head>
+	<body id="{{title|slugify}}" class="{{layout}} {{tags}}"
+		{%- if layout == 'section' -%}
+		 style="background-image: url('/assets/images/sections/{{img}}');"
+		{%- endif -%}>
+		{% include "partials/header" %}
+		{% include "partials/summary" %}
+		<main>
+			{{ content }}
+		</main>
+		{% if layout == 'section' %}
+			<div class="section_bg"></div>
+		{% endif %}
+		{% if env.environment == 'production' %}
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRBZQ7WG"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		{% endif %}
+	</body>
+</html>

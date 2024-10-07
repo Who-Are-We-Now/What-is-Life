@@ -1,0 +1,79 @@
+{
+  "polygamylegal": {
+    "chapter": "chapter-04",
+    "plot_number": "4.1",
+    "caption": "Legality of polygamy by country",
+    "axes_label": "",
+    "type": "plot"
+  },
+  "lesbianbarmap": {
+    "chapter": "chapter-09",
+    "plot_number": "",
+    "caption": "The 21 remaining lesbian bars in the US in 2021, a low due to the COVID pandemic",
+    "axes_label": "",
+    "type": "figure"
+  },
+  "sexratiomap": {
+    "chapter": "chapter-12",
+    "plot_number": "12.1",
+    "caption": "Sex ratios by country",
+    "axes_label": "",
+    "type": "plot"
+  },
+  "intersexrightsmap": {
+    "chapter": "chapter-12",
+    "plot_number": "12.2",
+    "caption": "Countries that protect intersex children from non-consensual medical intervention",
+    "axes_label": "",
+    "type": "plot"
+  },
+  "antigaymap": {
+    "chapter": "chapter-14",
+    "plot_number": "14.14",
+    "caption": "Legality of homosexuality by country",
+    "axes_label": "",
+    "type": "plot"
+  },
+  "densitymap": {
+    "chapter": "chapter-16",
+    "plot_number": "",
+    "caption": "The densest US ZIP code tabulation areas (ZCTAs), covering 62.7% of the US population.",
+    "axes_label": "",
+    "type": "figure"
+  },
+  "blackmarble": {
+    "chapter": "chapter-16",
+    "plot_number": "",
+    "caption": "NASA's <em>Black Marble</em> composite satellite view of the Earth at night.",
+    "axes_label": "",
+    "type": "figure"
+  },
+  "jesusland": {
+    "chapter": "chapter-17",
+    "plot_number": "",
+    "caption": "The Jesusland map, a popular meme satirizing political polarization at the state level during the 2004 US presidential election",
+    "axes_label": "",
+    "type": "figure"
+  },
+  "votingdensity": {
+    "chapter": "chapter-17",
+    "plot_number": "17.12",
+    "caption": "",
+    "axes_label": "",
+    "type": "plot"
+  },
+  "tfrmap": {
+    "chapter": "chapter-19",
+    "plot_number": "19.2",
+    "caption": "Total fertility rate by country",
+    "axes_label": "Live births per woman",
+    "type": "plot"
+  },
+  "landcovermap": {
+    "chapter": "TK",
+    "plot_number": "",
+    "caption": "",
+    "axes_label": "",
+    "type": "plot"
+  }
+}

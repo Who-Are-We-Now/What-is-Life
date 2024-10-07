@@ -1,0 +1,83 @@
+//GLOBAL VARIABLES
+:root {
+	/* font-sizes */
+	--base-size: 16px;
+	--xlarge-size: 5rem;
+	--heading-size: 3rem;
+	--large-size: 2rem;
+	--medium-size: 1.5rem;
+	--caption-size: .875rem;
+	--small-size: .6875rem;
+
+	--lineheight: 1.6em;
+
+	/* font weight variables */
+	--wght-light: 200; 
+	--wght: 300; 
+	--wght-medium: 400;
+	--wght-semibold: 600;
+	--wght-bold: 700;
+	--wght-ultra: 900;
+
+	/* structures */
+	--width-text: 45em;
+	--max-width: 1600px;
+	--max-width-text: calc(var(--max-width)/2 - var(--pad-section));
+	--height-header: 50px;
+	--margin: calc(calc(100vw - var(--max-width)) / 2);
+	--main-width: calc(100% - var(--pad-body)*2);
+
+	--height-cover: 100vh;
+	--height-figure: 100vh;
+	--width-ind: 12px;
+
+	/* spacing */
+	--pad-section: 5rem;
+	--pad-body: 2.5rem;
+	--pad: 1.6rem;
+	--pad-sm: .75rem;
+	--pad-xs: .375rem;
+
+	--indent: 3rem;
+	--plot-indent: 3rem;
+
+	/* figure styles */
+	--stroke: 2px;
+
+	/*border radious */
+	--smradius: 4px;
+
+	@include at-media(desktop_lg) {
+		--margin: var(--pad-body);
+		--width-text: calc(50% - var(--pad-section))
+	}
+
+	@include at-media(tablet_lg) {
+		--base-size: 14px;
+		--heading-size: 2.5rem;
+		--indent: 2rem;
+	}
+
+	@include at-media(tablet) {
+		--base-size: 16px;
+		--pad-body: 4rem;
+		--xlarge-size: 4rem;
+		--width-text: calc(100% - var(--margin) * 2);
+		--height-cover: 600px;
+		--height-header: 45px;
+		--height-spans: 680px;
+	}
+
+	@include at-media(mobile_lg) {
+		--height-figure: 800px;
+		--height-cover: 500px;
+		--pad-body: 1rem;
+		--lineheight: 1.65em;
+		--heading-size: 2.3rem;
+	}
+
+	@include at-media(mobile) {
+		--height-figure: 600px;
+	}
+
+}

@@ -1,0 +1,18 @@
+{
+    "ax": "Square meters per person",
+    "ay": "%",
+    "i": [
+        2,
+        3
+    ],
+    "name": "President2",
+    "type": "DensityCat",
+    "x": [
+        1.211655,
+        5.402455
+    ],
+    "y": [
+        0,
+        100
+    ]
+}

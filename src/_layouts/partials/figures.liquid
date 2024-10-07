@@ -1,0 +1,24 @@
+{%- for imgobj in figures -%}
+{%- assign id = imgobj[0] -%}
+{%- assign img = imgobj[1] -%}
+{% if img.chapter == page.fileSlug %}
+<div class="figure image {{img.indent}}" id="{{id}}">
+  <figure class="main">
+    <img src="/assets/images/{{img.chapter}}/{{img.file_web[0]}}" alt="{{img.alt}}" title="{{img.alt}}" id="{{img.file_web[0]}}"/>
+    <figcaption>{{img.caption}}</figcaption>
+  </figure>
+</div>
+{% endif %}
+{% endfor %}
+
+{%- for plot in plots -%}
+{%- assign key = plotobj[0] -%}
+{%- assign plot_meta = plotobj[1] -%}
+{%- assign number = plot_meta['plot_number'] | split: "." -%}
+{{ number }}
+{%- assign colors = plot_meta.colors | split: "," -%}
+{%-if colors.length>0 %}
+
+{%- endif -%}
+
+{% endfor %}

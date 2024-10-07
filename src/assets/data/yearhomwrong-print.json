@@ -1,0 +1,19 @@
+{
+    "ax": "Square meters per person",
+    "ay": "%",
+    "i": [
+        0,
+        1
+    ],
+    "name": "YearHomWrong",
+    "title": "\u201cDo you consider homosexuality morally wrong?\u201d",
+    "type": "DensityCat",
+    "x": [
+        1.206915,
+        5.369949999999999
+    ],
+    "y": [
+        0,
+        85
+    ]
+}

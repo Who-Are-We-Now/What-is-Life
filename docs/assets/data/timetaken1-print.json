@@ -1,0 +1,18 @@
+{
+    "ax": "Minutes",
+    "ay": "% of peak",
+    "i": [
+        1,
+        2
+    ],
+    "name": "TimeTaken1",
+    "type": "XY",
+    "x": [
+        0,
+        20
+    ],
+    "y": [
+        0,
+        108
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "ax": "Age",
+    "ay": "%",
+    "i": [
+        1,
+        2
+    ],
+    "name": "URHomo",
+    "title": "\u201cAre you homosexual, gay or lesbian?\u201d",
+    "type": "AgeCat",
+    "x": [
+        21.5,
+        71.5
+    ],
+    "y": [
+        0,
+        12
+    ]
+}

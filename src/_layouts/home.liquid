@@ -1,0 +1,40 @@
+---
+layout: default.liquid
+---
+
+<div class="home-cover">
+  <div class="title">
+    <h3>Blaise Agüera y Arcas</h3>
+    <h1>What is<br>Intelligence?</h1>
+    <h2>Lessons from AI about Evolution, Computation, and Consciousness</h2>
+  </div>
+</div>
+<article>
+  <section class="content">
+    {{ content }}
+    <div id="preface">
+      {{ 'src/preface/index.md' | eleventyComputedContent }}
+    </div>
+    <div id="introduction">
+      {{ 'src/introduction/index.md' | eleventyComputedContent }}
+    </div>
+    <div id="part-one">
+      {{ 'src/part-one/index.md' | eleventyComputedContent }}
+    </div>
+    <div id="acknowledgments">
+      {{ 'src/acknowledgments/index.md' | eleventyComputedContent }}
+    </div>
+    <div id="glossary">
+      {{ 'src/glossary/index.md' | eleventyComputedContent }}
+    </div>
+    <div id="bibliography">
+      {{ 'src/bibliography/index.md' | eleventyComputedContent }}
+    </div>
+    <div class="indicators">
+      <div class="fixed-indicator"></div>
+      <div class="figure-indicators"></div>
+    </div>
+  </section>
+  <div id="footnote-popup" class="footnote-text"></div>
+</article>
+{% include "partials/nextpage" %}

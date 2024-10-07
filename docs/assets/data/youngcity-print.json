@@ -1,0 +1,23 @@
+{
+    "ax": "Square meters per person",
+    "ay": "Age",
+    "i": [
+        {
+            "0": [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "name": "YoungCity",
+    "type": "DensityAvg",
+    "x": [
+        1.149065,
+        5.357475
+    ],
+    "y": [
+        18,
+        75
+    ]
+}

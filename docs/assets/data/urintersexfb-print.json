@@ -1,0 +1,19 @@
+{
+    "ax": "Age",
+    "ay": "%",
+    "i": [
+        1,
+        2
+    ],
+    "name": "URIntersexFB",
+    "title": "Intersex if assigned female at birth",
+    "type": "AgeCat",
+    "x": [
+        21.5,
+        68.0
+    ],
+    "y": [
+        0,
+        6
+    ]
+}

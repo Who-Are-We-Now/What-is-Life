@@ -1,0 +1,105 @@
+{
+  "name": "GenderPCA3",
+  "x": [
+    -0.025,
+    0.025
+  ],
+  "y": [
+    -0.028,
+    0.048
+  ],
+  "seq": [
+    [
+      [
+        "Female",
+        "Female",
+        [237,118,52],
+        4,
+        0.5
+      ],
+      [
+        "Male",
+        "Male",
+        [70,173,154],
+        4,
+        0.5
+      ],
+      [
+        "Female*Male",
+        "Both",
+        [170,68,153],
+        9,
+        0.8
+      ],
+      [
+        "(1-Female)*(1-Male)",
+        "Neither",
+        [117,69,27],
+        9,
+        0.7
+      ]
+    ],
+    [
+      [
+        "She",
+        "She",
+        [237,118,52],
+        4,
+        0.5
+      ],
+      [
+        "He",
+        "He",
+        [70,173,154],
+        4,
+        0.5
+      ],
+      [
+        "She*He",
+        "Both",
+        [170,68,153],
+        9,
+        0.8
+      ],
+      [
+        "(1-She)*(1-He)",
+        "Neither",
+        [117,69,27],
+        9,
+        0.7
+      ]
+    ],
+    [
+      [
+        "Hetero*(1-Homo)*Female*(1-Male)",
+        "Strictly heterosexual female",
+        [237,118,52],
+        4,
+        0.5
+      ],
+      [
+        "Homo*(1-Hetero)*Female*(1-Male)",
+        "Strictly lesbian female",
+        [238,51,119],
+        9,
+        0.5
+      ]
+    ],
+    [
+      [
+        "Hetero*(1-Homo)*Male*(1-Female)",
+        "Strictly heterosexual male",
+        [70,173,154],
+        4,
+        0.5
+      ],
+      [
+        "Homo*(1-Hetero)*Male*(1-Female)",
+        "Strictly gay male",
+        [51,34,136],
+        9,
+        0.5
+      ]
+    ]
+  ]
+}

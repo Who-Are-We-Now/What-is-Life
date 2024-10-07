@@ -1,0 +1,19 @@
+{
+    "ax": "Square meters per person",
+    "ay": "%",
+    "i": [
+        7,
+        8
+    ],
+    "name": "DifferingDefinitions3",
+    "title": "\u201cDo you live in the countryside?\u201d",
+    "type": "DensityCat",
+    "x": [
+        1.38244,
+        5.457735
+    ],
+    "y": [
+        0,
+        100
+    ]
+}

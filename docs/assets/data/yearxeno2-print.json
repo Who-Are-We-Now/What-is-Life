@@ -1,0 +1,19 @@
+{
+    "ax": "Square meters per person",
+    "ay": "%",
+    "i": [
+        2,
+        3
+    ],
+    "name": "YearXeno2",
+    "title": "Should the US put a halt to the immigration of Muslims?",
+    "type": "DensityCat",
+    "x": [
+        1.2370299999999999,
+        5.38987
+    ],
+    "y": [
+        0,
+        100
+    ]
+}

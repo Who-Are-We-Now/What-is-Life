@@ -1,0 +1,22 @@
+{
+    "ax": "Year",
+    "ay": "Live births per woman",
+    "i": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "name": "OilTFR",
+    "type": "XY",
+    "x": [
+        1960,
+        2017
+    ],
+    "y": [
+        0,
+        8
+    ]
+}

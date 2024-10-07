@@ -1,0 +1,16 @@
+
+      let plotHTML = `<div class="plot-scroll" id="${key}-area" data-format="${format}">                              
+                <div class="col plot-col text">
+                  <div class="content">${content}</div>                  
+                </div> 
+                <div class="col plot-col chart">                  
+                  <figure class="plot" id="${key}" data-stops="${plot_meta.stops}" data-colors="${colors}" style="${color_settings}">
+                    <figcaption class="plot-title"><span class="plot-no">${plot_meta.plot_number}</span> ${plot_meta.title} <span class="plot-axis-label">${axeslabel}</span></figcaption>
+                    <div class="plot-content"><div class="plot-tip" data-series="0"></div></div>
+                    <div class="plot-footer">
+                    <div class="plot-labels"></div>
+                    <div class="stops">${steps}</div>
+                    </div>
+                  </figure>
+                </div>
+              </div>`;

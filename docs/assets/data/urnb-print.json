@@ -1,0 +1,19 @@
+{
+    "ax": "Age",
+    "ay": "%",
+    "i": [
+        1,
+        2
+    ],
+    "name": "URNB",
+    "title": "\u201cDo you identify as non-binary?\u201d",
+    "type": "AgeCat",
+    "x": [
+        22.0,
+        73.5
+    ],
+    "y": [
+        0,
+        14
+    ]
+}

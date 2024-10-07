@@ -1,0 +1,19 @@
+{
+    "ax": "Age",
+    "ay": "%",
+    "i": [
+        1,
+        2
+    ],
+    "name": "URNonMonog",
+    "title": "\u201cAre you non-monogamous?\u201d",
+    "type": "AgeCat",
+    "x": [
+        21.5,
+        71.5
+    ],
+    "y": [
+        0,
+        20
+    ]
+}

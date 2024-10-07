@@ -1,0 +1,17 @@
+{
+    "ax": "Year",
+    "ay": "World population",
+    "i": [
+        0
+    ],
+    "name": "Population1",
+    "type": "XY",
+    "x": [
+        -10000,
+        2100
+    ],
+    "y": [
+        0,
+        12000000000.0
+    ]
+}

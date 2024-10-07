@@ -1,0 +1,20 @@
+{
+    "ax": "Age",
+    "ay": "%",
+    "i": [
+        0,
+        1,
+        2
+    ],
+    "name": "Makeup",
+    "title": "\u201cDo you ever use makeup?\u201d",
+    "type": "AgeCat",
+    "x": [
+        19.0,
+        63.5
+    ],
+    "y": [
+        0,
+        100
+    ]
+}
