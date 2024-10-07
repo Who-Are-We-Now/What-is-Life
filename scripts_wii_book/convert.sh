@@ -1,2 +1,0 @@
-python markdown_cleaner.py --input input.md --output output.md --captions_file ./captions.json
-pandoc --reference-location=document --lua-filter=stripmeta.lua -o output.docx --reference-doc=custom-reference.docx output.md 
