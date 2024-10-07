@@ -96,7 +96,7 @@ Use and Imports
   font-stretch: normal;
   font-weight: 900;
 }
-.sans-serif, figcaption, figcaption em, .quigley-labels, .plot,
+.sans-serif, figcaption, figcaption em, .plot,
 .plot-labels, .plot-title em,
 .label-headers em, text, .map .plot-content p, .plot-tips, #votingdensity .map-labels p, .audio audio {
   font-family: "cmunrm";
@@ -5738,7 +5738,7 @@ Use and Imports
   position: fixed;
   top: 0;
   width: 50%;
-  left: 50vw;
+  left: 0vw;
   height: var(--height-figure);
   display: flex;
   align-items: center;
@@ -5953,6 +5953,17 @@ nav ul.toc li a.thb {
 .figarea {
   scroll-margin-top: 49vh;
   position: relative;
+}
+.figarea .text-img {
+  margin-left: 50%;
+  width: var(--width-text);
+  line-height: var(--lineheight);
+  text-indent: var(--indent);
+  padding-left: var(--pad-body);
+}
+.figarea .text-img p {
+  margin-left: 0;
+  width: auto;
 }
 @media (max-width: 850px) {
   .figarea {
@@ -6364,195 +6375,6 @@ FIGURES-specific OVERRIDES
 #ignition p,
 #terra-incognita p {
   transition: color 700ms ease-in-out;
-}
-
-#bildlilli-indicator,
-#dickjane-indicator,
-#atomfriend-indicator {
-  margin-top: calc(-1 * (var(--height-header) + 1px));
-}
-
-.bildlilli-text > blockquote:first-child {
-  margin-top: 0;
-}
-
-#anonymous-identity section.content {
-  padding-bottom: 10vh;
-}
-
-#overviewfx-indicator {
-  border-color: transparent;
-}
-
-#overviewfx-fig {
-  margin-bottom: 0;
-}
-
-#ears-indicator {
-  margin-top: calc(-1 * var(--lineheight));
-}
-
-#beebo-fig.image img {
-  max-height: 72vh;
-}
-
-#dragons,
-#notke {
-  margin-top: calc(-1 * var(--pad-section));
-  display: flex;
-  flex-direction: column-reverse;
-}
-#dragons .figure.media-full,
-#notke .figure.media-full {
-  height: auto;
-  margin-top: 0;
-}
-
-#dragons .figure {
-  padding-top: 0;
-}
-
-.dragons-text p {
-  text-indent: 0;
-}
-
-#savage_lovecast_526 .text-img p:first-child {
-  text-indent: 0;
-}
-
-#packard-fig figure {
-  padding: var(--pad-section);
-}
-
-#binning .crossfade figure {
-  background-color: none;
-}
-#binning figure {
-  background-image: url("/assets/images/appendix/binning-frame.png");
-  background-size: calc(100% - 2 * var(--pad-section));
-  background-repeat: no-repeat;
-  background-position: 50% 42%;
-}
-@media (max-width: 1024px) {
-  #binning figure {
-    background-size: calc(100% - 2 * var(--margin));
-  }
-}
-#binning figure[data-xfadeindex="1"] img {
-  mix-blend-mode: multiply;
-}
-#binning figcaption {
-  top: 10px;
-  position: relative;
-}
-
-@media (max-width: 850px) {
-  #quigley-fig {
-    position: sticky;
-    top: 0;
-  }
-  #quigley-fig figure {
-    height: var(--height-figure);
-  }
-  #quigley-fig + .text-img {
-    min-height: calc(var(--height-figure) * 6);
-  }
-  #quigley-indicator {
-    height: calc(var(--height-figure) * 7);
-  }
-}
-.quigley-labels {
-  margin: auto;
-  font-weight: 700;
-  display: flex;
-  padding-bottom: var(--pad);
-}
-
-.quigley-axislabel {
-  font-weight: 400;
-  margin: 0 10px;
-  opacity: 0.6;
-}
-
-.quigley-framelabel {
-  margin: 0 5px;
-  opacity: 0.2;
-  transition: opacity 400ms linear;
-}
-
-.visibleframe {
-  opacity: 1;
-}
-
-#reimerselfportrait {
-  width: 20%;
-}
-@media (max-width: 600px) {
-  #reimerselfportrait {
-    width: 50%;
-  }
-}
-#reimerselfportrait + blockquote {
-  padding-top: 0;
-}
-
-#moneycover {
-  padding-top: 0;
-}
-
-#a-view-from-above {
-  /* ending after full-bleed image*/
-}
-#a-view-from-above article {
-  padding-bottom: 0;
-}
-#a-view-from-above section.content {
-  padding-bottom: 10vh;
-}
-
-@media (max-width: 850px) {
-  #chimeras .xfade-images {
-    width: 60%;
-    margin: 0 auto;
-  }
-}
-@media (max-width: 400px) {
-  #chimeras .xfade-images {
-    width: 100%;
-  }
-}
-
-@media (max-width: 850px) {
-  #patriarchypyramid {
-    width: 50%;
-  }
-}
-@media (max-width: 600px) {
-  #patriarchypyramid {
-    width: 60%;
-  }
-}
-
-#sextable {
-  width: 50%;
-}
-@media (max-width: 600px) {
-  #sextable {
-    width: 100%;
-  }
-}
-
-#lightsout .img-container {
-  height: 50vw;
-  background-size: 100%;
-}
-@media (max-width: 600px) {
-  #lightsout .img-container {
-    height: 65vw;
-    background-size: 130%;
-    background-position: -15vw 0;
-    background-repeat: no-repeat;
-  }
 }
 
 /*--------------------------------------*/
@@ -9498,6 +9320,7 @@ article p {
   text-indent: var(--indent);
   margin-left: 50%;
   width: var(--width-text);
+  padding-left: var(--pad-body);
 }
 article sub {
   vertical-align: baseline;
@@ -9542,6 +9365,7 @@ article ol {
   margin-left: 50%;
   margin-bottom: var(--lineheight);
   width: var(--width-text);
+  padding-left: var(--pad-body);
 }
 article ul p,
 article ol p {

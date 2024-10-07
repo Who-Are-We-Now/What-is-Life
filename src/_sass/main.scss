@@ -1025,6 +1025,7 @@ article {
 		// margin-left: var(--margin);
 		margin-left: 50%;
 		width: var(--width-text);
+		padding-left: var(--pad-body);
 
 	}
 
@@ -1085,7 +1086,7 @@ article {
 		margin-left: 50%;
 		margin-bottom: var(--lineheight);
 		width: var(--width-text);
-
+		padding-left: var(--pad-body);
 		p {
 			width: calc(var(--width-text) - var(--indent));
 		}
