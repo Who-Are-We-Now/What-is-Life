@@ -5687,6 +5687,8 @@ Use and Imports
   --pad-xs: .375rem;
   --indent: 3rem;
   --plot-indent: 3rem;
+  /* color */
+  --color-brown-light: #AA968F;
   /* figure styles */
   --stroke: 2px;
   /*border radious */

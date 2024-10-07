@@ -3,6 +3,7 @@ const esbuild = require("esbuild");
 const htmlmin = require("html-minifier");
 const path = require('path'); 
 
+
 const markdownIt = require("markdown-it");
 const markdownItBracketedSpans = require('markdown-it-bracketed-spans');
 const markdownItAttrs = require('markdown-it-attrs')
@@ -89,6 +90,12 @@ module.exports = function (eleventyConfig) {
 	});
 
 	// SHORTCODES
+
+	//darkmode 
+
+	eleventyConfig.addPairedShortcode('darkmode', function(content) {
+		return `<div class="dark">${content}</div>`;
+	});
 
 	// figure
 	eleventyConfig.addPairedShortcode('img', function (content, id) {
@@ -385,14 +392,18 @@ module.exports = function (eleventyConfig) {
 		});
 		return article;
 	});
+	
 
-// Custom filter to read and render a Markdown file
-eleventyConfig.addFilter("eleventyComputedContent", function(filepath) {
-    const absolutePath = path.join(__dirname, filepath); // Use the `path` module
-    const markdown = fs.readFileSync(absolutePath, 'utf-8');
+	// Custom filter to read and render a Markdown file
+	eleventyConfig.addFilter("eleventyComputedContent", function(filepath) {
+		const absolutePath = path.join(__dirname, filepath);
+		const markdown = fs.readFileSync(absolutePath, 'utf-8');
+		return md.render(markdown);
+ 
 
-    return md.render(markdown);
-  });
+	});
+
+
 
 
 	//custom collections
@@ -455,7 +466,8 @@ eleventyConfig.addFilter("eleventyComputedContent", function(filepath) {
 			}
 		}
 		return content;
-	});
+	});	
+
 
 
 	return {

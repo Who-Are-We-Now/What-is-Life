@@ -1,3 +1,8 @@
+<!-- ---
+title: introduction
+layout: introduction
+--- -->
+
 # Introduction
 
 In the mid-2010s, my team at Google Research began working on the machine-learned models powering next-word prediction for Gboard, the smart keyboard for Android phones.[^8] We created these models to speed up text entry on the phone (which remains, at least for those of us over 40, far less efficient than typing on a real keyboard) by suggesting likely next words in a little strip above the virtual keys. Today, similar models power autocomplete features in many apps and editors.

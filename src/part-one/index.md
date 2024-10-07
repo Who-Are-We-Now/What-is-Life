@@ -1,3 +1,7 @@
+
+
+{% darkmode %}
+
 # I. Origins
 
 ## Abiogenesis
@@ -7,6 +11,8 @@
 As William Thomson (1824–1907), the future Lord Kelvin, put it in an 1871 address before the British Association for the Advancement of Science, “Dead matter cannot become living without coming under the influence of matter previously alive. This seems to me as sure a teaching of science as the law of gravitation.”[^28]
 
 Has life somehow *always* existed, then? Did it arrive on Earth from outer space, borne on an asteroid? Thomson thought so, and some still do. Not that this “panspermia” hypothesis really gets us anywhere. Where did the asteroid come from, and how did life arise *there*?
+
+{% enddarkmode %}
 
 Despite his clear articulation of the principle of evolution, Charles Darwin (1809–1882) didn’t have a clue either. That’s why, in 1863, he wrote to his close friend Joseph Dalton Hooker that “it is mere rubbish, thinking, at present, of origin of life; one might as well think of origin of matter.”[^29]
 
