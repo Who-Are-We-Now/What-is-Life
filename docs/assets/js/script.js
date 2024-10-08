@@ -1,5 +1,7 @@
+import { Antikythera } from '@antikythera/antikythera';
 import * as utils from "./global-utils";
-import * as figutils from "./fig-utils"
+import * as figutils from "./fig-utils";
+
 
 let viewport; //store viewport state to compare against
 
@@ -151,8 +153,6 @@ function setupMathJax() {
 		tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
 		svg: { fontCache: 'global' },
 		tags: 'ams'  // should be 'ams', 'none', or 'all'
-
-
 	};
 
 	// MathJax.Hub.Config({
@@ -167,6 +167,12 @@ function setupMathJax() {
 	// });
 }
 
+function setupAntikytheraLayer(){
+
+	const antikythera = new Antikythera({ entry: 'example-entry' })
+
+	console.log('atk', antikythera);
+}
 
 /*------------------------------------------------
 	Global listener functions
