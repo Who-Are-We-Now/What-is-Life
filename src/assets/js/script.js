@@ -128,44 +128,7 @@ function toggleInfoPopup() {
 }
 
 
-/*------------------------------------------------
-	MathJax
- ------------------------------------------------*/
-function setupMathJax() {
-	MathJax = {
-		loader: { load: ['a11y/semantic-enrich'] },
-		options: {
-			sre: {
-				speech: 'shallow'  // one of: 'deep', 'shallow', or 'none'
-			},
-			renderActions: {
-				// Force speech enrichment regardless of the menu settings
-				enrich: {
-					'[+]': [
-						function (doc) { doc.enrich(true) },
-						function (math, doc) { math.enrich(doc, true) }
-					]
-				}
-			}
-		},
-		tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
-		svg: { fontCache: 'global' },
-		tags: 'ams'  // should be 'ams', 'none', or 'all'
 
-
-	};
-
-	// MathJax.Hub.Config({
-	// 	extensions: ["tex2jax.js"],
-	// 	jax: ["input/TeX", "output/HTML-CSS"],
-	// 	tex2jax: {
-	// 		inlineMath: [['$', '$'], ["\\(", "\\)"]],
-	// 		displayMath: [['$$', '$$'], ["\\[", "\\]"]],
-	// 		processEscapes: true
-	// 	},
-	// 	"HTML-CSS": { availableFonts: ["TeX"] }
-	// });
-}
 
 
 /*------------------------------------------------
@@ -224,11 +187,7 @@ window.addEventListener('load', function () {
 		}
 	});
 
-	let appendix = document.getElementById("appendix-for-data-nerds");
-	if (appendix) {
-		setupMathJax();
-	}
-
+	
 	setupExternalLinks();
 
 	// Reposition indicators on resize

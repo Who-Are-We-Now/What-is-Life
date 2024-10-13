@@ -89,6 +89,22 @@ module.exports = function (eleventyConfig) {
 
 	// SHORTCODES
 
+	eleventyConfig.addPairedShortcode('chapter', function (content, id) {
+		//append to figures column
+		return `<div id="${id}" class="chapter">
+					${content}
+				</div>`;
+	});
+
+
+	eleventyConfig.addPairedShortcode('chapter_opener', function (content) {
+		//append to figures column
+		return `<div class="chapter-opener">
+					${content}
+				</div>`;
+	});
+
+
 	// figure
 	eleventyConfig.addPairedShortcode('img', function (content, id) {
 		let img = figures[id];
@@ -114,34 +130,7 @@ module.exports = function (eleventyConfig) {
 		}
 	});
 
-	//figure: interlude
-	eleventyConfig.addPairedShortcode('img_i', function (content, id) {
-		let img = figures[id];
-		//append to figures column
-		return `<figure id="${id}" class="figure single ${img.size} ${img.indent}">
-					<img id="${id}-fig" src="/assets/images/${img.chapter}/${img.file_web[0]}" alt="${img.alt}" title="${img.alt}" id="${img.file_web[0]}"/>
-					<figcaption>${img.caption}</figcaption>
-				</figure>`;
-	});
-
-	//figure: two images, interlude
-	eleventyConfig.addPairedShortcode('imgs_i', function (content, id1, id2) {
-		let img1 = figures[id1];
-		let img2 = figures[id2];
-
-		//append to figures column
-		return `<div class="cols">
-						<figure id="${id1}" class="figure ${img1.size} ${img1.indent}">
-							<img id="${id1}-fig" src="/assets/images/${img1.chapter}/${img1.file_web[0]}" alt="${img1.alt}" title="${img1.alt}" id="${img1.file_web[0]}"/>
-							<figcaption>${img1.caption}</figcaption>
-						</figure>
-						<figure id="${id2}" class="figure ${img2.size} ${img2.indent}">
-							<img id="${id2}-fig" src="/assets/images/${img2.chapter}/${img2.file_web[0]}" alt="${img2.alt}" title="${img2.alt}" id="${img2.file_web[0]}"/>
-							<figcaption>${img2.caption}</figcaption>
-						</figure>
-					</div>`;
-	});
-
+	
 
 	//figure: image crossfade
 	eleventyConfig.addPairedShortcode('img_x', function (content, id) {
@@ -291,16 +280,6 @@ module.exports = function (eleventyConfig) {
 	// link formula
 	eleventyConfig.addPairedShortcode('link', function (content, url) {
 		return `<a class="link_internal" href="/${url}">${content}</a>`;
-	});
-
-	// math formula
-	eleventyConfig.addPairedShortcode('math', function (content, id) {
-		return `<div class="math" id="${id}">${content}</div>`;
-	});
-
-	// questions
-	eleventyConfig.addPairedShortcode('q', function (content) {
-		return `<div class="questions">${content}</div>`;
 	});
 
 

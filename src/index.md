@@ -3,19 +3,15 @@ title: home
 layout: home
 ---
 
-# *What is life?*
-
-# Titlepage
-
-{% img 'yaltinapangati' %}  
+<!-- {% img 'yaltinapangati' %}  
 Antikythera  
 What Is Life?  
 By Blaise Agüera y Arcas  
 With Practise  
 wil.antikythera.org  
-{% endimg %}
+{% endimg %} -->
 
-# Back cover
+<!-- # Back cover
 
 Excerpted from *What Is Intelligence?* by Blaise Agüera y Arcas, serialized on the web from fall 2024 and available in print fall 2025
 
@@ -25,9 +21,9 @@ mitpress.mit.edu
 
 Printed and bound in Belgium
 
-ISBN 979-8-895-90084-0
+ISBN 979-8-895-90084-0 -->
 
-# Contents
+<!-- # Contents
 
 Series preface  
 Foreword
@@ -50,9 +46,9 @@ About the author
 Bibliography  
 Image credits  
 Note on the artwork  
-Note on the type
+Note on the type -->
 
-# Series preface
+<!-- # Series preface
 
 Antikythera is a philosophy of technology research program reorienting planetary computation as a philosophical, technological, and geopolitical force.
 
@@ -72,33 +68,47 @@ We are proud to launch this initiative by laying a cornerstone with the thoughts
 
 **Benjamin Bratton**  
 La Jolla, California  
-September 2024
+September 2024 -->
+
+{% chapter 'foreword'%}  
 
 # Foreword
 
-{% img 'wil1944' %}In late 2023, I set out to write *What Is Intelligence?*, a short volume on AI to help kick off the Antikythera book series in collaboration with MIT Press. The title was an homage to physicist Erwin Schrödinger’s slim but influential 1944 book, *What Is Life?*
+In late 2023, I set out to write *What Is Intelligence?*, a short volume on AI to help kick off the Antikythera book series in collaboration with MIT Press. The title was an homage to physicist Erwin Schrödinger’s slim but influential 1944 book, *What Is Life?*
 
-In retrospect, it seems like no coincidence that my newly formed team at Google, Paradigms of Intelligence, was not only working to extend and improve on existing approaches to AI; we had also caught the Artificial Life bug, as many AI researchers have before. Hence life, artificial and otherwise, became the focus of Part I of the book. Life and intelligence turn out to be deeply intertwined. Both are products of the same fundamental evolutionary forces, and both are (I will argue) computational at heart. It may be misleading even to think about them as distinct phenomena.
+{% img 'wil1944' %}In retrospect, it seems like no coincidence that my newly formed team at Google, Paradigms of Intelligence, was not only working to extend and improve on existing approaches to AI; we had also caught the Artificial Life bug, as many AI researchers have before. Hence life, artificial and otherwise, became the focus of Part I of the book. Life and intelligence turn out to be deeply intertwined. Both are products of the same fundamental evolutionary forces, and both are (I will argue) computational at heart. It may be misleading even to think about them as distinct phenomena.{% endimg %}
 
-Our plan had always been to publish *What Is Intelligence?* both in print and freely online, in a serialized and media-rich form, beginning with a first installment for Antikythera’s launch event at MIT in October 2024\. It seemed natural to begin with Part I. Late that summer, we realized that since *What Is Intelligence?* had grown a good deal longer than I had originally imagined, Part I could stand alone as a little book in its own right. So we raced to get a few hundred in print. That is what you are now holding. It’s the right size, and covers the right material, to be called—with due deference to the 80-year-old original—*What Is Life?*{% endimg %}
+Our plan had always been to publish *What Is Intelligence?* both in print and freely online, in a serialized and media-rich form, beginning with a first installment for Antikythera’s launch event at MIT in October 2024\. It seemed natural to begin with Part I. Late that summer, we realized that since *What Is Intelligence?* had grown a good deal longer than I had originally imagined, Part I could stand alone as a little book in its own right. So we raced to get a few hundred in print. That is what you are now holding. It’s the right size, and covers the right material, to be called—with due deference to the 80-year-old original—*What Is Life?*
 
 ---
 
+{% endchapter %}  
+{% chapter_opener %}  
 ## Abiogenesis
 
-{% img 'duret' %}**How did life on Earth begin?** In the nineteenth century, this seemed like an unanswerable question. Researchers attempting to catch life in the act of “spontaneous generation” had come up empty-handed once they learned how to decontaminate their samples.
+**How did life <br> on Earth begin?** 
+
+
+
+In the nineteenth century, this seemed like an unanswerable question. Researchers attempting to catch life in the act of “spontaneous generation” had come up empty-handed once they learned how to decontaminate their samples.
 
 As William Thomson (1824–1907), the future Lord Kelvin, put it in an 1871 address before the British Association for the Advancement of Science, “Dead matter cannot become living without coming under the influence of matter previously alive. This seems to me as sure a teaching of science as the law of gravitation.”[^1]
 
-Has life somehow *always* existed, then? Did it arrive on Earth from outer space, borne on an asteroid? Thomson thought so, and some still do. Not that this “panspermia” hypothesis really gets us anywhere. Where did the asteroid come from, and how did life arise *there*?{% endimg %}
 
+Has life somehow *always* existed, then? Did it arrive on Earth from outer space, borne on an asteroid? Thomson thought so, and some still do. Not that this “panspermia” hypothesis really gets us anywhere. Where did the asteroid come from, and how did life arise *there*?{% endchapter_opener  %}  
+
+{% img 'duret' %}
 Despite his clear articulation of the principle of evolution, Charles Darwin (1809–1882) didn’t have a clue either. That’s why, in 1863, he wrote to his close friend Joseph Dalton Hooker that “it is mere rubbish, thinking, at present, of origin of life; one might as well think of origin of matter.”[^2]
 
 Today, we have more of a clue, although the details may forever be lost to deep time.
 
-{% img 'blacksmokervideo' %}Biologists and chemists working in the field of *abiogenesis*—the study of the moment when, billions of years ago, chemistry became life—have developed multiple plausible origin stories. In one, proto-organisms in an ancient “RNA world” were organized around RNA molecules, which could both replicate and fold into 3D structures that could act like primitive enzymes.[^3] In an alternative “metabolism first” account,[^4] life began without genes, likely in the rock chimneys of “black smokers” on the ocean floor; RNA and DNA came later. It may eventually be possible to rule one or the other theory out … or it may not.
 
-We’ll return to RNA and replication, but let’s begin by unpacking the “metabolism first” version in some detail, as it sheds light on the problem that confounded Darwin and his successors: how evolution can get off the ground without genetic heritability. As we’ll see, abiogenesis becomes less puzzling when we develop a more general understanding of evolution—one that can extend back to the time *before* life.{% endimg %}
+
+Biologists and chemists working in the field of *abiogenesis*—the study of the moment when, billions of years ago, chemistry became life—have developed multiple plausible origin stories. In one, proto-organisms in an ancient “RNA world” were organized around RNA molecules, which could both replicate and fold into 3D structures that could act like primitive enzymes.[^3] In an alternative “metabolism first” account,[^4] life began without genes, likely in the rock chimneys of “black smokers” on the ocean floor; RNA and DNA came later. It may eventually be possible to rule one or the other theory out … or it may not.
+{% endimg %}
+
+{% media_f 'blacksmokervideo' %}
+We’ll return to RNA and replication, but let’s begin by unpacking the “metabolism first” version in some detail, as it sheds light on the problem that confounded Darwin and his successors: how evolution can get off the ground without genetic heritability. As we’ll see, abiogenesis becomes less puzzling when we develop a more general understanding of evolution—one that can extend back to the time *before* life.{% endmedia_f %}
 
 {% img 'volcanovideo' %}Let’s cast our minds back to our planet’s origins. The Hadean Eon began 4.6 billion years ago, when the Earth first condensed out of the accretion disc of rocky material orbiting our newborn star, the Sun. Our planet’s mantle, runnier than it is today and laden with hot, short-lived radioactive elements, roiled queasily, outgassing carbon dioxide and water vapor. The surface was a volcanic hellscape, glowing with lakes of superheated lava and pocked with sulfurous vents belching smoke.
 
@@ -114,21 +124,27 @@ Today, those early conditions are most closely reproduced by black smokers. Thes
 
 Like lava rock, the chimneys are porous, and the pores are ideal little chambers for contained chemical reactions to take place—potentially powered by a handy energy source, since the hydrogen gas creates proton gradients across the thin walls between pores, making them act like batteries.[^5] Given energy, iron sulfide minerals in the rock to act as catalysts, and carbon dioxide bubbling through, self-perpetuating loops of chemical reactions can sputter to life, like a motor turning over.
 
-{% img 'krebs' %}Perhaps this was life’s original motor: a primitive but quasi-stable metabolism, as yet without genes, enzymes, or even a clearly defined boundary between inside and outside. Such upgrades might have followed before long, though, for that chemical synthesis motor closely resembles the “reverse Krebs cycle,” now widely believed to have powered the earliest cells.
+{% img_x 'krebs-reversekrebs' %}Perhaps this was life’s original motor: a primitive but quasi-stable metabolism, as yet without genes, enzymes, or even a clearly defined boundary between inside and outside. Such upgrades might have followed before long, though, for that chemical synthesis motor closely resembles the “reverse Krebs cycle,” now widely believed to have powered the earliest cells.
 
-The ordinary or “forward” Krebs cycle was discovered in 1937 by groundbreaking biochemist Hans Krebs (1900–1981). More like a gas-powered generator than a motor, the Krebs cycle is at the heart of how all aerobic organisms on Earth “burn” organic fuels to release energy, a process known as “respiration.”[^6] Inputs to this cycle of chemical reactions include complex organic molecules (which we eat) and oxygen (which we inhale); the “exhaust” contains carbon dioxide and water (which we exhale). The energy produced maintains proton gradients across folded-up membranes inside our mitochondria, and the flow of these protons goes on to power every other cellular function.{% endimg %}
+The ordinary or “forward” Krebs cycle was discovered in 1937 by groundbreaking biochemist Hans Krebs (1900–1981). More like a gas-powered generator than a motor, the Krebs cycle is at the heart of how all aerobic organisms on Earth “burn” organic fuels to release energy, a process known as “respiration.”[^6] Inputs to this cycle of chemical reactions include complex organic molecules (which we eat) and oxygen (which we inhale); the “exhaust” contains carbon dioxide and water (which we exhale). The energy produced maintains proton gradients across folded-up membranes inside our mitochondria, and the flow of these protons goes on to power every other cellular function.
 
-{% img 'reversekrebs' %}The idea of a “reverse Krebs cycle” was first proposed by a trio of researchers at UC Berkeley in 1966.[^7] It remained controversial for decades, but is now known to power carbon fixation in ancient anaerobic sulfur bacteria—some of which still make their homes in deep-sea hydrothermal vents.[^8] As its name implies, the reverse Krebs cycle consists of roughly the same chemical reactions as the forward cycle, but running in the opposite direction. Starting with water and carbon dioxide, proton gradients drive the synthesis of all of the basic building blocks needed for cellular structure and function, including sugars, amino acids for proteins, fatty acids and isoprenes for cell membranes, and nucleotides for building RNA and DNA.[^9]{% endimg %}
+The idea of a “reverse Krebs cycle” was first proposed by a trio of researchers at UC Berkeley in 1966.[^7] It remained controversial for decades, but is now known to power carbon fixation in ancient anaerobic sulfur bacteria—some of which still make their homes in deep-sea hydrothermal vents.[^8] As its name implies, the reverse Krebs cycle consists of roughly the same chemical reactions as the forward cycle, but running in the opposite direction. Starting with water and carbon dioxide, proton gradients drive the synthesis of all of the basic building blocks needed for cellular structure and function, including sugars, amino acids for proteins, fatty acids and isoprenes for cell membranes, and nucleotides for building RNA and DNA.[^9]{% endimg_x %}
 
 {% img 'matryoshka' %}All life came from the sea, and the interior of every cell in every living organism reproduces that salty, watery environment—a tiny “ocean inside.” This much is common knowledge. But our mitochondria, the “power plants” within our cells where respiration takes place, may in fact be recapitulating the much more specific deep-sea chemistry of a black smoker. In an almost literal sense, our bodies are like Russian matryoshka dolls, membranes within membranes, and each nested environment recreates an earlier stage in the evolution of life on Earth.
 
 The deeper inside ourselves we look, the farther we can see into the past. A beautiful, shivery thought.{% endimg %}
 
+{% chapter 'symbiogenesis' %}  
+
+{% chapter_opener %}  
 ## Symbiogenesis
 
-{% img 'mitochondriavideo' %}**Whether RNA or metabolism came first, even the simplest bacteria surviving today are a product of many subsequent evolutionary steps.** Yet unlike the everyday, incremental mutation and selection Darwin imagined, the most important of these steps may have been large and sudden. These “major evolutionary transitions” involve simpler, less complex replicating entities becoming interdependent to form a larger, more complex, more capable replicator.[^10]
+**Whether RNA or metabolism came first, even the simplest bacteria surviving today are a product of many subsequent evolutionary steps.** 
 
-As maverick biologist Lynn Margulis (1938–2011\) discovered in the 1960s, eukaryotic cells, like those that make up our bodies, are the result of such an event. Roughly two billion years ago, the bacteria that became our mitochondria were engulfed by another single-celled life form[^11] much like today’s archaea—tiny, equally ancient microorganisms that continue to inhabit extreme environments, like hot springs and deep-sea vents. This is “symbiogenesis,” the creation or genesis of a new kind of entity out of a novel “symbiosis,” or mutually beneficial relationship, among pre-existing entities.
+Yet unlike the everyday, incremental mutation and selection Darwin imagined, the most important of these steps may have been large and sudden. These “major evolutionary transitions” involve simpler, less complex replicating entities becoming interdependent to form a larger, more complex, more capable replicator.[^10]
+{% endchapter_opener %}  
+
+{% img 'mitochondriavideo' %}As maverick biologist Lynn Margulis (1938–2011\) discovered in the 1960s, eukaryotic cells, like those that make up our bodies, are the result of such an event. Roughly two billion years ago, the bacteria that became our mitochondria were engulfed by another single-celled life form[^11] much like today’s archaea—tiny, equally ancient microorganisms that continue to inhabit extreme environments, like hot springs and deep-sea vents. This is “symbiogenesis,” the creation or genesis of a new kind of entity out of a novel “symbiosis,” or mutually beneficial relationship, among pre-existing entities.
 
 At moments like these, the tree of life doesn’t just branch; it also entangles with itself, its branches merging to produce radically new forms. Margulis was an early champion of the idea that these events drive evolution’s leaps forward.{% endimg %}
 
@@ -156,13 +172,20 @@ That’s why evolution progresses from simpler to more complex forms. It’s als
 
 It’s equally meaningful to talk about ancient life forms, like bacteria and archaea, co-existing alongside recent and far more complex ones, like humans—while recognizing that humans are, in a sense, nothing more than complex colonies of bacteria and archaea that have undergone a cascade of symbiotic mergers.
 
+{% chapter_opener %}  
 ## Reproductive functions
 
-**While most biochemists have focused on understanding the particular history and workings of life on Earth, a more general understanding of life has come from an unexpected quarter: computer science.** The theoretical foundations of this surprising connection date back to two of the field’s founding figures: Alan Turing (1912–1954\) and John von Neumann (1903–1957).
+**While most biochemists have focused on understanding the particular history and workings of life on Earth, a more general understanding of life has come from an unexpected quarter: computer science.** 
 
-{% img 'turing' %}Interest in Turing’s life and work has surged in the past decade, in part because of an AI thought experiment he posed in a 1950 paper, “Computing Machinery and Intelligence.”[^16] In that paper, Turing proposed that the *appearance* of intelligence under human questioning and the *reality* of intelligence could not justifiably be separated; sustained and successful imitation *was* the real thing. Hence the “Imitation Game,” now called the “Turing Test” in his honor.
+The theoretical foundations of this surprising connection date back to two of the field’s founding figures: Alan Turing (1912–1954\) and John von Neumann (1903–1957).
 
-Turing’s most important contribution to computer science came fifteen years earlier, though. After earning a degree in mathematics at Cambridge in 1935, he focused on one of the fundamental outstanding problems of the day: the *Entscheidungsproblem* (German for “decision problem”), which asked whether there exists an algorithm for determining the validity of an arbitrary mathematical statement. The answer turned out to be “no,” but the way Turing went about proving it ended up being far more important than the result itself.[^17]{% endimg %}
+
+
+Interest in Turing’s life and work has surged in the past decade, in part because of an AI thought experiment he posed in a 1950 paper, “Computing Machinery and Intelligence.”[^16] In that paper, Turing proposed that the *appearance* of intelligence under human questioning and the *reality* of intelligence could not justifiably be separated; sustained and successful imitation *was* the real thing. Hence the “Imitation Game,” now called the “Turing Test” in his honor.
+
+{% endchapter_opener %}  
+
+{% img 'turing' %}Turing’s most important contribution to computer science came fifteen years earlier, though. After earning a degree in mathematics at Cambridge in 1935, he focused on one of the fundamental outstanding problems of the day: the *Entscheidungsproblem* (German for “decision problem”), which asked whether there exists an algorithm for determining the validity of an arbitrary mathematical statement. The answer turned out to be “no,” but the way Turing went about proving it ended up being far more important than the result itself.[^17]{% endimg %}
 
 {% img 'tapehead' %}Turing’s proof required that he define a general procedure for computation. He did so by inventing an imaginary gadget we now call the “Turing Machine.” The Turing Machine consists of a read/write head, which can move left or right along an infinite tape, reading and writing symbols on the tape according to a set of rules specified by a built-in table.
 
@@ -174,9 +197,9 @@ Then, the really clever part: if the *program itself* is written on the tape, th
 
 Turning an imaginary mathematical machine into a working physical one required many further conceptual leaps, in addition to a lot of hard nuts-and-bolts engineering. For instance, over the years, much creativity has gone into figuring out how simple the “Standard Description” of a Universal Turing Machine can get. Only a few instructions are needed. Esoteric language nerds have even figured out how to compute with a *single* instruction (a so-called OISC or “one-instruction set computer”).{% endimg %}
 
-{% img 'maniac' %}There are irreducible requirements, though: the instruction, or instructions, must change the environment in some way that subsequent instructions are able to “see,” and there must be “conditional branching,” meaning that depending on the state of the environment, either one thing *or* another will happen. In most programming languages, this is expressed using “if/then” statements. When there’s only a single instruction, it must serve both purposes, as with the SUBLEQ language, whose only instruction is “subtract and branch if the result is less than or equal to zero.”
+{% media_f 'maniac' %}There are irreducible requirements, though: the instruction, or instructions, must change the environment in some way that subsequent instructions are able to “see,” and there must be “conditional branching,” meaning that depending on the state of the environment, either one thing *or* another will happen. In most programming languages, this is expressed using “if/then” statements. When there’s only a single instruction, it must serve both purposes, as with the SUBLEQ language, whose only instruction is “subtract and branch if the result is less than or equal to zero.”
 
-Both Turing and von Neumann were keenly aware of the parallels between computers and brains. Von Neumann’s report on the EDVAC explicitly described the machine’s basic building blocks, its logic gates, as electronic neurons.[^19] Whether or not that analogy held (it did not; neurons are more complex than logic gates), his key insight was that both brains and computers are defined not by their mechanisms, but by what they *do*—their *function*, in both the colloquial and mathematical sense.{% endimg %}
+Both Turing and von Neumann were keenly aware of the parallels between computers and brains. Von Neumann’s report on the EDVAC explicitly described the machine’s basic building blocks, its logic gates, as electronic neurons.[^19] Whether or not that analogy held (it did not; neurons are more complex than logic gates), his key insight was that both brains and computers are defined not by their mechanisms, but by what they *do*—their *function*, in both the colloquial and mathematical sense.{% endmedia_f %}
 
 In real life, though, the brain is not an abstract machine, but part of the body, and the body is part of the physical world. How can one speak in purely computational terms about the *function* of a living organism, when it must physically grow and reproduce?
 
@@ -192,15 +215,21 @@ Instructions for building any additional non-reproductive machinery could also b
 
 Remarkably, von Neumann described these requirements for an evolvable, self-replicating machine before the discovery of DNA’s structure and function.[^26] Nonetheless, he got it exactly right. For life on Earth, DNA is the tape; DNA polymerase, which copies DNA, is “machine B”; and ribosomes, which build proteins by following the sequentially encoded instructions on DNA, are “machine A.” Ribosomes and DNA polymerase are made of proteins whose sequences are, in turn, encoded in our DNA and manufactured by ribosomes. That is how life lifts itself up by its own bootstraps.
 
+
+{% endchapter %}  
+{% chapter 'life-as-computation'%}  
+{% chapter_opener %}  
 ## Life as computation
 
-**Although this is seldom fully appreciated, von Neumann’s insight established a profound link between life and computation.** Remember, machines A and B are Turing Machines. They must execute instructions that affect their environment, and those instructions must run in a loop, starting at the beginning and finishing at the end. That requires branching, such as “*if* the next instruction is the codon CGA *then* add an arginine to the protein under construction,” and “*if* the next instruction is UAG *then* STOP.” It’s not a metaphor to call DNA a “program”—that is literally the case.
+**Although this is seldom fully appreciated, von Neumann’s insight established a profound link between life and computation.** 
+
+Remember, machines A and B are Turing Machines. They must execute instructions that affect their environment, and those instructions must run in a loop, starting at the beginning and finishing at the end. That requires branching, such as “*if* the next instruction is the codon CGA *then* add an arginine to the protein under construction,” and “*if* the next instruction is UAG *then* STOP.” It’s not a metaphor to call DNA a “program”—that is literally the case.{% endchapter_opener %}  
 
 Of course, there are meaningful differences between biological computing and the kind of digital computing done by the ENIAC or your smartphone. DNA is subtle and multilayered, including phenomena like epigenetics and gene proximity effects. Cellular DNA is nowhere near the whole story, either. Our bodies contain (and continually swap) countless bacteria and viruses, each running their own code.
 
 {% img 'ribosome3d' %}Biological computing is massively parallel, decentralized, and noisy. Your cells have somewhere in the neighborhood of 300 *quintillion* ribosomes, all working at the same time. Each of these exquisitely complex floating protein factories is, in effect, a tiny computer—albeit a stochastic one, meaning not entirely predictable. The movements of hinged components, the capture and release of smaller molecules, and the manipulation of chemical bonds are all individually random, reversible, and inexact, driven this way and that by constant thermal buffeting. Only a statistical asymmetry favors one direction over another, with clever origami moves tending to “lock in” certain steps such that a next step becomes likely to happen. This differs greatly from the operation of logic gates in a computer, which are irreversible,[^27] and designed to be ninety-nine point many-nines percent reliable and reproducible.{% endimg %}
 
-{% img 'ferranti' %}Biological computing is computing, nonetheless. And its use of randomness is a feature, not a bug. In fact, many classic algorithms in computer science also require randomness (albeit for different reasons), which may explain why Turing insisted that the Ferranti Mark I, an early computer he helped to design in 1951, include a random number instruction.[^28] Randomness is thus a small but important conceptual extension to the original Turing Machine, though any computer can simulate it by calculating deterministic but random-looking or “pseudorandom” numbers.{% endimg %}
+{% media_f 'ferranti' %}Biological computing is computing, nonetheless. And its use of randomness is a feature, not a bug. In fact, many classic algorithms in computer science also require randomness (albeit for different reasons), which may explain why Turing insisted that the Ferranti Mark I, an early computer he helped to design in 1951, include a random number instruction.[^28] Randomness is thus a small but important conceptual extension to the original Turing Machine, though any computer can simulate it by calculating deterministic but random-looking or “pseudorandom” numbers.{% endmedia_f %}
 
 Parallelism, too, is increasingly fundamental to computing today. Modern AI, for instance, depends on both massive parallelism *and* randomness—as in the parallelized “stochastic gradient descent” (SGD) algorithm, used for training most of today’s neural nets, the “temperature” setting used in chatbots to introduce a degree of randomness into their output, and the parallelism of Graphics Processing Units (GPUs), which power most AI in data centers.
 
@@ -228,11 +257,16 @@ The first NCA Alex showed me was of a lizard emoji, which could regenerate not o
 
 This was our first foray into the field known today as “artificial life” or “ALife.”{% endimg %}
 
+{% endchapter %}  
+{% chapter 'artificial-life' %}  
+{% chapter_opener %}  
 ## Artificial life
 
-**Von Neumann’s work on self-reproducing automata shows us that, in a universe whose physical laws did not allow for computation, it would be impossible for life to evolve.** Luckily, the physics of our universe *do* allow for computation, as proven by the fact that we can build computers—and that we’re here at all.
+**Von Neumann’s work on self-reproducing automata shows us that, in a universe whose physical laws did not allow for computation, it would be impossible for life to evolve.** 
 
-Now we’re in a position to ask: in a universe capable of computation, *how often* will life arise? Clearly, it happened here. Was it a miracle, an inevitability, or somewhere in between?
+Luckily, the physics of our universe *do* allow for computation, as proven by the fact that we can build computers—and that we’re here at all.
+
+Now we’re in a position to ask: in a universe capable of computation, *how often* will life arise? Clearly, it happened here. Was it a miracle, an inevitability, or somewhere in between?{% endchapter_opener %}  
 
 A few collaborators and I set out to explore this question in late 2023.[^32] Our first experiments made use of an esoteric programming language invented thirty years earlier by a Swiss physics student and amateur juggler, Urban Müller. I’m afraid he called this language … Brainfuck. Please direct all naming feedback his way.
 
@@ -252,9 +286,9 @@ Since bff has only 7 instructions (represented by the characters “\<\>+−,\[\
 
 {% img 'bffvideo' %}But after millions of interactions, something magical happens: the tapes begin to reproduce\! As they spawn copies of themselves and each other, randomness quickly gives way to complex order. The amount of computation taking place in each interaction skyrockets, since—remember—reproduction requires computation. Two of Brainfuck’s seven instructions (“\[” and “\]”) are dedicated to conditional branching, and define loops in the code; reproduction requires at least one such loop (“copy bytes until done”), causing the number of instructions executed in an interaction to climb into the thousands.{% endimg %}
 
-{% img 'phasetransition' %}The code is no longer random, but obviously *purposive*, in the sense that its function can be analyzed and reverse-engineered. An unlucky mutation can break it, rendering it unable to reproduce. Over time, the code evolves clever strategies to increase its robustness to such damage.
+{% img_x 'phasetransition-continuedrise' %}The code is no longer random, but obviously *purposive*, in the sense that its function can be analyzed and reverse-engineered. An unlucky mutation can break it, rendering it unable to reproduce. Over time, the code evolves clever strategies to increase its robustness to such damage.
 
-This emergence of function and purpose is just like what we see in organic life at every scale; it’s why we’re able to talk about the function of the circulatory system, a kidney, or a mitochondrion, and how they can “fail”—even though nobody designed these systems.{% endimg %}
+This emergence of function and purpose is just like what we see in organic life at every scale; it’s why we’re able to talk about the function of the circulatory system, a kidney, or a mitochondrion, and how they can “fail”—even though nobody designed these systems.{% endimg_x %}
 
 {% img 'z80' %}We reproduced our basic result with a variety of other programming languages and environments. Alex (of neural cellular automata renown) created another beautiful mashup, this time between cellular automata and bff. Each of a 200×200 array of “pixels” contains a program tape, and interactions occur only between neighboring tapes on the grid. In a nod to our nerdy childhoods, the tapes are interpreted as instructions for the iconic Zilog Z80 microprocessor, launched in 1976 and used in many 8-bit computers over the years (including the Sinclair ZX Spectrum, Osborne 1, and TRS-80). Here, too, complex replicators soon emerge from random interactions, evolving and spreading across the grid in successive waves.
 
@@ -270,11 +304,14 @@ The violation is only apparent, for life requires an input of free energy, allow
 
 “\[L\]iving matter, while not eluding the ‘laws of physics’ as established up to date, is likely to involve ‘other laws of physics’ hitherto unknown, which, however, once they have been revealed, will form just as integral a part of this science as the former.”
 
+{% endchapter %}  
+{% chapter 'thermodynamics'%}  
+{% chapter_opener %}  
 ## Thermodynamics
 
 **Before turning to those “other laws of physics,” it’s helpful to take a closer look at the original ones, and especially the Second Law of thermodynamics.**
 
-These are deep waters. While the fundamental ideas date back to the groundbreaking work of nineteenth-century mathematical physicist Ludwig Boltzmann (1844–1906), we can understand their essence without math. Nonetheless, Boltzmann’s conceptually challenging ideas flummoxed many of his fellow scientists, and their implications continue to stir controversy even today. Much has been made of Einstein turning our everyday notions of space and time inside-out with his theory of relativity, developed in its initial form in 1905—just a year before Boltzmann, struggling with bipolar disorder, ended his own life. Arguably, though, Boltzmann’s earlier ideas disrupt our intuitions about time, cause, and effect even more radically than Einstein’s theory of relativity.[^36] Let’s dive in.
+These are deep waters. While the fundamental ideas date back to the groundbreaking work of nineteenth-century mathematical physicist Ludwig Boltzmann (1844–1906), we can understand their essence without math. Nonetheless, Boltzmann’s conceptually challenging ideas flummoxed many of his fellow scientists, and their implications continue to stir controversy even today. Much has been made of Einstein turning our everyday notions of space and time inside-out with his theory of relativity, developed in its initial form in 1905—just a year before Boltzmann, struggling with bipolar disorder, ended his own life. Arguably, though, Boltzmann’s earlier ideas disrupt our intuitions about time, cause, and effect even more radically than Einstein’s theory of relativity.[^36] Let’s dive in.{% endchapter_opener %}  
 
 The Second Law of thermodynamics holds that any closed system will rise in entropy over time, becoming increasingly disordered. A hand-powered lawn mower, for example, starts off as a beautifully polished machine with sharp helical blades, round wheels, and toothed gears, all coupled together on smoothly rotating bearings. If left out in the elements, the bearings will seize up, the blades will dull, and oxidation will set in. After enough time, only a heap of rust will remain.
 
@@ -294,11 +331,11 @@ Although key thermodynamic concepts weren’t developed until the nineteenth cen
 
 The billiard ball universe I’ve just described may seem abstract or arbitrary, but nineteenth-century theorists like Boltzmann had become interested in this problem for the most practical of reasons: it was the physics behind steam power, hence the entire Industrial Revolution. Engineering had preceded theory, as it often does.
 
-{% img 'newcomen' %}Thomas Newcomen (1664–1729), an English inventor and Baptist lay preacher, devised the first practical fuel-burning engine in 1712\. It was based on a heating-and-cooling cycle. First, steam from a boiler was allowed to flow into a cylindrical chamber, raising a piston; then, the steam valve closed, and a second valve opened, injecting a jet of cold water, causing the steam to condense and pull the piston back down. As the piston rose and fell, it rocked a giant beam back and forth, which, in Newcomen’s original design, was used to pump water out of flooded mines (which, in turn, supplied the coal these engines would soon be consuming so voraciously).{% endimg %}
+{% img_x 'newcomen-watt' %}Thomas Newcomen (1664–1729), an English inventor and Baptist lay preacher, devised the first practical fuel-burning engine in 1712\. It was based on a heating-and-cooling cycle. First, steam from a boiler was allowed to flow into a cylindrical chamber, raising a piston; then, the steam valve closed, and a second valve opened, injecting a jet of cold water, causing the steam to condense and pull the piston back down. As the piston rose and fell, it rocked a giant beam back and forth, which, in Newcomen’s original design, was used to pump water out of flooded mines (which, in turn, supplied the coal these engines would soon be consuming so voraciously).
 
-{% img 'watt' %}Scottish inventor and entrepreneur James Watt (1736–1819) greatly improved the steam engine design in 1776, making it a practical replacement for human and animal power across a wide range of applications. This was when the Industrial Revolution really got underway; for the first time, human-made machines began to *metabolize* on a large scale, “eating” complex organic molecules to perform mechanical work.
+Scottish inventor and entrepreneur James Watt (1736–1819) greatly improved the steam engine design in 1776, making it a practical replacement for human and animal power across a wide range of applications. This was when the Industrial Revolution really got underway; for the first time, human-made machines began to *metabolize* on a large scale, “eating” complex organic molecules to perform mechanical work. 
 
-Soon, far more energy would be flowing through this artificial metabolism than through the Krebs cycle in our own bodies.[^40] It was, in the broad sense I’ve been using in this book, a major evolutionary transition: a symbiogenetic event between humans and machines, like earlier symbioses between humans and draft animals. Machine metabolism allowed human society to explode from its pre-industrial scale (about one billion people in 1800, most of whom lived in extreme poverty) to its scale today (eight billion, most of whom no longer live in poverty).[^41] In the process, we’ve become nearly as dependent on machines for our continued existence as they are on us.{% endimg %}
+Soon, far more energy would be flowing through this artificial metabolism than through the Krebs cycle in our own bodies.[^40] It was, in the broad sense I’ve been using in this book, a major evolutionary transition: a symbiogenetic event between humans and machines, like earlier symbioses between humans and draft animals. Machine metabolism allowed human society to explode from its pre-industrial scale (about one billion people in 1800, most of whom lived in extreme poverty) to its scale today (eight billion, most of whom no longer live in poverty).[^41] In the process, we’ve become nearly as dependent on machines for our continued existence as they are on us.{% endimg_x %}
 
 However, even as coal-powered engines transformed the Victorian landscape—both figuratively and literally, for the pollution was dire—nobody understood them at a deep level. What *was* heat, and how could it be converted into physical work? For a time, the leading theory held that heat was a kind of invisible, weightless fluid, “caloric,” that could flow spookily into and through other matter.
 
@@ -326,9 +363,15 @@ But if the balls were equally likely to be anywhere, then no matter how fast the
 
 I’ve already used the term *free energy*, but now we can define it. The free energy of a system is the amount of work it can be made to do. Far from equilibrium, when the entropy is low, much of the kinetic energy in the billiard balls is “free”; it can be used to move pistons, raise weights, produce electric currents, carry out computations, or drive metabolic processes. But at equilibrium, the entropy is maximized, and the free energy is zero. This insight into the relationship between energy, entropy, and work lies at the heart of thermodynamics—and life.
 
+{% endchapter %}  
+{% chapter 'dynamic-stability'%}  
+{% chapter_opener %}  
 ## Dynamic stability
 
-**Recall that life seemed deeply weird to Schrödinger because living things appear to violate the Second Law.** If the bacterium we drop into a beaker of water is alive rather than dead, and free energy is available in a form the bacterium can use, and the water contains simple molecules suitable for building more bacteria, then over time we will see the very opposite of an increase in disorder. After a while, the beaker will be *full* of bacteria, reproducing, cooperating, and competing with each other.
+**Recall that life seemed deeply weird to Schrödinger because living things appear to violate the Second Law.** 
+
+If the bacterium we drop into a beaker of water is alive rather than dead, and free energy is available in a form the bacterium can use, and the water contains simple molecules suitable for building more bacteria, then over time we will see the very opposite of an increase in disorder. After a while, the beaker will be *full* of bacteria, reproducing, cooperating, and competing with each other.
+{% endchapter_opener %}  
 
 They will even be evolving. If the beaker is sufficiently large—the size of a planet, for instance—and we wait a few billion years, then eventually beings as complicated as us may be in there, along with cities, advanced technologies, and perhaps plans to colonize the next beaker.
 
@@ -358,9 +401,15 @@ It now seems clear that by unifying thermodynamics with the theory of computatio
 
 Bff has no concept of energy, but in our universe, replicators require an energy source. This is because, in general, computation involves irreversible steps—otherwise known as causes and effects—and thus, computing consumes free energy. That’s why the chips in our computers draw power and generate heat when they run. (And why my computer heats up when it runs bff.) Life must draw power and generate heat for the same reason: it is inherently computational.
 
+{% endchapter %}  
+
+{% chapter 'complexification'%}  
+{% chapter_opener %}  
 ## Complexification
 
-**When we pick a tape out of the bff soup after millions of interactions, once replicators have taken over, we often see a level of complexity in the program on that tape that seems unnecessarily—even implausibly—high.** A working replicator *could* consist of just a handful of instructions in a single loop, requiring a couple of hundred operations to run. Instead, we often see instructions filling up a majority of the 64 bytes, multiple and complex nested loops, and thousands of operations per interaction.
+**When we pick a tape out of the bff soup after millions of interactions, once replicators have taken over, we often see a level of complexity in the program on that tape that seems unnecessarily—even implausibly—high.** 
+
+A working replicator *could* consist of just a handful of instructions in a single loop, requiring a couple of hundred operations to run. Instead, we often see instructions filling up a majority of the 64 bytes, multiple and complex nested loops, and thousands of operations per interaction.{% endchapter_opener %}  
 
 Where did all this complexity come from? It certainly doesn’t look like the result of simple Darwinian selection operating on the random text generated by a proverbial million monkeys typing on a million typewriters.[^49] In fact, such complexity emerges even with *zero* random mutation—that is, given only the initial randomness in the soup, which works out to fewer bytes than the text of this short book. Hardly a million monkeys—and far too few random bytes to contain more than a few consecutive instructions, let alone a whole working program.
 
@@ -406,9 +455,16 @@ Because functions can be expressed computationally, we could also say that life 
 
 In the toy universe of bff, the elementary instructions are the seven special characters “\<\>+−,\[\]”. On the primordial sea floor, geothermally-driven chemical reactions that could catalyze further chemical reactions likely played the same role. Under other conditions, on another planet, or in another universe, many different elementary interactions could do the same—as long as they are Turing complete, enabling them to make the leap from autocatalytic sets to true replication.
 
+{% endchapter %}  
+
+{% chapter 'virality'%}  
+{% chapter_opener %}  
 ## Virality
 
-**Although bff is only a toy universe, it can serve as a simplified model for life and evolution, just as a Newtonian billiard-ball universe can serve as a simplified model for the thermodynamics of ideal gases.** As we’ve seen, some of bff’s predictions are quite different from those of classical Darwinian theory:
+**Although bff is only a toy universe, it can serve as a simplified model for life and evolution, just as a Newtonian billiard-ball universe can serve as a simplified model for the thermodynamics of ideal gases.** 
+{% endchapter_opener %}  
+
+As we’ve seen, some of bff’s predictions are quite different from those of classical Darwinian theory:
 
 1. Bff suggests that symbiogenesis is a more important driver of evolutionary innovation than random mutation.  
 2. Since symbiogenesis must involve combinations of pre-existing dynamically stable entities, we should expect complex replicating entities to emerge after (and be made of) simpler ones.  
@@ -472,9 +528,14 @@ In this light, random point mutation can even be seen as something like a minima
 
 Hence, just as replicator thermodynamics encompasses classical thermodynamics as a special case, evolution via symbiogenesis can encompass classical Darwinian theory as a special case. Point mutation is unlikely to be the main driver of evolution once life has taken off because it’s so much weaker and slower on its own than higher-order symbiogenesis. Unlike point mutation, a chunk of code that has already circulated, jumping around in the genome or even between species, isn’t random. It necessarily includes real functionality. And at least in some settings, that functionality has been under evolutionary pressure to help, or at least not kill, its host. Evolution picks up steam over time, with major evolutionary transitions becoming more frequent precisely because increasingly high orders of symbiogenesis become possible.
 
+{% endchapter %}  
+{% chapter 'compression'%}  
+{% chapter_opener %}  
 ## Compression
 
-**When code evolves through symbiogenesis, it will develop a curious statistical structure: parts of it will be copies (or near-copies) of other parts, and as those parts establish symbiosis, they’ll form a larger aggregate which will *also* copy itself as a unit.** This is reminiscent of (though not the same as) a “fractal”: a structure that resembles itself at a cascade of ever-finer scales. Let’s take a short detour through fractals and their relationship to biology so that we can then consider the implications of evolution *itself* exhibiting certain fractal-like properties.
+**When code evolves through symbiogenesis, it will develop a curious statistical structure: parts of it will be copies (or near-copies) of other parts, and as those parts establish symbiosis, they’ll form a larger aggregate which will *also* copy itself as a unit.** 
+
+This is reminiscent of (though not the same as) a “fractal”: a structure that resembles itself at a cascade of ever-finer scales. Let’s take a short detour through fractals and their relationship to biology so that we can then consider the implications of evolution *itself* exhibiting certain fractal-like properties.{% endchapter_opener %}  
 
 {% img 'britain' %}French-American mathematician Benoit Mandelbrot (1924–2010) is the figure most associated with fractals, though they were first described by English meteorologist Lewis Fry Richardson (1881–1953). In the aftermath of World War II, Richardson, a Quaker, had been trying to build a mathematical model to predict the likelihood of conflicts between countries. One of the parameters in his model was the length of their common border. He was perplexed to find, though, that certain borders didn’t appear to have agreed-upon lengths. The Portuguese, for instance, reported that their border with Spain was 613 miles long, but the Spanish claimed that it was 754 miles long. This seemed like a weirdly large discrepancy for what ought to have been an easily surveyed distance\!
 
@@ -521,13 +582,17 @@ While common ancestry alone can explain many of the similarities across species 
 
 DNA and bff tapes, in other words, are both systems that evolve through what we could call “multifractal symbiosis.” Our genomes are aggregates of cooperating replicators, all the way down. That’s why they are so compressible. But it’s also why wonderful new kinds of complexity emerge at every scale—and therefore why, in biology, we can always learn something new by zooming in or out.
 
+{% endchapter %}  
+{% chapter 'embodiment'%}  
+{% chapter_opener %}  
 ## Embodiment
 
-{% img 'snake' %}**There’s a profound yet subtle relationship between the multifractal properties of our bodies and the multifractal properties of the genome.**
+**There’s a profound yet subtle relationship between the multifractal properties of our bodies and the multifractal properties of the genome.**
 
-The relationship is subtle because the genetic code is by no means a one-to-one blueprint explicitly representing the body’s final shape. One might imagine, for instance, that because a snake has hundreds of ribs, it might have a stretch of DNA coding for a vertebra and rib pair, which might have replicated itself a few hundred times in the snake’s genome. Could snakes be the result of a retrotransposon coding for ribs run wild, like BovB?
+The relationship is subtle because the genetic code is by no means a one-to-one blueprint explicitly representing the body’s final shape. One might imagine, for instance, that because a snake has hundreds of ribs, it might have a stretch of DNA coding for a vertebra and rib pair, which might have replicated itself a few hundred times in the snake’s genome. Could snakes be the result of a retrotransposon coding for ribs run wild, like BovB?{% endchapter_opener %}  
 
-Not exactly. So-called “Hox” genes, shared widely among animals, control overall body plan, and they “execute” their program using a combination of gene regulation and the kind of distributed computation Turing described in his work on morphogenesis. During embryonic development, ribs begin as a chemically controlled spatial oscillation, like the stripes of a tiger.{% endimg %}
+{% img 'snake' %}Not exactly. So-called “Hox” genes, shared widely among animals, control overall body plan, and they “execute” their program using a combination of gene regulation and the kind of distributed computation Turing described in his work on morphogenesis. During embryonic development, ribs begin as a chemically controlled spatial oscillation, like the stripes of a tiger.{% endimg %}
+
 
 This mechanism is vastly more powerful, general, and evolvable than merely replicating some “build a rib” code. It allows for code reuse, just as a programmer would do: invoking the same “build a rib” function a hundred times instead of copying and pasting it a hundred times. Thus, tweaking rib flexibility or curvature involves making one change, not a hundred.
 
@@ -543,9 +608,14 @@ From an evolutionary perspective, compositionality implies a hierarchical networ
 
 What is true of evolution is also true of development.[^82] Blood vessels, for instance, aren’t just Euclidean line segments, but tubes made of layers of smooth muscle cells. Each of those cells contains a complement of organelles, and each mitochondrion in each of those cells contains its own membranes and loop of bacterial DNA. A living organism is a compositional structure *par excellence*. It could only be built computationally, through the composition of many functions. And life could only have evolved as the hierarchical composition of those functions—that is, through symbiogenesis.
 
+{% endchapter %}  
+{% chapter 'elan-vital'%}  
+{% chapter_opener %}  
 ## Élan vital
 
-**Nowadays, we interact with human-engineered (or, one could say, “artificial”) computers constantly: the phones in our pockets and purses, our laptops and tablets, data centers and AI models.** We’ve begun asking whether AI models are intelligent. We could ask an even more jarring question: are computers, whether they’re running AI or not, *alive*?[^83]
+**Nowadays, we interact with human-engineered (or, one could say, “artificial”) computers constantly: the phones in our pockets and purses, our laptops and tablets, data centers and AI models.** 
+
+We’ve begun asking whether AI models are intelligent. We could ask an even more jarring question: are computers, whether they’re running AI or not, *alive*?[^83]{% endchapter_opener %}  
 
 They are certainly purposive, or we couldn’t talk about them being broken or buggy. But hardware and software are, in general, unable to reproduce, grow, heal, or evolve on their own, because engineers learned long ago that self-modifying code (like bff, or DNA) is hard to understand and debug.[^84] Thus, phones don’t make baby phones. Apps don’t write new versions of themselves.
 
@@ -575,6 +645,9 @@ Yet as Schrödinger pointed out in 1944, our understanding of these laws—which
 
 As we both embrace scientific rigor *and* start to figure out those “‘other laws of physics’ hitherto unknown,”[^87] we should perhaps be less surprised to find the shoe on the other foot. What the poet Dylan Thomas called “the force that through the green fuse drives the flower”[^88] drives all atoms, not just the ones we presume to be alive.{% endimg %}
 
+{% endchapter %}  
+{% chapter 'acknowledgments'%}  
+
 # Acknowledgments
 
 Although this is a small book, it (appropriately enough) nestles into a tangled heterarchy of larger projects, owing its existence to a great many people and several institutions—especially Google, Antikythera, the Berggruen Institute, the Santa Fe Institute, the Mila-Quebec AI Institute, and MIT Press. Many of the people I’ll thank below are affiliated with more than one of these.
@@ -595,11 +668,99 @@ Time spent at the Santa Fe Institute over the past two years has profoundly infl
 
 Finally, warm thanks to Noah Springer of MIT Press, for believing in this project and for helping us bend the rules of traditional academic publishing.
 
+{% endchapter %}  
+{% chapter 'about-the-author'%}  
+
 # About the author
 
 Blaise Agüera y Arcas is a VP and Fellow at Google, where he is the CTO of Technology & Society and founder of Paradigms of Intelligence (PI). PI is an organization working on basic research in AI and related fields, especially the foundations of neural computing, active inference, sociality, evolution, and Artificial Life. In 2008, Blaise was awarded MIT’s TR35 prize. During his tenure at Google, he has innovated on-device machine learning for Android and Pixel, invented Federated Learning (an approach to decentralized model training that avoids sharing private data), and founded the Artists and Machine Intelligence program. A frequent public speaker, he has given multiple TED talks and keynoted NeurIPS. He has also authored numerous papers, essays, op-eds, and chapters, as well as two previous books, *Who Are We Now?* and *Ubi Sunt*. *What Is Life?* is Part I of the larger book *What Is Intelligence?*, forthcoming from Antikythera and MIT Press in 2025\.
 
+{% endchapter %} 
+{% chapter 'bibliography'%}  
+# Bibliography
+
+[Adami, Chris, and C. Titus Brown. 1994\. “Evolutionary Learning in the 2D Artificial Life System ‘Avida.’” *arXiv \[adap-Org\]*. arXiv.](http://paperpile.com/b/iJBGNj/6Ou0) [https://arxiv.org/pdf/adap-org/9405003](https://arxiv.org/pdf/adap-org/9405003)
+[Agüera y Arcas, Blaise. 2023\. *Who Are We Now?* Los Angeles: Hat & Beard, LLC.](http://paperpile.com/b/iJBGNj/I1PA)
+[Agüera y Arcas, Blaise, Jyrki Alakuijala, James Evans, Ben Laurie, Alexander Mordvintsev, Eyvind Niklasson, Ettore Randazzo, and Luca Versari. 2024\. “Computational Life: How Well-Formed, Self-Replicating Programs Emerge from Simple Interaction.” *arXiv \[cs.NE\]*. arXiv.](http://paperpile.com/b/iJBGNj/2mU4q) [http://arxiv.org/abs/2406.19108](http://arxiv.org/abs/2406.19108)
+[Bagrov, Andrey A., Ilia A. Iakovlev, Askar A. Iliasov, Mikhail I. Katsnelson, and Vladimir V. Mazurenko. 2020\. “Multiscale Structural Complexity of Natural Patterns.” *Proceedings of the National Academy of Sciences of the United States of America* 117 (48): 30241–51.](http://paperpile.com/b/iJBGNj/sdOr)
+[Bakoulis, Stylianos, Robert Krautz, Nicolas Alcaraz, Marco Salvatore, and Robin Andersson. 2022\. “Endogenous Retroviruses Co-Opted as Divergently Transcribed Regulatory Elements Shape the Regulatory Landscape of Embryonic Stem Cells.” *Nucleic Acids Research* 50 (4): 2111–27.](http://paperpile.com/b/iJBGNj/AvEV)
+[Baltimore, David. 1970\. “Viral RNA-Dependent DNA Polymerase: RNA-Dependent DNA Polymerase in Virions of RNA Tumour Viruses.” *Nature* 226 (5252): 1209–11.](http://paperpile.com/b/iJBGNj/zwxh)
+[Barricelli, Nils Aall. 1957\. “Symbiogenetic Evolution Processes Realized by Artificial Methods.” *Methodos* 9 (35–36): 143–82.](http://paperpile.com/b/iJBGNj/cKjJ)
+[Bennett, Jane. 2010\. *Vibrant Matter: A Political Ecology of Things*. Durham, NC and London: Duke University Press.](http://paperpile.com/b/iJBGNj/jZ9KK)
+[Buchanan, Bon B., and Daniel I. Arnon. 1990\. “A Reverse Krebs Cycle in Photosynthesis: Consensus at Last.” *Photosynthesis Research* 24 (1): 47–53.](http://paperpile.com/b/iJBGNj/tKw5R)
+[Carroll, Sean B., Jennifer K. Grenier, and Scott D. Weatherbee. 2013\. *From DNA to Diversity: Molecular Genetics and the Evolution of Animal Design*. EPUB. 2nd ed. Hoboken, NJ: Wiley-Blackwell.](http://paperpile.com/b/iJBGNj/SRYzg)
+[Christley, Scott, Yiming Lu, Chen Li, and Xiaohui Xie. 2009\. “Human Genomes as Email Attachments.” *Bioinformatics*  25 (2): 274–75.](http://paperpile.com/b/iJBGNj/Ph38o)
+[Chuong, Edward B. 2018\. “The Placenta Goes Viral: Retroviruses Control Gene Expression in Pregnancy.” *PLoS Biology* 16 (10): e3000028.](http://paperpile.com/b/iJBGNj/lnm7)
+[Crosby, Alfred W. 2003\. *The Columbian Exchange: Biological and Cultural Consequences of 1492, 30th Anniversary Edition*. New York: Praeger.](http://paperpile.com/b/iJBGNj/kD8C) [https://books.google.com/books?hl=en\&lr=\&id=SXvCEAAAQBAJ\&oi=fnd\&pg=PT15\&dq=The+Columbian+Exchange:+Biological+and+Cultural+Consequences+of+1492\&ots=tQcdcNH-ru\&sig=-tY3njlfbvWNcvjeKuhBCvBRnGc](https://books.google.com/books?hl=en&lr=&id=SXvCEAAAQBAJ&oi=fnd&pg=PT15&dq=The+Columbian+Exchange:+Biological+and+Cultural+Consequences+of+1492&ots=tQcdcNH-ru&sig=-tY3njlfbvWNcvjeKuhBCvBRnGc)
+[Dawkins, Richard. 1986\. *The Blind Watchmaker*. New York: W.W. Norton.](http://paperpile.com/b/iJBGNj/y5S44)
+[De Morgan, Augustus, and Sophia Elizabeth De Morgan. 1872\. *A Budget of Paradoxes*. London: Longmans, Green.](http://paperpile.com/b/iJBGNj/2F9YB)
+[Evans, Michael C., Bob B. Buchanan, and Daniel I. Arnon. 1966\. “A New Ferredoxin-Dependent Carbon Reduction Cycle in a Photosynthetic Bacterium.” *Proceedings of the National Academy of Sciences of the United States of America* 55 (4): 928–34.](http://paperpile.com/b/iJBGNj/nCFk)
+[Feschotte, Cédric, and Clément Gilbert. 2012\. “Endogenous Viruses: Insights into Viral Evolution and Impact on Host Biology.” *Nature Reviews. Genetics* 13 (4): 283–96.](http://paperpile.com/b/iJBGNj/DS1xJ)
+[Fontana, Walter. 1990\. “Algorithmic Chemistry,” no. LA-UR-90-1959 (June).](http://paperpile.com/b/iJBGNj/KJwB) [https://www.santafe.edu/research/results/working-papers/algorithmic-chemistry-a-model-for-functional-self-](https://www.santafe.edu/research/results/working-papers/algorithmic-chemistry-a-model-for-functional-self-)
+[Harper, Kristin N., Paolo S. Ocampo, Bret M. Steiner, Robert W. George, Michael S. Silverman, Shelly Bolotin, Allan Pillay, Nigel J. Saunders, and George J. Armelagos. 2008\. “On the Origin of the Treponematoses: A Phylogenetic Approach.” *PLoS Neglected Tropical Diseases* 2 (1): e148.](http://paperpile.com/b/iJBGNj/qISP)
+[Horita, Nobuyuki, and Takeshi Fukumoto. 2023\. “Global Case Fatality Rate from COVID-19 Has Decreased by 96.8% during 2.5 Years of the Pandemic.” *Journal of Medical Virology* 95 (1): e28231.](http://paperpile.com/b/iJBGNj/9X3am)
+[Kauffman, Stuart A. 1971\. “Cellular Homeostasis, Epigenesis and Replication in Randomly Aggregated Macromolecular Systems.” *Journal of Cybernetics* 1 (1): 71–96.](http://paperpile.com/b/iJBGNj/MqQWR)
+[Kimmerer, Robin. 2013\. *Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants*. Minneapolis, MN: Milkweed Editions.](http://paperpile.com/b/iJBGNj/l1qj)
+[Kleene, Stephen Cole. 1938\. “On Notation for Ordinal Numbers.” *Journal of Symbolic Logic* 3 (4): 150–55.](http://paperpile.com/b/iJBGNj/PD5o)
+[Konstantinidis, Konstantinos T., Alban Ramette, and James M. Tiedje. 2006\. “The Bacterial Species Definition in the Genomic Era.” *Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences* 361 (1475): 1929–40.](http://paperpile.com/b/iJBGNj/exIX)
+[Krebs, Hans Adolf, and William Arthur Johnson. 1937\. “The Role of Citric Acid in Intermediate Metabolism in Animal Tissues.” *Enzymologia* 4 (1): 148–56.](http://paperpile.com/b/iJBGNj/z0z75)
+[Lander, Eric S., L. M. Linton, B. Birren, C. Nusbaum, M. C. Zody, J. Baldwin, K. Devon, et al. 2001\. “Initial Sequencing and Analysis of the Human Genome.” *Nature* 409 (6822): 860–921.](http://paperpile.com/b/iJBGNj/VTm8)
+[Lanier, Kathryn A., Anton S. Petrov, and Loren Dean Williams. 2017\. “The Central Symbiosis of Molecular Biology: Molecules in Mutualism.” *Journal of Molecular Evolution* 85 (1-2): 8–13.](http://paperpile.com/b/iJBGNj/SRNH)
+[Mandelbrot, Benoît. 1967\. “How Long Is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension.” *Science* 156 (3775): 636–38.](http://paperpile.com/b/iJBGNj/Zfmef)
+[———. 1989\. “Multifractal Measures, Especially for the Geophysicist.” In *Fractals in Geophysics*, 5–42. Basel: Birkhäuser Basel.](http://paperpile.com/b/iJBGNj/fCgz)
+[McClintock, Barbara. 1950\. “The Origin and Behavior of Mutable Loci in Maize.” *Proceedings of the National Academy of Sciences* 36 (6): 344–55.](http://paperpile.com/b/iJBGNj/2aBSk)
+[Michod, Richard E. 2000\. *Darwinian Dynamics: Evolutionary Transitions in Fitness and Individuality*. Princeton, NJ: Princeton University Press.](http://paperpile.com/b/iJBGNj/Lups)
+[Mordvintsev, Alexander, Ettore Randazzo, Eyvind Niklasson, and Michael Levin. 2020\. “Growing Neural Cellular Automata.” *Distill* 5 (2): e23.](http://paperpile.com/b/iJBGNj/42tF)
+[Murray, Connor S., Yingnan Gao, and Martin Wu. 2021\. “Re-Evaluating the Evidence for a Universal Genetic Boundary among Microbial Species.” *Nature Communications* 12 (1): 4059\.](http://paperpile.com/b/iJBGNj/EmaD)
+[Nasir, Arshan, and Gustavo Caetano-Anollés. 2015\. “A Phylogenomic Data-Driven Exploration of Viral Origins and Evolution.” *Science Advances* 1 (8): e1500527.](http://paperpile.com/b/iJBGNj/Eybne)
+[Naville, Magali, Ian A. Warren, Zofia Haftek-Terreau, Domitille S. Chalopin, Frédéric G. Brunet, Perrine Levin, Delphine Galiana, and Jean Nicholas Volff. 2016\. “Not so Bad after All: Retroviruses and Long Terminal Repeat Retrotransposons as a Source of New Genes in Vertebrates.” *Clinical Microbiology and Infection: The Official Publication of the European Society of Clinical Microbiology and Infectious Diseases* 22 (4): 312–23.](http://paperpile.com/b/iJBGNj/8oAok)
+[Neumann, John von. 1945\. “First Draft of a Report on the EDVAC.” University of Pennsylvania. https://doi.org/](http://paperpile.com/b/iJBGNj/duT1R)[10.1109/85.238389](http://dx.doi.org/10.1109/85.238389) 
+[Neumann, John von, and Arthur W. Burks. 1966\. *Theory of Self-Reproducing Automata*. Urbana and London: University of Illinois Press.](http://paperpile.com/b/iJBGNj/hRXHY)
+[Pastuzyn, Elissa D., Cameron E. Day, Rachel B. Kearns, Madeleine Kyrke-Smith, Andrew V. Taibi, John McCormick, Nathan Yoder, et al. 2018\. “The Neuronal Gene Arc Encodes a Repurposed Retrotransposon Gag Protein That Mediates Intercellular RNA Transfer.” *Cell* 173 (1): 275\.](http://paperpile.com/b/iJBGNj/H4xh)
+[Peretó, Juli, Jeffrey L. Bada, and Antonio Lazcano. 2009\. “Charles Darwin and the Origin of Life.” *Origins of Life and Evolution of the Biosphere: The Journal of the International Society for the Study of the Origin of Life* 39 (5): 395–406.](http://paperpile.com/b/iJBGNj/oW314)
+[Pesavento, Umberto. 1995\. “An Implementation of von Neumann’s Self-Reproducing Machine.” *Artificial Life* 2 (4): 337–54.](http://paperpile.com/b/iJBGNj/UlMre)
+[Prigogine, Ilya, and Isabelle Stengers. 1984\. *Order out of Chaos: Man’s New Dialogue with Nature*. London: William Heinemann.](http://paperpile.com/b/iJBGNj/AjJl)
+[Pross, Addy. 2012\. *What Is Life?: How Chemistry Becomes Biology*. Oxford, UK: Oxford University Press.](http://paperpile.com/b/iJBGNj/iXQT3)
+[Raup, David M., and Stephen Jay Gould. 1974\. “Stochastic Simulation and Evolution of Morphology-Towards a Nomothetic Paleontology.” *Systematic Biology* 23 (3): 305–22.](http://paperpile.com/b/iJBGNj/RdfDo)
+[Ray, Thomas S. 1991\. “An Approach to the Synthesis of Life.” In *Artificial Life II, Santa Fe Institute Studies in the Sciences of Complexity, Vol. XI*, edited by C. Langton, C. Taylor, J. D. Farmer, and S. Rasmussen, 371–408. Redwood City, CA: Addison-Wesley.](http://paperpile.com/b/iJBGNj/5uHZ)
+[Reichenbach, Hans. 1956\. *The Direction of Time*. Edited by Maria Reichenbach. Berkeley, CA: University of California Press.](http://paperpile.com/b/iJBGNj/9udzk)
+[Robertson, Michael P., and Gerald F. Joyce. 2012\. “The Origins of the RNA World.” *Cold Spring Harbor Perspectives in Biology* 4 (5). https://doi.org/](http://paperpile.com/b/iJBGNj/GdGZv)[10.1101/cshperspect.a003608](http://dx.doi.org/10.1101/cshperspect.a003608)
+[Rovelli, Carlo. 2018\. *The Order of Time*. Translated by Erica Segre and Simon Carnell. New York: Riverhead Books.](http://paperpile.com/b/iJBGNj/N9LOm)
+[Russell, Michael J., and William Martin. 2004\. “The Rocky Roots of the Acetyl-CoA Pathway.” *Trends in Biochemical Sciences* 29 (7): 358–63.](http://paperpile.com/b/iJBGNj/1vX88)
+[Russ, Eric, and Sergey Iordanskiy. 2023\. “Endogenous Retroviruses as Modulators of Innate Immunity.” *Pathogens* 12 (2). https://doi.org/](http://paperpile.com/b/iJBGNj/hMUQ)[10.3390/pathogens12020162](http://dx.doi.org/10.3390/pathogens12020162)
+[Ryan, Frank. 2009\. *Virolution*. London: Collins.](http://paperpile.com/b/iJBGNj/cTbw9)
+[Sagan, Lynn. 1967\. “On the Origin of Mitosing Cells.” *Journal of Theoretical Biology* 14 (3): 255–74.](http://paperpile.com/b/iJBGNj/ijKop)
+[Schrödinger, Erwin. 1944\. *What Is Life? The Physical Aspect of the Living Cell*. Cambridge University Press.](http://paperpile.com/b/iJBGNj/asO1A)
+[Shapiro, Robert. 2006\. “Small Molecule Interactions Were Central to the Origin of Life.” *The Quarterly Review of Biology* 81 (2): 105–25.](http://paperpile.com/b/iJBGNj/YRi9y)
+[Sharp, Paul M., and Beatrice H. Hahn. 2011\. “Origins of HIV and the AIDS Pandemic.” *Cold Spring Harbor Perspectives in Medicine* 1 (1): a006841.](http://paperpile.com/b/iJBGNj/DLa7P)
+[She, Jianqi, Minghao Du, Zhanzhan Xu, Yueqi Jin, Yu Li, Daoning Zhang, Changyu Tao, Jian Chen, Jiadong Wang, and Ence Yang. 2022\. “The Landscape of hervRNAs Transcribed from Human Endogenous Retroviruses across Human Body Sites.” *Genome Biology* 23 (1): 231\.](http://paperpile.com/b/iJBGNj/NsDjj)
+[Smil, Vaclav. 2008\. *Energy in Nature and Society: General Energetics of Complex Systems*. London and Cambridge, MA: MIT Press.](http://paperpile.com/b/iJBGNj/SWlI)
+[Szathmáry, Eörs, and John Maynard Smith. 1995\. “The Major Evolutionary Transitions.” *Nature* 374 (6519): 227–32.](http://paperpile.com/b/iJBGNj/yGSxJ)
+[Taleb, Nassim Nicholas. 2014\. *Antifragile: Things That Gain from Disorder*. New York: Random House.](http://paperpile.com/b/iJBGNj/BTTV)
+[Tarlinton, Rachael E., Joanne Meers, and Paul R. Young. 2006\. “Retroviral Invasion of the Koala Genome.” *Nature* 442 (7098): 79–81.](http://paperpile.com/b/iJBGNj/9fOiA)
+[Thomas, Dylan. 1934\. *18 Poems by Dylan Thomas*. London: Fortune Press.](http://paperpile.com/b/iJBGNj/55Kf)
+[Thomson, William. 1857\. “On a Universal Tendency in Nature to the Dissipation of Mechanical Energy.” *Proceedings of the Royal Society of Edinburgh* 3: 139–42.](http://paperpile.com/b/iJBGNj/JvJv)
+[———. 1871\. “Inaugural Address before the British Association at Edinburgh, August 2d.” *American Journal of Science, and Arts* s3-2 (October): 269–94.](http://paperpile.com/b/iJBGNj/bcOGJ)
+[Turing, Alan Mathison. 1937\. “On Computable Numbers, with an Application to the Entscheidungsproblem.” *Proceedings of the London Mathematical Society. Third Series* s2-42 (1): 230–65.](http://paperpile.com/b/iJBGNj/8saZ8)
+[———. 1948\. “Intelligent Machinery: A Report.” *London: National Physical Laboratory*, 27\.](http://paperpile.com/b/iJBGNj/NmrxS)
+[———. 1950\. “Computing Machinery and Intelligence.” *Mind; a Quarterly Review of Psychology and Philosophy* 59 (236): 433–60.](http://paperpile.com/b/iJBGNj/Jjk4i)
+[———. 1952\. “The Chemical Basis of Morphogenesis.” *Bulletin of Mathematical Biology* 52 (1): 153–97.](http://paperpile.com/b/iJBGNj/QeZ1Q)
+[———. (1951) 2000\. “Alan Turing’s Manual for the Ferranti Mk. I (transcribed by Robert S. Thau).” infoamerica.org. February 13, 2000\.](http://paperpile.com/b/iJBGNj/O6xpg) [https://www.infoamerica.org/documentos\_pdf/turing02.pdf](https://www.infoamerica.org/documentos_pdf/turing02.pdf) 
+[Walker, Sara. 2023\. “AI Is Life.” *Noema Magazine*, April.](http://paperpile.com/b/iJBGNj/9hvK) [https://www.noemamag.com/ai-is-life/](https://www.noemamag.com/ai-is-life/)
+[Watson, James D., and Francis H. Crick. 1953\. “Molecular Structure of Nucleic Acids; a Structure for Deoxyribose Nucleic Acid.” *Nature* 171 (4356): 737–38.](http://paperpile.com/b/iJBGNj/L7DKX)
+[West, Geoffrey B. 2017\. *Scale: The Universal Laws of Life, Growth, and Death in Organisms, Cities, and Companies*. New York: Penguin.](http://paperpile.com/b/iJBGNj/BAqLl)
+[West, Geoffrey B., James H. Brown, and Brian J. Enquist. 1997\. “A General Model for the Origin of Allometric Scaling Laws in Biology.” *Science* 276 (5309): 122–26.](http://paperpile.com/b/iJBGNj/pguCN)
+[Woese, Carl R. 2002\. “On the Evolution of Cells.” *Proceedings of the National Academy of Sciences* 99 (13): 8742–47.](http://paperpile.com/b/iJBGNj/d9Qm1)
+[Wolpert, David H., and William Macready. 2007\. “Using Self‐dissimilarity to Quantify Complexity.” *Complexity* 12 (3): 77–85.](http://paperpile.com/b/iJBGNj/Gz3o)
+[Yinusa, Ayoola R., and Chrystopher L. Nehaniv. 2011\. “Study of Inheritable Mutations in von Neumann Self-Reproducing Automata Using the GOLLY Simulator.” In *2011 IEEE Symposium on Artificial Life (ALIFE)*, 211–17.](http://paperpile.com/b/iJBGNj/4vXpF)
+[Yong, Ed. 2013\. “How a Quarter of the Cow Genome Came from Snakes.” *National Geographic*, January.](http://paperpile.com/b/iJBGNj/eZbeB) [https://www.nationalgeographic.com/science/article/how-a-quarter-of-the-cow-genome-came-from-snakes](https://www.nationalgeographic.com/science/article/how-a-quarter-of-the-cow-genome-came-from-snakes)
+
+{% endchapter %}  
+
+{% chapter 'image-credits'%}  
 # Image credits
+
+<div class="wrapper">
 
 Every reasonable attempt has been made to locate copyright owners and ensure accuracy of crediting. Errors or omissions will be corrected in future editions.
 
@@ -629,91 +790,24 @@ Every reasonable attempt has been made to locate copyright owners and ensure acc
 
 **Élan vital** 146: Nasher, https://w.wiki/BGzW (2013).
 
+</div>
+{% endchapter %}  
+{% chapter 'note-one-the-artwork'%}  
+
+
 # Note on the artwork
 
 The front and back endpapers of this book feature details of an artwork by Yalti Napangati, born around 1970 in Australia’s Great Sandy Desert. She is one of the “Pintupi Nine,” a traditional family who remained unaware of European colonization until 1984, when they made contact with relatives near Kiwirkurra. This painting depicts designs associated with the rockhole and soakage water site of Marrapinti, west of Kiwirrkurra. During ancestral times a large group of women gathered at this site during their travels toward the east. While at the site the women made nose bones, also known as marrapinti, which are worn through a hole made in the nasal septum. These nose bones were originally used by both men and women but are now only inserted by the older generation on ceremonial occasions. Upon completion of the ceremonies at Marrapinti the women continued their travels east to Ngaminya and then onto Wilkinkarra (Lake Mackay). The shapes in the painting represent geographical features of the landscape and bush foods the women collected as they traveled.
+
+
+{% endchapter %}  
+{% chapter 'note-on-the-type'%}  
 
 # Note on the type
 
 This book, both print and web editions, is typeset in Exposure, a variable typeface designed between 2019 and 2022 by Federico Parra Barrios at the Atelier National de Recherche Typographique in Nancy, France. Variable fonts are an OpenType technology enabling parameters like weight, slant, and width to vary continuously. Instead of traditional type weight, Exposure uses the new technology to simulate an obsolete one, producing the eroded or blown-out effects of under- or over-exposure in phototypesetting.
 
-# Bibliography
-
-[Adami, Chris, and C. Titus Brown. 1994\. “Evolutionary Learning in the 2D Artificial Life System ‘Avida.’” *arXiv \[adap-Org\]*. arXiv.](http://paperpile.com/b/iJBGNj/6Ou0) [https://arxiv.org/pdf/adap-org/9405003](https://arxiv.org/pdf/adap-org/9405003)[.](http://paperpile.com/b/iJBGNj/6Ou0)  
-[Agüera y Arcas, Blaise. 2023\. *Who Are We Now?* Los Angeles: Hat & Beard, LLC.](http://paperpile.com/b/iJBGNj/I1PA)  
-[Agüera y Arcas, Blaise, Jyrki Alakuijala, James Evans, Ben Laurie, Alexander Mordvintsev, Eyvind Niklasson, Ettore Randazzo, and Luca Versari. 2024\. “Computational Life: How Well-Formed, Self-Replicating Programs Emerge from Simple Interaction.” *arXiv \[cs.NE\]*. arXiv.](http://paperpile.com/b/iJBGNj/2mU4q) [http://arxiv.org/abs/2406.19108](http://arxiv.org/abs/2406.19108)[.](http://paperpile.com/b/iJBGNj/2mU4q)  
-[Bagrov, Andrey A., Ilia A. Iakovlev, Askar A. Iliasov, Mikhail I. Katsnelson, and Vladimir V. Mazurenko. 2020\. “Multiscale Structural Complexity of Natural Patterns.” *Proceedings of the National Academy of Sciences of the United States of America* 117 (48): 30241–51.](http://paperpile.com/b/iJBGNj/sdOr)  
-[Bakoulis, Stylianos, Robert Krautz, Nicolas Alcaraz, Marco Salvatore, and Robin Andersson. 2022\. “Endogenous Retroviruses Co-Opted as Divergently Transcribed Regulatory Elements Shape the Regulatory Landscape of Embryonic Stem Cells.” *Nucleic Acids Research* 50 (4): 2111–27.](http://paperpile.com/b/iJBGNj/AvEV)  
-[Baltimore, David. 1970\. “Viral RNA-Dependent DNA Polymerase: RNA-Dependent DNA Polymerase in Virions of RNA Tumour Viruses.” *Nature* 226 (5252): 1209–11.](http://paperpile.com/b/iJBGNj/zwxh)  
-[Barricelli, Nils Aall. 1957\. “Symbiogenetic Evolution Processes Realized by Artificial Methods.” *Methodos* 9 (35–36): 143–82.](http://paperpile.com/b/iJBGNj/cKjJ)  
-[Bennett, Jane. 2010\. *Vibrant Matter: A Political Ecology of Things*. Durham, NC and London: Duke University Press.](http://paperpile.com/b/iJBGNj/jZ9KK)  
-[Buchanan, Bon B., and Daniel I. Arnon. 1990\. “A Reverse Krebs Cycle in Photosynthesis: Consensus at Last.” *Photosynthesis Research* 24 (1): 47–53.](http://paperpile.com/b/iJBGNj/tKw5R)  
-[Carroll, Sean B., Jennifer K. Grenier, and Scott D. Weatherbee. 2013\. *From DNA to Diversity: Molecular Genetics and the Evolution of Animal Design*. EPUB. 2nd ed. Hoboken, NJ: Wiley-Blackwell.](http://paperpile.com/b/iJBGNj/SRYzg)  
-[Christley, Scott, Yiming Lu, Chen Li, and Xiaohui Xie. 2009\. “Human Genomes as Email Attachments.” *Bioinformatics*  25 (2): 274–75.](http://paperpile.com/b/iJBGNj/Ph38o)  
-[Chuong, Edward B. 2018\. “The Placenta Goes Viral: Retroviruses Control Gene Expression in Pregnancy.” *PLoS Biology* 16 (10): e3000028.](http://paperpile.com/b/iJBGNj/lnm7)  
-[Crosby, Alfred W. 2003\. *The Columbian Exchange: Biological and Cultural Consequences of 1492, 30th Anniversary Edition*. New York: Praeger.](http://paperpile.com/b/iJBGNj/kD8C) [https://books.google.com/books?hl=en\&lr=\&id=SXvCEAAAQBAJ\&oi=fnd\&pg=PT15\&dq=The+Columbian+Exchange:+Biological+and+Cultural+Consequences+of+1492\&ots=tQcdcNH-ru\&sig=-tY3njlfbvWNcvjeKuhBCvBRnGc](https://books.google.com/books?hl=en&lr=&id=SXvCEAAAQBAJ&oi=fnd&pg=PT15&dq=The+Columbian+Exchange:+Biological+and+Cultural+Consequences+of+1492&ots=tQcdcNH-ru&sig=-tY3njlfbvWNcvjeKuhBCvBRnGc)[.](http://paperpile.com/b/iJBGNj/kD8C)  
-[Dawkins, Richard. 1986\. *The Blind Watchmaker*. New York: W.W. Norton.](http://paperpile.com/b/iJBGNj/y5S44)  
-[De Morgan, Augustus, and Sophia Elizabeth De Morgan. 1872\. *A Budget of Paradoxes*. London: Longmans, Green.](http://paperpile.com/b/iJBGNj/2F9YB)  
-[Evans, Michael C., Bob B. Buchanan, and Daniel I. Arnon. 1966\. “A New Ferredoxin-Dependent Carbon Reduction Cycle in a Photosynthetic Bacterium.” *Proceedings of the National Academy of Sciences of the United States of America* 55 (4): 928–34.](http://paperpile.com/b/iJBGNj/nCFk)  
-[Feschotte, Cédric, and Clément Gilbert. 2012\. “Endogenous Viruses: Insights into Viral Evolution and Impact on Host Biology.” *Nature Reviews. Genetics* 13 (4): 283–96.](http://paperpile.com/b/iJBGNj/DS1xJ)  
-[Fontana, Walter. 1990\. “Algorithmic Chemistry,” no. LA-UR-90-1959 (June).](http://paperpile.com/b/iJBGNj/KJwB) [https://www.santafe.edu/research/results/working-papers/algorithmic-chemistry-a-model-for-functional-self-](https://www.santafe.edu/research/results/working-papers/algorithmic-chemistry-a-model-for-functional-self-)[.](http://paperpile.com/b/iJBGNj/KJwB)  
-[Harper, Kristin N., Paolo S. Ocampo, Bret M. Steiner, Robert W. George, Michael S. Silverman, Shelly Bolotin, Allan Pillay, Nigel J. Saunders, and George J. Armelagos. 2008\. “On the Origin of the Treponematoses: A Phylogenetic Approach.” *PLoS Neglected Tropical Diseases* 2 (1): e148.](http://paperpile.com/b/iJBGNj/qISP)  
-[Horita, Nobuyuki, and Takeshi Fukumoto. 2023\. “Global Case Fatality Rate from COVID-19 Has Decreased by 96.8% during 2.5 Years of the Pandemic.” *Journal of Medical Virology* 95 (1): e28231.](http://paperpile.com/b/iJBGNj/9X3am)  
-[Kauffman, Stuart A. 1971\. “Cellular Homeostasis, Epigenesis and Replication in Randomly Aggregated Macromolecular Systems.” *Journal of Cybernetics* 1 (1): 71–96.](http://paperpile.com/b/iJBGNj/MqQWR)  
-[Kimmerer, Robin. 2013\. *Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants*. Minneapolis, MN: Milkweed Editions.](http://paperpile.com/b/iJBGNj/l1qj)  
-[Kleene, Stephen Cole. 1938\. “On Notation for Ordinal Numbers.” *Journal of Symbolic Logic* 3 (4): 150–55.](http://paperpile.com/b/iJBGNj/PD5o)  
-[Konstantinidis, Konstantinos T., Alban Ramette, and James M. Tiedje. 2006\. “The Bacterial Species Definition in the Genomic Era.” *Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences* 361 (1475): 1929–40.](http://paperpile.com/b/iJBGNj/exIX)  
-[Krebs, Hans Adolf, and William Arthur Johnson. 1937\. “The Role of Citric Acid in Intermediate Metabolism in Animal Tissues.” *Enzymologia* 4 (1): 148–56.](http://paperpile.com/b/iJBGNj/z0z75)  
-[Lander, Eric S., L. M. Linton, B. Birren, C. Nusbaum, M. C. Zody, J. Baldwin, K. Devon, et al. 2001\. “Initial Sequencing and Analysis of the Human Genome.” *Nature* 409 (6822): 860–921.](http://paperpile.com/b/iJBGNj/VTm8)  
-[Lanier, Kathryn A., Anton S. Petrov, and Loren Dean Williams. 2017\. “The Central Symbiosis of Molecular Biology: Molecules in Mutualism.” *Journal of Molecular Evolution* 85 (1-2): 8–13.](http://paperpile.com/b/iJBGNj/SRNH)  
-[Mandelbrot, Benoît. 1967\. “How Long Is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension.” *Science* 156 (3775): 636–38.](http://paperpile.com/b/iJBGNj/Zfmef)  
-[———. 1989\. “Multifractal Measures, Especially for the Geophysicist.” In *Fractals in Geophysics*, 5–42. Basel: Birkhäuser Basel.](http://paperpile.com/b/iJBGNj/fCgz)  
-[McClintock, Barbara. 1950\. “The Origin and Behavior of Mutable Loci in Maize.” *Proceedings of the National Academy of Sciences* 36 (6): 344–55.](http://paperpile.com/b/iJBGNj/2aBSk)  
-[Michod, Richard E. 2000\. *Darwinian Dynamics: Evolutionary Transitions in Fitness and Individuality*. Princeton, NJ: Princeton University Press.](http://paperpile.com/b/iJBGNj/Lups)  
-[Mordvintsev, Alexander, Ettore Randazzo, Eyvind Niklasson, and Michael Levin. 2020\. “Growing Neural Cellular Automata.” *Distill* 5 (2): e23.](http://paperpile.com/b/iJBGNj/42tF)  
-[Murray, Connor S., Yingnan Gao, and Martin Wu. 2021\. “Re-Evaluating the Evidence for a Universal Genetic Boundary among Microbial Species.” *Nature Communications* 12 (1): 4059\.](http://paperpile.com/b/iJBGNj/EmaD)  
-[Nasir, Arshan, and Gustavo Caetano-Anollés. 2015\. “A Phylogenomic Data-Driven Exploration of Viral Origins and Evolution.” *Science Advances* 1 (8): e1500527.](http://paperpile.com/b/iJBGNj/Eybne)  
-[Naville, Magali, Ian A. Warren, Zofia Haftek-Terreau, Domitille S. Chalopin, Frédéric G. Brunet, Perrine Levin, Delphine Galiana, and Jean Nicholas Volff. 2016\. “Not so Bad after All: Retroviruses and Long Terminal Repeat Retrotransposons as a Source of New Genes in Vertebrates.” *Clinical Microbiology and Infection: The Official Publication of the European Society of Clinical Microbiology and Infectious Diseases* 22 (4): 312–23.](http://paperpile.com/b/iJBGNj/8oAok)  
-[Neumann, John von. 1945\. “First Draft of a Report on the EDVAC.” University of Pennsylvania. https://doi.org/](http://paperpile.com/b/iJBGNj/duT1R)[10.1109/85.238389](http://dx.doi.org/10.1109/85.238389)[.](http://paperpile.com/b/iJBGNj/duT1R)  
-[Neumann, John von, and Arthur W. Burks. 1966\. *Theory of Self-Reproducing Automata*. Urbana and London: University of Illinois Press.](http://paperpile.com/b/iJBGNj/hRXHY)  
-[Pastuzyn, Elissa D., Cameron E. Day, Rachel B. Kearns, Madeleine Kyrke-Smith, Andrew V. Taibi, John McCormick, Nathan Yoder, et al. 2018\. “The Neuronal Gene Arc Encodes a Repurposed Retrotransposon Gag Protein That Mediates Intercellular RNA Transfer.” *Cell* 173 (1): 275\.](http://paperpile.com/b/iJBGNj/H4xh)  
-[Peretó, Juli, Jeffrey L. Bada, and Antonio Lazcano. 2009\. “Charles Darwin and the Origin of Life.” *Origins of Life and Evolution of the Biosphere: The Journal of the International Society for the Study of the Origin of Life* 39 (5): 395–406.](http://paperpile.com/b/iJBGNj/oW314)  
-[Pesavento, Umberto. 1995\. “An Implementation of von Neumann’s Self-Reproducing Machine.” *Artificial Life* 2 (4): 337–54.](http://paperpile.com/b/iJBGNj/UlMre)  
-[Prigogine, Ilya, and Isabelle Stengers. 1984\. *Order out of Chaos: Man’s New Dialogue with Nature*. London: William Heinemann.](http://paperpile.com/b/iJBGNj/AjJl)  
-[Pross, Addy. 2012\. *What Is Life?: How Chemistry Becomes Biology*. Oxford, UK: Oxford University Press.](http://paperpile.com/b/iJBGNj/iXQT3)  
-[Raup, David M., and Stephen Jay Gould. 1974\. “Stochastic Simulation and Evolution of Morphology-Towards a Nomothetic Paleontology.” *Systematic Biology* 23 (3): 305–22.](http://paperpile.com/b/iJBGNj/RdfDo)  
-[Ray, Thomas S. 1991\. “An Approach to the Synthesis of Life.” In *Artificial Life II, Santa Fe Institute Studies in the Sciences of Complexity, Vol. XI*, edited by C. Langton, C. Taylor, J. D. Farmer, and S. Rasmussen, 371–408. Redwood City, CA: Addison-Wesley.](http://paperpile.com/b/iJBGNj/5uHZ)  
-[Reichenbach, Hans. 1956\. *The Direction of Time*. Edited by Maria Reichenbach. Berkeley, CA: University of California Press.](http://paperpile.com/b/iJBGNj/9udzk)  
-[Robertson, Michael P., and Gerald F. Joyce. 2012\. “The Origins of the RNA World.” *Cold Spring Harbor Perspectives in Biology* 4 (5). https://doi.org/](http://paperpile.com/b/iJBGNj/GdGZv)[10.1101/cshperspect.a003608](http://dx.doi.org/10.1101/cshperspect.a003608)[.](http://paperpile.com/b/iJBGNj/GdGZv)  
-[Rovelli, Carlo. 2018\. *The Order of Time*. Translated by Erica Segre and Simon Carnell. New York: Riverhead Books.](http://paperpile.com/b/iJBGNj/N9LOm)  
-[Russell, Michael J., and William Martin. 2004\. “The Rocky Roots of the Acetyl-CoA Pathway.” *Trends in Biochemical Sciences* 29 (7): 358–63.](http://paperpile.com/b/iJBGNj/1vX88)  
-[Russ, Eric, and Sergey Iordanskiy. 2023\. “Endogenous Retroviruses as Modulators of Innate Immunity.” *Pathogens* 12 (2). https://doi.org/](http://paperpile.com/b/iJBGNj/hMUQ)[10.3390/pathogens12020162](http://dx.doi.org/10.3390/pathogens12020162)[.](http://paperpile.com/b/iJBGNj/hMUQ)  
-[Ryan, Frank. 2009\. *Virolution*. London: Collins.](http://paperpile.com/b/iJBGNj/cTbw9)  
-[Sagan, Lynn. 1967\. “On the Origin of Mitosing Cells.” *Journal of Theoretical Biology* 14 (3): 255–74.](http://paperpile.com/b/iJBGNj/ijKop)  
-[Schrödinger, Erwin. 1944\. *What Is Life? The Physical Aspect of the Living Cell*. Cambridge University Press.](http://paperpile.com/b/iJBGNj/asO1A)  
-[Shapiro, Robert. 2006\. “Small Molecule Interactions Were Central to the Origin of Life.” *The Quarterly Review of Biology* 81 (2): 105–25.](http://paperpile.com/b/iJBGNj/YRi9y)  
-[Sharp, Paul M., and Beatrice H. Hahn. 2011\. “Origins of HIV and the AIDS Pandemic.” *Cold Spring Harbor Perspectives in Medicine* 1 (1): a006841.](http://paperpile.com/b/iJBGNj/DLa7P)  
-[She, Jianqi, Minghao Du, Zhanzhan Xu, Yueqi Jin, Yu Li, Daoning Zhang, Changyu Tao, Jian Chen, Jiadong Wang, and Ence Yang. 2022\. “The Landscape of hervRNAs Transcribed from Human Endogenous Retroviruses across Human Body Sites.” *Genome Biology* 23 (1): 231\.](http://paperpile.com/b/iJBGNj/NsDjj)  
-[Smil, Vaclav. 2008\. *Energy in Nature and Society: General Energetics of Complex Systems*. London and Cambridge, MA: MIT Press.](http://paperpile.com/b/iJBGNj/SWlI)  
-[Szathmáry, Eörs, and John Maynard Smith. 1995\. “The Major Evolutionary Transitions.” *Nature* 374 (6519): 227–32.](http://paperpile.com/b/iJBGNj/yGSxJ)  
-[Taleb, Nassim Nicholas. 2014\. *Antifragile: Things That Gain from Disorder*. New York: Random House.](http://paperpile.com/b/iJBGNj/BTTV)  
-[Tarlinton, Rachael E., Joanne Meers, and Paul R. Young. 2006\. “Retroviral Invasion of the Koala Genome.” *Nature* 442 (7098): 79–81.](http://paperpile.com/b/iJBGNj/9fOiA)  
-[Thomas, Dylan. 1934\. *18 Poems by Dylan Thomas*. London: Fortune Press.](http://paperpile.com/b/iJBGNj/55Kf)  
-[Thomson, William. 1857\. “On a Universal Tendency in Nature to the Dissipation of Mechanical Energy.” *Proceedings of the Royal Society of Edinburgh* 3: 139–42.](http://paperpile.com/b/iJBGNj/JvJv)  
-[———. 1871\. “Inaugural Address before the British Association at Edinburgh, August 2d.” *American Journal of Science, and Arts* s3-2 (October): 269–94.](http://paperpile.com/b/iJBGNj/bcOGJ)  
-[Turing, Alan Mathison. 1937\. “On Computable Numbers, with an Application to the Entscheidungsproblem.” *Proceedings of the London Mathematical Society. Third Series* s2-42 (1): 230–65.](http://paperpile.com/b/iJBGNj/8saZ8)  
-[———. 1948\. “Intelligent Machinery: A Report.” *London: National Physical Laboratory*, 27\.](http://paperpile.com/b/iJBGNj/NmrxS)  
-[———. 1950\. “Computing Machinery and Intelligence.” *Mind; a Quarterly Review of Psychology and Philosophy* 59 (236): 433–60.](http://paperpile.com/b/iJBGNj/Jjk4i)  
-[———. 1952\. “The Chemical Basis of Morphogenesis.” *Bulletin of Mathematical Biology* 52 (1): 153–97.](http://paperpile.com/b/iJBGNj/QeZ1Q)  
-[———. (1951) 2000\. “Alan Turing’s Manual for the Ferranti Mk. I (transcribed by Robert S. Thau).” infoamerica.org. February 13, 2000\.](http://paperpile.com/b/iJBGNj/O6xpg) [https://www.infoamerica.org/documentos\_pdf/turing02.pdf](https://www.infoamerica.org/documentos_pdf/turing02.pdf)[.](http://paperpile.com/b/iJBGNj/O6xpg)  
-[Walker, Sara. 2023\. “AI Is Life.” *Noema Magazine*, April.](http://paperpile.com/b/iJBGNj/9hvK) [https://www.noemamag.com/ai-is-life/](https://www.noemamag.com/ai-is-life/)[.](http://paperpile.com/b/iJBGNj/9hvK)  
-[Watson, James D., and Francis H. Crick. 1953\. “Molecular Structure of Nucleic Acids; a Structure for Deoxyribose Nucleic Acid.” *Nature* 171 (4356): 737–38.](http://paperpile.com/b/iJBGNj/L7DKX)  
-[West, Geoffrey B. 2017\. *Scale: The Universal Laws of Life, Growth, and Death in Organisms, Cities, and Companies*. New York: Penguin.](http://paperpile.com/b/iJBGNj/BAqLl)  
-[West, Geoffrey B., James H. Brown, and Brian J. Enquist. 1997\. “A General Model for the Origin of Allometric Scaling Laws in Biology.” *Science* 276 (5309): 122–26.](http://paperpile.com/b/iJBGNj/pguCN)  
-[Woese, Carl R. 2002\. “On the Evolution of Cells.” *Proceedings of the National Academy of Sciences* 99 (13): 8742–47.](http://paperpile.com/b/iJBGNj/d9Qm1)  
-[Wolpert, David H., and William Macready. 2007\. “Using Self‐dissimilarity to Quantify Complexity.” *Complexity* 12 (3): 77–85.](http://paperpile.com/b/iJBGNj/Gz3o)  
-[Yinusa, Ayoola R., and Chrystopher L. Nehaniv. 2011\. “Study of Inheritable Mutations in von Neumann Self-Reproducing Automata Using the GOLLY Simulator.” In *2011 IEEE Symposium on Artificial Life (ALIFE)*, 211–17.](http://paperpile.com/b/iJBGNj/4vXpF)  
-[Yong, Ed. 2013\. “How a Quarter of the Cow Genome Came from Snakes.” *National Geographic*, January.](http://paperpile.com/b/iJBGNj/eZbeB) [https://www.nationalgeographic.com/science/article/how-a-quarter-of-the-cow-genome-came-from-snakes](https://www.nationalgeographic.com/science/article/how-a-quarter-of-the-cow-genome-came-from-snakes)[.](http://paperpile.com/b/iJBGNj/eZbeB)
+{% endchapter %}  
 
 [^1]:  [Thomson 1871](https://paperpile.com/c/iJBGNj/bcOGJ).
 

@@ -419,7 +419,7 @@
       "Type": "Image",
       "caption": "Erwin Schrödinger, <i>What Is Life?</i>, 1944",
       "alt": "",
-      "size": "",
+      "size": "sm",
       "URL": "",
       "": ""
     },
@@ -430,7 +430,7 @@
       "Type": "Image",
       "caption": "Spontaneous generation of birds and fish by a tree, depending on where its seeds land; Claude Duret, <i>Histoire admirable des plantes et herbes esmerueillables et miraculeuses en nature</i>, 1605",
       "alt": "",
-      "size": "",
+      "size": "md",
       "URL": "https://en.wikipedia.org/wiki/Spontaneous_generation#/media/File:Trees_that_generate_both_fishes_and_birds._Wellcome_M0005642.jpg",
       "": ""
     },
@@ -450,7 +450,7 @@
      
       "file_web": [ "Halema_uma_u_Crater_in_Kilauea_volcano,_Hawaii.-Enhanced-SR.webp"],
       "Type": "Video",
-      "caption": "",
+      "caption": "Lava lake, Kīlauea, Hawai‘i",
       "alt": "",
       "size": "",
       "URL": "",
@@ -562,7 +562,7 @@
       "Type": "Image",
       "caption": "Hafted spear point from the mid-Holocene Arctic Small Tool site of Qeqertasussuk, West Greenland. Drawn by Eva Koch, reproduced with permission of Bjarne Grønnow.",
       "alt": "",
-      "size": "",
+      "size": "md",
       "URL": "https://www.semanticscholar.org/paper/3.-A-Projectile-Point-Sequence-for-Haida-Gwaii-Fedje-Mackie/07ae3fa759c82bcccd359d6da1b4eb2660a9af8a/figure/7",
       "": ""
     },
@@ -595,7 +595,7 @@
       "Type": "Image",
       "caption": "John von Neumann's Los Alamos ID badge photo, 1940s",
       "alt": "",
-      "size": "",
+      "size": "sm",
       "URL": "https://upload.wikimedia.org/wikipedia/commons/5/56/Vonneumann-john_r.jpg",
       "": ""
     },
@@ -720,9 +720,8 @@
       "": ""
     },
     "phasetransition": {
-      "chapter": "",
-     
-      "file_web": [ ],
+      "chapter": "chapter-05",
+      "file_web": ["phasetransition.webp" ],
       "Type": "Image",
       "caption": "Scatter plot showing the first ~30 million interactions in a bff run as dots with height equal to the number of operations. Note the sharp transition to computing-intensive full-tape replication at ~15 million interactions.",
       "alt": "",
@@ -731,9 +730,8 @@
       "": ""
     },
     "continuedrise": {
-      "chapter": "",
-     
-      "file_web": [ ],
+      "chapter": "chapter-05",
+      "file_web": [ "continuedrise.webp"],
       "Type": "Image",
       "caption": "Histogram showing number of bytes coding for instructions per tape in the same bff run; note the ongoing rise in the amount of code even after the transition to full-tape replication at 15 million interactions.",
       "alt": "",
@@ -814,7 +812,7 @@
       "Type": "Image",
       "caption": "A piston with a face of area <i>A</i> and interior volume <i>V</i> containing an ideal gas at pressure <i>P</i>, ibid.",
       "alt": "",
-      "size": "",
+      "size": "md",
       "URL": "",
       "": ""
     },
@@ -956,7 +954,7 @@
       "Type": "Image",
       "caption": "1896 skiagraph (X-ray photograph) of a <i>Nautilus pompilius</i>",
       "alt": "",
-      "size": "",
+      "size": "md",
       "URL": "https://en.wikipedia.org/wiki/Chambered_nautilus#/media/File:James_Green_&_James_H._Gardiner_-_Skiagraph_of_a_Nautilus_pompilius_-_Proceedings_of_the_Malacological_Society_of_London_-_Vol._II,_Pl._XV,_p._178_(alt).jpg",
       "": ""
     },

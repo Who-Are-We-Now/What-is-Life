@@ -19,7 +19,7 @@
 	}
 
 	h4 {
-		@extend .sans-serif;
+		@extend .serif;
 		font-weight: var(--wght);
 		font-size: var(--caption-size);
 		max-width: 100%;
@@ -56,7 +56,7 @@ article .map p {
 
 
 	p {
-		@extend .sans-serif;
+		@extend .serif;
 		font-weight: var(--wght);
 		line-height: 30px;
 		height: auto;
@@ -97,7 +97,7 @@ article .map p {
 
 	// svg {
 	// 	text {
-	// 		@extend .sans-serif;
+	// 		@extend .serif;
 	// 		font-size: var(--small-size);
 	// 		&.bold {
 	// 			font-weight: var(--wght-bs);

@@ -53,8 +53,7 @@
 		figure {
 			display: flex;
 			flex-direction: column;
-			// align-content: flex-start;
-			// flex-wrap: wrap;
+			align-items: center;
 		}
 
 		img {
@@ -80,14 +79,14 @@
 
 
 figcaption {
-	@extend .sans-serif;
+	@extend .serif;
 	font-size: var(--caption-size);
 	padding: var(--pad-sm) 0;
 	line-height: 1.2;
 	letter-spacing: 0.01em;
 
 	em {
-		@extend .sans-serif;
+		@extend .serif;
 
 	}
 }
@@ -156,6 +155,8 @@ figcaption {
 	position: absolute;
 	width: 100%;
 	border-left: 1px dashed var(--gridline);
+	// border-left: 0px;
+
 	overflow: hidden;
 
 	&.active-figindicator {
@@ -189,10 +190,6 @@ figcaption {
 		figure {
 			padding: 0;
 
-			// opacity: 1;
-			// position: sticky;
-			// top: var(--height-header);
-			// margin-left: calc( -1*var(--width-ind));
 			@include at-media(tablet_lg) {
 				padding-left: 0;
 			}
@@ -220,6 +217,7 @@ figcaption {
 		figure {
 			position: static;
 			width: 100%; // keep it for tablet
+			align-items: normal;
 		}
 
 		.indicator {
@@ -269,6 +267,7 @@ nav ul.toc li a.thb {
 		p {
 			margin-left: 0;
 			width: auto;
+			padding-left:0;
 		}
 	}
 	@include at-media(tablet) {
@@ -290,7 +289,7 @@ nav ul.toc li a.thb {
 	figure.sm {
 
 		//default, crossfade
-		img {
+		img,figcaption {
 			width: 50%;
 
 			@include at-media(tablet) {
@@ -303,7 +302,7 @@ nav ul.toc li a.thb {
 	figure.md {
 
 		//default, crossfade
-		img {
+		img,figcaption { //important
 			width: 80%;
 
 			@include at-media(tablet) {
@@ -338,217 +337,13 @@ nav ul.toc li a.thb {
 }
 
 
-/* INTERLUDE ----------------------------------------------------*/
-
-body.interlude {
-	.figure {
-		//overwrite the default size spec
-		position: relative;
-		left: 0;
-		display: block;
-		height: auto;
-	}
-
-	figure {
-		// padding: calc(var(--pad-section) / 4);
-		padding: var(--pad-body);
-		opacity: 1;
-
-		@include at-media(tablet_lg) {
-			padding: var(--pad);
-		}
-	}
-
-	.cols figure {
-		// padding: 0;
-
-		&.lg {
-			width: 55%;
-		}
-
-		&.md {
-			width: 45%;
-		}
-
-		&.sm {
-			width: 35%;
-		}
-
-		&.xs {
-			width: 20%;
-		}
-
-		@include at-media(tablet_lg) {
-			&.md {
-				width: 65%;
-			}
-
-		}
-
-
-		@include at-media(mobile_lg) {
-
-			&.lg,
-			&.md,
-			&.sm,
-			&.xs {
-				width: 100%;
-				margin: 0;
-			}
-
-
-		}
-	}
-
-	.single {
-		position: absolute;
-		top: auto;
-		display: inline-block;
-		width: 20%;
-		padding-top: 0;
-		padding-bottom: 0;
-		margin: 0 auto;
-		
-
-		@include at-media(desktop) {
-			width: 30%;
-		}
-
-		@include at-media(tablet_lg) {
-			width: 23%;
-		}
-
-
-		@include at-media(tablet) {
-			width: 45%;
-			display: block;
-			float: none;
-			display: block;
-			position: relative;
-			padding: var(--pad-section) 0;
-		}
-
-		// @include at-media(tablet) {
-		// 	padding: var(--lineheight) var(--margin);
-		// 	position: static;
-		// 	float: left;
-		// }
-
-		@include at-media(mobile_lg) {
-			width: 60%;
-			display: block;
-			float: none;
-		}
-
-		figcaption {
-			text-align: left;
-			width: 100%;
-		}
-
-		&.true {
-			//right-aligned
-			float: right;
-			position: relative;
-
-			@include at-media(tablet) {
-				float: none;
-				width: 45%;
-			}
-
-			@include at-media(mobile_lg) {
-				display: block;
-				float: none;
-				width: 70%;
-
-			}
-
-		}
-
-
-		&.lg {
-			// center
-			display: block;
-			position: relative;
-			width: 457px;
-			padding: var(--pad-section) 0;
-
-			&.true {
-				padding-left: 20%;
-			}
-		}
-
-		&.xl {
-			// center, bleed text width
-			display: block;
-			position: relative;
-			width: 75%;
-			margin: 0 auto;
-			padding: var(--pad-section) 0;
-
-		}
-
-		&.xxl {
-			// center, bleed text width
-			display: block;
-			position: relative;
-			width: 95%;
-			margin-left: 3.5%;
-			padding: var(--pad-section) 0;
-		}
-
-		&.md {
-			// center, narrower than text width
-			display: block;
-			position: relative;
-			width: 35%;
-			padding: var(--pad-section) 0;
-		}
-
-
-
-		@include at-media(tablet) {
-
-			&.lg,
-			&.xl,
-			&.xxl,
-			&.md {
-				display: block;
-				float: none;
-			}
-		}
-
-		@include at-media(mobile_lg) {
-
-			&.lg,
-			&.xl,
-			&.xxl,
-			&.md {
-				width: 100%;
-				padding: var(--lineheight);
-				padding-left: var(--pad-body);
-				padding-right: var(--pad-body);
-			}
-
-			&.sm,
-			&.xs {
-				width: 70%;
-			}
-
-
-		}
-
-
-	}
-
-}
-
 
 /* IMAGE ANIMATION XFADE / CROSSFADES ---------
 --------------------------------------------*/
 .crossfade {
 	opacity: 0;
 	transition: opacity 400ms ease-in-out;
-    margin-left: 20px;
+ 
 	&.active-fig {
 		opacity: 1;
 
@@ -593,7 +388,7 @@ body.interlude {
 	}
 
 	&.figure.image {
-		justify-content: left;
+		justify-content: center;
 
 		img {
 			max-height: 100vh;
@@ -603,7 +398,7 @@ body.interlude {
 	&.multi_caption figcaption {
 		transition: opacity 400ms ease-in-out;
 		// opacity: 0;
-		min-height: 70px; //set 2 lines in default for a consistent vertical loc across imgs
+		min-height: 78px; //set 2 lines in default for a consistent vertical loc across imgs
 	}
 
 	.mobile-seqindicator {
@@ -715,39 +510,24 @@ body.interlude {
 	}
 }
 
-.map-full-wrapper .xfadeindicator {
-	@include at-media(tablet) {
-		display: block;
-		//show mobile indicators instead
-	}
-}
-
-
 /*----------------
 FIGURES-specific OVERRIDES
 -----------------*/
 
-//darkmode transition chapters
-#preface,
-#anonymous-identity,
-#ignition,
-#terra-incognita {
-	--darkmodecolor: 255;
-	background-color: rgb(var(--darkmodecolor), var(--darkmodecolor), var(--darkmodecolor));
-	transition: background-color 700ms ease-in-out;
-
-	nav {
-		transition: border-color 1s ease-in-out;
-
-		.navlink {
-			background-color: rgb(var(--darkmodecolor), var(--darkmodecolor), var(--darkmodecolor));
-		}
-	}
-
-	p {
-		transition: color 700ms ease-in-out;
-	}
+#ashby-img{ //vertical long ratio
+	width: 60%;
 }
+#piston-img {
+	img,figcaption{ // scale sync with #watt
+		width: 63%;
+}
+}
+
+#newcomen-watt-fig .xfade-images{
+	width: 80%;
+}
+
+
 
 
 

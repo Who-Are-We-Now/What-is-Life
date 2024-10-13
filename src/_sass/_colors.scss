@@ -1,13 +1,15 @@
 :root{
 /* global colors */
-	--color-default: rgb(38 38 38);
+	--color-default: rgb(10 11 9);
+  --brown-light: #AA968F;
+  --accent: #ff6028;
+
   --darkgrey: rgb(38 38 38);
   --mediumgrey: rgb(190 190 190);
 	--grey: rgb(150 150 150);
 	--lightgrey: rgb(240 240 240);
   --white: rgb(255 255 255);
 	--bluegrey: rgb(208, 219,227);
-	--accent: rgb(250 80 0);
 
 	--alpha: 40%;
 	--bin1: rgb(220 220 220);
@@ -17,7 +19,7 @@
   --bintip: rgb(160 160 60);
   --binline: rgb(222 222 170);
 	--gridline: rgb(202 198 197);
-	--accent: rgb(207 102 52);
+
   
   --indigo: 51 34 136;
   --cyan: 0 174 239;

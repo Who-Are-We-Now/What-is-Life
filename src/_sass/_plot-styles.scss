@@ -49,7 +49,7 @@
 
 .plot,
 .plot-labels {
-	@extend .sans-serif;
+	@extend .serif;
 	font-size: var(--caption-size);
 }
 
@@ -169,7 +169,7 @@ button.plot-data-dl {
 	padding-right: var(--pad-xs);
 
 	em {
-		@extend .sans-serif;
+		@extend .serif;
 	}
 
 	.label {
@@ -213,7 +213,7 @@ svg {
 SVG TEXT
 ---------*/
 text {
-	@extend .sans-serif;
+	@extend .serif;
 	font-feature-settings: "tnum" on;
 }
 
@@ -371,7 +371,7 @@ div.label-header {
 		}
 
 		p {
-			@extend .sans-serif;
+			@extend .serif;
 			font-size: 14px;
 			margin: 0;
 		}
@@ -399,7 +399,7 @@ div.label-header {
 	opacity: 0;
 	color: var(--grey);
 	font-size: var(--small-size);
-	@extend .sans-serif;
+	@extend .serif;
 	position: fixed;
 	padding: 5px;
 	border-radius: 2px;

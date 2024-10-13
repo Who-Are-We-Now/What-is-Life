@@ -1,971 +1,111 @@
 {
-    "bigfamilies": {
-        "chapter": "chapter-06",
+    "krebs-reversekrebs": {
+        "chapter": "chapter-01",
         "type": "multi_caption",
         "input_imgs": [
             {
-                "victorianroyalfamily": {
-                    "file_print": [
-                        "Queen_Victoria_&_Royal_Family.jpg"
-                    ],
+                "kreb": {
                     "file_web": [
-                        "Queen_Victoria___Royal_Family.webp"
+                        "krebs.webp"
                     ],
-                    "file_web_thb": [
-                        "Queen_Victoria___Royal_Family.webp"
-                    ],
-                    "chapter": "chapter-06",
-                    "caption": "Queen Victoria and the members of the royal family, 1877.",
-                    "alt": "Queen Victoria surrounded by at least 24 children of different ages. Some adults are standing in the background and seated at the periphery.",
+                    "chapter": "chapter-01",
+                    "caption": "Krebs cycle",
+                    "alt": "Krebs cycle",
                     "credit": "",
                     "size": "",
-                    "indent": "",
                     "status": "",
                     "active": "true",
-                    "xfade_name": "bigfamilies"
+                    "xfade_name": "krebs-reversekrebs"
                 }
             },
             {
-                "victorianworkhouse": {
-                    "file_print": [
-                        "2372113@5Kpx.jpg"
-                    ],
+                "reversekrebs": {
                     "file_web": [
-                        "2372113@5Kpx.webp"
+                        "reversekrebs.webp"
                     ],
-                    "file_web_thb": [
-                        "2372113@5Kpx.webp"
-                    ],
-                    "chapter": "chapter-06",
-                    "caption": "Victorian children at Crumpsall Workhouse, Manchester, England, ca. 1895\u201397.",
-                    "alt": "Twenty-three boys ranging from toddlers to about twelve years old are arranged for this group photograph. They all have their heads shaved and are wearing identical work clothes. The youngest sit in front, and one child appears to be missing a leg and using a cane. ",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "bigfamilies"
-                }
-            },
-            {
-                "syrianfamily": {
-                    "file_print": [
-                        "master-pnp-ggbain-19000-19026u.jpg"
-                    ],
-                    "file_web": [
-                        "master-pnp-ggbain-19000-19026u.webp"
-                    ],
-                    "file_web_thb": [
-                        "master-pnp-ggbain-19000-19026u.webp"
-                    ],
-                    "chapter": "chapter-06",
-                    "caption": "Syrian immigrant children, ca. 1910\u201315.",
-                    "alt": "Fourteen boys and girls of various ages are arranged in a candid group photo. ",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "bigfamilies"
-                }
-            }
-        ]
-    },
-    "acebi": {
-        "chapter": "chapter-07",
-        "type": "single_caption",
-        "input_imgs": [
-            {
-                "acebi": {
-                    "file_print": [
-                        "napkin1b.jpg",
-                        "napkin2.jpg"
-                    ],
-                    "file_web": [
-                        "k2d-1.webp",
-                        "k2d-2.webp",
-                        "k2d-3.webp",
-                        "k2d-4.webp"
-                    ],
-                    "file_web_thb": [
-                        "k2d-1.webp",
-                        "k2d-2.webp",
-                        "k2d-3.webp",
-                        "k2d-4.webp"
-                    ],
-                    "chapter": "chapter-07",
-                    "caption": "Sketch of a 2D sexual attraction scale, showing how asexuality and bisexuality can be modeled as a continuum.",
-                    "alt": "This hand-sketched diagram has two axes, same-sex attraction from low to high, and opposite-sex attraction from low to high. The diagonal region is shaded, and in the low same- and opposite- sex attraction region, it says asexual. Under high same- and opposite-sex attraction, it says bisexual. Note these two labeled regions are connected, implying there is a gradient between the two. Under high same-sex and low opposite-sex attraction, the region is labeled heterosexual. Under high opposite-sex and low same-sex attraction, it says heterosexual. The hetero- and homo- sexual regions are separated with dashed lines suggesting there is not a single cut-off between the regions.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "acebi"
-                }
-            }
-        ]
-    },
-    "kinseyspring": {
-        "chapter": "chapter-08",
-        "type": "single_caption",
-        "input_imgs": [
-            {
-                "kinseyspring": {
-                    "file_print": [
-                        "napkin2b.jpg",
-                        "napkin_kinseyspring.jpg"
-                    ],
-                    "file_web": [
-                        "kinseyspring-1.webp",
-                        "kinseyspring-2.webp",
-                        "kinseyspring-3.webp",
-                        "kinseyspring-4.webp"
-                    ],
-                    "file_web_thb": [
-                        "kinseyspring-1.webp",
-                        "kinseyspring-2.webp",
-                        "kinseyspring-3.webp",
-                        "kinseyspring-4.webp"
-                    ],
-                    "chapter": "chapter-08",
-                    "caption": "Sketch of a 2D sexual attraction scale, where a person’s \u201cdefault position\u201d is a point, and an elliptical region around the point illustrates their \u201cflexibility.\u201d",
-                    "alt": "This hand-sketched diagram has two axes, same-sex attraction from low to high, and opposite-sex attraction from low to high. The plot shows the region divided into regions labeled \u201chomoflexible,\u201d \u201cbisexual,\u201d \u201cbi-comfortable,\u201d \u201cheterosexual,\u201d \u201cdemi-sexual,\u201d and \u201casexual,\u201d showing that one can loosely organize various sexual identities across the degree to which a person experiences high or low same- and opposite-sex attraction. It also indicates a spectrum from asexual to demisexual to bisexual along the diagonal.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "kinseyspring"
-                }
-            }
-        ]
-    },
-    "erotisme": {
-        "chapter": "chapter-09",
-        "type": "single_caption",
-        "input_imgs": [
-            {
-                "erotisme": {
-                    "file_print": [
-                        "0e5a4d22-3cce-49d5-beb4-35e257179603_4504.jpg",
-                        "66d9dbcd-c2d7-41c1-a156-50c15eb2ed32_4470.jpg",
-                        "67afbe23-f802-47ca-85f0-ec61fe6f954a_4448.jpg",
-                        "367bcd2e-1577-4367-a43d-b544ffd36104_4467.jpg",
-                        "611e3b34-0788-49ac-8d6d-cbba80304379_4455.jpg",
-                        "8019b4d4-1a84-4f30-85f2-3c6122830a99_4454.jpg"
-                    ],
-                    "file_web": [
-                        "erotisme-1.webp",
-                        "erotisme-2.webp",
-                        "erotisme-4.webp",
-                        "erotisme-5.webp",
-                        "erotisme-6.webp"
-                    ],
-                    "file_web_thb": [
-                        "erotisme-1.webp",
-                        "erotisme-2.webp",
-                        "erotisme-4.webp",
-                        "erotisme-5.webp",
-                        "erotisme-6.webp"
-                    ],
-                    "chapter": "chapter-09",
-                    "caption": "<em>Attitudes Passionnelles: Erotisme</em> (\u201cPassionate Erotic Poses\u201d), from the Salp\u00eatri\u00e8re asylum in Paris, 1878. Photograph by Paul-Marie-L\u00e9on Regnard in J.M. Charcot\u2019s <em>Iconographie photographique de la Salp\u00eatri\u00e8re</em>.",
+                    "chapter": "chapter-01",
+                    "caption": "Reverse Krebs cycle",
                     "alt": "",
                     "credit": "",
                     "size": "",
                     "indent": "",
                     "status": "",
                     "active": "true",
-                    "xfade_name": "erotisme"
+                    "xfade_name": "krebs-reversekrebs"
                 }
             }
         ]
     },
-    "chimeras": {
-        "chapter": "chapter-11",
+    "newcomen-watt": {
+        "chapter": "chapter-03",
         "type": "multi_caption",
         "input_imgs": [
             {
-                "chimericcat": {
-                    "file_print": [
-                        "fy0h18wxd9c51.jpg",
-                        "fy0h18wxd9c51.webp"
-                    ],
+                "newcomen": {
                     "file_web": [
-                        "fy0h18wxd9c51-Enhanced.webp"
+                        "practicalphysics00blacrich-2-245-Enhanced-SR Fig 180.webp"
                     ],
-                    "file_web_thb": [
-                        "fy0h18wxd9c51-Enhanced.webp"
-                    ],
-                    "chapter": "chapter-11",
-                    "caption": "Chimerism in a cat.",
-                    "alt": "A chimeric cat whose right side is orange with an orange eye, and its left side is black with a striking blue eye. The two colors are split as if by a single line running perfectly down the middle.",
+                    "chapter": "chapter-03",
+                    "caption": "Newcomen's steam engine, from Black and Davis, <i>Practical Physics</i>, 1913",
+                    "alt": "Newcomen's steam engine, from Black and Davis, <i>Practical Physics</i>, 1913",
                     "credit": "",
                     "size": "",
-                    "indent": "",
                     "status": "",
                     "active": "true",
-                    "xfade_name": "chimeras"
+                    "xfade_name": "newcomen-watt"
                 }
             },
             {
-                "chimericpeacock": {
-                    "file_print": [
-                        "2137844739_a1fe2a9a8f_o.jpeg",
-                        "R9yL3CQ.jpeg"
-                    ],
+                "watt": {
                     "file_web": [
-                        "2137844739_a1fe2a9a8f_o.webp"
+                        "practicalphysics00blacrich-2-245-Enhanced-SR Fig 181.webp"
                     ],
-                    "file_web_thb": [
-                        "2137844739_a1fe2a9a8f_o.webp"
-                    ],
-                    "chapter": "chapter-11",
-                    "caption": "Gynandromorphic peacock, Sydney, 2007.",
-                    "alt": "A chimeric peacock. The right half of its feathers are entirely white while the left half are the traditional brown, green, and blue hues.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "chimeras"
-                }
-            },
-            {
-                "taylormuhl": {
-                    "file_print": [
-                        "3nLdiwkQUYRvcoXKMhnUqM-1200-80.jpg"
-                    ],
-                    "file_web": [
-                        "3nLdiwkQUYRvcoXKMhnUqM-1200-80-Enhanced-crop.webp"
-                    ],
-                    "file_web_thb": [
-                        "3nLdiwkQUYRvcoXKMhnUqM-1200-80-Enhanced-crop.webp"
-                    ],
-                    "chapter": "chapter-11",
-                    "caption": "Chimerism in singer-songwriter Taylor Muhl (1983\u2013).",
-                    "alt": "A person's upper body showing chimerism with two distinct skin color tones split down the middle.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "chimeras"
-                }
-            }
-        ]
-    },
-    "boviepatent": {
-        "chapter": "chapter-12",
-        "type": "single_caption",
-        "input_imgs": [
-            {
-                "boviepatent": {
-                    "file_print": [
-                        "US1813902-drawings-page-1.png",
-                        "US1813902-drawings-page-2.png",
-                        "US1813902-drawings-page-3.png"
-                    ],
-                    "file_web": [
-                        "US1813902-drawings-page-1.webp",
-                        "US1813902-drawings-page-2.webp",
-                        "US1813902-drawings-page-3.webp"
-                    ],
-                    "file_web_thb": [
-                        "US1813902-drawings-page-1.webp",
-                        "US1813902-drawings-page-2.webp",
-                        "US1813902-drawings-page-3.webp"
-                    ],
-                    "chapter": "chapter-12",
-                    "caption": "\u201cAnother object of this invention is to provide an electro-surgical apparatus adapted to provide a plurality of types of current over a wide power range, [\u2026] with adjustments and controls particularly suited to the convenience of the operating surgeon and his assistants, in order that the proper current may be applied to the patient [...] without danger of confusion [\u2026].\u201d",
-                    "alt": "Patent diagram dated July 14, 1931 of an electrocautery surgery device shaped like a handgun. The diagram details the mechanisms and circuitry of the device. ",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "boviepatent"
-                }
-            }
-        ]
-    },
-    "thirdgender": {
-        "chapter": "chapter-12",
-        "type": "multi_caption",
-        "input_imgs": [
-            {
-                "hijra": {
-                    "file_print": [
-                        "A_group_of_Hijra_in_Bangladesh.jpg"
-                    ],
-                    "file_web": [
-                        "A_group_of_Hijra_in_Bangladesh-Enhanced.webp"
-                    ],
-                    "file_web_thb": [
-                        "A_group_of_Hijra_in_Bangladesh-Enhanced.webp"
-                    ],
-                    "chapter": "chapter-12",
-                    "caption": "Hijras in Bangladesh, 2010.",
-                    "alt": "Five South Asian Hijras embracing each other for a group photo. They\u2019re wearing colorful saris and smiling at the camera.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "thirdgender"
-                }
-            },
-            {
-                "wewa": {
-                    "file_print": [
-                        "We-Wa,_a_Zuni_berdache,_weaving_-_NARA_-_523796_(cropped).jpg"
-                    ],
-                    "file_web": [
-                        "We-Wa,_a_Zuni_berdache,_weaving_-_NARA_-_523796_(cropped).webp"
-                    ],
-                    "file_web_thb": [
-                        "We-Wa,_a_Zuni_berdache,_weaving_-_NARA_-_523796_(cropped).webp"
-                    ],
-                    "chapter": "chapter-12",
-                    "caption": "The late We:wa, a celebrated Zuni textile artist, weaver, and potter. As a \u0141amana (Two Spirit), they took on a mixture of women\u2019s and men\u2019s typical roles and skills. In this photograph, they wore traditional women\u2019s attire and weaved on a backstrap loom, typically a men\u2019s skill. Photo ca. 1871.",
-                    "alt": "Wewa sits on the floor of the room, clad in traditional Zuni clothes and weaving a textile on a backstrap loom.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "thirdgender"
-                }
-            }
-        ]
-    },
-    "sekundar": {
-        "chapter": "chapter-12",
-        "type": "single_caption",
-        "input_imgs": [
-            {
-                "sekundar": {
-                    "file_print": [
-                        "Sekundar IMG_2084.jpg",
-                        "Sekundar IMG_2049.jpg"
-                    ],
-                    "file_web": [
-                        "Sekundar-IMG_2049-Enhanced-EDIT-Crop-1.webp",
-                        "Sekundar-IMG_2049-Enhanced-EDIT-Crop-2.webp"
-                    ],
-                    "file_web_thb": [
-                        "Sekundar-IMG_2049-Enhanced-EDIT-Crop-1.webp",
-                        "Sekundar-IMG_2049-Enhanced-EDIT-Crop-2.webp"
-                    ],
-                    "chapter": "chapter-12",
-                    "caption": "A Biblical narrative upended. \u201cEve first, then Adam! [\u2026] Eve differentiates, unaided, whereas Adam is depicted as needing the help of the archangel who appears with an injection needle loaded with testosterone, the masculizing hormone, shoots up Eve, and lo! Adam comes forth.\u201d From Money, <em>Gay, Straight, and In-Between</em>, 19, 1988.",
-                    "alt": "A two-part comic. In the first part Adam is seated beneath a tree with a stitched up incision beneath his ribs. Beneath him it says \u201cprimar.\u201d Above him a bone is transforming into Eve. Little angels are helping with this. Beneath her it says \u201csekundar.\u201d In the second comic, Eve leans against the tree, beneath her it says \u201cprimar.\u201d Standing next to her stands Adam, half male, half female, whom the angels are injecting with testosterone. Beneath \u201chim\u201d it says \u201csekundar\u201d.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "sekundar"
-                }
-            }
-        ]
-    },
-    "eigenfaces": {
-        "chapter": "chapter-14",
-        "type": "single_caption",
-        "input_imgs": [
-            {
-                "eigenfaces": {
-                    "file_print": [
-                        "Eigenfaces.png"
-                    ],
-                    "file_web": [
-                        "eigen-1.webp",
-                        "eigen-2.webp",
-                        "eigen-3.webp",
-                        "eigen-4.webp"
-                    ],
-                    "file_web_thb": [
-                        "eigen-1.webp",
-                        "eigen-2.webp",
-                        "eigen-3.webp",
-                        "eigen-4.webp"
-                    ],
-                    "chapter": "chapter-14",
-                    "caption": "The first four principal components of face images, sometimes called \u201ceigenfaces.\u201d",
-                    "alt": "A sequence of four photos showing blurred faces, where facial features are either lightened or darkened in regions like the eye cavities or mouth area.",
-                    "credit": "",
-                    "size": "sm",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "eigenfaces"
-                }
-            }
-        ]
-    },
-    "wuzhang": {
-        "chapter": "chapter-14",
-        "type": "multi_caption",
-        "input_imgs": [
-            {
-                "wuzhang1": {
-                    "file_print": [
-                        "wuzhang-placeholder.png"
-                    ],
-                    "file_web": [
-                        "wuzhang-1.webp"
-                    ],
-                    "file_web_thb": [
-                        "wuzhang-1.webp"
-                    ],
-                    "chapter": "chapter-14",
-                    "caption": "\u201cCriminal\u201d ID card image data samples from Wu and Zhang, 2016.",
-                    "alt": "Headshots of three men. They are slightly frowning, wearing dark colored clothes, and one wears a necklace.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "wuzhang"
-                }
-            },
-            {
-                "wuzhang2": {
-                    "file_print": [
-                        "wuzhang-placeholder.png"
-                    ],
-                    "file_web": [
-                        "wuzhang-2.webp"
-                    ],
-                    "file_web_thb": [
-                        "wuzhang-2.webp"
-                    ],
-                    "chapter": "chapter-14",
-                    "caption": "\u201cNon-criminal\u201d ID card image data samples from Wu and Zhang, 2016.",
-                    "alt": "Headshots of three men. Their facial expressions are neutral and appear to be wearing white collared shirts and dark blazers.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "wuzhang"
-                }
-            }
-        ]
-    },
-    "todorov": {
-        "chapter": "chapter-14",
-        "type": "multi_caption",
-        "input_imgs": [
-            {
-                "todorov1": {
-                    "file_print": [
-                        "Todorov.png"
-                    ],
-                    "file_web": [
-                        "Todorov-1.webp"
-                    ],
-                    "file_web_thb": [
-                        "Todorov-1.webp"
-                    ],
-                    "chapter": "chapter-14",
-                    "caption": "Computer reconstruction of a \u201cnice\u201d face based on experimental data, courtesy of Alex Todorov.",
-                    "alt": "A computer animation of a bald head. The face has feminine features and raised eyebrows and slightly smiling.",
-                    "credit": "",
-                    "size": "md",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "todorov"
-                }
-            },
-            {
-                "todorov2": {
-                    "file_print": [
-                        "Todorov.png"
-                    ],
-                    "file_web": [
-                        "Todorov-2.webp"
-                    ],
-                    "file_web_thb": [
-                        "Todorov-2.webp"
-                    ],
-                    "chapter": "chapter-14",
-                    "caption": "Computer reconstruction of a \u201cmean\u201d face based on experimental data, courtesy of Alex Todorov.",
-                    "alt": "A computer animation of a bald head. The face has masculine features and lowered eyebrows and slightly scowling.",
-                    "credit": "",
-                    "size": "md",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "todorov"
-                }
-            }
-        ]
-    },
-    "wangkosinski": {
-        "chapter": "chapter-14",
-        "type": "multi_caption",
-        "input_imgs": [
-            {
-                "wangkosinski1": {
-                    "file_print": [
-                        "wangkosinski.png"
-                    ],
-                    "file_web": [
-                        "wangkosinski-1.webp"
-                    ],
-                    "file_web_thb": [
-                        "wangkosinski-1.webp"
-                    ],
-                    "chapter": "chapter-14",
-                    "caption": "Heterosexual facial composites from Wang and Kosinski, 2018.",
-                    "alt": "A masculine and feminine appearing face. The masculine face seems bald with a mustache and goatee, and a wide jaw. The feminine face has long, straight, light-colored hair and possibly wearing eyeliner and mascara, and a smiling expression.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "wangkosinski"
-                }
-            },
-            {
-                "wangkosinski2": {
-                    "file_print": [
-                        "wangkosinski.png"
-                    ],
-                    "file_web": [
-                        "wangkosinski-2.webp"
-                    ],
-                    "file_web_thb": [
-                        "wangkosinski-2.webp"
-                    ],
-                    "chapter": "chapter-14",
-                    "caption": "Homosexual facial composites from Wang and Kosinski, 2018.",
-                    "alt": "A masculine and feminine appearing face. The masculine face has short hair, the faint outlines of glasses, no facial hair, a narrower jaw, and wide open eyes. The feminine face has long dark hair, dark eyebrows, a narrower face, possibly wearing eyeliner, and a neutral expression.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "wangkosinski"
-                }
-            }
-        ]
-    },
-    "selfie": {
-        "chapter": "chapter-14",
-        "type": "single_caption",
-        "input_imgs": [
-            {
-                "selfie": {
-                    "file_print": [
-                        "IMG_0113.jpg",
-                        "IMG_0112.jpg"
-                    ],
-                    "file_web": [
-                        "IMG_0112-1.webp",
-                        "IMG_0112-2.webp"
-                    ],
-                    "file_web_thb": [
-                        "IMG_0112-1.webp",
-                        "IMG_0112-2.webp"
-                    ],
-                    "chapter": "chapter-14",
-                    "caption": "Selfies of the author, illustrating the visual effect of varying camera angle, grooming, and stylish glasses.",
-                    "alt": "Two photos of a masculine face. The first shows him without glasses and a beard, with the photo taken from below, emphasizing his jaw size. In the second, he is wearing glasses, sporting short stubble, and the photo is taken from above, causing his jaw to appear smaller.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "selfie"
-                }
-            }
-        ]
-    },
-    "babbagelovelace": {
-        "chapter": "chapter-15",
-        "type": "multi_caption",
-        "input_imgs": [
-            {
-                "babbage": {
-                    "file_print": [
-                        "Charles_Babbage_by_Antoine_Claudet_c1847-51.jpeg"
-                    ],
-                    "file_web": [
-                        "Charles_Babbage_by_Antoine_Claudet_c1847-51-Enhanced.webp"
-                    ],
-                    "file_web_thb": [
-                        "Charles_Babbage_by_Antoine_Claudet_c1847-51-Enhanced.webp"
-                    ],
-                    "chapter": "chapter-15",
-                    "caption": "Charles Babbage.",
-                    "alt": "Portrait of Charles Babbage.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "babbagelovelace"
-                }
-            },
-            {
-                "lovelace": {
-                    "file_print": [
-                        "Ada_Lovelace.jpeg"
-                    ],
-                    "file_web": [
-                        "Ada_Byron_daguerreotype_by_Antoine_Claudet_1843_or_1850-Enhanced-SR.webp"
-                    ],
-                    "file_web_thb": [
-                        "Ada_Byron_daguerreotype_by_Antoine_Claudet_1843_or_1850-Enhanced-SR.webp"
-                    ],
-                    "chapter": "chapter-15",
-                    "caption": "Augusta Ada King, Countess of Lovelace.",
-                    "alt": "An oil painting of Ada Lovelace.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "babbagelovelace"
-                }
-            }
-        ]
-    },
-    "boeree": {
-        "chapter": "chapter-15",
-        "type": "single_caption",
-        "input_imgs": [
-            {
-                "boeree": {
-                    "file_print": [
-                        "boeree.png"
-                    ],
-                    "file_web": [
-                        "boeree-Enhanced-1.webp",
-                        "boeree-Enhanced-2.webp"
-                    ],
-                    "file_web_thb": [
-                        "boeree-Enhanced-1.webp",
-                        "boeree-Enhanced-2.webp"
-                    ],
-                    "chapter": "chapter-15",
-                    "caption": "Selfies of Liv Boeree without (first) and with (second) beauty filters applied, 2021.",
-                    "alt": "Liv Boeree without and with a beauty filter applied.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "boeree"
-                }
-            }
-        ]
-    },
-    "faceapp": {
-        "chapter": "chapter-15",
-        "type": "single_caption",
-        "input_imgs": [
-            {
-                "faceapp": {
-                    "file_print": [
-                        "faceapp-1.jpeg",
-                        "faceapp-2.jpeg",
-                        "faceapp-3.jpeg",
-                        "faceapp-4.jpeg",
-                        "faceapp-5.jpeg",
-                        "faceapp-6.jpeg"
-                    ],
-                    "file_web": [
-                        "faceapp-1.webp",
-                        "faceapp-2.webp",
-                        "faceapp-3.webp",
-                        "faceapp-4.webp",
-                        "faceapp-5.webp",
-                        "faceapp-6.webp"
-                    ],
-                    "file_web_thb": [
-                        "faceapp-1.webp",
-                        "faceapp-2.webp",
-                        "faceapp-3.webp",
-                        "faceapp-4.webp",
-                        "faceapp-5.webp",
-                        "faceapp-6.webp"
-                    ],
-                    "chapter": "chapter-15",
-                    "caption": "Selfies of the author unmodified and with various FaceApp filters, 2021.",
-                    "alt": "The author\u2019s face transformed by filters to appear young, wearing lipstick, puffy, and old.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "faceapp"
-                }
-            }
-        ]
-    },
-    "huntergatherers": {
-        "chapter": "chapter-18",
-        "type": "multi_caption",
-        "input_imgs": [
-            {
-                "san": {
-                    "file_print": [
-                        "bushman_8.jpg"
-                    ],
-                    "file_web": [
-                        "life-Enhanced.webp"
-                    ],
-                    "file_web_thb": [
-                        "life-Enhanced.webp"
-                    ],
-                    "chapter": "chapter-18",
-                    "caption": "Mothers of the San people, Namibia.",
-                    "alt": "Mothers of the San people are gathered around a baby held by one of the women. That woman also carries another small child in a sling.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "huntergatherers"
-                }
-            },
-            {
-                "sami": {
-                    "file_print": [
-                        "Sami_family_Finland_1936.jpg"
-                    ],
-                    "file_web": [
-                        "Sami_family_Finland_1936-Enhanced EDIT.webp"
-                    ],
-                    "file_web_thb": [
-                        "Sami_family_Finland_1936-Enhanced EDIT.webp"
-                    ],
-                    "chapter": "chapter-18",
-                    "caption": "A S\u00e1mi family in Finland, 1936.",
-                    "alt": "A group of traditionally clad men and women, holding small children and a dog, in front of a canvas structure.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "huntergatherers"
-                }
-            }
-        ]
-    },
-    "penicillin": {
-        "chapter": "chapter-18",
-        "type": "multi_caption",
-        "input_imgs": [
-            {
-                "ampule": {
-                    "file_print": [
-                        "Three_tubes_of_penicillin_powder,_two_of_International_Stand_Wellcome_L0059014.jpeg"
-                    ],
-                    "file_web": [
-                        "Three_tubes_of_penicillin_powder,_two_of_International_Stand_Wellcome_L0059014 EDIT.webp"
-                    ],
-                    "file_web_thb": [
-                        "Three_tubes_of_penicillin_powder,_two_of_International_Stand_Wellcome_L0059014 EDIT.webp"
-                    ],
-                    "chapter": "chapter-18",
-                    "caption": "Three ampules of 1940s-era penicillin powder.",
-                    "alt": "Three glass ampules labeled \u201cpenicillin.\u201d",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "penicillin"
-                }
-            },
-            {
-                "bothhadsyphilis": {
-                    "file_print": [
-                        "_Both_of_these_men_had_syphilis__-_NARA_-_513979.jpeg"
-                    ],
-                    "file_web": [
-                        "syphilus FhvPH0GXwAA8bks-Enhanced.webp"
-                    ],
-                    "file_web_thb": [
-                        "syphilus FhvPH0GXwAA8bks-Enhanced.webp"
-                    ],
-                    "chapter": "chapter-18",
-                    "caption": "By 1943, syphilis was treatable with penicillin, as advertised by World War II era poster campaigns.",
-                    "alt": "A vintage poster showing two men, between them it says \u201cBoth of these men had SYPHILIS.\u201d One man is playing with his kid, wife and child in the background. It says \u201cHe took his Syphilis shots every week until cured.\u201d Below a lonely man, blind and on crutches, sits alone \u2013 \u201che didn\u2019t take his shots.\u201d",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "penicillin"
-                }
-            }
-        ]
-    },
-    "carryingcapacity": {
-        "chapter": "chapter-18",
-        "type": "single_caption",
-        "input_imgs": [
-            {
-                "carryingcapacity": {
-                    "file_print": [
-                        "Screenshot (46).png",
-                        "Screenshot (47).png"
-                    ],
-                    "file_web": [
-                        "carryingcapacity-1.webp",
-                        "carryingcapacity-2.webp",
-                        "carryingcapacity-3.webp",
-                        "carryingcapacity-4.webp"
-                    ],
-                    "file_web_thb": [
-                        "carryingcapacity-1.webp",
-                        "carryingcapacity-2.webp",
-                        "carryingcapacity-3.webp",
-                        "carryingcapacity-4.webp"
-                    ],
-                    "chapter": "chapter-18",
-                    "caption": "\u201c[A] population growing in a limited environment can approach the ultimate carrying capacity of that environment in several possible ways. It can adjust smoothly to an equillibrium below the environmental limit [...]. It can over-shoot the limit and then die back again in either a smooth or an oscillatory way [...]. Or it can overshoot the limit and in the process decrease the ultimate carrying capacity by consuming some necessary nonrenewable resource.\u201d From LtG, 91\u201392, 1972.",
-                    "alt": "How population growth can change as it approaches the carrying capacity of its environment.",
-                    "credit": "",
-                    "size": "md",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "carryingcapacity"
-                }
-            }
-        ]
-    },
-    "postcards": {
-        "chapter": "chapter-20",
-        "type": "multi_caption",
-        "input_imgs": [
-            {
-                "villagepostcard": {
-                    "file_print": [
-                        "Rockport_Harbor,_Rockport,_Maine_(62812).jpg",
-                        "Famous_Northport_Inn_and_Eastern_Steamship_Company's_Landing,_Northport,_Me_(NYPL_b12647398-79308).jpeg",
-                        "91Ou-6CkGhS._AC_SL1500_.jpg"
-                    ],
-                    "file_web": [
-                        "Rockport_Harbor,_Rockport,_Maine_(62812).webp"
-                    ],
-                    "file_web_thb": [
-                        "Rockport_Harbor,_Rockport,_Maine_(62812).webp"
-                    ],
-                    "chapter": "chapter-20",
-                    "caption": "Rockport Harbor, Rockport, Maine, ca. 1930\u201345.",
-                    "alt": "Idyllic scene of a village perched on a hill overlooking a calm harbor.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "postcards"
-                }
-            },
-            {
-                "factorypostcard": {
-                    "file_print": [
-                        "Moyer-autos_1915_factory.jpg"
-                    ],
-                    "file_web": [
-                        "Western Clock Factory s-l1600-Enhanced.webp"
-                    ],
-                    "file_web_thb": [
-                        "Western Clock Factory s-l1600-Enhanced.webp"
-                    ],
-                    "chapter": "chapter-20",
-                    "caption": "Western Clock Factory, La Salle, Illinois, E.C. Kropp Co., ca. 1920.",
-                    "alt": "Idealized illustration of a large red factory complex with smoke rising from its three chimneys.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "postcards"
-                }
-            },
-            {
-                "farmpostcard": {
-                    "file_print": [
-                        "il_fullxfull.3885757076_ep9a.jpg",
-                        "1307001027-l.jpg"
-                    ],
-                    "file_web": [
-                        "il_fullxfull.3885757076_ep9a-Enhanced.webp"
-                    ],
-                    "file_web_thb": [
-                        "il_fullxfull.3885757076_ep9a-Enhanced.webp"
-                    ],
-                    "chapter": "chapter-20",
-                    "caption": "\u201cHome of J.E. Ranch, Waverly, N.Y.,\u201d Asheville Postcard Company, ca. 1912.",
-                    "alt": "A farm consisting of a large red barn and several farm houses, all surrounded by lush green fields and forest.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "postcards"
-                }
-            },
-            {
-                "wildpostcard": {
-                    "file_print": [
-                        "s-l1600.jpg"
-                    ],
-                    "file_web": [
-                        "s-l1600-Enhanced.webp"
-                    ],
-                    "file_web_thb": [
-                        "s-l1600-Enhanced.webp"
-                    ],
-                    "chapter": "chapter-20",
-                    "caption": "\u201cA Mountain Stream In Autumn,\u201d Asheville Postcard Company, ca. 1912.",
-                    "alt": "A wilderness scene showing a forest of green, yellow, orange and red hues through which runs a stream.",
-                    "credit": "",
-                    "size": "",
-                    "indent": "",
-                    "status": "",
-                    "active": "true",
-                    "xfade_name": "postcards"
-                }
-            }
-        ]
-    },
-    "binning": {
-        "chapter": "appendix",
-        "type": "single_caption",
-        "input_imgs": [
-            {
-                "binning": {
-                    "file_print": [
-                        "binning.gif"
-                    ],
-                    "file_web": [
-                        "binning-graph.png",
-                        "binning.gif"
-                    ],
-                    "file_web_thb": [
-                        "binning.gif"
-                    ],
-                    "chapter": "appendix",
-                    "caption": "Many superimposed renditions of \u201cDo you identify as non-binary?\u201d binned into 10 random age range buckets (average probabilities in black, 90% confidence intervals in yellow).",
+                    "chapter": "chapter-03",
+                    "caption": "Watt's steam engine, ibid.",
                     "alt": "",
                     "credit": "",
                     "size": "",
                     "indent": "",
                     "status": "",
                     "active": "true",
-                    "xfade_name": "binning"
+                    "xfade_name":  "newcomen-watt"
+                }
+            }
+        ]
+    },
+    "phasetransition-continuedrise": {
+        "chapter": "chapter-05",
+        "type": "multi_caption",
+        "input_imgs": [
+            {
+                "phasetransition": {
+                    "file_web": [
+                        "phasetransition.webp"
+                    ],
+                    "chapter": "chapter-03",
+                    "caption": "Scatter plot showing the first ~30 million interactions in a bff run as dots with height equal to the number of operations. Note the sharp transition to computing-intensive full-tape replication at ~15 million interactions.",
+                    "alt": "Scatter plot showing the first ~30 million interactions in a bff run as dots with height equal to the number of operations. Note the sharp transition to computing-intensive full-tape replication at ~15 million interactions.",
+                    "credit": "",
+                    "size": "",
+                    "status": "",
+                    "active": "true",
+                    "xfade_name": "phasetransition-continuedrise"
+                }
+            },
+            {
+                "continuedrise": {
+                    "file_web": [
+                        "continuedrise.webp"
+                    ],
+                    "chapter": "chapter-03",
+                    "caption": "Histogram showing number of bytes coding for instructions per tape in the same bff run; note the ongoing rise in the amount of code even after the transition to full-tape replication at 15 million interactions.",
+                    "alt": "",
+                    "credit": "",
+                    "size": "",
+                    "indent": "",
+                    "status": "",
+                    "active": "true",
+                    "xfade_name":  "phasetransition-continuedrise"
                 }
             }
         ]
