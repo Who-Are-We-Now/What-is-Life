@@ -409,7 +409,8 @@ module.exports = function (eleventyConfig) {
 			outdir: "docs/assets/js",
 			entryNames: "bundle-[name]",
 			minify: true,
-			platform: "node"
+			// platform: "node"
+			platform: "browser" // updated to browser to handle bundle-script.js error
 		});
 	});
 
