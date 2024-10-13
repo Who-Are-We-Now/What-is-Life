@@ -16,6 +16,7 @@ const plots = require("./src/_data/plots.json"); //read in plots metadata file
 
 const NOT_FOUND_PATH = "./docs/page-not-found/index.html";
 
+
 // Add within your config module
 const md = new markdownIt({
 	html: true,
@@ -401,8 +402,6 @@ module.exports = function (eleventyConfig) {
 
 	});
 
-
-
 	eleventyConfig.on("eleventy.before", async () => {
 		await esbuild.build({
 			entryPoints: ["./src/assets/js/script.js"],
@@ -413,6 +412,7 @@ module.exports = function (eleventyConfig) {
 			platform: "node"
 		});
 	});
+
 
 	eleventyConfig.addTransform("htmlmin", function (content) {
 		if (this.inputPath.endsWith(".md") && this.page) {

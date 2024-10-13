@@ -1,5 +1,7 @@
+import { Antikythera } from '@antikythera/antikythera';
 import * as utils from "./global-utils";
-import * as figutils from "./fig-utils"
+import * as figutils from "./fig-utils";
+
 
 let viewport; //store viewport state to compare against
 
