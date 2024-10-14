@@ -1037,6 +1037,7 @@ SECTION SPECIFIC OVERIDES
 	margin-left: 50%;
 	display: block;
 	z-index: 10;
+	mix-blend-mode: difference;
 
 	@include at-media(tablet_lg) {
 		padding: calc(var(--pad-body)*0.5) var(--pad-body);

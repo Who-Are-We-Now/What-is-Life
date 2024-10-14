@@ -9158,6 +9158,7 @@ SECTION SPECIFIC OVERIDES
   margin-left: 50%;
   display: block;
   z-index: 10;
+  mix-blend-mode: difference;
 }
 @media (max-width: 1024px) {
   .title {
