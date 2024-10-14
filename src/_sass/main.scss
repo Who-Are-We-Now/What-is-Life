@@ -1077,7 +1077,10 @@ SECTION SPECIFIC OVERIDES
 	height: var(--height-cover);
 	overflow: hidden;
 	position: relative;
-	background-color: var(--color-default);
+	background-color: var(--brown-light);
+	#c {
+		mix-blend-mode: darken;
+	}
 }
 
 
