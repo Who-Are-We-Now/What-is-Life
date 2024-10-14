@@ -5658,7 +5658,7 @@ Use and Imports
   --base-size: 20px;
   --xlarge-size: 5rem;
   --heading-size: 3.5rem;
-  --large-size: 2.5rem;
+  --large-size: 2.25rem;
   --medium-size: 1.75rem;
   --caption-size: .8rem;
   --small-size: .6875rem;
@@ -6067,7 +6067,7 @@ nav ul.toc li a.thb {
   justify-content: center;
 }
 .crossfade.figure.image img {
-  max-height: 100vh;
+  max-height: 70vh;
 }
 .crossfade.multi_caption figcaption {
   transition: opacity 400ms ease-in-out;
@@ -6224,6 +6224,11 @@ FIGURES-specific OVERRIDES
 
 #britain .britain img, #britain .britain figcaption {
   width: 80%;
+}
+
+#mandelcurve-fig figcaption,
+#mandelbrot67-fig figcaption {
+  height: 50px;
 }
 
 /*--------------------------------------*/
@@ -8511,7 +8516,7 @@ video {
 }
 
 main {
-  margin-top: var(--height-header);
+  margin-top: 0;
 }
 
 footer {
@@ -8524,7 +8529,7 @@ section {
 }
 
 section.content {
-  padding-top: var(--pad-section);
+  padding-top: var(--pad-body);
   padding-bottom: 50vh;
   position: relative;
 }
@@ -8568,6 +8573,11 @@ table th:first-child {
 }
 
 /* NAV ---------------------------------------------------------*/
+nav {
+  position: absolute;
+  width: 100%;
+  display: none;
+}
 nav .navlink {
   position: fixed;
   z-index: 1000;
@@ -8910,6 +8920,7 @@ body.noscroll {
 article h1, article h2 {
   padding: 0 var(--pad-body);
   font-size: var(--large-size);
+  line-height: var(--lineheight);
   display: inline-block;
   float: left;
 }
@@ -9043,7 +9054,7 @@ article .questions ol li::before {
 .chapter-opener {
   background-color: var(--color-default);
   color: var(--brown-light);
-  padding: calc(var(--pad-body) * 1.5) 0;
+  padding: var(--pad-body);
   margin: calc(var(--pad-body) * 1.5) 0;
 }
 .chapter-opener h2 + p {
@@ -9140,25 +9151,7 @@ section.footnotes {
 SECTION SPECIFIC OVERIDES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
 */
-/* HOME  --------------------------------------------------*/
-body#home {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-}
-body#home header,
-body#home nav {
-  position: absolute;
-  width: 100%;
-}
-body#home header .nav-title,
-body#home nav .nav-title {
-  display: none;
-}
-body#home main {
-  margin-top: 0;
-}
-body#home main .title {
+.title {
   color: var(--brown-light);
   padding: var(--pad-body);
   position: relative;
@@ -9167,42 +9160,43 @@ body#home main .title {
   z-index: 10;
 }
 @media (max-width: 1024px) {
-  body#home main .title {
+  .title {
     padding: calc(var(--pad-body) * 0.5) var(--pad-body);
   }
 }
 @media (max-width: 600px) {
-  body#home main .title {
+  .title {
     padding: var(--pad-body);
   }
 }
-body#home main .title h1 {
+.title h1 {
   font-size: 10.5rem;
   line-height: 0.8;
   font-weight: var(--wght-ultra);
 }
 @media (max-width: 850px) {
-  body#home main .title h1 {
+  .title h1 {
     font-size: var(--xlarge-size);
   }
 }
-body#home main .title h3 {
+.title h3 {
   font-weight: var(--wght-semibold);
   font-size: var(--medium-size);
   margin-bottom: var(--pad);
   padding-left: calc(var(--pad-section) * 0.8);
 }
 @media (max-width: 850px) {
-  body#home main .title h3 {
+  .title h3 {
     font-size: var(--medium-size);
   }
 }
 @media (max-width: 600px) {
-  body#home main .title h3 {
+  .title h3 {
     font-size: var(--base-size);
   }
 }
-body#home main .home-cover {
+
+.home-cover {
   width: 100%;
   height: var(--height-cover);
   overflow: hidden;

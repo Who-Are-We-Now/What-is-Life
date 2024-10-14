@@ -201,7 +201,7 @@ video {
 }
 
 main {
-	margin-top: var(--height-header);
+	margin-top: 0;
 }
 
 footer {
@@ -214,7 +214,7 @@ section {
 }
 
 section.content {
-	padding-top: var(--pad-section);
+	padding-top: var(--pad-body);
 	padding-bottom: 50vh;
 	position: relative;
 
@@ -269,7 +269,13 @@ table {
 
 /* NAV ---------------------------------------------------------*/
 nav {
+	
+		position: absolute;
+		width: 100%;
+		display: none;
+
 	.navlink {
+		
 		position: fixed;
 		z-index: 1000;
 		width: 100%;
@@ -693,6 +699,7 @@ article {
 	h1, h2{
 		padding: 0 var(--pad-body);
 		font-size: var(--large-size);
+		line-height: var(--lineheight);
 		display: inline-block;
     	float: left;
 	}
@@ -891,7 +898,7 @@ article {
 .chapter-opener { 
 	background-color: var(--color-default);
 	color: var(--brown-light);
-	padding:  calc(var(--pad-body)*1.5) 0 ;
+	padding: var(--pad-body);
 	margin:  calc(var(--pad-body)*1.5) 0;
 	
 	h2 + p {
@@ -905,154 +912,11 @@ article {
 	}
 }
 
-// .section{
-// 	nav {
-// 		--accent: var(--white);
-// 		--color-default: var(--white);
-
-// 		.navlink {
-// 			background-color: var(--color-section);
-// 			border-color: var(--white);
-// 		}
-
-// 		li {
-// 			border-color: var(--white);
-// 		}
-
-// 		.toc-link {
-// 			color: var(--white);
-// 			background-color: var(--color-section);
-
-// 			&:hover {
-// 				background-color: var(--white);
-// 				color: var(--color-section);
-// 			}
-// 		}
-
-// 		.toc-section .toc-link {
-// 			background-color: var(--color-section);
-// 			color: var(--white);
-
-// 			&:hover {
-// 				background-color: var(--white);
-// 				color: var(--color-section);
-// 				;
-// 			}
-// 		}
-
-// 	}
-
-// 	li.is-active {
-// 		.toc-link {
-// 			background-color: var(--white);
-// 			color: var(--color-section);
-// 		}
-// 	}
-// }
 
 
 
 
-// body.interlude {
-// 	//interlude figure styles are in _figures.scss
-// 	// except other modules with the class
-// 	background: var(--color-default);
-// 	color: var(--white);
 
-// 	[class*=chapter-] a {
-// 		color: var(--white);
-// 	}
-// article p {
-// 	width: 457px;
-// }
-// 	main {
-// 		// margin: 0 auto;
-// 		display: flex;
-// 		flex-direction: column;
-// 		align-items: center;
-
-// 		.chapter-header {
-// 			padding-left: 0;
-// 			padding-right: 20%;
-// 			display: block;
-// 			text-indent: 0;
-// 			width: 457px;
-// 			height: auto;
-// 		}
-
-// 		section:not(section.chapter-next),
-// 		p:not(.footnote-text p) {
-// 			margin: 0 auto;
-// 		}
-
-// 		blockquote {
-// 			margin-left: auto;
-// 			margin-right: auto;
-// 		}
-
-// 		hr {
-// 			width: 457px;
-// 			margin: var(--pad-section) auto;
-// 		}
-
-// 		figure.single.xl+hr,
-// 		.cols+hr {
-// 			margin: 0 auto;
-// 		}
-
-
-// 		article>div.cols:first-of-type,
-// 		hr+div.cols,
-// 		hr+figure.single,
-// 		hr+figure.single.sm,
-// 		hr+figure.single.md,
-// 		hr+figure.single.lg,
-// 		hr+figure.single.xl {
-// 			padding-top: 0;
-
-// 			&+p {
-// 				text-indent: 0;
-// 			}
-// 		}
-
-// 		article {
-// 			width: 100%;
-// 			padding-bottom: calc(var(--pad-section)*2);
-// 		}
-// 	}
-
-// 	.cols {
-// 		margin: auto 0;
-// 		align-items: baseline;
-// 		display: flex;
-// 		justify-content: center;
-// 		padding: 3rem 0rem;
-
-// 		@include at-media(mobile_lg) {
-// 			flex-direction: column;
-// 		}
-
-// 	}
-
-// 	.cols.md {
-// 		/* one instance that goes with normal chapter layout*/
-// 		align-items: flex-start;
-
-// 		p:not(.footnote-text p) {
-// 			width: 100%;
-// 		}
-// 	}
-
-// 	.footnote-text {
-// 		background: var(--color-default);
-// 		border: 1px solid var(--white);
-// 		color: var(--white);
-// 	}
-
-// 	.chapter-next {
-// 		width: 100%;
-// 	}
-// }
 
 
 /*--------------------------------------------------------------*/
@@ -1165,116 +1029,57 @@ SECTION SPECIFIC OVERIDES
 */
 
 
-/* HOME  --------------------------------------------------*/
 
-body#home {
+.title {
+	color: var(--brown-light);
+	padding: var(--pad-body);
+	position: relative;
+	margin-left: 50%;
+	display: block;
+	z-index: 10;
 
-	display: flex;
-	flex-direction: column;
-	padding: 0;
+	@include at-media(tablet_lg) {
+		padding: calc(var(--pad-body)*0.5) var(--pad-body);
+	}
 
-	header,
-	nav {
-		position: absolute;
-		width: 100%;
+	@include at-media(mobile_lg) {
+		padding: var(--pad-body);
+	}
 
-		.nav-title {
-			display: none;
+
+	h1 {
+		font-size: 10.5rem;
+		line-height: 0.8;
+		font-weight: var(--wght-ultra);
+		@include at-media(tablet) {
+			font-size: var(--xlarge-size);
 		}
 	}
 
-	// nav {
-	// 	.navlink {
-	// 		position: absolute;
-	// 		background-color: transparent;
-	// 		border: none;
-	// 	}
-
-	// 	.icon {
-	// 		display: none;
-	// 	}
-
-	// 	.info {
-	// 		color: var(--white);
-	// 		display: flex;
-	// 		position: absolute;
-	// 	}
-
-	// 	.current-page {
-	// 		padding: 0 5px 5px 5px;
-	// 		display: inline-block;
-
-	// 		.nav-home {
-	// 			display: none;
-	// 		}
-
-	// 	}
-
-
-	// 	#toc {
-	// 		display: block;
-	// 		position: relative;
-	// 		height: auto;
-	// 		padding: 0;
-	// 		transform: translateY(0);
-	// 		margin-top: var(--height-cover);
-	// 	}
-	// }
-
-	main {
-		margin-top: 0;
-
-		.title {
-			color: var(--brown-light);
-			padding: var(--pad-body);
-			position: relative;
-			margin-left: 50%;
-			display: block;
-			z-index: 10;
-
-			@include at-media(tablet_lg) {
-				padding: calc(var(--pad-body)*0.5) var(--pad-body);
-			}
-
-			@include at-media(mobile_lg) {
-				padding: var(--pad-body);
-			}
-
-
-			h1 {
-				font-size: 10.5rem;
-				line-height: 0.8;
-				font-weight: var(--wght-ultra);
-				@include at-media(tablet) {
-					font-size: var(--xlarge-size);
-				}
-			}
-
-			h3 {
-				
-				font-weight: var(--wght-semibold);
-				font-size: var(--medium-size);
-				margin-bottom: var(--pad);
-				padding-left: calc(var(--pad-section)*0.8);
-				@include at-media(tablet) {
-					font-size: var(--medium-size);
-				}
-
-				@include at-media(mobile_lg) {
-					font-size: var(--base-size);
-				}
-			}
+	h3 {
+		
+		font-weight: var(--wght-semibold);
+		font-size: var(--medium-size);
+		margin-bottom: var(--pad);
+		padding-left: calc(var(--pad-section)*0.8);
+		@include at-media(tablet) {
+			font-size: var(--medium-size);
 		}
-	
-		.home-cover {
-			width: 100%;
-			height: var(--height-cover);
-			overflow: hidden;
-			position: relative;
-			background-color: var(--color-default);
+
+		@include at-media(mobile_lg) {
+			font-size: var(--base-size);
 		}
 	}
 }
+
+.home-cover {
+	width: 100%;
+	height: var(--height-cover);
+	overflow: hidden;
+	position: relative;
+	background-color: var(--color-default);
+}
+
 
 
 

@@ -391,7 +391,7 @@ nav ul.toc li a.thb {
 		justify-content: center;
 
 		img {
-			max-height: 100vh;
+			max-height: 70vh; //important for mandelcurve
 		}
 	}
 
@@ -537,6 +537,12 @@ FIGURES-specific OVERRIDES
 	}
 }
 
+#mandelcurve-fig,
+#mandelbrot67-fig {
+	figcaption {//match the caption height to smooth trantionsion between
+		 height: 50px;
+	}
+}
 
 
 
