@@ -1,0 +1,41 @@
+<svg id="map"></svg>
+
+<script>
+    // Create an SVG element
+    const svg = d3.select("#map");
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    // Define a geographic projection (you can change this as needed)
+    const projection = d3.geoMercator()
+        .scale(150) // Adjust this for your dataset
+        .translate([width / 2, height / 2]);
+
+    // Define a path generator using the projection
+    const path = d3.geoPath().projection(projection);
+
+    // Load GeoJSON data
+    d3.json("assets/media/britain/england-default-1000.geojson").then(function(geojsonData) {
+
+        // Transform GeoJSON data into 2D using D3's projection
+        svg.selectAll("path")
+            .data(geojsonData.features)
+            .enter()
+            .append("path")
+            .attr("d", path)
+            .attr("stroke", "blue")
+            .attr("stroke-width", 1)
+            .attr("fill", "none");
+
+        // Optional: Add points (if you want to visualize points from GeoJSON)
+        svg.selectAll("circle")
+            .data(geojsonData.features.filter(d => d.geometry.type === "Point"))
+            .enter()
+            .append("circle")
+            .attr("cx", d => projection(d.geometry.coordinates)[0])
+            .attr("cy", d => projection(d.geometry.coordinates)[1])
+            .attr("r", 3)
+            .attr("fill", "red");
+    });
+
+</script>

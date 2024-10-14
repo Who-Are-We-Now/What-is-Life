@@ -85,8 +85,7 @@ function setupNav() {
 	Info Overlay
 ------------------------------------------------*/
 function setupAboutOverlay() {
-	let infoButton = document.querySelector(".info");
-	infoButton.addEventListener("click", toggleInfoPopup, false);
+
 
 	//setup purchase
 	let order_event = {
@@ -96,38 +95,6 @@ function setupAboutOverlay() {
 	utils.sendAnalyticsEvent(order_event);
 }
 
-function toggleInfoPopup() {
-	let infoButton = document.querySelector(".info");
-	let infoPopup = document.getElementById("summary-popup");
-	let nav = document.querySelector("nav");
-	let toc = document.getElementById("toc");
-	let navTitle = nav.querySelector(".nav-title")
-
-	const url = new URL(window.location);
-	url.hash = '#about';
-	window.history.pushState({}, '', url.hash);
-
-	if (infoPopup.classList.contains('visible')) {
-		//close about
-		infoButton.classList.remove('opened');
-		infoPopup.classList.remove('visible');
-		// document.body.classList.remove('lock-scroll');		
-		utils.updateHash('about', 'remove');
-		document.body.classList.remove('noscroll');
-
-	} else {
-		//open about
-		infoButton.classList.add('opened');
-		infoPopup.classList.add('visible');
-		// document.body.classList.add('lock-scroll');
-		// close if the global nav is open
-		nav.classList.remove('menu-on');
-		toc.classList.remove('display');
-		navTitle.classList.remove('arrow-up');
-		document.body.classList.add('noscroll');
-
-	}
-}
 
 
 

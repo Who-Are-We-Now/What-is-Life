@@ -12,6 +12,7 @@
 		### Interlude
 	## REFERENCE & FOOTNOTE STYLES 
 	## FIGURE STYLE
+	## MOTION STYLES 
 	## SPLOT STYLES 
 # SECTION AGNOSTIC OVERRIDES
   ## Structure
@@ -5685,8 +5686,8 @@ Use and Imports
   --pad: 1.6rem;
   --pad-sm: .75rem;
   --pad-xs: .375rem;
-  --indent: 3rem;
-  --plot-indent: 3rem;
+  --indent: 2rem;
+  --plot-indent: 2rem;
   /* figure styles */
   --stroke: 2px;
   /*border radious */
@@ -6215,6 +6216,25 @@ FIGURES-specific OVERRIDES
 
 #newcomen-watt-fig .xfade-images {
   width: 80%;
+}
+
+#catscradlevideo-media figcaption {
+  margin-top: -40px;
+}
+
+#britain .britain img, #britain .britain figcaption {
+  width: 80%;
+}
+
+/*--------------------------------------*/
+/* MOTION STYLES --------------*/
+/*--------------------------------------*/
+#c {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /*--------------------------------------*/
@@ -8477,6 +8497,10 @@ img {
   width: 100%;
 }
 
+video {
+  width: 100%;
+}
+
 /*--------------------------------------------------------------*/
 /* MAIN STRUCTURES & LAYOUTS ----------------------------------------*/
 /*--------------------------------------------------------------*/
@@ -8548,14 +8572,15 @@ nav .navlink {
   position: fixed;
   z-index: 1000;
   width: 100%;
-  top: 0;
+  top: auto;
   left: 0;
+  bottom: 0;
   display: flex;
   transition: transform 0.2s ease-in-out;
   transform: translateY(0%);
   padding: var(--pad-sm) var(--pad-body);
   background-color: var(--white);
-  border-bottom: solid 1px;
+  border-top: solid 1px;
   height: var(--height-header);
 }
 nav .icon,
@@ -8888,10 +8913,6 @@ article h1, article h2 {
   display: inline-block;
   float: left;
 }
-article h1 + p,
-article h2 + p {
-  text-indent: 0;
-}
 article p {
   text-indent: var(--indent);
   margin-left: 50%;
@@ -8905,31 +8926,26 @@ article sub {
 }
 article h1 + p,
 article h2 + p,
+article h1 + p,
+article h2 + p,
 article h4 + p,
-article hr + p, article > p:first-child,
-article hr + .figarea > .text-img:first-child > p:first-child,
-article hr + .figarea > .text-plot:first-child > p:first-child,
-article section.content > p:first-child,
-article section.content > .figarea:first-child > .text-img:first-child > p:first-child,
-article blockquote + p,
-article blockquote + .figarea > div:nth-of-type(3) > p:first-of-type,
-article .questions + p,
-article hr + figure + p,
-article #hetero .scroll-overlay:last-child p,
-article #ltgle .scroll-overlay:nth-child(10) p {
+article hr + p,
+article .chapter-opener + .figarea > .text-img,
+article .figarea.fullbleed + p,
+article hr + figure + p {
   text-indent: 0;
 }
 article li {
   padding-bottom: var(--lineheight);
+  line-height: var(--lineheight);
 }
 article li:last-child {
   padding-bottom: 0;
 }
 article li::before {
-  font-weight: 500;
   position: absolute;
   line-height: var(--lineheight);
-  margin-top: 1px;
+  margin-left: -30px;
 }
 article li p {
   text-indent: 0;
@@ -9054,7 +9070,7 @@ article .questions ol li::before {
   color: var(--accent);
 }
 .reference .footnote-ref {
-  font-weight: 500;
+  font-weight: var(--wght-semibold);
   font-size: var(--caption-size);
   font-style: normal;
   position: relative;
@@ -9093,7 +9109,7 @@ article .questions ol li::before {
 }
 
 .footnote-number {
-  font-weight: 500;
+  font-weight: var(--wght-semibold);
   padding-right: 1.5em;
 }
 
@@ -9139,39 +9155,11 @@ body#home header .nav-title,
 body#home nav .nav-title {
   display: none;
 }
-body#home nav .navlink {
-  position: absolute;
-  background-color: transparent;
-  border: none;
-}
-body#home nav .icon {
-  display: none;
-}
-body#home nav .info {
-  color: var(--white);
-  display: flex;
-  position: absolute;
-}
-body#home nav .current-page {
-  padding: 0 5px 5px 5px;
-  display: inline-block;
-}
-body#home nav .current-page .nav-home {
-  display: none;
-}
-body#home nav #toc {
-  display: block;
-  position: relative;
-  height: auto;
-  padding: 0;
-  transform: translateY(0);
-  margin-top: var(--height-cover);
-}
 body#home main {
   margin-top: 0;
 }
 body#home main .title {
-  color: var(--white);
+  color: var(--brown-light);
   padding: var(--pad-body);
   position: relative;
   margin-left: 50%;

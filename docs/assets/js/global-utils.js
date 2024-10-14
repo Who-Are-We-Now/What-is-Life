@@ -122,15 +122,26 @@ export function showFootnote( fnId, event ){
 					id_x = event.clientX;
 				}
 			}
-			if (id_x >= window.innerWidth * 0.6) {
+			if (id_x >= window.innerWidth * 0.2) {
 				//when footnote xcord locates near the right margin
 				id_y = id_y + 20;
 				id_x = rightMargin;
 				anchor_x = "right";
-			}
+			}	
 		} else {
-			id_y = id_y - 13;
-			id_x = id_x + 10;
+
+		
+
+			if (id_x >= window.innerWidth * 0.9) {
+				//when footnote xcord locates near the right margin
+				id_y = id_y + 30;
+				id_x = id_x - 320; //orgin loc - footnote maxwidth
+			} else {
+				id_y = id_y - 17;
+				id_x = id_x + 10;
+			}
+		
+		
 		}
 
 		FNpopup.style.cssText = `top: ${id_y}px; ${anchor_x}: ${id_x}px; position: ${position}`;

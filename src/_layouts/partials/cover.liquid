@@ -1,0 +1,124 @@
+{% comment %} <canvas id="c"></canvas>
+<script>
+    "use strict";
+    const canvas = document.getElementById('c');
+    const gl = canvas.getContext("webgl2", { 
+        antialias: true, 
+        alpha: false, 
+        preserveDrawingBuffer: true, 
+        premultipliedAlpha: false // 알파 프리멀티플 제거
+    });
+    
+    // WebGL 2.0 컨텍스트 지원 여부 확인
+    if (!gl) {
+        alert("The browser doesn't support WebGL 2.0");
+    } else {
+        // sRGB 색상 공간 활성화 (WebGL 2.0 전용)
+        // gl.enable(gl.FRAMEBUFFER_SRGB); 
+        gl.disable(gl.BLEND); // 블렌딩 비활성화
+    gl.disable(gl.FRAMEBUFFER_SRGB); // sRGB 색상 공간 비활성화
+
+    }
+
+    const glsl = SwissGL(canvas);
+
+    let state; // we can also init the texture right here
+
+    function reset() {
+        state = glsl({
+            seed:Math.random()*123243,
+            FP: `1.0, exp(-400.0*dot(XY,XY))*hash(I.xyx+int(seed)).x, 0, 0`
+        }, { // note that target spec is the second argument
+            size: [256, 256],
+            format: 'rgba16f',
+            filter: 'linear',
+            story: 2,
+            tag: 'state'
+        });
+    }
+    reset();
+    // reset the grid on canvas click
+    canvas.addEventListener('click', reset);
+
+
+    glsl.loop(() => { 
+        glsl.adjustCanvas();
+
+        for (let j=0; j<10; ++j) { // n time steps
+            // Preblur
+            for (let i=0; i<8; ++i) // n preblur steps
+            glsl({FP: `
+                vec2 v = Src(I).xy;
+                {
+                    ivec2 D = Src_size();
+                    #define S(x,y) Src(ivec2(x,y)).xy   
+                    int x = I.x, y = I.y, l = (x-1+D.x)%D.x, r = (x+1)%D.x, u = (y-1+D.y)%D.y, d = (y+1)%D.y;
+                    vec2 blur = v / 4.0 + (S(l,y) + S(r,y) + S(x,u) + S(x,d)) / 8.0 + (S(l,u) + S(r,u) + S(l,d) + S(r,d)) / 16.0;
+                    v = mix(v, blur, vec2(1.0, 0.5));
+                }
+                FOut.xy = v;
+            `}, state);
+
+            glsl({seed:Math.random()*123546, FP: `
+                vec2 v = Src(I).xy;
+                {
+                    ivec2 D = Src_size();
+                    #define S(x,y) Src(ivec2(x,y)).xy   
+                    int x = I.x, y = I.y, l = (x-1+D.x)%D.x, r = (x+1)%D.x, u = (y-1+D.y)%D.y, d = (y+1)%D.y;
+                    vec2 blur = v / 4.0 + (S(l,y) + S(r,y) + S(x,u) + S(x,d)) / 8.0 + (S(l,u) + S(r,u) + S(l,d) + S(r,d)) / 16.0;
+                    v = mix(v, blur, vec2(1.0, 0.5));
+                }
+                const float k=0.053 * 0.95, f=0.021 * 0.95;
+                //const float k=0.053 * 0.95, f=0.021 * 0.94;
+                //const float k=0.05684, f=0.02542;
+
+                float m = hash(I.xyx+int(seed)).x * 0.003;
+
+                float r = v.x*v.y*v.y + m;
+                FOut.xy = v + vec2(-r+f*(1.0-v.x), r-(f+k)*v.y);
+            `}, state);
+        }
+
+        // upres
+        const upres = glsl({
+            state:state[0],
+            FP: `FOut = state(UV);`},{
+            size: [1600, 1600],
+            format: 'rgba16f',
+            filter: 'linear',
+            story: 2,
+            tag: 'upres'
+        });
+
+        // Color mapping and rendering as before
+        const colormapped = glsl({
+            //state:state[0],
+            upres:upres[0],
+            FP:`
+                float v = sqrt(upres(I).y);
+                float steepness = 250.;
+                float w = 1.0 / (1.0 + exp(-steepness * (v - 0.35))); // sigmoid centered at 0.5
+                w = smoothstep(0.0, 1.0, w);
+                // FOut.rgb = mix(vec3(0.04,0.04,0.), vec3(1.,1.,0.8), w);
+                FOut.rgb = mix(vec3(0.04,0.04,0.), vec3(0.666, 0.588, 0.561), w);
+                 vec3 targetColor = vec3(170.0 / 255.0, 150.0 / 255.0, 143.0 / 255.0); // 갈색
+            FOut.rgb = clamp(targetColor, 0.0, 1.0); // 색상 범위 조정
+
+                FOut.a = 1.0; // 알파 값 고정
+
+            `},
+            {size:upres.size, filter:'linear', tag:'colormapped'}
+        );
+
+        glsl({ 
+            tex: colormapped,
+            Aspect: 'cover',
+            // FP: `sqrt(tex(UV).y)`
+            FP: `tex(UV).y` // sqrt() 제거
+
+        });
+    });
+    console.error(gl.getError());
+
+
+</script> {% endcomment %}

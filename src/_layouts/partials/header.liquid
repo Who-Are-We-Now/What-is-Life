@@ -22,7 +22,8 @@
 					</svg>
 				</div>
 			</div>
-			<antikythera-menu entry="example-entry" /></antikythera-menu>
+
+			{% comment %} <antikythera-menu entry="example-entry" /></antikythera-menu> {% endcomment %}
 
 			<div class="current-page">
 				<a class="nav-home" href="/"><span class="nav-sitetitle">What is Intelligence?</span></a>
@@ -56,11 +57,6 @@
 			</div>
 			
 		</div>
-		<div class="info">
-			<span class="open">●●●</span>
-			<span class="close">✕</span>
-		</div>
-		
 		<ul id="toc">
 			{%- for item in collections.toc -%}
 				{%- assign marker = item.data.chapter -%}

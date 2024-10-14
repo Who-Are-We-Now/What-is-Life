@@ -11,6 +11,7 @@
 		### Interlude
 	## REFERENCE & FOOTNOTE STYLES 
 	## FIGURE STYLE
+	## MOTION STYLES 
 	## SPLOT STYLES 
 # SECTION AGNOSTIC OVERRIDES
   ## Structure
@@ -35,6 +36,7 @@ Use and Imports
 @import 'responsive-settings';
 @import 'variables';
 @import 'figures';
+@import 'motions';
 @import 'plot-styles';
 @import 'maps';
 @import 'players';
@@ -185,6 +187,9 @@ img {
 	width: 100%;
 }
 
+video {
+	width: 100%;
+}
 /*--------------------------------------------------------------*/
 /* MAIN STRUCTURES & LAYOUTS ----------------------------------------*/
 /*--------------------------------------------------------------*/
@@ -268,14 +273,15 @@ nav {
 		position: fixed;
 		z-index: 1000;
 		width: 100%;
-		top: 0;
-		left: 0;
+		top: auto;
+		left:0;
+		bottom: 0;
 		display: flex;
 		transition: transform 0.2s ease-in-out;
 		transform: translateY(0%);
 		padding: var(--pad-sm) var(--pad-body);
 		background-color: var(--white);
-		border-bottom: solid 1px;
+		border-top: solid 1px;
 		height: var(--height-header);
 	}
 
@@ -687,20 +693,13 @@ article {
 	h1, h2{
 		padding: 0 var(--pad-body);
 		font-size: var(--large-size);
-	// }
-	// h2 {
 		display: inline-block;
     	float: left;
 	}
 
-	h1 + p,
-	h2 + p {
-		text-indent: 0;
-	}
 
 	p{
 		text-indent: var(--indent);
-		// margin-left: var(--margin);
 		margin-left: 50%;
 		width: var(--width-text);
 		padding-left: var(--pad-body);
@@ -714,41 +713,40 @@ article {
 	}
 
 	//cancel text-indent on the first-paragraph 
+
+	h1 + p,
+	h2 + p,
 	h1+p,
 	h2+p,
 	h4+p,
 	hr+p,
-	&>p:first-child,
-	hr+.figarea>.text-img:first-child>p:first-child,
-	hr+.figarea>.text-plot:first-child>p:first-child,
-	section.content>p:first-child,
-	section.content>.figarea:first-child>.text-img:first-child>p:first-child,
-	blockquote+p,
-	blockquote+.figarea>div:nth-of-type(3)>p:first-of-type,
-	.questions+p,
-	hr+figure+p,
-	//interlude 
-	#hetero .scroll-overlay:last-child p,
-	//mobile 
-	#ltgle .scroll-overlay:nth-child(10) p //mobile 
-
-		{
+	.chapter-opener + .figarea > .text-img,
+	.figarea.fullbleed + p,
+	// &>p:first-child,
+	// hr+.figarea>.text-img:first-child>p:first-child,
+	// hr+.figarea>.text-plot:first-child>p:first-child,
+	// section.content>p:first-child,
+	// section.content>.figarea:first-child>.text-img:first-child>p:first-child,
+	// blockquote+p,
+	// blockquote+.figarea>div:nth-of-type(3)>p:first-of-type,
+	// .questions+p,
+	hr+figure+p {
 		text-indent: 0;
 	}
 
 	li {
 		padding-bottom: var(--lineheight);
-
+		line-height: var(--lineheight);
+		
 		&:last-child {
 			padding-bottom: 0;
 		}
 
 		&::before {
-			
-			font-weight: 500;
+		
 			position: absolute;
 			line-height: var(--lineheight);
-			margin-top: 1px;
+			margin-left: -30px;
 		}
 
 		p {
@@ -1075,7 +1073,7 @@ article {
 
 	.footnote-ref {
 		
-		font-weight: 500;
+		font-weight: var(--wght-semibold);
 		font-size: var(--caption-size);
 		font-style: normal;
 		position: relative;
@@ -1127,7 +1125,7 @@ article {
 
 .footnote-number {
 	//reference number in popup
-	font-weight: 500;
+	font-weight: var(--wght-semibold);
 	padding-right: 1.5em;
 }
 
@@ -1185,49 +1183,49 @@ body#home {
 		}
 	}
 
-	nav {
-		.navlink {
-			position: absolute;
-			background-color: transparent;
-			border: none;
-		}
+	// nav {
+	// 	.navlink {
+	// 		position: absolute;
+	// 		background-color: transparent;
+	// 		border: none;
+	// 	}
 
-		.icon {
-			display: none;
-		}
+	// 	.icon {
+	// 		display: none;
+	// 	}
 
-		.info {
-			color: var(--white);
-			display: flex;
-			position: absolute;
-		}
+	// 	.info {
+	// 		color: var(--white);
+	// 		display: flex;
+	// 		position: absolute;
+	// 	}
 
-		.current-page {
-			padding: 0 5px 5px 5px;
-			display: inline-block;
+	// 	.current-page {
+	// 		padding: 0 5px 5px 5px;
+	// 		display: inline-block;
 
-			.nav-home {
-				display: none;
-			}
+	// 		.nav-home {
+	// 			display: none;
+	// 		}
 
-		}
+	// 	}
 
 
-		#toc {
-			display: block;
-			position: relative;
-			height: auto;
-			padding: 0;
-			transform: translateY(0);
-			margin-top: var(--height-cover);
-		}
-	}
+	// 	#toc {
+	// 		display: block;
+	// 		position: relative;
+	// 		height: auto;
+	// 		padding: 0;
+	// 		transform: translateY(0);
+	// 		margin-top: var(--height-cover);
+	// 	}
+	// }
 
 	main {
 		margin-top: 0;
 
 		.title {
-			color: var(--white);
+			color: var(--brown-light);
 			padding: var(--pad-body);
 			position: relative;
 			margin-left: 50%;
@@ -1247,7 +1245,6 @@ body#home {
 				font-size: 10.5rem;
 				line-height: 0.8;
 				font-weight: var(--wght-ultra);
-
 				@include at-media(tablet) {
 					font-size: var(--xlarge-size);
 				}

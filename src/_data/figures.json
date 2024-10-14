@@ -49,16 +49,6 @@
         "URL": "",
         "": ""
       },
-      "phasetransition": {
-        "chapter": "chapter-03",
-        "file_web": [ "0432_compute_A40000000_E10000_H1500_L64_M0.00015_R432_S0.0001_T8192_X1.0_nameBFFcomputationRun.webp"],
-        "Type": "Image",
-        "caption": "<i>Above</i>: The first 30 million interactions in a bff run shown as dots with height equal to the number of operations executed. <i>Below</i>: Histogram showing how many of a tape’s 64 bytes code for instructions; note the ongoing rise even after full-tape replication at 15 million interactions.",
-        "alt": "",
-        "size": "",
-        "URL": "",
-        "": ""
-      },
       "catscradle": {
         "chapter": "",
        "file_web": [ ],
@@ -516,7 +506,7 @@
      
       "file_web": [ ],
       "Type": "Video",
-      "caption": "",
+      "caption": "Transmission electron micrograph of a chondrocyte, stained for calcium, showing its nucleus (N) and mitochondria (M)",
       "alt": "",
       "size": "",
       "URL": "",
@@ -538,7 +528,7 @@
     
       "file_web": [ ],
       "Type": "Video",
-      "caption": "",
+      "caption": "Galapagos finches, from Darwin, <i>Voyage of the Beagle</i>, 1845",
       "alt": "",
       "size": "",
       "URL": "",
@@ -603,7 +593,7 @@
       "chapter": "chapter-03",
       "file_web": [ ],
       "Type": "SwissGL",
-      "caption": "[DONE]",
+      "caption": "Reaction–diffusion pattern from Turing, The Chemical Basis of Morphogenesis, 1952",
       "alt": "",
       "size": "",
       "URL": "",
@@ -632,11 +622,10 @@
       "": ""
     },
     "ribosome3d": {
-      "chapter": "",
-     
+      "chapter": "chapter-03",
       "file_web": [ ],
       "Type": "SwissGL",
-      "caption": "",
+      "caption": "Structure of the 70S ribosome",
       "alt": "",
       "size": "",
       "URL": "",
@@ -702,7 +691,7 @@
     
       "file_web": [ ],
       "Type": "SwissGL",
-      "caption": "",
+      "caption": "A neural cellular automaton that generates (or re-generates) a lizard emoji, from Mordvintsev et al. 2020",
       "alt": "",
       "size": "",
       "URL": "",
@@ -710,10 +699,9 @@
     },
     "bffvideo":{
       "chapter": "",
-    
       "file_web": [ ],
       "Type": "Video",
-      "caption": "",
+      "caption": "Snapshots of a bff soup upon random initialization (left page) and shortly after the transition to full-tape replication (right page); only bytes coding for instructions are shown.",
       "alt": "",
       "size": "",
       "URL": "",
@@ -766,7 +754,7 @@
    
       "file_web": [ ],
       "Type": "Video",
-      "caption": "",
+      "caption": "Billiard balls in motion: forward or backward in time?",
       "alt": "",
       "size": "",
       "URL": "",
@@ -817,11 +805,11 @@
       "": ""
     },
     "catscradlevideo": {
-      "chapter": "",
+      "chapter": "chapter-08",
     
       "file_web": [ ],
       "Type": "Video",
-      "caption": "",
+      "caption": "Provenance of individual bytes on tapes in a bff soup after 10,000, 500,000, 1.5 million, 2.5 million, 3.5 million, 6 million, 7 million, and 10 million interactions. The increasing role of self-modification in generating novelty is evident, culminating in the emergence (just before 6 million interactions) of a full-tape replicator whose parts are modified copies of a shorter imperfect replicator.",
       "alt": "",
       "size": "",
       "URL": "",
@@ -895,7 +883,7 @@
     },
     "mandelbrot67":    {
       "chapter": "chapter-10",
-      "file_web": [ "mandelbrot67.webp"],
+      "file_web": [ "mandelbrot.webp"],
       "Type": "Image",
       "caption": "Four levels of fractal ruggedness for an idealized coastline, such that a fourfold magnification yields fivefold, sixfold, sevenfold, and eightfold increases in apparent length, from Mandelbrot 1967",
       "alt": "",
@@ -1304,7 +1292,7 @@
     
       "file_web": [ ],
       "Type": "SwissGL",
-      "caption": "",
+      "caption": "Snapshots of a bff soup upon random initialization (left page) and shortly after the transition to full-tape replication (right page); only bytes coding for instructions are shown.",
       "alt": "",
       "size": "",
       "URL": "",

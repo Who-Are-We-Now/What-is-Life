@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta content="ie=edge" http-equiv="x-ua-compatible">  
-  
 	{%- if title == "Home" %}
 	{%- assign meta_title = "Who are we now?" -%}
 	{%- else -%}
@@ -38,6 +37,7 @@
 	{% endif %}
 	<script src="https://d3js.org/d3.v7.min.js"></script>
 	<script src="{{'/assets/js/bundle-script.js' | url}}"></script>
+	<script src="{{'/assets/js/lib/swissgl.js' | url}}"></script>
 
 	{% if env.environment == 'production' %}
 		{%- assign meta_img = "/assets/images/social-share.jpg" %}
