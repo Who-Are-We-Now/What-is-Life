@@ -125,9 +125,13 @@ em {
 
 a {
 	cursor: pointer;
-	color: var(--accent);
-	text-underline-offset: 2px;
-	text-decoration-thickness: 1.3px;
+	color: var(--color-default);
+	text-decoration: none;
+	// text-underline-offset: 2px;
+	// text-decoration-thickness: 1.3px;
+	&:hover {
+		color: var(--accent);
+	}
 }
 
 li {
@@ -710,7 +714,7 @@ article {
 		margin-left: 50%;
 		width: var(--width-text);
 		padding-left: var(--pad-body);
-
+		font-weight: 200;
 	}
 
 	sub {
@@ -961,8 +965,8 @@ article {
 	z-index: 700;
 	max-width: 320px;
 	font-size: var(--caption-size);
-	background: var(--white);
-	border: 2px solid var(--color-default);
+	background: var(--brown-light);
+	border: 0px solid var(--color-default);
 	color: var(--color-default);
 	padding: var(--pad-sm) calc(var(--pad-sm)*1) calc(var(--pad-sm)*1.2) calc(var(--pad-sm)*1.2);
 	transition: opacity 0s ease-in .2s, opacity 300ms;
@@ -1062,7 +1066,7 @@ SECTION SPECIFIC OVERIDES
 		font-weight: var(--wght-semibold);
 		font-size: var(--medium-size);
 		margin-bottom: var(--pad);
-		padding-left: calc(var(--pad-section)*0.8);
+		// padding-left: calc(var(--pad-section)*0.8);
 		@include at-media(tablet) {
 			font-size: var(--medium-size);
 		}

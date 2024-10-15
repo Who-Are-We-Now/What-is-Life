@@ -2,30 +2,11 @@
 <script>
     "use strict";
     const canvas = document.getElementById('c');
-    const gl = canvas.getContext("webgl2", { 
-        antialias: true, 
-        alpha: false, 
-        preserveDrawingBuffer: true, 
-        premultipliedAlpha: false 
-    });
-    
-    // WebGL 2.0 컨텍스트 지원 여부 확인
-    if (!gl) {
-        alert("The browser doesn't support WebGL 2.0");
-    } else {
-        gl.enable(gl.FRAMEBUFFER_SRGB); 
-        // gl.disable(gl.BLEND); 
-        // gl.disable(gl.FRAMEBUFFER_SRGB);
-
-    }
-
     const glsl = SwissGL(canvas);
-
     let state; // we can also init the texture right here
 
     function reset() {
-        state = glsl({
-            seed:Math.random()*123243,
+        state = glsl({seed:Math.random()*123243,
             FP: `1.0, exp(-400.0*dot(XY,XY))*hash(I.xyx+int(seed)).x, 0, 0`
         }, { // note that target spec is the second argument
             size: [512, 512],
@@ -43,9 +24,9 @@
     glsl.loop(() => { 
         glsl.adjustCanvas();
 
-        for (let j=0; j<10; ++j) { // n time steps
+        for (let j=0; j<1; ++j) { // n time steps
             // Preblur
-            for (let i=0; i<5; ++i) // n preblur steps
+            for (let i=0; i<4; ++i) // n preblur steps
             glsl({FP: `
                 vec2 v = Src(I).xy;
                 {
@@ -67,21 +48,33 @@
                     vec2 blur = v / 4.0 + (S(l,y) + S(r,y) + S(x,u) + S(x,d)) / 8.0 + (S(l,u) + S(r,u) + S(l,d) + S(r,d)) / 16.0;
                     v = mix(v, blur, vec2(1.0, 0.5));
                 }
-                const float k=0.053 * 0.95, f=0.021 * 0.95;
+                const float k=0.05684 * 0.8, f=0.02542 * 0.8;
                 //const float k=0.053 * 0.95, f=0.021 * 0.94;
                 //const float k=0.05684, f=0.02542;
 
-                float m = hash(I.xyx+int(seed)).x * 0.003;
+                float s = 1.-exp(-1.2*dot(XY,XY));
+                float m = s * hash(I.xyx+int(seed)).x * 0.004; // .002
 
                 float r = v.x*v.y*v.y + m;
                 FOut.xy = v + vec2(-r+f*(1.0-v.x), r-(f+k)*v.y);
             `}, state);
         }
 
+        // crop
+        const crop = glsl({
+            state:state[0],
+            FP: `FOut = state(ivec2(I.x+256-196/2,I.y+256-196/2));`},{
+            size: [196, 196],
+            format: 'rgba16f',
+            filter: 'linear',
+            story: 2,
+            tag: 'crop'
+        });
+
         // upres
         const upres = glsl({
-            state:state[0],
-            FP: `FOut = state(UV);`},{
+            crop:crop[0],
+            FP: `FOut = crop(UV);`},{
             size: [1600, 1600],
             format: 'rgba16f',
             filter: 'linear',
@@ -94,31 +87,19 @@
             //state:state[0],
             upres:upres[0],
             FP:`
-
-                float v = sqrt(upres(I).y);
-                float steepness = 250.;
-                
-                 float w = 1.0 / (1.0 + exp(-steepness * (v - 0.35))); // sigmoid centered at 0.5
-
-                w = smoothstep(0.0, 1.0, w);
-
-                FOut.rgb = mix(vec3(0.0,0.0,0.), vec3(1.,1.,0.8), w); //black and white
-                // FOut.rgb = mix(vec3(0.04,0.04,0.), vec3(0.666, 0.588, 0.561), w); // the actual key colors(x)
-
-
-
-
+            float v = sqrt(upres(I).y);
+            float steepness = 500.;
+            float w = 1.0 / (1.0 + exp(-steepness * (v - 0.4))); // sigmoid centered at 0.5
+            w = smoothstep(0.0, 1.0, w);
+            FOut.rgb = mix(vec3(0,0,0.), vec3(1.,1.,0.8), w);
             `},
             {size:upres.size, filter:'linear', tag:'colormapped'}
         );
 
-          glsl({ 
+        glsl({ 
             tex: colormapped,
             Aspect: 'cover',
             FP: `sqrt(tex(UV).y)`
         });
     });
-    console.error(gl.getError());
-console.table('data: ' + colormapped)
-
 </script>

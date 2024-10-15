@@ -5364,8 +5364,8 @@ Use and Imports
 :root {
   /* global colors */
   --color-default: rgb(10 11 9);
-  --brown-light: #AA968F;
-  --accent: #ff6028;
+  --brown-light: #baaea2;
+  --accent: #9d8e80;
   --darkgrey: rgb(38 38 38);
   --mediumgrey: rgb(190 190 190);
   --grey: rgb(150 150 150);
@@ -8447,9 +8447,11 @@ em {
 
 a {
   cursor: pointer;
+  color: var(--color-default);
+  text-decoration: none;
+}
+a:hover {
   color: var(--accent);
-  text-underline-offset: 2px;
-  text-decoration-thickness: 1.3px;
 }
 
 li {
@@ -8929,6 +8931,7 @@ article p {
   margin-left: 50%;
   width: var(--width-text);
   padding-left: var(--pad-body);
+  font-weight: 200;
 }
 article sub {
   vertical-align: baseline;
@@ -9098,8 +9101,8 @@ article .questions ol li::before {
   z-index: 700;
   max-width: 320px;
   font-size: var(--caption-size);
-  background: var(--white);
-  border: 2px solid var(--color-default);
+  background: var(--brown-light);
+  border: 0px solid var(--color-default);
   color: var(--color-default);
   padding: var(--pad-sm) calc(var(--pad-sm) * 1) calc(var(--pad-sm) * 1.2) calc(var(--pad-sm) * 1.2);
   transition: opacity 0s ease-in 0.2s, opacity 300ms;
@@ -9184,7 +9187,6 @@ SECTION SPECIFIC OVERIDES
   font-weight: var(--wght-semibold);
   font-size: var(--medium-size);
   margin-bottom: var(--pad);
-  padding-left: calc(var(--pad-section) * 0.8);
 }
 @media (max-width: 850px) {
   .title h3 {
