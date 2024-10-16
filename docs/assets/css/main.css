@@ -9056,7 +9056,7 @@ article .questions ol li::before {
 
 /*  SECTION  OPENERS --------------------------------------------------*/
 .chapter {
-  margin-bottom: calc(var(--pad-body) * 8);
+  margin-bottom: calc(var(--pad-body) * 6);
 }
 
 .chapter-opener {
