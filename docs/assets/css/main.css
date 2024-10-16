@@ -5664,8 +5664,8 @@ Use and Imports
   --small-size: .6875rem;
   --lineheight: 1.6em;
   /* font weight variables */
-  --wght-light: 200;
-  --wght: 300;
+  --wght: 200;
+  --wght-regular: 300;
   --wght-medium: 400;
   --wght-semibold: 600;
   --wght-bold: 700;
@@ -8380,6 +8380,7 @@ html {
 body {
   width: 100%;
   font-size: var(--base-size);
+  font-weight: var(--wght);
   --bgalpha: 0;
   background-color: rgba(5, 5, 15, var(--bgalpha));
   color: var(--color-default);

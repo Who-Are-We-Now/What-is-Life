@@ -61,6 +61,7 @@ body {
 	width: 100%;
 	@extend .serif;
 	font-size: var(--base-size);
+	font-weight: var(--wght);
 	--bgalpha: 0;
 	background-color: rgba(5, 5, 15, var(--bgalpha));
 	color: var(--color-default);
