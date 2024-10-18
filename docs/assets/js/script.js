@@ -99,7 +99,9 @@ function setupAboutOverlay() {
 
 
 
-
+function setupAtk(){
+	const antikythera = new Antikythera({ entry: 'example-entry' });
+}
 /*------------------------------------------------
 	Global listener functions
 ------------------------------------------------*/
@@ -110,7 +112,7 @@ window.addEventListener('load', function () {
 	//store whether current layout is desktop /mobile
 	viewport = utils.isMobile();
 	// console.log('MOBILE VIEW', viewport);
-
+	setupAtk();
 	setupNav();
 	setupAboutOverlay();
 
